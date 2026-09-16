@@ -1,0 +1,52 @@
+id: audacity
+name: Audacity
+publisher: Audacity Team
+category: Multimedia
+description: A multitrack audio editor for recording and post-production.
+about:
+  it: >-
+    Audacity è un editor audio gratuito, open source e multipiattaforma usato per
+    registrazione, editing multitraccia, riduzione del rumore, conversione di
+    formato e post-produzione in generale. Legge e scrive un'ampia gamma di
+    formati audio, supporta l'anteprima in tempo reale degli effetti e può essere
+    esteso con plugin di terze parti nei formati LADSPA, LV2 e VST, oltre al
+    proprio linguaggio di scripting integrato, Nyquist. Rilasciato per la prima
+    volta nel 2000, resta uno degli editor audio gratuiti più usati sia in ambito
+    amatoriale che semi-professionale.
+  en: >-
+    Audacity is a free, open source, cross-platform audio editor used for
+    recording, multi-track editing, noise reduction, format conversion and general
+    post-production work. It reads and writes a wide range of audio formats,
+    supports real-time preview of effects, and can be extended with third-party
+    plugins in the LADSPA, LV2 and VST formats, alongside its own built-in Nyquist
+    scripting language. Originally released in 2000, it remains one of the most
+    widely used free audio editors for both hobbyist and semi-professional
+    recording.
+url: https://www.audacityteam.org/
+repo: https://github.com/audacity/audacity
+logo: https://icons.duckduckgo.com/ip3/audacityteam.org.ico
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: 'win-.*-x86_64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: 'win-.*-arm64\.msi$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'macOS-.*-x86_64\.dmg$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: 'macOS-.*-arm64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: 'linux-.*-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: 'linux-.*-aarch64\.AppImage$'

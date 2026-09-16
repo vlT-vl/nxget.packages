@@ -1,0 +1,49 @@
+id: obs
+name: OBS Studio
+publisher: OBS Project
+category: Multimedia
+description: Free and open source software for video recording and live streaming.
+about:
+  it: >-
+    OBS Studio (Open Broadcaster Software) è un'applicazione gratuita e open
+    source per lo streaming live e la registrazione di schermo o video, usata per
+    streaming di videogiochi, presentazioni, tutorial e screencast in generale.
+    Compone più sorgenti — finestre di applicazioni, webcam, overlay da browser,
+    immagini e altro — in scene con missaggio in tempo reale, transizioni e
+    filtri, per poi trasmettere il risultato su piattaforme come Twitch e YouTube
+    via RTMP o salvarlo localmente in diversi formati contenitore. Un ecosistema
+    di plugin aggiunge funzionalità come la webcam virtuale, l'automazione
+    avanzata delle scene e la codifica accelerata via hardware.
+  en: >-
+    OBS Studio (Open Broadcaster Software) is a free, open source application for
+    live streaming and screen or video recording, used for game streaming,
+    presentations, tutorials and general screencasting. It composites multiple
+    sources — application windows, webcams, browser overlays, images and more —
+    into scenes with real-time mixing, transitions and filters, then streams the
+    result to platforms such as Twitch and YouTube over RTMP or saves it locally in
+    several container formats. A plugin ecosystem adds features like a virtual
+    camera, advanced scene automation and hardware-accelerated encoding.
+url: https://obsproject.com/
+repo: https://github.com/obsproject/obs-studio
+logo: https://thumb.wikimedia.org/wikipedia/commons/thumb/d/d3/OBS_Studio_Logo.svg/3840px-OBS_Studio_Logo.svg.png?utm_source=commons.wikimedia.org&utm_campaign=index&utm_content=thumbnail
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: 'Windows-x64-Installer\.exe$'
+  - platform: windows
+    arch: arm64
+    format: ZIP
+    match: 'Windows-arm64\.zip$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'macOS-Intel\.dmg$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: 'macOS-Apple\.dmg$'
+  - platform: linux
+    arch: x64
+    format: DEB
+    match: 'Ubuntu-24\.04-x86_64\.deb$'

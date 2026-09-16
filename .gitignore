@@ -1,0 +1,9 @@
+node_modules
+.env
+
+# Note interne, non pubbliche
+handoff.md
+
+# IDE
+.vscode/
+.idea/

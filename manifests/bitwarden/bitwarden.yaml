@@ -1,0 +1,53 @@
+id: bitwarden
+name: Bitwarden
+publisher: Bitwarden Inc.
+category: Security
+description: An open source password manager with an end-to-end encrypted vault.
+about:
+  it: >-
+    Bitwarden è un password manager open source che custodisce credenziali,
+    password, passkey e altri segreti in un vault cifrato end-to-end,
+    sincronizzato tra client desktop, estensione browser, app mobile e riga di
+    comando. Di default i vault sono ospitati sui server di Bitwarden, ma il
+    server stesso è open source e chi preferisce non affidarsi alla loro
+    infrastruttura può auto-ospitarlo autonomamente. Il piano gratuito copre
+    già tutte le funzioni essenziali di gestione password per un singolo
+    utente; i piani a pagamento aggiungono spazio per allegati, opzioni di
+    autenticazione a due fattori più avanzate e vault condivisi per famiglie o
+    organizzazioni. Lo sviluppo è guidato da Bitwarden Inc., che mantiene
+    anche le estensioni browser, le app mobile e un client a riga di comando
+    basati sullo stesso formato di vault di questa app desktop.
+  en: >-
+    Bitwarden is an open source password manager that stores logins,
+    passwords, passkeys and other secrets in an end-to-end encrypted vault,
+    synced across desktop, browser extension, mobile and command-line
+    clients. Vaults are hosted on Bitwarden's own servers by default, but the
+    server itself is open source and anyone who prefers not to rely on
+    Bitwarden's infrastructure can self-host it independently. The free tier
+    already covers every core password-management feature for a single user;
+    paid plans add attachment storage, more advanced two-factor options, and
+    shared vaults for families or organizations. Development is led by
+    Bitwarden Inc., which also maintains the browser extensions, mobile apps
+    and a command-line client built on the same vault format as this desktop
+    app.
+url: https://bitwarden.com/
+repo: https://github.com/bitwarden/clients
+# bitwarden/clients è un monorepo: le release sono taggate per prodotto
+# (desktop-v*, browser-v*, cli-v*, web-v*), interleaved cronologicamente.
+# Un resolver deve filtrare per questo prefisso, non prendere la più recente
+# in assoluto (che potrebbe essere un web-v*/cli-v* senza asset desktop).
+releasePrefix: desktop-
+logo: https://icons.duckduckgo.com/ip3/bitwarden.com.ico
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Bitwarden-Installer-[\d.]+\.exe$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: 'x86_64\.AppImage$'

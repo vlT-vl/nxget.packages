@@ -1,0 +1,40 @@
+id: qbittorrent
+name: qBittorrent
+publisher: qBittorrent Project
+category: Utility
+description: A lightweight, open source BitTorrent client with no ads.
+about:
+  it: >-
+    qBittorrent è un client BitTorrent gratuito e open source, pensato come
+    alternativa senza pubblicità ai client torrent forniti in bundle o finanziati
+    da sponsor. Include un motore di ricerca torrent integrato, uno scaricatore
+    RSS con regole di download automatiche, il download sequenziale e con
+    priorità sui primi/ultimi pezzi per l'anteprima dei contenuti multimediali
+    durante lo scaricamento, il filtraggio IP per peer e un'interfaccia web
+    opzionale per il controllo remoto. Lo sviluppo è interamente finanziato dalla
+    community, senza offerte in bundle, pubblicità o piani a pagamento da nessuna
+    parte nell'applicazione.
+  en: >-
+    qBittorrent is a free, open source BitTorrent client built as an ad-free
+    alternative to bundled or sponsor-funded torrent clients. It includes a
+    built-in torrent search tool, an RSS downloader with automatic download rules,
+    sequential and first/last-piece-priority downloading for previewing media while
+    it downloads, per-peer IP filtering, and an optional web interface for
+    controlling it remotely. Development is entirely community-funded, with no
+    bundled offers, ads or paid tiers anywhere in the application.
+url: https://www.qbittorrent.org/
+repo: https://github.com/qbittorrent/qBittorrent
+logo: https://icons.duckduckgo.com/ip3/www.qbittorrent.org.ico
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^qbittorrent_[\d.]+_x64_setup\.exe$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^qbittorrent-[\d.]+\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^qbittorrent-[\d.]+_x86_64\.AppImage$'

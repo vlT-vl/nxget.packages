@@ -1,0 +1,50 @@
+{
+  "api": "nxget-packages-v1",
+  "schema_version": "1.0",
+  "generated_at": "2026-09-16T16:32:52.281Z",
+  "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
+  "apps": [
+    {
+      "id": "audacity",
+      "name": "Audacity",
+      "publisher": "Audacity Team",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/audacity/audacity.yaml"
+    },
+    {
+      "id": "bitwarden",
+      "name": "Bitwarden",
+      "publisher": "Bitwarden Inc.",
+      "category": "Security",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bitwarden/bitwarden.yaml"
+    },
+    {
+      "id": "keepassxc",
+      "name": "KeePassXC",
+      "publisher": "KeePassXC Team",
+      "category": "Security",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/keepassxc/keepassxc.yaml"
+    },
+    {
+      "id": "obs",
+      "name": "OBS Studio",
+      "publisher": "OBS Project",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/obs/obs.yaml"
+    },
+    {
+      "id": "qbittorrent",
+      "name": "qBittorrent",
+      "publisher": "qBittorrent Project",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/qbittorrent/qbittorrent.yaml"
+    },
+    {
+      "id": "vscodium",
+      "name": "VSCodium",
+      "publisher": "VSCodium (community)",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscodium/vscodium.yaml"
+    }
+  ]
+}

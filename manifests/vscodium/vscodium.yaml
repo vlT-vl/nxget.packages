@@ -1,0 +1,53 @@
+id: vscodium
+name: VSCodium
+publisher: VSCodium (community)
+category: Development
+description: A community-built, freely-licensed distribution of Microsoft's VS Code, with telemetry and branding stripped out.
+about:
+  it: >-
+    VSCodium è una distribuzione binaria di VS Code creata dalla community,
+    compilata dallo stesso codice sorgente open source di Microsoft ma senza il
+    branding proprietario, le icone ufficiali e la telemetria integrata. Offre la
+    stessa esperienza di editing, la stessa interfaccia e le stesse API per le
+    estensioni di VS Code, quindi la maggior parte delle estensioni scritte per VS
+    Code funzionano anche qui, mentre quelle vincolate al Marketplace ufficiale di
+    Microsoft vanno cercate su Open VSX. Non avendo alcuna telemetria attiva di
+    default, è una scelta comune per chi vuole l'esperienza di VS Code senza
+    inviare dati di utilizzo a Microsoft.
+  en: >-
+    VSCodium is a community-built binary release of Microsoft's open source VS Code
+    editor, compiled straight from the same source tree but without Microsoft's
+    proprietary branding, product icons and built-in telemetry. It offers the same
+    editing experience, UI and extension API as VS Code, so most extensions written
+    for VS Code work here too, while extensions restricted to Microsoft's own
+    Marketplace may need to be sourced from Open VSX instead. Because it ships with
+    no telemetry enabled by default, it is a common pick for developers who want the
+    VS Code experience without usage data being sent back to Microsoft.
+url: https://vscodium.com/
+repo: https://github.com/VSCodium/vscodium
+logo: https://user-images.githubusercontent.com/57955862/229143220-d9c01168-1e38-4093-88d2-3a4ac251bb2b.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: 'UserSetup-x64-.*\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: 'UserSetup-arm64-.*\.exe$'
+  - platform: macos
+    arch: x64
+    format: ZIP
+    match: 'darwin-x64-.*\.zip$'
+  - platform: macos
+    arch: arm64
+    format: ZIP
+    match: 'darwin-arm64-.*\.zip$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: 'anylinux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: 'anylinux-aarch64\.AppImage$'

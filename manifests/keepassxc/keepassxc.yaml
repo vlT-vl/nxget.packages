@@ -1,0 +1,47 @@
+id: keepassxc
+name: KeePassXC
+publisher: KeePassXC Team
+category: Security
+description: A secure, offline, open source password manager.
+about:
+  it: >-
+    KeePassXC è un password manager gratuito, open source e multipiattaforma che
+    custodisce credenziali e altri segreti in un unico file di database cifrato,
+    protetto da una password principale e/o da un file chiave, senza bisogno di un
+    account online. È un fork nato dalla community di KeePassX, a sua volta basato
+    originariamente su KeePass Password Safe (solo Windows), esteso con
+    integrazione nel browser, codici TOTP per la doppia autenticazione, supporto
+    all'agente SSH e un'interfaccia a riga di comando. Poiché il database è
+    semplicemente un file locale, la sincronizzazione tra dispositivi — tramite
+    una cartella cloud personale o altro — resta interamente a discrezione
+    dell'utente, senza alcun servizio di sync gestito da terzi.
+  en: >-
+    KeePassXC is a free, open source, cross-platform password manager that keeps
+    logins and other secrets inside a single encrypted database file, protected by
+    a master password and/or a key file rather than an online account. It is a
+    community-driven fork of KeePassX, itself originally based on the Windows-only
+    KeePass Password Safe, extended with browser integration, TOTP two-factor
+    codes, SSH agent support and a command-line interface. Because the database is
+    just a local file, syncing between devices — via a personal cloud folder or
+    otherwise — is entirely up to the user, with no vendor-run sync service
+    involved.
+url: https://keepassxc.org/
+repo: https://github.com/keepassxreboot/keepassxc
+logo: https://icons.duckduckgo.com/ip3/keepassxc.org.ico
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: 'Win64\.msi$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'x86_64\.dmg$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '-arm64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: 'x86_64\.AppImage$'
