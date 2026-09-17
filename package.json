@@ -1,8 +1,8 @@
 {
   "name": "nxget.packages",
   "version": "0.1.0",
-  "build": "R160926",
-  "updated": "16 September 2026",
+  "build": "R170926",
+  "updated": "17 September 2026",
   "description": "nxget.packages is the static, public manifest registry for the nxget catalog",
   "author": "Veronesi Lorenzo © 2026 vlT - vl.TECH",
   "private": true,

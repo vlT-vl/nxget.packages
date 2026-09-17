@@ -1,9 +1,16 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-16T16:45:29.635Z",
+  "generated_at": "2026-09-17T15:37:11.616Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
+    {
+      "id": "atoll",
+      "name": "Atoll",
+      "publisher": "Hariharan Mudaliar",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/atoll/atoll.yaml"
+    },
     {
       "id": "audacity",
       "name": "Audacity",
@@ -17,6 +24,13 @@
       "publisher": "Bitwarden Inc.",
       "category": "Security",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bitwarden/bitwarden.yaml"
+    },
+    {
+      "id": "codexbar",
+      "name": "CodexBar",
+      "publisher": "Peter Steinberger",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/codexbar/codexbar.yaml"
     },
     {
       "id": "keepassxc",

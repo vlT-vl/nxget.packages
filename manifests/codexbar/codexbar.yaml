@@ -1,0 +1,40 @@
+id: codexbar
+name: CodexBar
+publisher: Peter Steinberger
+category: Development
+description: A macOS menu bar app that shows real-time usage and quota status for AI coding tools like Codex, Claude Code and Cursor.
+about:
+  it: >-
+    CodexBar è un'app per la menu bar di macOS che tiene sott'occhio i limiti
+    di utilizzo dei principali provider AI per la programmazione — Codex,
+    Claude Code, Cursor, Gemini, GitHub Copilot, Grok, OpenRouter e molti
+    altri — mostrando per ciascuno le finestre di sessione, settimanali e
+    mensili con il conto alla rovescia al prossimo reset, così da non dover
+    indovinare se conviene avviare un task lungo. Espone inoltre saldi di
+    credito, dashboard di spesa tramite Admin API, riepiloghi di fatturazione
+    dei provider e scansioni locali dei costi dove la fonte lo consente, oltre
+    allo stato in tempo reale dei servizi con badge per eventuali incidenti.
+    È privacy-first: riusa le sessioni già esistenti (OAuth, device flow,
+    chiavi API, cookie del browser, file locali) senza mai salvare password.
+    Sviluppata da Peter Steinberger, è disponibile anche come app desktop per
+    Linux basata su Qt 6.
+  en: >-
+    CodexBar is a macOS menu bar app that keeps AI coding-provider usage
+    limits visible — Codex, Claude Code, Cursor, Gemini, GitHub Copilot, Grok,
+    OpenRouter and many others — showing per-provider session, weekly and
+    monthly windows with a countdown to the next reset, so there's no need to
+    guess before starting a long task. It also surfaces credit balances,
+    Admin API spend dashboards, provider billing summaries and local cost
+    scans where the source exposes enough detail, plus live provider status
+    with incident badges. It is privacy-first, reusing existing provider
+    sessions — OAuth, device flow, API keys, browser cookies, local files —
+    instead of ever storing passwords. Built by Peter Steinberger, it is also
+    available as a Qt 6 desktop app for Linux.
+url: https://codexbar.app/
+repo: https://github.com/steipete/CodexBar
+logo: https://icons.duckduckgo.com/ip3/codexbar.app.ico
+assets:
+  - platform: macos
+    arch: x64
+    format: ZIP
+    match: 'CodexBar-macos-universal-[\d.]+\.zip$'
