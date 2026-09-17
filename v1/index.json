@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-17T15:37:11.616Z",
+  "generated_at": "2026-09-17T15:52:35.823Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
