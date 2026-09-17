@@ -1,21 +1,54 @@
-<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 3500 512" width="3500" height="512">
-  <title id="title">nxget packages</title>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.2" baseProfile="tiny-ps" viewBox="0 0 3900 512" width="3900" height="512">
+  <title>
+    nxget packages
+  </title>
   <style>
-    :root {
-      --soft-fill: #FFFFFF;
-    }
-
+    :root { --soft-fill: #FFFFFF; }
     @media (prefers-color-scheme: light) {
-      :root {
-        --soft-fill: #282828;
-      }
+    :root { --soft-fill: #282828; }
     }
   </style>
+  <!-- nxget -->
   <g transform="translate(660, 120) scale(0.7)">
     <path fill="var(--soft-fill)" fill-rule="evenodd" d="M572 240L570 240L529 295L508 321L427 428L419 437L419 439L482 439L503 413L603 282ZM0 113L1 115L1 436L0 437L1 439L51 439L52 438L52 164L2 113ZM1705 14L1705 63L1831 63L1832 64L1832 441L1890 441L1890 64L1891 63L2016 63L2016 14ZM1374 14L1374 441L1616 441L1616 392L1432 392L1431 391L1431 245L1432 244L1609 244L1609 196L1432 196L1431 195L1431 63L1432 62L1616 62L1616 14ZM809 13L744 13L630 162L630 164L662 205ZM423 13L444 39L750 439L815 439L492 17L488 13ZM305 13L305 285L357 336L357 13ZM0 13L0 82L357 438L357 366L4 13ZM987 8L965 15L946 23L921 37L904 49L891 60L871 81L861 94L846 118L836 139L829 158L824 177L822 193L821 194L821 201L820 202L820 214L819 215L820 250L821 251L821 258L822 259L824 275L831 300L836 313L847 335L862 358L875 374L896 395L915 410L936 423L952 431L979 441L998 446L1021 449L1022 450L1029 450L1030 451L1042 451L1043 452L1092 451L1093 450L1100 450L1101 449L1118 447L1144 440L1174 427L1199 411L1211 401L1226 386L1243 364L1253 347L1260 332L1270 302L1276 270L1278 235L1093 235L1093 276L1229 276L1230 277L1229 286L1223 308L1213 330L1197 353L1179 371L1169 379L1148 392L1118 404L1095 409L1077 410L1076 411L1049 411L1048 410L1030 409L1014 406L990 399L958 384L941 373L927 362L909 344L898 330L887 313L878 295L870 273L866 256L865 244L864 243L863 221L864 220L865 198L871 172L877 156L890 131L906 109L926 89L949 72L971 60L985 54L1015 45L1032 43L1033 42L1043 42L1044 41L1069 41L1070 42L1079 42L1080 43L1092 44L1113 49L1145 61L1173 76L1202 97L1219 113L1252 82L1226 59L1199 40L1163 21L1132 10L1106 4L1086 2L1085 1L1073 1L1072 0L1026 1L1025 2L1011 3Z"/>
   </g>
-
-    <text class="wordmark" x="2100" y="270" font-size="300" dominant-baseline="central" fill="var(--soft-fill)">.packages</text>
+  <g id="packages" transform="translate(2100 155)" fill="none" stroke="var(--soft-fill)" stroke-width="28" stroke-linecap="butt" stroke-linejoin="miter">
+    <!-- . -->
+    <rect x="0" y="192" width="28" height="28" fill="var(--soft-fill)" stroke="none"/>
+    <!-- p -->
+    <g transform="translate(90 0)">
+      <path d="M0 82V282M0 82H65C108 82 140 108 140 151C140 194 108 220 65 220H0"/>
+    </g>
+    <!-- a -->
+    <g transform="translate(290 0)">
+      <path d="M140 220V137C140 101 116 82 78 82C48 82 25 91 8 108M140 145H76C33 145 8 158 8 183C8 207 30 220 63 220C96 220 122 204 140 181"/>
+    </g>
+    <!-- c -->
+    <g transform="translate(500 0)">
+      <path d="M140 108C123 91 101 82 74 82C30 82 4 110 4 151C4 192 30 220 74 220C101 220 123 211 140 194"/>
+    </g>
+    <!-- k -->
+    <g transform="translate(700 0)">
+      <path d="M0 82V220M0 157L78 82M40 120L108 220"/>
+    </g>
+    <!-- a -->
+    <g transform="translate(870 0)">
+      <path d="M140 220V137C140 101 116 82 78 82C48 82 25 91 8 108M140 145H76C33 145 8 158 8 183C8 207 30 220 63 220C96 220 122 204 140 181"/>
+    </g>
+    <!-- g -->
+    <g transform="translate(1080 0)">
+      <path d="M140 82V218M140 108C122 91 100 82 74 82C30 82 5 110 5 151C5 192 30 220 74 220C100 220 122 209 140 188M140 218V220C140 261 117 282 74 282C47 282 25 274 8 259"/>
+    </g>
+    <!-- e -->
+    <g transform="translate(1290 0)">
+      <path d="M5 151H140C140 110 116 82 74 82C30 82 5 110 5 151C5 192 31 220 76 220C103 220 124 211 141 194"/>
+    </g>
+    <!-- s -->
+    <g transform="translate(1490 0)">
+      <path d="M137 105C120 90 98 82 72 82C31 82 8 98 8 122C8 146 29 157 72 164C115 171 137 181 137 201C137 214 125 220 105 220H63C38 220 17 212 3 198"/>
+    </g>
+  </g>
+  <!-- logo -->
   <g transform="translate(30,-10) scale(11.7)">
     <g fill="none" fill-rule="evenodd">
       <path fill="#B4040B" d="M5.822 29.917l5.742-9.946 5.742 9.946z"/>

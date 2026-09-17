@@ -1,0 +1,35 @@
+id: atoll
+name: Atoll
+publisher: Hariharan Mudaliar
+category: Utility
+description: A menu bar utility that turns the MacBook notch into a Dynamic Island-style command surface.
+about:
+  it: >-
+    Atoll trasforma il notch dei MacBook in una piccola superficie interattiva
+    ispirata alla Dynamic Island di iOS: resta discreto finché non serve, poi
+    si espande con animazioni SwiftUI native per mostrare controlli media
+    (Apple Music, Spotify, Cider e altri), live activity per la riproduzione
+    in corso, modalità Focus, registrazione schermo, indicatori di privacy e
+    download in corso. Aggiunge anche widget nella schermata di blocco, un
+    pannello leggero con l'uso di CPU, GPU, memoria, rete e disco, oltre a
+    strumenti di produttività come timer, cronologia degli appunti, selettore
+    colore e anteprima del calendario. Layout, animazioni, comportamento al
+    passaggio del mouse e scorciatoie sono personalizzabili.
+  en: >-
+    Atoll turns the MacBook notch into a small interactive surface inspired by
+    iOS's Dynamic Island: it stays out of the way by default, then expands
+    with native SwiftUI animations to surface media controls (Apple Music,
+    Spotify, Cider and others), live activities for ongoing playback, Focus
+    mode, screen recording and privacy indicators, and in-progress downloads.
+    It also adds lock screen widgets, a lightweight system panel for CPU, GPU,
+    memory, network and disk usage, plus productivity tools like timers,
+    clipboard history, a color picker and calendar previews. Layout,
+    animations, hover behavior and shortcuts are all customizable.
+url: https://getatoll.app/
+repo: https://github.com/Ebullioscopic/Atoll
+logo: https://icons.duckduckgo.com/ip3/getatoll.app.ico
+assets:
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'Atoll-[\d.]+\.dmg$'

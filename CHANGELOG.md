@@ -2,6 +2,17 @@
 
 Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
+## 2026-09-17
+
+- **Aggiunti i manifest macOS-only di Atoll e CodexBar**, verificati contro
+  gli asset reali delle rispettive release via `gh api` (nessun nome file
+  indovinato, nessuna versione hardcoded nei pattern di match):
+  - `atoll`: DMG universale (`Atoll-<versione>.dmg`, release stabile
+    `v2.3.3`), unico asset macOS pubblicato.
+  - `codexbar`: ZIP universale (`CodexBar-macos-universal-<versione>.zip`,
+    release `v0.60.4`), escluso l'asset `.dSYM.zip` accanto ad esso nella
+    stessa release.
+
 ## 2026-09-16
 
 - **Creazione del progetto**: registro statico e pubblico dei manifest app
