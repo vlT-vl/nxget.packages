@@ -25,21 +25,17 @@ about:
     through a separate package/script (no direct installer), which is why
     only the macOS and Windows builds are published here.
 url: https://claude.ai/
-logo: https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Claude-ai-icon.svg
+logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@main/svg/claude-ai.svg
 assets:
   - platform: windows
     arch: x64
     format: EXE
-    url: https://downloads.claude.ai/claude-science/latest/windows-x64.exe
+    url: https://claude.ai/api/desktop/win32/x64/setup/latest/redirect
   - platform: windows
     arch: arm64
     format: EXE
-    url: https://downloads.claude.ai/claude-science/latest/windows-arm64.exe
+    url: https://claude.ai/api/desktop/win32/arm64/setup/latest/redirect
   - platform: macos
-    arch: x64
+    arch: universal
     format: DMG
-    url: https://downloads.claude.ai/claude-science/latest/mac-x64.dmg
-  - platform: macos
-    arch: arm64
-    format: DMG
-    url: https://downloads.claude.ai/claude-science/latest/mac-arm64.dmg
+    url: https://claude.ai/api/desktop/darwin/universal/dmg/latest/redirect

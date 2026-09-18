@@ -24,7 +24,7 @@ about:
     bundled offers, ads or paid tiers anywhere in the application.
 url: https://www.qbittorrent.org/
 repo: https://github.com/qbittorrent/qBittorrent
-logo: https://icons.duckduckgo.com/ip3/www.qbittorrent.org.ico
+logo: https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/qbittorrent.svg
 assets:
   - platform: windows
     arch: x64

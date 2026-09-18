@@ -27,7 +27,7 @@ about:
     involved.
 url: https://keepassxc.org/
 repo: https://github.com/keepassxreboot/keepassxc
-logo: https://icons.duckduckgo.com/ip3/keepassxc.org.ico
+logo: https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/keepassxc.svg
 assets:
   - platform: windows
     arch: x64
