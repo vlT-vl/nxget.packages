@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R170926-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R180926-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -20,7 +20,7 @@
 
 **nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app, committed by hand — never generated or modified by automation.
 
-This repo does **not** call the GitHub Releases API and does not resolve download links. It only publishes the catalog itself (id, name, publisher, category, description, bilingual `about`, official site, source repo, logo, and the asset-matching rules used to recognize platform/arch/format from a release's file names). Resolving those rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime.
+This repo does **not** call the GitHub Releases API and does not resolve download links for apps that publish real GitHub Releases. It only publishes the catalog itself (id, name, publisher, category, description, bilingual `about`, official site, optional source repo, logo, and per-asset either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL). Resolving `match` rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
 
 ```
 Consumer ──► https://raw.githubusercontent.com/<owner>/nxget.packages/api
@@ -78,9 +78,24 @@ assets:
     match: 'x86_64\.AppImage$'
 ```
 
-No download URL is ever stored here — `assets[].match` is a regular expression a consumer evaluates against the file names of `repo`'s latest GitHub Release to figure out which asset is which platform/arch/format.
+`assets[].match` is a regular expression a consumer evaluates against the file names of `repo`'s latest GitHub Release to figure out which asset is which platform/arch/format — no download URL is stored for these.
 
 **Optional field `releasePrefix`**: for a `repo` that is a monorepo publishing releases for several products with interleaved tags (e.g. `bitwarden/clients`, tagged `desktop-v*`/`browser-v*`/`cli-v*`/`web-v*`), `releasePrefix` tells a consumer which tag prefix identifies *this* app's releases, instead of just picking the newest non-prerelease release of the whole repo (which could belong to an unrelated product). Omit it for single-product repos.
+
+**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). For these, omit `repo` entirely and give the asset a fixed `url` instead of `match`:
+
+```yaml
+id: chatgpt
+name: ChatGPT
+# ...no repo field...
+assets:
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg
+```
+
+`match` and `url` are mutually exclusive on a single asset entry. A consumer must check for `url` first and use it verbatim; only fall back to fetching `repo`'s Releases and evaluating `match` when `url` is absent. Because there is no Release to poll, a static `url` asset carries no version — the consumer cannot show "current version" or a version history for it, only the download link itself. Use this sparingly: it's an escape hatch for apps that plain don't have a GitHub repo, not a shortcut to avoid writing a `match` regex for a repo that does.
 
 ---
 
@@ -147,8 +162,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R170926 |
-| Updated | 17 September 2026 |
+| Build | R180926 |
+| Updated | 18 September 2026 |
 | API version | v1 |
 | Branch | `api` |
 

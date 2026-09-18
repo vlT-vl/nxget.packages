@@ -2,6 +2,53 @@
 
 Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
+## 2026-09-18
+
+- **Aggiunto il campo opzionale `assets[].url`** allo schema manifest, per
+  app che non hanno un repo GitHub da cui risolvere le Release (vendor
+  proprietari, link di download statici). Alternativo e mutuamente
+  esclusivo con `match` sullo stesso asset; quando presente, `repo` a
+  livello di app può essere omesso del tutto. Nessuna versione/cronologia
+  disponibile per questi asset, essendo per definizione fuori da GitHub
+  Releases. Documentato in `readme.md`.
+- **Aggiunti 4 nuovi manifest**, verificati via `gh api`/`curl` prima di
+  scrivere qualsiasi pattern (nessun nome file o link indovinato):
+  - `claude-code`: repo GitHub reale (`anthropics/claude-code`) con
+    Release vere, 6 asset (Windows/macOS/Linux × x64/arm64), nessun campo
+    `url` statico necessario.
+  - `rectangle`: repo GitHub reale (`rxhanson/Rectangle`), un solo asset
+    macOS universale (`Rectangle<versione>.dmg`, verificato coerente su
+    più release passate).
+  - `chatgpt`: **nessun repo GitHub** — client proprietario di OpenAI.
+    Pubblicato solo l'asset macOS, un link statico fisso
+    (`persistent.oaistatic.com`, verificato 200/universale). Windows non
+    ha un installer scaricabile (solo Microsoft Store), quindi omesso.
+  - `onyx`: **nessun repo GitHub** — utility proprietaria di Titanium
+    Software. Ogni build è legata a una specifica major di macOS (non
+    esiste un "ultima versione" universale come per le altre app);
+    pubblicata solo la build più recente (macOS 27, Apple Silicon) come
+    asset statico, per scelta esplicita dell'utente — i limiti sono
+    documentati nel campo `about` del manifest stesso.
+- `v1/index.json` rigenerato (12 app), eseguendo `build-index.js` su una
+  copia in scratchpad (non sotto OneDrive — regola nota).
+- **Modifiche coordinate in `nxget-app-portal`** (stessa sessione, vedi
+  changelog di quel repo): `resolveAppDownloads` ora costruisce i download
+  direttamente dagli asset con `url` statico prima/indipendentemente dalla
+  risoluzione GitHub, e il link di fallback "vedi le release" degenera
+  correttamente su "visita il sito" quando `app.repo` è assente.
+- **Aggiunto un quinto manifest, `claude`** (Claude desktop, il client
+  chat di Anthropic): correzione dell'utente arrivata a lavoro già
+  concluso ("per claude intendevo anche l'app desktop") — stesso
+  malinteso già corretto per Codex/ChatGPT, ma qui la richiesta finale è
+  stata di **tenere entrambi i manifest** (`claude-code` per il CLI,
+  `claude` per l'app desktop), non di sostituire l'uno con l'altro.
+  **Nessun repo GitHub** (proprietario), 4 asset a link statico verificati
+  via `curl` (`downloads.claude.ai/claude-science/latest/{mac-x64,
+  mac-arm64}.dmg` + `{windows-x64,windows-arm64}.exe`, tutti 200). Linux
+  omesso: la pagina di download rimanda solo a una guida
+  (`code.claude.com/docs/en/desktop-linux`), nessun binario diretto.
+  `v1/index.json` rigenerato di nuovo, 13 app totali.
+
 ## 2026-09-17
 
 - **Aggiunti i manifest macOS-only di Atoll e CodexBar**, verificati contro

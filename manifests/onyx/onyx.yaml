@@ -1,0 +1,31 @@
+id: onyx
+name: OnyX
+publisher: Titanium Software
+category: Utility
+description: A multifunction utility for macOS maintenance, cleaning and system verification.
+about:
+  it: >-
+    OnyX è un'utility gratuita per macOS sviluppata da Titanium Software che
+    verifica la struttura di file e permessi del disco di avvio, esegue gli script
+    di manutenzione integrati di macOS, pulisce cache di sistema/utente/browser e
+    file temporanei, e offre decine di impostazioni nascoste per Finder, Dock,
+    Safari e altre app Apple non esposte dalle Preferenze di Sistema. Ogni build è
+    compilata e certificata per una specifica versione major di macOS: bisogna
+    scaricare quella corrispondente al proprio sistema, non genericamente
+    "l'ultima" — qui è pubblicata solo la build più recente (Apple Silicon).
+  en: >-
+    OnyX is a free macOS utility by Titanium Software that verifies the startup
+    disk's file structure and permissions, runs macOS's built-in maintenance
+    scripts, cleans system/user/browser caches and temporary files, and exposes
+    dozens of hidden settings for Finder, Dock, Safari and other Apple apps not
+    surfaced by System Settings. Each build is compiled and certified for one
+    specific macOS major version — you need the one matching your system, not
+    generically "the latest" — so only the newest build (Apple Silicon) is
+    published here.
+url: https://titanium-software.fr/en/onyx.html
+logo: https://icons.duckduckgo.com/ip3/titanium-software.fr.ico
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://www.titanium-software.fr/download/27/OnyX.dmg

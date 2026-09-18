@@ -1,0 +1,31 @@
+id: chatgpt
+name: ChatGPT
+publisher: OpenAI
+category: Development
+description: OpenAI's desktop app for ChatGPT, with system-wide access, voice mode and deep integration with local apps.
+about:
+  it: >-
+    ChatGPT desktop è il client ufficiale di OpenAI per macOS: affianca il chatbot
+    ChatGPT al resto del sistema con una scorciatoia globale, modalità vocale in
+    tempo reale e integrazioni dirette con editor di codice, terminale e altre app
+    locali per leggere il contesto e proporre modifiche senza dover incollare testo
+    a mano. Supporta cronologia sincronizzata con l'account web, custom GPT e
+    Canvas per documenti e codice collaborativo. Su Windows è distribuito
+    esclusivamente tramite Microsoft Store, non come installer scaricabile — per
+    questo qui è pubblicata solo la build macOS.
+  en: >-
+    ChatGPT desktop is OpenAI's official macOS client: it brings the ChatGPT
+    chatbot alongside the rest of the system with a global shortcut, real-time
+    voice mode, and direct integrations with code editors, the terminal and other
+    local apps to read context and propose changes without manual copy-pasting.
+    It supports history synced with the web account, custom GPTs and Canvas for
+    collaborative documents and code. On Windows it's distributed exclusively
+    through the Microsoft Store, not as a downloadable installer — which is why
+    only the macOS build is published here.
+url: https://chatgpt.com/
+logo: https://icons.duckduckgo.com/ip3/chatgpt.com.ico
+assets:
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg

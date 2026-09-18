@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-17T15:52:35.823Z",
+  "generated_at": "2026-09-18T16:00:06.231Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -26,6 +26,27 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bitwarden/bitwarden.yaml"
     },
     {
+      "id": "chatgpt",
+      "name": "ChatGPT",
+      "publisher": "OpenAI",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chatgpt/chatgpt.yaml"
+    },
+    {
+      "id": "claude",
+      "name": "Claude",
+      "publisher": "Anthropic",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claude/claude.yaml"
+    },
+    {
+      "id": "claude-code",
+      "name": "Claude Code",
+      "publisher": "Anthropic",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claude-code/claude-code.yaml"
+    },
+    {
       "id": "codexbar",
       "name": "CodexBar",
       "publisher": "Peter Steinberger",
@@ -47,11 +68,25 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/obs/obs.yaml"
     },
     {
+      "id": "onyx",
+      "name": "OnyX",
+      "publisher": "Titanium Software",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.yaml"
+    },
+    {
       "id": "qbittorrent",
       "name": "qBittorrent",
       "publisher": "qBittorrent Project",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/qbittorrent/qbittorrent.yaml"
+    },
+    {
+      "id": "rectangle",
+      "name": "Rectangle",
+      "publisher": "Ryan Hanson",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rectangle/rectangle.yaml"
     },
     {
       "id": "vscodium",
