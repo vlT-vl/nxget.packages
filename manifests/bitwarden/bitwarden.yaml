@@ -37,7 +37,7 @@ repo: https://github.com/bitwarden/clients
 # Un resolver deve filtrare per questo prefisso, non prendere la più recente
 # in assoluto (che potrebbe essere un web-v*/cli-v* senza asset desktop).
 releasePrefix: desktop-
-logo: https://icons.duckduckgo.com/ip3/bitwarden.com.ico
+logo: https://www.svgrepo.com/show/349309/bitwarden.svg
 assets:
   - platform: windows
     arch: x64

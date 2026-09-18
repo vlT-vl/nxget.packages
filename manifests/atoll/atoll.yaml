@@ -27,7 +27,7 @@ about:
     animations, hover behavior and shortcuts are all customizable.
 url: https://getatoll.app/
 repo: https://github.com/Ebullioscopic/Atoll
-logo: https://icons.duckduckgo.com/ip3/getatoll.app.ico
+logo: https://github.com/Ebullioscopic/Atoll/blob/dev/.github/assets/atoll-logo.png
 assets:
   - platform: macos
     arch: x64

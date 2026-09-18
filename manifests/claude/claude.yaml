@@ -1,0 +1,45 @@
+id: claude
+name: Claude
+publisher: Anthropic
+category: Development
+description: Anthropic's desktop app for Claude, with system-wide access and deep integration with local apps and files.
+about:
+  it: >-
+    Claude desktop è il client ufficiale di Anthropic per macOS e Windows:
+    affianca il chatbot Claude al resto del sistema con una scorciatoia
+    globale, caricamento diretto di file e cartelle locali nella
+    conversazione, e integrazioni tramite Model Context Protocol (MCP) per
+    collegare strumenti ed editor esterni senza dover incollare testo a
+    mano. Supporta cronologia sincronizzata con l'account web, Projects e
+    Artifacts per documenti e codice collaborativo. Su Linux è distribuito
+    solo tramite pacchetto/script separato (nessun installer diretto), per
+    questo qui sono pubblicate solo le build macOS e Windows.
+  en: >-
+    Claude desktop is Anthropic's official client for macOS and Windows: it
+    brings the Claude chatbot alongside the rest of the system with a
+    global shortcut, direct loading of local files and folders into the
+    conversation, and Model Context Protocol (MCP) integrations to connect
+    external tools and editors without manual copy-pasting. It supports
+    history synced with the web account, Projects and Artifacts for
+    collaborative documents and code. On Linux it's distributed only
+    through a separate package/script (no direct installer), which is why
+    only the macOS and Windows builds are published here.
+url: https://claude.ai/
+logo: https://ja.wikipedia.org/wiki/%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB:Claude-ai-icon.svg
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://downloads.claude.ai/claude-science/latest/windows-x64.exe
+  - platform: windows
+    arch: arm64
+    format: EXE
+    url: https://downloads.claude.ai/claude-science/latest/windows-arm64.exe
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://downloads.claude.ai/claude-science/latest/mac-x64.dmg
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://downloads.claude.ai/claude-science/latest/mac-arm64.dmg

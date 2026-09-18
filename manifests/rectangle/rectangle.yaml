@@ -1,0 +1,31 @@
+id: rectangle
+name: Rectangle
+publisher: Ryan Hanson
+category: Utility
+description: Move and resize windows on macOS with keyboard shortcuts and snap areas.
+about:
+  it: >-
+    Rectangle è un window manager gratuito e open source per macOS che permette di
+    spostare e ridimensionare le finestre con scorciatoie da tastiera
+    personalizzabili o trascinandole sui bordi dello schermo per attivare le snap
+    area, sulla falsariga di quanto offre nativamente Windows con Aero Snap. Copre
+    layout a metà schermo, quarti, terzi, schermo intero e posizionamento su
+    monitor multipli, con supporto per gli Spaces di macOS e la possibilità di
+    ricordare le dimensioni per ogni app. È il successore spirituale di Spectacle,
+    riscritto da zero da Ryan Hanson dopo che quel progetto è stato abbandonato.
+  en: >-
+    Rectangle is a free, open source window manager for macOS that lets you move
+    and resize windows with customizable keyboard shortcuts or by dragging them to
+    the screen edges to trigger snap areas, similar to what Windows offers
+    natively with Aero Snap. It covers half-screen, quarter, thirds, full-screen
+    and multi-monitor placement, with support for macOS Spaces and the ability to
+    remember window sizes per app. It's the spiritual successor to Spectacle,
+    rewritten from scratch by Ryan Hanson after that project was abandoned.
+url: https://rectangleapp.com
+repo: https://github.com/rxhanson/Rectangle
+logo: https://icons.duckduckgo.com/ip3/rectangleapp.com.ico
+assets:
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^Rectangle[\d.]+\.dmg$'

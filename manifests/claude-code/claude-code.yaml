@@ -1,0 +1,53 @@
+id: claude-code
+name: Claude Code
+publisher: Anthropic
+category: Development
+description: An agentic coding tool that runs in the terminal, understanding a codebase and executing tasks through natural language.
+about:
+  it: >-
+    Claude Code è uno strumento di coding agentico che vive nel terminale, sviluppato
+    da Anthropic: comprende la struttura di un progetto, esegue task di routine,
+    spiega codice complesso e gestisce flussi Git parlando in linguaggio naturale,
+    senza dover passare da un editor dedicato. Legge e modifica file, esegue comandi
+    di build/test, e può orchestrare modifiche su più file mantenendo il contesto
+    dell'intero repository. È distribuito sia come pacchetto npm sia come eseguibile
+    standalone per Windows, macOS e Linux, e condivide il motore agentico con le
+    integrazioni IDE (VS Code, JetBrains) e con l'estensione desktop nativa.
+  en: >-
+    Claude Code is an agentic coding tool built by Anthropic that lives in the
+    terminal: it understands a project's structure, executes routine tasks,
+    explains complex code and handles Git workflows through natural-language
+    commands, without requiring a dedicated editor. It reads and edits files, runs
+    build/test commands, and can orchestrate multi-file changes while keeping the
+    whole repository's context in view. It ships both as an npm package and as a
+    standalone executable for Windows, macOS and Linux, sharing its agentic engine
+    with the IDE integrations (VS Code, JetBrains) and the native desktop
+    extension.
+url: https://claude.com/claude-code
+repo: https://github.com/anthropics/claude-code
+logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.jieagi.com%2Fcontent%2Fuploadfile%2F202508%2F85451755573376.png&f=1&nofb=1&ipt=3c12cce760b06e9a13efc5bfe77e9b01948980cc8b7e70106679661b8c4450cd
+assets:
+  - platform: windows
+    arch: x64
+    format: ZIP
+    match: 'claude-win32-x64\.zip$'
+  - platform: windows
+    arch: arm64
+    format: ZIP
+    match: 'claude-win32-arm64\.zip$'
+  - platform: macos
+    arch: x64
+    format: TARGZ
+    match: 'claude-darwin-x64\.tar\.gz$'
+  - platform: macos
+    arch: arm64
+    format: TARGZ
+    match: 'claude-darwin-arm64\.tar\.gz$'
+  - platform: linux
+    arch: x64
+    format: TARGZ
+    match: 'claude-linux-x64\.tar\.gz$'
+  - platform: linux
+    arch: arm64
+    format: TARGZ
+    match: 'claude-linux-arm64\.tar\.gz$'
