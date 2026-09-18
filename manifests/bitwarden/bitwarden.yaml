@@ -37,14 +37,14 @@ repo: https://github.com/bitwarden/clients
 # Un resolver deve filtrare per questo prefisso, non prendere la più recente
 # in assoluto (che potrebbe essere un web-v*/cli-v* senza asset desktop).
 releasePrefix: desktop-
-logo: https://www.svgrepo.com/show/349309/bitwarden.svg
+logo: https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/bitwarden.svg
 assets:
   - platform: windows
     arch: x64
     format: EXE
     match: '^Bitwarden-Installer-[\d.]+\.exe$'
   - platform: macos
-    arch: x64
+    arch: universal
     format: DMG
     match: '-universal\.dmg$'
   - platform: linux

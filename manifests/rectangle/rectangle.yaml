@@ -23,7 +23,7 @@ about:
     rewritten from scratch by Ryan Hanson after that project was abandoned.
 url: https://rectangleapp.com
 repo: https://github.com/rxhanson/Rectangle
-logo: https://icons.duckduckgo.com/ip3/rectangleapp.com.ico
+logo: https://rectangleapp.com/assets/images/mac512pts1x.png
 assets:
   - platform: macos
     arch: x64

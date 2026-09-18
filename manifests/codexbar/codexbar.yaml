@@ -2,7 +2,7 @@ id: codexbar
 name: CodexBar
 publisher: Peter Steinberger
 category: Development
-description: A macOS menu bar app that shows real-time usage and quota status for AI coding tools like Codex, Claude Code and Cursor.
+description: A menu bar (macOS) / desktop (Linux) app that shows real-time usage and quota status for AI coding tools like Codex, Claude Code and Cursor.
 about:
   it: >-
     CodexBar è un'app per la menu bar di macOS che tiene sott'occhio i limiti
@@ -35,6 +35,14 @@ repo: https://github.com/steipete/CodexBar
 logo: https://icons.duckduckgo.com/ip3/codexbar.app.ico
 assets:
   - platform: macos
-    arch: x64
+    arch: universal
     format: ZIP
     match: 'CodexBar-macos-universal-[\d.]+\.zip$'
+  - platform: linux
+    arch: x64
+    format: TARGZ
+    match: 'CodexBarDesktop-v[\d.]+-linux-x86_64\.tar\.gz$'
+  - platform: linux
+    arch: arm64
+    format: TARGZ
+    match: 'CodexBarDesktop-v[\d.]+-linux-aarch64\.tar\.gz$'

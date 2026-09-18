@@ -24,7 +24,7 @@ about:
     recording.
 url: https://www.audacityteam.org/
 repo: https://github.com/audacity/audacity
-logo: https://icons.duckduckgo.com/ip3/audacityteam.org.ico
+logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@main/svg/audacity.svg
 assets:
   - platform: windows
     arch: x64
