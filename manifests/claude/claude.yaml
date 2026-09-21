@@ -25,7 +25,7 @@ about:
     through a separate package/script (no direct installer), which is why
     only the macOS and Windows builds are published here.
 url: https://claude.ai/
-logo: https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons@main/svg/claude-ai.svg
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claude/claude.png
 assets:
   - platform: windows
     arch: x64

@@ -25,7 +25,7 @@ about:
     extension.
 url: https://claude.com/claude-code
 repo: https://github.com/anthropics/claude-code
-logo: https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.jieagi.com%2Fcontent%2Fuploadfile%2F202508%2F85451755573376.png&f=1&nofb=1&ipt=3c12cce760b06e9a13efc5bfe77e9b01948980cc8b7e70106679661b8c4450cd
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claude-code/claude-code.png
 assets:
   - platform: windows
     arch: x64

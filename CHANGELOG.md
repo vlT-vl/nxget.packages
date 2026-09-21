@@ -2,6 +2,43 @@
 
 Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
+## 2026-09-21
+
+- **Icone di tutti i manifest rifatte**: ogni app ha ora la sua icona come
+  PNG **512×512, sfondo trasparente, colori di brand veritieri**, salvata
+  accanto al manifest (`manifests/<id>/<id>.png`); il campo `logo` punta al
+  raw URL di quel file. Sostituiti tutti i vecchi riferimenti esterni
+  (glifi monocolore `simple-icons`/`dashboard-icons`, favicon DuckDuckGo,
+  mirror Wikimedia/`user-images`, un'icona di terze parti per
+  `claude-code`). Sorgenti: repo ufficiale dell'app per le app open source
+  (Audacity 4, Bitwarden, OBS, KeePassXC, qBittorrent, VSCodium,
+  rasterizzando gli SVG a 512×512 dove non esisteva un PNG nativo),
+  bundle `.app` della release reale per le app macOS (Atoll, ChatGPT,
+  Claude, CodexBar, OnyX, Rectangle). Per `claude-code`, che non ha un
+  file icona pubblicato ad alta risoluzione, l'icona ufficiale
+  dell'estensione VS Code (disco arancio + spark crema, 266 px) è stata
+  ricostruita in vettoriale a partire dal path ufficiale dello spark del
+  logo Claude Code, con gli stessi colori.
+- **Correzione `arch`** verificata con `lipo -archs` sui binari reali:
+  `atoll` e `rectangle` passati da `x64` a `universal` (DMG con slice
+  `x86_64` + `arm64`); `chatgpt` passato da `universal` a `arm64` (il
+  binario è solo Apple Silicon).
+- **Verifica di tutti i 13 manifest** contro le release reali: ogni
+  pattern `match` risolve esattamente un asset sull'ultima release stabile
+  (con `releasePrefix` dove serve); i link statici di `chatgpt` e `onyx`
+  rispondono 200; i tre link `claude.ai/api/desktop/*/redirect` di
+  `claude` rispondono 403 a `curl` (challenge Cloudflare) ma sono gli
+  stessi pubblicati dalla pagina ufficiale `claude.ai/download`.
+- **Workflow GitHub Actions reso solo manuale**: rimosso il trigger
+  `push` su `manifests/**`, resta solo `workflow_dispatch`. Nessun commit
+  automatico parte più da solo.
+- **Rimossi dalla storia** i 3 commit `chore: rebuild index.json` del bot
+  `github-actions[bot]` (storia riscritta, contenuto finale invariato).
+- Recuperato dalla sessione precedente (commit `fix: high-res transparent
+  icons, universal arch, CodexBar Linux build`, mai riportato qui):
+  `arch: universal` per Bitwarden/Claude/CodexBar, asset Linux di
+  CodexBar (x64/arm64 TARGZ) e link `redirect` ufficiali per `claude`.
+
 ## 2026-09-18
 
 - **Aggiunto il campo opzionale `assets[].url`** allo schema manifest, per

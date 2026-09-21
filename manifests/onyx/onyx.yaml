@@ -23,7 +23,7 @@ about:
     generically "the latest" — so only the newest build (Apple Silicon) is
     published here.
 url: https://titanium-software.fr/en/onyx.html
-logo: https://titanium-software.fr/android-icon-192x192.png
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.png
 assets:
   - platform: macos
     arch: arm64

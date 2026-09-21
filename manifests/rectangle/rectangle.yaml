@@ -23,9 +23,9 @@ about:
     rewritten from scratch by Ryan Hanson after that project was abandoned.
 url: https://rectangleapp.com
 repo: https://github.com/rxhanson/Rectangle
-logo: https://rectangleapp.com/assets/images/mac512pts1x.png
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rectangle/rectangle.png
 assets:
   - platform: macos
-    arch: x64
+    arch: universal
     format: DMG
     match: '^Rectangle[\d.]+\.dmg$'

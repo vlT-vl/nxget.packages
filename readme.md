@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R180926-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R210926-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -58,7 +58,7 @@ about:
     English text, written from scratch, not a literal translation.
 url: https://keepassxc.org/
 repo: https://github.com/keepassxreboot/keepassxc
-logo: https://icons.duckduckgo.com/ip3/keepassxc.org.ico
+logo: https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keepassxc/keepassxc.png
 assets:
   - platform: windows
     arch: x64
@@ -80,6 +80,8 @@ assets:
 
 `assets[].match` is a regular expression a consumer evaluates against the file names of `repo`'s latest GitHub Release to figure out which asset is which platform/arch/format — no download URL is stored for these.
 
+**Logo (`logo`)**: every manifest ships its own icon as a **512×512 PNG with transparent background and the app's true brand colors**, stored next to the manifest as `manifests/<id>/<id>.png`; `logo` is the raw URL of that file. Icons are taken from the app's own current release or repository (never a mono-color icon-pack glyph, a favicon or a third-party mirror), so they match what the app looks like today. Vector sources are rasterized at 512×512; macOS icons are exported from the released app bundle.
+
 **Optional field `releasePrefix`**: for a `repo` that is a monorepo publishing releases for several products with interleaved tags (e.g. `bitwarden/clients`, tagged `desktop-v*`/`browser-v*`/`cli-v*`/`web-v*`), `releasePrefix` tells a consumer which tag prefix identifies *this* app's releases, instead of just picking the newest non-prerelease release of the whole repo (which could belong to an unrelated product). Omit it for single-product repos.
 
 **Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). For these, omit `repo` entirely and give the asset a fixed `url` instead of `match`:
@@ -90,7 +92,7 @@ name: ChatGPT
 # ...no repo field...
 assets:
   - platform: macos
-    arch: x64
+    arch: arm64
     format: DMG
     url: https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg
 ```
@@ -109,13 +111,15 @@ nxget.packages/                          (branch: api)
 ├── package.json                # single dependency: js-yaml
 │
 ├── manifests/                  # hand-written source of truth, one folder per app
-│   └── <id>/<id>.yaml          # e.g. manifests/keepassxc/keepassxc.yaml — see v1/index.json for the actual catalog
+│   └── <id>/                   # e.g. manifests/keepassxc/ — see v1/index.json for the actual catalog
+│       ├── <id>.yaml           # the manifest
+│       └── <id>.png            # 512×512 transparent PNG icon, true brand colors
 │
 ├── scripts/
 │   └── build-index.js          # reads manifests/*/*.yaml, writes v1/index.json — no network calls
 │
 ├── .github/workflows/
-│   └── build.yml               # push on manifests/** → rebuild + commit v1/index.json
+│   └── build.yml               # manual only (workflow_dispatch) → rebuild + commit v1/index.json
 │
 └── v1/
     └── index.json              # the only generated file in this repo
@@ -125,11 +129,11 @@ nxget.packages/                          (branch: api)
 
 ## GitHub Actions automation
 
-The only automation in this repo reacts to a manifest being added or edited by hand — it never writes a manifest itself.
+The only automation in this repo is a single workflow that rebuilds `v1/index.json`. It never runs on its own: it has no `push` or `schedule` trigger and starts only when launched manually from the Actions tab. It never writes a manifest itself.
 
 | Property | Value |
 |---|---|
-| Trigger | `push` on `manifests/**` + `workflow_dispatch` |
+| Trigger | `workflow_dispatch` only (manual launch) |
 | Runtime | Node.js 24 |
 | Branch | commits directly to `api` |
 | Commit | `chore: rebuild index.json` (only if a diff is detected) |
@@ -162,8 +166,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R180926 |
-| Updated | 18 September 2026 |
+| Build | R210926 |
+| Updated | 21 September 2026 |
 | API version | v1 |
 | Branch | `api` |
 

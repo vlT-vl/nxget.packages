@@ -25,7 +25,7 @@ about:
     VS Code experience without usage data being sent back to Microsoft.
 url: https://vscodium.com/
 repo: https://github.com/VSCodium/vscodium
-logo: https://user-images.githubusercontent.com/57955862/229143220-d9c01168-1e38-4093-88d2-3a4ac251bb2b.png
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscodium/vscodium.png
 assets:
   - platform: windows
     arch: x64

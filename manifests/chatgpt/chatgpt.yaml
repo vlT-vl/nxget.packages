@@ -23,9 +23,9 @@ about:
     through the Microsoft Store, not as a downloadable installer — which is why
     only the macOS build is published here.
 url: https://chatgpt.com/
-logo: https://cdn.jsdelivr.net/npm/simple-icons@latest/icons/openai.svg
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chatgpt/chatgpt.png
 assets:
   - platform: macos
-    arch: universal
+    arch: arm64
     format: DMG
     url: https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg

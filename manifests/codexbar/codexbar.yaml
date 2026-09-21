@@ -32,7 +32,7 @@ about:
     available as a Qt 6 desktop app for Linux.
 url: https://codexbar.app/
 repo: https://github.com/steipete/CodexBar
-logo: https://icons.duckduckgo.com/ip3/codexbar.app.ico
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/codexbar/codexbar.png
 assets:
   - platform: macos
     arch: universal

@@ -1,10 +1,6 @@
 name: Build index
 
 on:
-  push:
-    branches: [api]
-    paths:
-      - 'manifests/**'
   workflow_dispatch:
 
 permissions:
