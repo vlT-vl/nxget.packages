@@ -4,6 +4,23 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunto il campo `version` alle 11 app senza `repo`** (1password,
+  appcleaner, bazaar, chatgpt, claude, claudete, cogito, krita,
+  microsoft-365, onyx, spotify), le uniche per cui il consumer non può
+  ricavare la versione dalle Release: è la versione servita in questo momento
+  dai link fissi, controllata su una fonte autorevole (feed del produttore,
+  bundle dell'app, registri di pacchetti), mai stimata. Le app con `repo`
+  non hanno il campo. Override opzionale `assets[].version` solo dove la
+  versione cambia tra file: `spotify` (Flatpak `1.2.95.453.g0eeebbed`, indietro
+  rispetto a `1.3.1.234` di Windows/macOS) e `microsoft-365`, dove Windows
+  (`2608 (Build 20326.20158)`) e macOS (`16.113.1`) hanno numerazioni diverse e
+  quindi non c'è una versione a livello app. Versioni: 1password 8.12.36,
+  appcleaner 3.6.8, bazaar 0.9.6, chatgpt 1.2026.183, claude 2.2553.1
+  (Windows x64/arm64 e macOS allineati), claudete 1.1.83, cogito 0.12.3,
+  krita 5.3.4, onyx 5.1.0, spotify 1.3.1.234. Documentato in `readme.md`
+  (tabelle campi/asset, dettagli, esempio, regole di scrittura); la frase
+  "gli asset con `url` non hanno versione" è stata sostituita. Va aggiornata a
+  mano a ogni release del produttore, come i link con versione fissa.
 - **`readme.md` riscritto e allineato allo stato reale del catalogo**: sezione
   schema rifatta con tre manifest di esempio completi (app pubblica con
   `repo`, app a voucher, app con link fissi incluso il Flatpak), tabella di

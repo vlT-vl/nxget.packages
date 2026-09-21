@@ -26,6 +26,7 @@ about:
     are available on the official site.
 url: https://freemacsoft.net/appcleaner/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/appcleaner/appcleaner.png
+version: '3.6.8'
 assets:
   - platform: macos
     arch: universal

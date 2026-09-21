@@ -24,6 +24,7 @@ about:
     published here.
 url: https://titanium-software.fr/en/onyx.html
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.png
+version: '5.1.0'
 assets:
   - platform: macos
     arch: arm64

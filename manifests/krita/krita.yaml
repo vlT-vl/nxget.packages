@@ -26,6 +26,7 @@ about:
     image and the 64-bit Linux AppImage.
 url: https://krita.org/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/krita/krita.png
+version: '5.3.4'
 assets:
   - platform: windows
     arch: x64

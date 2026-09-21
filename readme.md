@@ -123,7 +123,7 @@ assets:
     match: '^example-[\d.]+-linux-amd64$'
 ```
 
-**App with fixed download links** — no `repo`, every asset carries a `url` instead of `match`, including a Flatpak reference for Linux:
+**App with fixed download links** — no `repo`, every asset carries a `url` instead of `match`, the manifest states the current `version` itself, and one asset (a Flatpak reference whose version differs) overrides it:
 
 ```yaml
 id: example-vendor-app
@@ -138,6 +138,7 @@ about:
     English text, written from scratch.
 url: https://vendor.example.com/download/
 logo: https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/example-vendor-app/example-vendor-app.png
+version: '2.4.1'
 assets:
   - platform: windows
     arch: x64
@@ -155,6 +156,7 @@ assets:
     arch: universal
     format: FLATPAK
     url: https://dl.flathub.org/repo/appstream/com.example.App.flatpakref
+    version: '2.3.0'
 ```
 
 ### Fields
@@ -170,6 +172,7 @@ assets:
 | `url` | yes* | The official site. *Omitted only for voucher-gated apps |
 | `repo` | no | GitHub repository whose Releases the consumer reads for the latest version, the release history and the `match` rules. Omit it for apps not published on GitHub Releases |
 | `logo` | yes | Raw URL of `manifests/<id>/<id>.png` |
+| `version` | only without `repo` | The current version of the published files, as a quoted string. Present only on apps with no `repo`, since it is the only way for a consumer to know it; apps with a `repo` must not carry it |
 | `license` | no | `{name, url}`, the license text a consumer can show in a modal. Always present for first-party apps |
 | `releasePrefix` | no | Tag prefix identifying this app's releases inside a multi-product repo |
 | `access` | no | `voucher` for apps whose download is gated by a voucher; absent means public |
@@ -184,6 +187,7 @@ assets:
 | `format` | `EXE`, `MSI`, `PKG`, `DMG`, `ZIP`, `TARGZ`, `DEB`, `APPIMAGE`, `BIN`, `FLATPAK` | File type. `BIN` is a bare executable with no archive around it; `FLATPAK` is a Flathub `.flatpakref` reference file |
 | `match` | regular expression | Evaluated against the file names of `repo`'s latest release; no download URL is stored |
 | `url` | link | A fixed download link the consumer uses as published |
+| `version` | quoted string | Optional override of the app's `version` for this one asset, used only when its version differs from the others (e.g. a Flatpak that lags behind, or a platform with its own numbering) |
 
 `match` and `url` are mutually exclusive on a single asset. A consumer must check for `url` first and use it verbatim; only fall back to fetching `repo`'s Releases and evaluating `match` when `url` is absent. Publish one file per platform and architecture, and never an asset that is not a plain download (symbols, checksums, delta updates, portable variants of an already listed installer).
 
@@ -197,7 +201,9 @@ assets:
 
 **`access: voucher`**: the download is gated by a voucher that the consumer (portal or CLI) validates against its own backend. Such a manifest keeps `repo` exactly like any other app, so the consumer can read the latest version and the release history from it as usual, but carries no app-level `url` and no asset `url`: no download link is stored in it. It publishes the platform/arch/format matrix and each asset's `match` rule (a file-name pattern, not a link), plus `releasePrefix` where the source publishes several products. Turning a `match` rule into an actual download is what the voucher gates, and that logic lives in the consumer. First-party vlT apps always use the category `vlT Software`.
 
-**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, a static `url` asset carries no version — the consumer cannot show a current version or a version history for it, only the download link itself. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the manifest needs updating by hand on each release.
+**`version`**: for an app with no `repo` it is the version the fixed links currently serve, taken from the vendor's own feed, the app bundle or the package registries it publishes to — never guessed. When the platforms number their builds differently (Microsoft 365: `2608 (Build …)` on Windows, `16.113.1` on macOS) the app-level `version` is left out and each asset states its own; when only one asset differs (a Flatpak that lags behind the vendor's builds) the app-level `version` covers the rest and that asset overrides it. A Flatpak reference installs whatever version Flathub ships when it is opened, so its `version` is the one Flathub currently lists. An app with a `repo` never carries `version`: the consumer reads the latest version and the history from its Releases.
+
+**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself and it has to be updated by hand on every vendor release; there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the manifest needs updating by hand on each release.
 
 **Flatpak-only Linux apps**: when an app's only Linux distribution is Flatpak (no downloadable installer), publish the Flathub reference file as the asset: `platform: linux`, `arch: universal`, `format: FLATPAK` and `url: https://dl.flathub.org/repo/appstream/<app-id>.flatpakref`. A `.flatpakref` is a small real file that the system's software center (or `flatpak install`) opens to add the Flathub remote and install the app for the machine's own architecture, so `universal` is accurate. The `about` text should say the Linux file is a Flatpak reference. Snap has no equivalent downloadable file and is not published.
 
@@ -207,6 +213,7 @@ assets:
 - Every `match` pattern must resolve to exactly one file of the latest stable release, and every fixed `url` must answer with a file — check both before publishing.
 - `description` is an unquoted YAML value: it must not contain a colon followed by a space, or the manifest will not parse.
 - Never hard-code a version in a `match` pattern; use a wildcard such as `[\d.]+`.
+- An app with no `repo` states its `version`, checked against an authoritative source (the vendor's feed, the app bundle, a package registry) at the time of writing; an app with a `repo` has no `version` field. Quote it, so a value like `3.10` stays a string.
 - After adding or editing a manifest, rebuild `v1/index.json` so the catalog lists it.
 
 ---

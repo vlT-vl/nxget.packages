@@ -24,6 +24,7 @@ about:
     so keeping backups of important files is advised.
 url: https://cogito.md/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cogito/cogito.png
+version: '0.12.3'
 assets:
   - platform: macos
     arch: arm64

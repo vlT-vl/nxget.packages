@@ -26,6 +26,7 @@ about:
     only the macOS and Windows builds are published here.
 url: https://claude.ai/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claude/claude.png
+version: '2.2553.1'
 assets:
   - platform: windows
     arch: x64

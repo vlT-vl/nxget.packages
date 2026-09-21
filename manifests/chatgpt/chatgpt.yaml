@@ -24,6 +24,7 @@ about:
     only the macOS build is published here.
 url: https://chatgpt.com/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chatgpt/chatgpt.png
+version: '1.2026.183'
 assets:
   - platform: macos
     arch: arm64
