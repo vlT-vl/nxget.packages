@@ -4,6 +4,16 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunto il manifest `claudete`** (Development, Claudete, pannello di
+  controllo macOS per flotte di agenti AI per il codice, non affiliato ad
+  Anthropic): **nessun repo GitHub** (ricerca fatta, nessun repo
+  dell'app), quindi due link statici ufficiali dalla pagina di download,
+  `claudete.co/download-apple` (Apple Silicon) e `claudete.co/download-intel`
+  (Intel), redirect stabili al DMG dell'ultima versione, entrambi 200;
+  architetture confermate con `lipo` (arm64 e x86_64), versione 1.1.83.
+  Linux omesso: esiste solo una CLI per server installabile con
+  `curl | sh`, senza pacchetto scaricabile con link stabile. Icona 512×512
+  estratta dal bundle `.app`. `v1/index.json` rigenerato, 25 app totali.
 - **Aggiunto il manifest `unigetui`** (Utility, `Devolutions/UniGetUI`, MIT,
   release `v2026.3.0`), l'interfaccia grafica unica per i gestori di
   pacchetti, ora mantenuta da Devolutions: sei asset, Windows x64/arm64

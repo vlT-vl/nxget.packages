@@ -1,0 +1,46 @@
+id: claudete
+name: Claudete
+publisher: Claudete
+category: Development
+description: A native macOS control panel to run many AI coding agent sessions in a single window.
+about:
+  it: >-
+    Claudete è un pannello di controllo nativo per macOS che permette di far
+    girare in una sola finestra molte sessioni di agenti AI per il codice, come
+    Claude Code, Codex, Grok e OpenCode. Mostra la flotta di agenti in una
+    griglia, con terminali veri accanto alle sessioni, chat condivise dove un
+    messaggio arriva a più agenti insieme, editor di file e albero del
+    progetto. Tiene sotto controllo l'uso dell'abbonamento con le finestre di
+    reset, il consumo di CPU e memoria di ogni istanza e lo stato dei
+    provider. Non servono chiavi API: pilota le CLI e gli abbonamenti già
+    presenti sul Mac, quindi richiede le CLI installate e autenticate. È
+    gratuito con un numero limitato di istanze e offre una licenza Pro a
+    pagamento unico per averne senza limiti. Non è affiliato ad Anthropic. Per
+    macOS 13 o successivo, Apple Silicon e Intel. Su Linux esiste solo una CLI
+    per server, che si installa con uno script e non ha un pacchetto
+    scaricabile, per questo qui sono pubblicate solo le build macOS.
+  en: >-
+    Claudete is a native macOS control panel that runs many AI coding agent
+    sessions in a single window, such as Claude Code, Codex, Grok and OpenCode.
+    It shows the fleet of agents in a grid, with real terminals next to the
+    sessions, shared chat rooms where one message reaches several agents at
+    once, a file editor and a project tree. It keeps an eye on subscription
+    usage with reset windows, CPU and memory use of every instance and the
+    status of the providers. No API keys are needed: it drives the CLIs and
+    subscriptions already on the Mac, so those CLIs must be installed and
+    signed in. It is free with a limited number of instances and offers a
+    one-time paid Pro license for unlimited ones. It is not affiliated with
+    Anthropic. For macOS 13 or later, Apple Silicon and Intel. On Linux there
+    is only a server CLI, installed with a script and with no downloadable
+    package, which is why only the macOS builds are published here.
+url: https://claudete.co/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claudete/claudete.png
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://claudete.co/download-apple
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://claudete.co/download-intel
