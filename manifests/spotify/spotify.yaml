@@ -1,0 +1,45 @@
+id: spotify
+name: Spotify
+publisher: Spotify AB
+category: Multimedia
+description: The music, podcast and audiobook streaming service, as a native desktop app.
+about:
+  it: >-
+    Spotify è il servizio di streaming che dà accesso a un catalogo enorme di
+    brani, podcast e audiolibri. L'app desktop offre ricerca e libreria
+    sincronizzate con l'account, playlist collaborative, testi dei brani e
+    Spotify Connect per far suonare la musica su altoparlanti e altri
+    dispositivi della rete senza interrompere l'ascolto. Si usa gratis con
+    pubblicità oppure con Premium, che aggiunge ascolto offline, qualità
+    audio più alta e nessuna interruzione. Su Linux l'app è distribuita solo
+    tramite Snap, Flatpak o repository APT, senza un installer scaricabile,
+    per questo qui sono pubblicate solo le build Windows e macOS.
+  en: >-
+    Spotify is the streaming service that opens up a huge catalog of music,
+    podcasts and audiobooks. The desktop app brings search and a library
+    synced with your account, collaborative playlists, song lyrics and
+    Spotify Connect to play music on speakers and other devices on your
+    network without interrupting playback. It is free with ads or paid with
+    Premium, which adds offline listening, higher audio quality and no
+    interruptions. On Linux the app ships only through Snap, Flatpak or an
+    APT repository, with no downloadable installer, which is why only the
+    Windows and macOS builds are published here.
+url: https://www.spotify.com/download/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/spotify/spotify.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://download.scdn.co/SpotifySetup.exe
+  - platform: windows
+    arch: arm64
+    format: EXE
+    url: https://download.scdn.co/SpotifyFullSetupARM64.exe
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://download.scdn.co/SpotifyARM64.dmg
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://download.scdn.co/Spotify.dmg

@@ -1,0 +1,44 @@
+id: anyscp
+name: anySCP
+publisher: Macwan Nevil
+category: Development
+description: A free, open-source SSH terminal, SFTP file manager and S3 browser in one desktop app.
+about:
+  it: >-
+    anySCP riunisce in una sola app desktop un terminale SSH, un file manager
+    SFTP e un browser per storage compatibile S3. Offre pannelli divisi per
+    lavorare su più sessioni insieme, upload con trascinamento, port
+    forwarding e snippet di comandi da riutilizzare. È scritta con Tauri (backend
+    Rust, interfaccia React), quindi resta leggera, e le credenziali vengono
+    salvate nel portachiavi del sistema operativo invece che su un cloud:
+    nessun account e nessun abbonamento. È un'alternativa gratuita e open
+    source a Termius, PuTTY e WinSCP, per macOS, Windows e Linux.
+  en: >-
+    anySCP brings an SSH terminal, an SFTP file manager and an S3-compatible
+    storage browser together in a single desktop app. It offers split panes to
+    work on several sessions at once, drag-and-drop uploads, port forwarding
+    and reusable command snippets. It is written with Tauri (Rust backend,
+    React interface), so it stays lightweight, and credentials are kept in the
+    operating system's keychain rather than in a cloud: no account and no
+    subscription. It is a free, open-source alternative to Termius, PuTTY and
+    WinSCP, for macOS, Windows and Linux.
+url: https://github.com/macnev2013/anySCP
+repo: https://github.com/macnev2013/anySCP
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/anyscp/anyscp.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: 'anySCP_[\d.]+_x64-setup\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: 'anySCP_[\d.]+_aarch64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'anySCP_[\d.]+_x64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: 'anySCP_[\d.]+_amd64\.AppImage$'

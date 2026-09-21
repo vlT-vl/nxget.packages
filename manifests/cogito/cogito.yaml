@@ -1,0 +1,31 @@
+id: cogito
+name: Cogito
+publisher: Fabrizio Rinaldi
+category: Productivity
+description: A calm, native Markdown editor for macOS, built for humans and AI agents.
+about:
+  it: >-
+    Cogito è un editor Markdown nativo per macOS, pensato per chi scrive note e
+    documenti ogni giorno senza la complessità di un sistema a database. Si
+    aggiunge una cartella qualsiasi e i file restano semplici file di testo sul
+    disco: anteprime curate, navigazione tra le note, ricerca delle note
+    correlate e una chat AI integrata per rivedere e modificare i documenti.
+    Legge anche i vault di Obsidian mantenendo link e struttura esistenti.
+    Richiede macOS 15 o successivo, gira solo su Apple Silicon ed è oggi una
+    beta pubblica gratuita: conviene tenere un backup dei file importanti.
+  en: >-
+    Cogito is a native Markdown editor for macOS, made for people who write
+    notes and documents every day without the weight of a database-style
+    system. You add any folder and your files stay plain text on disk: polished
+    previews, navigation between notes, related-note discovery and an
+    integrated AI chat to review and edit documents. It also opens Obsidian
+    vaults, keeping their existing links and structure. It requires macOS 15
+    or later, runs on Apple Silicon only, and is currently a free public beta,
+    so keeping backups of important files is advised.
+url: https://cogito.md/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cogito/cogito.png
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://cogito.md/download/latest

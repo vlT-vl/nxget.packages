@@ -4,6 +4,31 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunti 4 nuovi manifest**, ciascuno con la sua icona 512×512
+  (`manifests/<id>/<id>.png`) e link verificati prima di scrivere qualsiasi
+  cosa (nessun nome file indovinato):
+  - `spotify`: nessun repo GitHub, 4 link statici ufficiali su
+    `download.scdn.co` (Windows x64 `SpotifySetup.exe`, Windows arm64
+    `SpotifyFullSetupARM64.exe`, macOS arm64 `SpotifyARM64.dmg`, macOS
+    x64 `Spotify.dmg`), tutti 200; architetture confermate ispezionando
+    gli header PE e con `lipo -archs`. Linux omesso: distribuito solo via
+    Snap/Flatpak/APT, nessun installer scaricabile.
+  - `cogito` (editor Markdown macOS): nessun repo GitHub, un solo link
+    statico stabile (`cogito.md/download/latest`, redirect al DMG della
+    versione corrente). Solo Apple Silicon (binario `arm64`), macOS 15+,
+    beta pubblica.
+  - `anyscp` (client SSH/SFTP/S3, `macnev2013/anySCP`, MIT): repo reale,
+    4 asset (Windows x64 EXE, macOS arm64/x64 DMG, Linux x64 AppImage), un
+    solo match per pattern sull'ultima release `v0.11.1`. Nessuna build
+    Windows arm64 né Linux arm64 pubblicata.
+  - `microsoft-365` (Office, ex Office 365): due link ufficiali Microsoft
+    (`go.microsoft.com/fwlink/?linkid=2264705` per Windows, installer
+    online in inglese; `?linkid=525133` per macOS, pacchetto PKG universale
+    di circa 2,9 GB, primo asset con `format: PKG`). Nessuna versione
+    desktop per Linux. Icona: logo esagonale Microsoft 365 (SVG ufficiale),
+    non quella nuova del Copilot, che identifica l'app unificata Copilot e
+    non la suite Office.
+  - `v1/index.json` rigenerato, 17 app totali.
 - **Icone di tutti i manifest rifatte**: ogni app ha ora la sua icona come
   PNG **512×512, sfondo trasparente, colori di brand veritieri**, salvata
   accanto al manifest (`manifests/<id>/<id>.png`); il campo `logo` punta al

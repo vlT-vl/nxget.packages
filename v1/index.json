@@ -1,9 +1,16 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-18T16:00:27.482Z",
+  "generated_at": "2026-09-21T08:48:01.112Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
+    {
+      "id": "anyscp",
+      "name": "anySCP",
+      "publisher": "Macwan Nevil",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/anyscp/anyscp.yaml"
+    },
     {
       "id": "atoll",
       "name": "Atoll",
@@ -54,11 +61,25 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/codexbar/codexbar.yaml"
     },
     {
+      "id": "cogito",
+      "name": "Cogito",
+      "publisher": "Fabrizio Rinaldi",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cogito/cogito.yaml"
+    },
+    {
       "id": "keepassxc",
       "name": "KeePassXC",
       "publisher": "KeePassXC Team",
       "category": "Security",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/keepassxc/keepassxc.yaml"
+    },
+    {
+      "id": "microsoft-365",
+      "name": "Microsoft 365",
+      "publisher": "Microsoft Corporation",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/microsoft-365/microsoft-365.yaml"
     },
     {
       "id": "obs",
@@ -87,6 +108,13 @@
       "publisher": "Ryan Hanson",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rectangle/rectangle.yaml"
+    },
+    {
+      "id": "spotify",
+      "name": "Spotify",
+      "publisher": "Spotify AB",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/spotify/spotify.yaml"
     },
     {
       "id": "vscodium",

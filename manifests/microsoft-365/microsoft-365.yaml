@@ -1,0 +1,40 @@
+id: microsoft-365
+name: Microsoft 365
+publisher: Microsoft Corporation
+category: Productivity
+description: The Office suite (formerly Office 365) with Word, Excel, PowerPoint, Outlook and OneNote.
+about:
+  it: >-
+    Microsoft 365, il nome attuale di Office 365, è la suite di produttività di
+    Microsoft: Word per i documenti, Excel per i fogli di calcolo, PowerPoint
+    per le presentazioni, Outlook per posta e calendario e OneNote per gli
+    appunti, con archiviazione OneDrive e funzioni AI di Copilot dove incluse
+    nel piano. Le app si scaricano gratis ma richiedono un abbonamento o un
+    account con licenza per essere usate oltre la modalità di sola lettura.
+    Su Windows il file pubblicato è il programma di installazione online
+    ufficiale in inglese, che scarica e installa la build corretta per il
+    processore; su macOS è il pacchetto unico universale con tutte le app.
+    Non esiste una versione desktop per Linux: lì Office è disponibile solo
+    dal browser.
+  en: >-
+    Microsoft 365, the current name of Office 365, is Microsoft's productivity
+    suite: Word for documents, Excel for spreadsheets, PowerPoint for
+    presentations, Outlook for mail and calendar and OneNote for notes, with
+    OneDrive storage and Copilot AI features where the plan includes them. The
+    apps download for free but need a subscription or a licensed account to be
+    used beyond read-only mode. On Windows the published file is the official
+    English online installer, which downloads and installs the right build for
+    the processor; on macOS it is the single universal package with all the
+    apps. There is no desktop version for Linux: Office is available there
+    only in the browser.
+url: https://www.microsoft.com/microsoft-365
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/microsoft-365/microsoft-365.png
+assets:
+  - platform: windows
+    arch: universal
+    format: EXE
+    url: https://go.microsoft.com/fwlink/?linkid=2264705
+  - platform: macos
+    arch: universal
+    format: PKG
+    url: https://go.microsoft.com/fwlink/?linkid=525133
