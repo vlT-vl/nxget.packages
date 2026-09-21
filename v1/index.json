@@ -1,9 +1,16 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T08:48:01.112Z",
+  "generated_at": "2026-09-21T08:59:26.296Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
+    {
+      "id": "1password",
+      "name": "1Password",
+      "publisher": "1Password",
+      "category": "Security",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/1password/1password.yaml"
+    },
     {
       "id": "anyscp",
       "name": "anySCP",

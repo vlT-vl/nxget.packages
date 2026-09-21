@@ -4,6 +4,15 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunto il manifest `1password`** (Security), nessun repo GitHub, 5
+  link statici ufficiali su `downloads.1password.com`, tutti 200:
+  Windows x64 (`1PasswordSetup-latest.exe`) e arm64
+  (`1PasswordSetup-arm64-latest.exe`), architetture confermate dagli header
+  PE; macOS universale (`1Password.zip`, l'installer ufficiale linkato
+  dalla pagina download, `lipo`: x86_64 + arm64); Linux x64 e arm64
+  (`1password-latest.tar.gz`, `x86_64`/`aarch64`). Icona estratta dal
+  bundle `.app` della release 8.12.36. `v1/index.json` rigenerato, 18 app
+  totali.
 - **Aggiunti 4 nuovi manifest**, ciascuno con la sua icona 512×512
   (`manifests/<id>/<id>.png`) e link verificati prima di scrivere qualsiasi
   cosa (nessun nome file indovinato):
