@@ -172,7 +172,7 @@ assets:
 | `url` | yes* | The official site. *Omitted only for voucher-gated apps |
 | `repo` | no | GitHub repository whose Releases the consumer reads for the latest version, the release history and the `match` rules. Omit it for apps not published on GitHub Releases |
 | `logo` | yes | Raw URL of `manifests/<id>/<id>.png` |
-| `version` | only without `repo` | The current version of the published files, as a quoted string. Present only on apps with no `repo`, since it is the only way for a consumer to know it; apps with a `repo` must not carry it |
+| `version` | only without `repo` | The current version of the published files, as a quoted string. Present only on apps with no `repo`, since there is no other way for a consumer to know it; an app with a `repo` must never carry it, whatever its assets are |
 | `license` | no | `{name, url}`, the license text a consumer can show in a modal. Always present for first-party apps |
 | `releasePrefix` | no | Tag prefix identifying this app's releases inside a multi-product repo |
 | `access` | no | `voucher` for apps whose download is gated by a voucher; absent means public |
@@ -201,7 +201,7 @@ assets:
 
 **`access: voucher`**: the download is gated by a voucher that the consumer (portal or CLI) validates against its own backend. Such a manifest keeps `repo` exactly like any other app, so the consumer can read the latest version and the release history from it as usual, but carries no app-level `url` and no asset `url`: no download link is stored in it. It publishes the platform/arch/format matrix and each asset's `match` rule (a file-name pattern, not a link), plus `releasePrefix` where the source publishes several products. Turning a `match` rule into an actual download is what the voucher gates, and that logic lives in the consumer. First-party vlT apps always use the category `vlT Software`.
 
-**`version`**: for an app with no `repo` it is the version the fixed links currently serve, taken from the vendor's own feed, the app bundle or the package registries it publishes to — never guessed. When the platforms number their builds differently (Microsoft 365: `2608 (Build …)` on Windows, `16.113.1` on macOS) the app-level `version` is left out and each asset states its own; when only one asset differs (a Flatpak that lags behind the vendor's builds) the app-level `version` covers the rest and that asset overrides it. A Flatpak reference installs whatever version Flathub ships when it is opened, so its `version` is the one Flathub currently lists. An app with a `repo` never carries `version`: the consumer reads the latest version and the history from its Releases.
+**`version`**: for an app with no `repo` it is the version the fixed links currently serve, taken from the vendor's own feed, the app bundle or the package registries it publishes to — never guessed. When the platforms number their builds differently (Microsoft 365: `2608 (Build …)` on Windows, `16.113.1` on macOS) the app-level `version` is left out and each asset states its own; when only one asset differs (a Flatpak that lags behind the vendor's builds) the app-level `version` covers the rest and that asset overrides it. A Flatpak reference installs whatever version Flathub ships when it is opened, so its `version` is the one Flathub currently lists. An app with a `repo` never carries `version`, even when its assets are fixed `url` links: the consumer reads the latest version and the history from the repo's Releases, and static versions are not mixed in with them.
 
 **Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself and it has to be updated by hand on every vendor release; there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the manifest needs updating by hand on each release.
 
@@ -213,7 +213,7 @@ assets:
 - Every `match` pattern must resolve to exactly one file of the latest stable release, and every fixed `url` must answer with a file — check both before publishing.
 - `description` is an unquoted YAML value: it must not contain a colon followed by a space, or the manifest will not parse.
 - Never hard-code a version in a `match` pattern; use a wildcard such as `[\d.]+`.
-- An app with no `repo` states its `version`, checked against an authoritative source (the vendor's feed, the app bundle, a package registry) at the time of writing; an app with a `repo` has no `version` field. Quote it, so a value like `3.10` stays a string.
+- An app with no `repo` states its `version`, checked against an authoritative source (the vendor's feed, the app bundle, a package registry) at the time of writing; an app with a `repo` has no `version` field, ever. Quote it, so a value like `3.10` stays a string.
 - After adding or editing a manifest, rebuild `v1/index.json` so the catalog lists it.
 
 ---

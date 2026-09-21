@@ -4,6 +4,14 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **`bazaar`: aggiunto il `repo` GitHub `bazaar-org/bazaar`**, che mancava, e
+  **rimossa la `version` statica**: con un `repo` la versione e la cronologia
+  le ricava il portale dalle Release, non si mescolano dati statici. Regola
+  ribadita in `readme.md`: `version` nel manifest **solo** per le app senza
+  `repo`, mai per quelle che ce l'hanno, qualunque siano i loro asset.
+  Il repo GitHub è archiviato (upstream su GNOME GitLab) e l'ultima release è
+  `v0.9.4`, senza asset: l'asset Linux resta il riferimento Flatpak a link
+  fisso.
 - **`chatgpt` spostato alla distribuzione attuale di OpenAI**: il link
   precedente serviva una build vecchia (`com.openai.chat` 1.2026.183, 9 luglio
   2026), mentre l'app corrente, confermata dalla finestra "Informazioni su

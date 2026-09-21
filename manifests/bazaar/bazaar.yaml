@@ -24,8 +24,8 @@ about:
     the published file is the .flatpakref reference, which opens with the
     software center or with flatpak install.
 url: https://usebazaar.org/
+repo: https://github.com/bazaar-org/bazaar
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bazaar/bazaar.png
-version: '0.9.6'
 assets:
   - platform: linux
     arch: universal
