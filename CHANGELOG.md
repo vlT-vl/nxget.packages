@@ -4,6 +4,23 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunti i manifest `tabby` e `brewui`**, entrambi con repo GitHub
+  reale e pattern `match` che risolvono esattamente un asset sull'ultima
+  release stabile (nessuna versione hardcoded):
+  - `tabby` (Development, `eugeny/tabby`, MIT, release `v1.0.235`): sei
+    asset, Windows x64/arm64 (EXE `setup`), macOS x64/arm64 (DMG), Linux
+    x64/arm64 (AppImage); esclusi i `.blockmap`, i `.zip` portable e i
+    pacchetti `.deb`/`.rpm`/`.pacman`/`.tar.gz`. La build Linux `armv7l`
+    (ARM a 32 bit) è omessa: il campo `arch` del catalogo non ha un valore
+    per lei. Icona: quella in stile macOS del repo (`Icon-MacOS`).
+  - `brewui` (Utility, `Homebrew/BrewUI`, AGPL-3.0, release `v0.4.3`), l'app
+    macOS ufficiale di Homebrew: un solo asset, lo ZIP con `Homebrew.app`
+    universale (`lipo`: x86_64 + arm64), lo stesso usato dal cask
+    `homebrew-app`; escluso `.dSYMs.zip`; il `.pkg` esiste ma non è
+    pubblicato. Richiede macOS 26.2 o successivo (`LSMinimumSystemVersion`).
+    Il nome è `BrewUI` (non "Homebrew") per non confonderla con la CLI.
+    Icona estratta dal bundle `.app`.
+  Icone 512×512 trasparenti; `v1/index.json` rigenerato, 23 app totali.
 - **Aggiunti 3 manifest di software vlT**, tutti con categoria
   `vlT Software` (regola fissa per le app first-party): `svg-designer-studio`
   (SVG Designer Studio), `pmxtools-ui` (pmxtools desktop) e `pmxtools-cli`

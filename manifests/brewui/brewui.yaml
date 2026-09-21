@@ -1,0 +1,33 @@
+id: brewui
+name: BrewUI
+publisher: Homebrew
+category: Utility
+description: Homebrew's official macOS app for discovering, installing and updating packages without the Terminal.
+about:
+  it: >-
+    BrewUI è l'app macOS ufficiale del progetto Homebrew, pensata per chi
+    preferisce un'interfaccia grafica al Terminale. Permette di cercare,
+    installare, aggiornare e gestire i pacchetti Homebrew in un'interfaccia
+    SwiftUI nativa, senza mai nascondere cosa sta facendo Homebrew dietro le
+    quinte: i dati arrivano dalla CLI brew e dall'API JSON di Homebrew e le
+    opzioni si impostano nel file brew.env. Il file pubblicato è l'app in
+    formato ZIP, universale per Apple Silicon e Intel, e richiede macOS 26.2
+    o successivo. Le release sono ancora nella serie 0.x, quindi in evoluzione
+    rapida.
+  en: >-
+    BrewUI is the official macOS app of the Homebrew project, made for people
+    who prefer a graphical interface to the Terminal. It lets you search for,
+    install, update and manage Homebrew packages in a native SwiftUI
+    interface, without ever hiding what Homebrew is doing behind the scenes:
+    data comes from the brew CLI and Homebrew's JSON API, and options are set
+    in the brew.env file. The published file is the app as a ZIP, universal
+    for Apple Silicon and Intel, and it requires macOS 26.2 or later.
+    Releases are still in the 0.x series, so it is evolving quickly.
+url: https://brew.sh/
+repo: https://github.com/Homebrew/BrewUI
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/brewui/brewui.png
+assets:
+  - platform: macos
+    arch: universal
+    format: ZIP
+    match: '^Homebrew-[\d.]+\.zip$'

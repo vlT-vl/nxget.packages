@@ -1,0 +1,52 @@
+id: tabby
+name: Tabby
+publisher: Eugene
+category: Development
+description: A highly configurable terminal emulator with a built-in SSH, Telnet and serial client.
+about:
+  it: >-
+    Tabby (in passato Terminus) è un emulatore di terminale altamente
+    configurabile per Windows, macOS e Linux, pensato per chi passa la giornata
+    nella shell. Integra un client SSH e Telnet con gestore delle connessioni,
+    un terminale seriale, pannelli divisi, schede che vengono ricordate alla
+    riapertura, trasferimento di file da e verso le sessioni SSH via Zmodem e
+    un contenitore cifrato per chiavi e configurazione. Su Windows offre
+    un'esperienza di shell completa, con il completamento dei comandi tramite
+    Clink, e si estende con plugin e temi.
+  en: >-
+    Tabby (formerly Terminus) is a highly configurable terminal emulator for
+    Windows, macOS and Linux, built for people who spend the day in the shell.
+    It bundles an SSH and Telnet client with a connection manager, a serial
+    terminal, split panes, tabs that are remembered on relaunch, file transfer
+    to and from SSH sessions via Zmodem and an encrypted container for keys
+    and configuration. On Windows it offers a complete shell experience, with
+    command completion through Clink, and it is extended with plugins and
+    themes.
+url: https://tabby.sh/
+repo: https://github.com/eugeny/tabby
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/tabby/tabby.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: 'tabby-[\d.]+-setup-x64\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: 'tabby-[\d.]+-setup-arm64\.exe$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'tabby-[\d.]+-macos-x86_64\.dmg$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: 'tabby-[\d.]+-macos-arm64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: 'tabby-[\d.]+-linux-x64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: 'tabby-[\d.]+-linux-arm64\.AppImage$'
