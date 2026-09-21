@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T08:59:26.296Z",
+  "generated_at": "2026-09-21T10:05:43.432Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -103,6 +103,20 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.yaml"
     },
     {
+      "id": "pmxtools-cli",
+      "name": "pmxtools CLI",
+      "publisher": "vlT",
+      "category": "vlT Software",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-cli/pmxtools-cli.yaml"
+    },
+    {
+      "id": "pmxtools-ui",
+      "name": "pmxtools UI",
+      "publisher": "vlT",
+      "category": "vlT Software",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-ui/pmxtools-ui.yaml"
+    },
+    {
       "id": "qbittorrent",
       "name": "qBittorrent",
       "publisher": "qBittorrent Project",
@@ -122,6 +136,13 @@
       "publisher": "Spotify AB",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/spotify/spotify.yaml"
+    },
+    {
+      "id": "svg-designer-studio",
+      "name": "SVG Designer Studio",
+      "publisher": "vlT",
+      "category": "vlT Software",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/svg-designer-studio/svg-designer-studio.yaml"
     },
     {
       "id": "vscodium",

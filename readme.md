@@ -84,6 +84,10 @@ assets:
 
 **Optional field `releasePrefix`**: for a `repo` that is a monorepo publishing releases for several products with interleaved tags (e.g. `bitwarden/clients`, tagged `desktop-v*`/`browser-v*`/`cli-v*`/`web-v*`), `releasePrefix` tells a consumer which tag prefix identifies *this* app's releases, instead of just picking the newest non-prerelease release of the whole repo (which could belong to an unrelated product). Omit it for single-product repos.
 
+**Optional field `license`**: `license: {name, url}` points to the app's license text so a consumer can fetch it and show it in a modal. `url` must be a raw, CORS-enabled plain-text URL (for GitHub, `https://raw.githubusercontent.com/<owner>/<repo>/HEAD/LICENSE`) and `name` is the license title to show while it loads or as a fallback. First-party vlT apps always carry it, including voucher-gated ones, since the license must be readable before a voucher is redeemed.
+
+**Optional field `access`**: `access: voucher` marks an app whose download is gated by a voucher that the consumer (portal or CLI) validates against its own backend. Such a manifest deliberately carries **no** `repo`, no app-level `url` and no asset `url`: no link in it points to where the files are downloaded from. It still publishes the platform/arch/format matrix and each asset's `match` rule (a file-name pattern, not a link), plus `releasePrefix` where the source publishes several products. The consumer resolves the actual source only after a valid voucher, keyed by the manifest `id`. When the field is absent the app is public and follows the normal rules above. First-party vlT apps always use the category `vlT Software`.
+
 **Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). For these, omit `repo` entirely and give the asset a fixed `url` instead of `match`:
 
 ```yaml

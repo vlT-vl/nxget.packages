@@ -1,0 +1,49 @@
+id: pmxtools-cli
+name: pmxtools CLI
+publisher: vlT
+category: vlT Software
+description: A single-binary command-line tool to audit and inventory Proxmox VE infrastructures via API.
+about:
+  it: >-
+    pmxtools CLI è lo strumento da riga di comando per fare audit e
+    inventario di infrastrutture Proxmox VE. Si autentica sull'host con
+    password o token API e produce un report completo di datacenter, nodi
+    (hardware, rete, uptime), macchine virtuali, container LXC, storage e
+    configurazione SDN, salvato su disco in JSON o YAML e utilizzabile sia
+    direttamente da terminale sia come sorgente dati per altri strumenti come
+    pmxtools UI. Verifica il certificato TLS solo su richiesta, perché Proxmox
+    usa spesso certificati autofirmati. È un singolo binario senza dipendenze
+    runtime, disponibile per macOS, Windows e Linux.
+  en: >-
+    pmxtools CLI is the command-line tool for auditing and inventorying Proxmox
+    VE infrastructures. It authenticates against the host with a password or
+    an API token and produces a full report of the datacenter, nodes
+    (hardware, network, uptime), virtual machines, LXC containers, storage and
+    SDN configuration, saved to disk as JSON or YAML and usable both directly
+    from the terminal and as a data source for other tools such as pmxtools
+    UI. It verifies the TLS certificate only on request, since Proxmox often
+    uses self-signed certificates. It is a single binary with no runtime
+    dependencies, available for macOS, Windows and Linux.
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-cli/pmxtools-cli.png
+license:
+  name: Proprietary Source-Available License
+  url: https://raw.githubusercontent.com/vlT-vl/pmxtools/HEAD/LICENSE
+releasePrefix: cli-
+access: voucher
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^pmxtools-[\d.]+-R\d+-windows-amd64\.exe$'
+  - platform: macos
+    arch: x64
+    format: BIN
+    match: '^pmxtools-[\d.]+-R\d+-macos-amd64$'
+  - platform: macos
+    arch: arm64
+    format: BIN
+    match: '^pmxtools-[\d.]+-R\d+-macos-arm64$'
+  - platform: linux
+    arch: x64
+    format: BIN
+    match: '^pmxtools-[\d.]+-R\d+-linux-amd64$'

@@ -1,0 +1,51 @@
+id: svg-designer-studio
+name: SVG Designer Studio
+publisher: vlT
+category: vlT Software
+description: A native desktop SVG editor to edit, preview, optimize and export SVG to React, React Native, PNG or Data URI.
+about:
+  it: >-
+    SVG Designer Studio è un editor SVG nativo per desktop che funziona
+    interamente offline. Si apre o si incolla un SVG, lo si modifica
+    nell'editor con validazione della sintassi in tempo reale e si vede
+    l'anteprima aggiornarsi subito, con zoom, pan e selezione degli elementi
+    con un clic. Quando è pronto, si ottimizza il file, si formatta il codice
+    e si esporta come SVG pulito, componente React o React Native, PNG ad alta
+    risoluzione con sfondo trasparente oppure Data URI, senza strumenti
+    esterni. Segue il tema chiaro o scuro del sistema ed è disponibile per
+    macOS, Windows e Linux.
+  en: >-
+    SVG Designer Studio is a native desktop SVG editor that works entirely
+    offline. You open or paste an SVG, edit it in the editor with live syntax
+    validation and watch the preview update instantly, with zoom, pan and
+    click-to-select for elements. When it's ready you optimize the file,
+    prettify the code and export it as clean SVG, a React or React Native
+    component, a high-resolution PNG with a transparent background or a Data
+    URI, with no external tooling. It follows the system light or dark theme
+    and is available for macOS, Windows and Linux.
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/svg-designer-studio/svg-designer-studio.png
+license:
+  name: Proprietary Source-Available License
+  url: https://raw.githubusercontent.com/vlT-vl/SVG-Desiger-Studio/HEAD/LICENSE
+access: voucher
+assets:
+  - platform: windows
+    arch: x64
+    format: ZIP
+    match: '^build-windows-amd64\.zip$'
+  - platform: macos
+    arch: x64
+    format: ZIP
+    match: '^build-darwin-amd64\.zip$'
+  - platform: macos
+    arch: arm64
+    format: ZIP
+    match: '^build-darwin-arm64\.zip$'
+  - platform: linux
+    arch: x64
+    format: ZIP
+    match: '^build-linux-amd64\.zip$'
+  - platform: linux
+    arch: arm64
+    format: ZIP
+    match: '^build-linux-arm64\.zip$'
