@@ -4,6 +4,13 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunto il manifest `unigetui`** (Utility, `Devolutions/UniGetUI`, MIT,
+  release `v2026.3.0`), l'interfaccia grafica unica per i gestori di
+  pacchetti, ora mantenuta da Devolutions: sei asset, Windows x64/arm64
+  (installer EXE), macOS x64/arm64 (DMG), Linux x64/arm64 (TARGZ); esclusi i
+  portable `.zip`, i `.deb`/`.rpm`, i `.json`/`checksums`. Ogni pattern
+  risolve esattamente un asset. Icona 512×512 nativa del repo
+  (`media/icon.png`). `v1/index.json` rigenerato, 24 app totali.
 - **Aggiunti i manifest `tabby` e `brewui`**, entrambi con repo GitHub
   reale e pattern `match` che risolvono esattamente un asset sull'ultima
   release stabile (nessuna versione hardcoded):

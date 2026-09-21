@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T11:51:39.370Z",
+  "generated_at": "2026-09-21T12:08:32.310Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -157,6 +157,13 @@
       "publisher": "Eugene",
       "category": "Development",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/tabby/tabby.yaml"
+    },
+    {
+      "id": "unigetui",
+      "name": "UniGetUI",
+      "publisher": "Devolutions",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/unigetui/unigetui.yaml"
     },
     {
       "id": "vscodium",

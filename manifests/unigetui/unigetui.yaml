@@ -1,0 +1,57 @@
+id: unigetui
+name: UniGetUI
+publisher: Devolutions
+category: Utility
+description: A graphical interface for your package managers, to install, update and remove software from one place.
+about:
+  it: >-
+    UniGetUI è un'interfaccia grafica unica per i gestori di pacchetti da riga
+    di comando, nata per Windows e oggi disponibile anche per macOS e Linux.
+    Riunisce in un solo elenco i pacchetti di WinGet, Chocolatey, Scoop,
+    Homebrew, APT, DNF, Pacman, Flatpak, Snap, Pip, npm e altri, con cui si
+    scoprono, installano, aggiornano e rimuovono programmi con un clic, anche in
+    blocco. Mostra i metadati di ogni pacchetto prima dell'installazione,
+    permette di saltare o ignorare gli aggiornamenti per singolo pacchetto,
+    pianifica manutenzione e backup, esporta e reimporta liste di software per
+    configurare una nuova macchina e si pilota anche da riga di comando. Creato
+    da Martí Climent, oggi è mantenuto da Devolutions e resta gratuito, open
+    source e con licenza MIT.
+  en: >-
+    UniGetUI is a single graphical interface for command-line package managers,
+    born on Windows and now available on macOS and Linux too. It gathers the
+    packages of WinGet, Chocolatey, Scoop, Homebrew, APT, DNF, Pacman, Flatpak,
+    Snap, Pip, npm and others into one list, where you discover, install,
+    update and remove software with a click, even in bulk. It shows each
+    package's metadata before installing, lets you skip or ignore updates per
+    package, schedules maintenance and backups, exports and re-imports software
+    lists to set up a new machine, and can also be driven from the command
+    line. Created by Martí Climent, it is now maintained by Devolutions and
+    stays free, open source and MIT-licensed.
+url: https://devolutions.net/unigetui/
+repo: https://github.com/Devolutions/UniGetUI
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/unigetui/unigetui.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^UniGetUI\.Installer\.x64\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: '^UniGetUI\.Installer\.arm64\.exe$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^UniGetUI\.macos-x64\.dmg$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^UniGetUI\.macos-arm64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: TARGZ
+    match: '^UniGetUI\.linux-x64\.tar\.gz$'
+  - platform: linux
+    arch: arm64
+    format: TARGZ
+    match: '^UniGetUI\.linux-arm64\.tar\.gz$'
