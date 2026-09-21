@@ -24,6 +24,7 @@ about:
     UI. It verifies the TLS certificate only on request, since Proxmox often
     uses self-signed certificates. It is a single binary with no runtime
     dependencies, available for macOS, Windows and Linux.
+repo: https://github.com/vlT-vl/pmxtools
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-cli/pmxtools-cli.png
 license:
   name: Proprietary Source-Available License

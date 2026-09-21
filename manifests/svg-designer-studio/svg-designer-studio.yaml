@@ -23,6 +23,7 @@ about:
     component, a high-resolution PNG with a transparent background or a Data
     URI, with no external tooling. It follows the system light or dark theme
     and is available for macOS, Windows and Linux.
+repo: https://github.com/vlT-vl/SVG-Desiger-Studio
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/svg-designer-studio/svg-designer-studio.png
 license:
   name: Proprietary Source-Available License

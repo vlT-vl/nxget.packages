@@ -8,8 +8,10 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
   `vlT Software` (regola fissa per le app first-party): `svg-designer-studio`
   (SVG Designer Studio), `pmxtools-ui` (pmxtools desktop) e `pmxtools-cli`
   (pmxtools client a riga di comando). Sono soggetti a voucher lato
-  consumer, quindi nel manifest **non compare nessun link**: niente `repo`,
-  niente `url` di app, niente `url` sugli asset. Restano matrice
+  consumer, quindi nel manifest **non compare nessun link di download**:
+  niente `url` di app, niente `url` sugli asset. Il `repo` resta, come per
+  ogni altra app, perché il portale ricava da lì ultima versione e storico
+  delle release. Restano matrice
   piattaforma/architettura/formato, pattern `match` sui nomi file e
   `releasePrefix` (`ui-`/`cli-`) per distinguere i due prodotti che
   condividono una stessa sorgente di release. Introdotto il campo opzionale
@@ -24,11 +26,12 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
   (`raw.githubusercontent.com/.../HEAD/LICENSE`, `text/plain` con
   `Access-Control-Allow-Origin: *`), da recuperare e mostrare in una
   modale; `name` è il titolo (`Proprietary Source-Available License`).
-  Documentato in `readme.md`. È l'unico link presente nei manifest vlT:
-  `repo`, `url` d'app e `url` degli asset restano assenti. Il link di
-  `svg-designer-studio` risponde 200; quelli di `pmxtools-ui` e
-  `pmxtools-cli` puntano a un `LICENSE` che il repo pubblico di release
-  di pmxtools non contiene ancora (404 fino a quando non viene aggiunto).
+  Documentato in `readme.md`. Nei manifest vlT restano assenti solo
+  `url` d'app e `url` degli asset. `pmxtools-ui` e
+  `pmxtools-cli` condividono lo stesso link, verso un unico `LICENSE`
+  aggiunto al repo pubblico di release di pmxtools e valido per entrambi i
+  prodotti (stessi termini della licenza dei loro repo di sviluppo, più un
+  preambolo di ambito). Tutti e tre i link rispondono 200.
 - **Aggiunto il manifest `1password`** (Security), nessun repo GitHub, 5
   link statici ufficiali su `downloads.1password.com`, tutti 200:
   Windows x64 (`1PasswordSetup-latest.exe`) e arm64
