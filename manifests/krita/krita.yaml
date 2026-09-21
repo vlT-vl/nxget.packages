@@ -1,0 +1,41 @@
+id: krita
+name: Krita
+publisher: Krita Foundation
+category: Multimedia
+description: A free and open source digital painting and illustration application.
+about:
+  it: >-
+    Krita è un'applicazione gratuita e open source per la pittura digitale e
+    l'illustrazione, costruita sui framework KDE e Qt e pensata per chi crea
+    opere d'arte da zero. Offre un ampio set di pennelli personalizzabili con
+    diversi motori, livelli e maschere, strumenti per fumetti e concept art,
+    gestione avanzata del colore, ausili al disegno come stabilizzatori e
+    simmetrie, animazione 2D e scripting con Python. Funziona con tavolette
+    grafiche e con il solo mouse ed è sviluppata dalla comunità del progetto
+    Krita. I file pubblicati qui sono l'installer per Windows a 64 bit, il
+    disco immagine universale per macOS e l'AppImage per Linux a 64 bit.
+  en: >-
+    Krita is a free and open source application for digital painting and
+    illustration, built on the KDE and Qt frameworks and made for people who
+    create artwork from scratch. It offers a wide set of customizable brushes
+    with several engines, layers and masks, tools for comics and concept art,
+    advanced color management, drawing aids such as stabilizers and symmetry,
+    2D animation and Python scripting. It works with graphics tablets or just
+    a mouse and is developed by the Krita project community. The files
+    published here are the 64-bit Windows installer, the universal macOS disk
+    image and the 64-bit Linux AppImage.
+url: https://krita.org/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/krita/krita.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://download.kde.org/stable/krita/5.3.4/krita-x64-5.3.4-setup.exe
+  - platform: macos
+    arch: universal
+    format: DMG
+    url: https://download.kde.org/stable/krita/5.3.4/krita-5.3.4-signed.dmg
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    url: https://download.kde.org/stable/krita/5.3.4/krita-5.3.4-x86_64.AppImage

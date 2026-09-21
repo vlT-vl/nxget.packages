@@ -4,6 +4,25 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **Aggiunti i manifest `krita`, `appcleaner` e `mist`**:
+  - `krita` (Multimedia, Krita Foundation): il repo GitHub `kde/krita` è un
+    mirror di sola lettura con tag ma **nessuna release né asset**, quindi
+    non serve a risolvere i download; usati i link ufficiali di
+    `download.kde.org` della pagina `krita.org/en/download`: Windows x64
+    (`setup.exe`), macOS universale (`signed.dmg`, universale secondo il
+    sito), Linux x86_64 (AppImage), tutti 200. **Versione fissata nel link
+    (5.3.4)**: KDE non offre un alias "latest", quindi il manifest va
+    aggiornato a mano a ogni nuova release. Nessuna build Windows arm64 né
+    Linux arm64. Icona: branding `default` (release stabile) del repo, 512×512.
+  - `appcleaner` (Utility, FreeMacSoft): nessun repo GitHub, un solo link
+    statico ufficiale, `AppCleaner_3.6.8.zip` (200; universale, `lipo`: x86_64
+    + arm64, macOS 10.14+). **Versione fissata nel link**: il sito non ha un
+    alias "latest" (ultimo aggiornamento del file: luglio 2023). Icona dal
+    bundle `.app`.
+  - `mist` (Utility, Nindi Gill, MIT, `ninxsoft/Mist` `v0.40`): asset DMG
+    universale (`lipo`: x86_64 + arm64, macOS 12+), risolto con `match`;
+    escluso il `.pkg`. Icona dal bundle `.app`.
+  `v1/index.json` rigenerato, 28 app totali. (Spotify era già nel catalogo.)
 - **Aggiunto il manifest `claudete`** (Development, Claudete, pannello di
   controllo macOS per flotte di agenti AI per il codice, non affiliato ad
   Anthropic): **nessun repo GitHub** (ricerca fatta, nessun repo

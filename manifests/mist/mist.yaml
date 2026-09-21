@@ -1,0 +1,35 @@
+id: mist
+name: Mist
+publisher: Nindi Gill
+category: Utility
+description: A Mac utility that automatically downloads macOS firmwares and installers.
+about:
+  it: >-
+    Mist (macOS Installer Super Tool) è un'utility per Mac che scarica in
+    automatico i firmware e gli installer di macOS. Elenca tutte le versioni
+    disponibili con nome, versione, build, data di rilascio e dimensione,
+    mostra a richiesta le beta e filtra quelle compatibili con il Mac in uso; le
+    liste si esportano in CSV, JSON, Property List o YAML. Sui Mac Apple Silicon
+    scarica il file di ripristino del firmware (.ipsw) verificandone il
+    checksum, mentre sui Mac Intel può generare un pacchetto applicazione, una
+    immagine disco, una ISO avviabile per la virtualizzazione o un pacchetto
+    di installazione. Esiste anche la CLI omonima. Il file pubblicato è il DMG
+    universale, per macOS 12 o successivo.
+  en: >-
+    Mist (macOS Installer Super Tool) is a Mac utility that automatically
+    downloads macOS firmwares and installers. It lists all available versions
+    with name, version, build, release date and size, optionally shows betas
+    and filters the ones compatible with the Mac in use; lists export to CSV,
+    JSON, Property List or YAML. On Apple Silicon Macs it downloads the
+    firmware restore file (.ipsw) and validates its checksum, while on Intel
+    Macs it can generate an application bundle, a disk image, a bootable ISO
+    for virtualization or an installer package. A companion CLI also exists.
+    The published file is the universal DMG, for macOS 12 or later.
+url: https://github.com/ninxsoft/Mist
+repo: https://github.com/ninxsoft/Mist
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/mist/mist.png
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^Mist\.[\d.]+\.dmg$'

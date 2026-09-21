@@ -1,0 +1,33 @@
+id: appcleaner
+name: AppCleaner
+publisher: FreeMacSoft
+category: Utility
+description: A small free macOS utility that thoroughly uninstalls apps together with their leftover files.
+about:
+  it: >-
+    AppCleaner è una piccola utility gratuita per macOS che disinstalla a fondo
+    le app che non servono più. Trascinando un'app nella finestra, trova anche
+    i file collegati sparsi nel sistema, come preferenze, cache e dati di
+    supporto, e li elimina insieme all'app, così non restano residui a
+    occupare spazio. Con la funzione SmartDelete controlla anche quando si
+    sposta un'app nel Cestino e propone di rimuoverne i file associati. Il file
+    pubblicato è lo ZIP universale per Apple Silicon e Intel, adatto a macOS
+    Mojave fino alle versioni più recenti. Per sistemi più vecchi esistono
+    versioni precedenti sul sito ufficiale.
+  en: >-
+    AppCleaner is a small free macOS utility that thoroughly uninstalls apps
+    you no longer need. Dragging an app into its window also finds the related
+    files scattered around the system, such as preferences, caches and support
+    data, and deletes them together with the app, so nothing is left behind
+    taking up space. With the SmartDelete feature it also notices when an app
+    is moved to the Trash and offers to remove its associated files. The
+    published file is the universal ZIP for Apple Silicon and Intel, suited to
+    macOS Mojave up to the latest releases. Older versions for older systems
+    are available on the official site.
+url: https://freemacsoft.net/appcleaner/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/appcleaner/appcleaner.png
+assets:
+  - platform: macos
+    arch: universal
+    format: ZIP
+    url: https://freemacsoft.net/downloads/AppCleaner_3.6.8.zip
