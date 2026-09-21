@@ -11,9 +11,9 @@ about:
     Spotify Connect per far suonare la musica su altoparlanti e altri
     dispositivi della rete senza interrompere l'ascolto. Si usa gratis con
     pubblicità oppure con Premium, che aggiunge ascolto offline, qualità
-    audio più alta e nessuna interruzione. Su Linux l'app è distribuita solo
-    tramite Snap, Flatpak o repository APT, senza un installer scaricabile,
-    per questo qui sono pubblicate solo le build Windows e macOS.
+    audio più alta e nessuna interruzione. Su Linux l'app si installa da Flathub
+    come Flatpak: il file pubblicato è il riferimento .flatpakref, che si apre
+    con il centro software o con flatpak install.
   en: >-
     Spotify is the streaming service that opens up a huge catalog of music,
     podcasts and audiobooks. The desktop app brings search and a library
@@ -21,9 +21,9 @@ about:
     Spotify Connect to play music on speakers and other devices on your
     network without interrupting playback. It is free with ads or paid with
     Premium, which adds offline listening, higher audio quality and no
-    interruptions. On Linux the app ships only through Snap, Flatpak or an
-    APT repository, with no downloadable installer, which is why only the
-    Windows and macOS builds are published here.
+    interruptions. On Linux the app installs from Flathub as a
+    Flatpak: the published file is the .flatpakref reference, which opens with
+    the software center or with flatpak install.
 url: https://www.spotify.com/download/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/spotify/spotify.png
 assets:
@@ -43,3 +43,7 @@ assets:
     arch: x64
     format: DMG
     url: https://download.scdn.co/Spotify.dmg
+  - platform: linux
+    arch: universal
+    format: FLATPAK
+    url: https://dl.flathub.org/repo/appstream/com.spotify.Client.flatpakref

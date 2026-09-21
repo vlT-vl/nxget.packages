@@ -1,0 +1,32 @@
+id: bazaar
+name: Bazaar
+publisher: The Bazaar Contributors
+category: Utility
+description: A fast and modern app store for Linux, focused on discovering and installing Flatpak apps.
+about:
+  it: >-
+    Bazaar è un app store veloce e moderno per Linux, pensato per scoprire e
+    installare app Flatpak e relativi componenti aggiuntivi, in particolare da
+    Flathub. Permette di mettere in coda più installazioni e continuare a
+    sfogliare, mostra con chiarezza i permessi di ogni app, consente di
+    accedere a Flathub per vedere e gestire i preferiti e supporta la ricerca
+    delle app direttamente da GNOME Shell. È software libero con licenza
+    GPL-3.0 o successiva e a sua volta si installa come Flatpak da Flathub: il
+    file pubblicato è il riferimento .flatpakref, che si apre con il centro
+    software o con flatpak install.
+  en: >-
+    Bazaar is a fast and modern app store for Linux, made for discovering and
+    installing Flatpak apps and add-ons, particularly from Flathub. It lets you
+    queue several installs and keep browsing, shows each app's permissions
+    clearly, lets you sign in to Flathub to view and manage favorites and
+    supports searching apps straight from GNOME Shell. It is free software
+    under GPL-3.0 or later and is itself installed as a Flatpak from Flathub:
+    the published file is the .flatpakref reference, which opens with the
+    software center or with flatpak install.
+url: https://usebazaar.org/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bazaar/bazaar.png
+assets:
+  - platform: linux
+    arch: universal
+    format: FLATPAK
+    url: https://dl.flathub.org/repo/appstream/io.github.kolunmi.Bazaar.flatpakref

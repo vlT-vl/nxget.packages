@@ -4,6 +4,35 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **`readme.md` riscritto e allineato allo stato reale del catalogo**: sezione
+  schema rifatta con tre manifest di esempio completi (app pubblica con
+  `repo`, app a voucher, app con link fissi incluso il Flatpak), tabella di
+  tutti i campi con obbligatorietà, tabella degli asset con i valori
+  ammessi (`platform`, `arch` `x64`/`arm64`/`universal`, `format` tra cui i
+  nuovi `PKG`, `BIN`, `FLATPAK`), dettagli su logo, `releasePrefix`,
+  `license`, `access`, link fissi con versione e Flatpak, e regole di
+  scrittura (nessun commento YAML, `description` senza `: `, nessuna versione
+  hardcoded nei `match`). Endpoint e schema del flusso aggiornati con
+  l'icona. Verificato con uno script una-tantum: i 3 esempi rispettano lo
+  schema documentato e tutti i 29 manifest reali lo rispettano (campi,
+  valori ammessi, `match` xor `url`, regole `vlT Software`/voucher, logo
+  raw corretto, icona 512×512 con alpha, indice allineato).
+- **Nuova convenzione per le app Linux distribuite solo come Flatpak**:
+  asset `platform: linux`, `arch: universal`, `format: FLATPAK` con `url` =
+  riferimento Flathub `https://dl.flathub.org/repo/appstream/<app-id>.flatpakref`
+  (file reale, contiene il remote Flathub e la chiave GPG; si apre dal centro
+  software o con `flatpak install`, e installa l'architettura della macchina,
+  per questo `universal`). Documentata in `readme.md`. Snap non ha un file
+  scaricabile equivalente e non viene pubblicato.
+- **`spotify` aggiornato con l'asset Linux Flatpak**
+  (`com.spotify.Client.flatpakref`, 200) e testo `about` riscritto: prima
+  dichiarava Linux non pubblicato.
+- **Aggiunto il manifest `bazaar`** (Utility, Bazaar, l'app store per Linux
+  focalizzato sui Flatpak, GPL-3.0-or-later): solo Linux, un asset
+  `FLATPAK` (`io.github.kolunmi.Bazaar.flatpakref`, 200). Il repo GitHub
+  è archiviato e spostato su GNOME GitLab, quindi nel manifest non c'è
+  `repo`. Icona 512×512 rasterizzata dall'SVG del repo (Flathub pubblica
+  solo 128 px). `v1/index.json` rigenerato, 29 app totali.
 - **Aggiunti i manifest `krita`, `appcleaner` e `mist`**:
   - `krita` (Multimedia, Krita Foundation): il repo GitHub `kde/krita` è un
     mirror di sola lettura con tag ma **nessuna release né asset**, quindi

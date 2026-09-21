@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T14:21:19.545Z",
+  "generated_at": "2026-09-21T15:29:57.325Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -38,6 +38,13 @@
       "publisher": "Audacity Team",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/audacity/audacity.yaml"
+    },
+    {
+      "id": "bazaar",
+      "name": "Bazaar",
+      "publisher": "The Bazaar Contributors",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bazaar/bazaar.yaml"
     },
     {
       "id": "bitwarden",
