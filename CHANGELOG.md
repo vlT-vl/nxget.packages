@@ -4,6 +4,18 @@ Tutte le implementazioni completate con successo, in ordine cronologico inverso.
 
 ## 2026-09-21
 
+- **`chatgpt` spostato alla distribuzione attuale di OpenAI**: il link
+  precedente serviva una build vecchia (`com.openai.chat` 1.2026.183, 9 luglio
+  2026), mentre l'app corrente, confermata dalla finestra "Informazioni su
+  ChatGPT" (Versione 26.915.31945, 18 settembre 2026), è la `ChatGPT.app`
+  `com.openai.codex` distribuita da `codex-app-prod`. Nuovo link stabile
+  `persistent.oaistatic.com/codex-app-prod/ChatGPT.dmg` (200, 645 MB),
+  verificato sul DMG scaricato: versione 26.915.31945, **solo arm64** (`lipo`),
+  macOS 13+; `version` aggiornata a `26.915.31945` (coincide con appcast e cask
+  Homebrew) e `arch` da `universal` a `arm64`. Icona rigenerata da quella
+  dell'app (nodo in grigio-blu scuro). La build Intel ha solo URL con la versione
+  nel nome (`ChatGPT-darwin-x64-<ver>.zip`), quindi non è pubblicata; il testo
+  `about` lo dice.
 - **Aggiunto il campo `version` alle 11 app senza `repo`** (1password,
   appcleaner, bazaar, chatgpt, claude, claudete, cogito, krita,
   microsoft-365, onyx, spotify), le uniche per cui il consumer non può

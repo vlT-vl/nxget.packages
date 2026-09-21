@@ -10,7 +10,9 @@ about:
     tempo reale e integrazioni dirette con editor di codice, terminale e altre app
     locali per leggere il contesto e proporre modifiche senza dover incollare testo
     a mano. Supporta cronologia sincronizzata con l'account web, custom GPT e
-    Canvas per documenti e codice collaborativo. Su Windows è distribuito
+    Canvas per documenti e codice collaborativo. Il file pubblicato è per Mac
+    Apple Silicon con macOS 13 o successivo; la build Intel ha solo link con la
+    versione nel nome e non è pubblicata qui. Su Windows è distribuito
     esclusivamente tramite Microsoft Store, non come installer scaricabile — per
     questo qui è pubblicata solo la build macOS.
   en: >-
@@ -19,14 +21,16 @@ about:
     voice mode, and direct integrations with code editors, the terminal and other
     local apps to read context and propose changes without manual copy-pasting.
     It supports history synced with the web account, custom GPTs and Canvas for
-    collaborative documents and code. On Windows it's distributed exclusively
-    through the Microsoft Store, not as a downloadable installer — which is why
-    only the macOS build is published here.
+    collaborative documents and code. The published file is for Apple Silicon
+    Macs running macOS 13 or later; the Intel build only has links with the
+    version in the file name and is not published here. On Windows it's
+    distributed exclusively through the Microsoft Store, not as a downloadable
+    installer — which is why only the macOS build is published here.
 url: https://chatgpt.com/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chatgpt/chatgpt.png
-version: '1.2026.183'
+version: '26.915.31945'
 assets:
   - platform: macos
     arch: arm64
     format: DMG
-    url: https://persistent.oaistatic.com/sidekick/public/ChatGPT.dmg
+    url: https://persistent.oaistatic.com/codex-app-prod/ChatGPT.dmg
