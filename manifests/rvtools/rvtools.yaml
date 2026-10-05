@@ -1,0 +1,35 @@
+id: rvtools
+name: RVTools
+publisher: Dell Inc.
+category: Utility
+description: A Windows utility that inventories and reports on VMware vSphere virtual environments.
+about:
+  it: >-
+    RVTools è un'utility Windows che si collega a vCenter o a un host
+    ESXi tramite VMware vSphere Management SDK e CIS REST API per
+    mostrare in un'unica interfaccia a schede l'inventario completo
+    dell'ambiente virtuale: VM, host, datastore, reti, snapshot,
+    configurazioni di CPU/memoria e molto altro. Permette di esportare
+    ogni scheda in formato Excel/CSV per audit, reportistica e script di
+    automazione, ed è uno degli strumenti più diffusi tra gli
+    amministratori VMware per avere una fotografia rapida dello stato
+    dell'infrastruttura. Nata come progetto di Robware, oggi è
+    distribuita da Dell.
+  en: >-
+    RVTools is a Windows utility that connects to vCenter or an ESXi
+    host via the VMware vSphere Management SDK and CIS REST API to show
+    a complete inventory of the virtual environment in one tabbed
+    interface: VMs, hosts, datastores, networks, snapshots, CPU/memory
+    configuration and much more. Every tab can be exported to Excel/CSV
+    for auditing, reporting and automation scripts, making it one of
+    the most widely used tools among VMware administrators for a quick
+    snapshot of infrastructure state. Originally a Robware project, it
+    is now distributed by Dell.
+url: https://www.dell.com/en-us/shop/vmware/sl/rvtools
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rvtools/rvtools.png
+version: '4.8.2'
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    url: https://downloads.dell.com/rvtools/RVTools4.8.2.msi

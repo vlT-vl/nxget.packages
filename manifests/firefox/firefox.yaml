@@ -1,0 +1,46 @@
+id: firefox
+name: Mozilla Firefox
+publisher: Mozilla Corporation
+category: Utility
+description: Mozilla's open source web browser, built on the independent Gecko engine with a focus on privacy.
+about:
+  it: >-
+    Firefox è il browser open source di Mozilla, costruito sul motore
+    indipendente Gecko invece che su Chromium. Punta sulla privacy con
+    Enhanced Tracking Protection attiva di default, blocco dei cookie di
+    terze parti e un account Firefox opzionale per sincronizzare cronologia,
+    segnalibri, password ed estensioni tra dispositivi. Supporta il catalogo
+    di estensioni su addons.mozilla.org, i container per isolare le sessioni
+    e Picture-in-Picture per i video. Su Linux si installa da Flathub come
+    Flatpak: il file pubblicato è il riferimento .flatpakref, che si apre con
+    il centro software o con flatpak install.
+  en: >-
+    Firefox is Mozilla's open source browser, built on the independent Gecko
+    engine instead of Chromium. It focuses on privacy with Enhanced Tracking
+    Protection on by default, third-party cookie blocking, and an optional
+    Firefox Account to sync history, bookmarks, passwords and extensions
+    across devices. It supports the extension catalog on addons.mozilla.org,
+    containers to isolate sessions, and Picture-in-Picture for video. On
+    Linux it installs from Flathub as a Flatpak: the published file is the
+    .flatpakref reference, which opens with the software center or with
+    flatpak install.
+url: https://www.mozilla.org/firefox/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/firefox/firefox.png
+version: '157.0'
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://download.mozilla.org/?product=firefox-latest-ssl&os=win64&lang=en-US
+  - platform: windows
+    arch: arm64
+    format: EXE
+    url: https://download.mozilla.org/?product=firefox-latest-ssl&os=win64-aarch64&lang=en-US
+  - platform: macos
+    arch: universal
+    format: DMG
+    url: https://download.mozilla.org/?product=firefox-latest-ssl&os=osx&lang=en-US
+  - platform: linux
+    arch: universal
+    format: FLATPAK
+    url: https://dl.flathub.org/repo/appstream/org.mozilla.firefox.flatpakref

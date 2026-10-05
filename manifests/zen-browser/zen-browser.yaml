@@ -1,0 +1,46 @@
+id: zen-browser
+name: Zen Browser
+publisher: Zen
+category: Utility
+description: A calm, Firefox-based browser with built-in workspaces, split view and a focus on privacy.
+about:
+  it: >-
+    Zen Browser è un browser basato su Firefox pensato per ridurre il
+    disordine: raggruppa le schede in spazi di lavoro separati, supporta la
+    visualizzazione divisa per più pagine affiancate e porta una barra
+    laterale e una command palette ispirate agli ambienti tiling. Eredita da
+    Firefox il motore Gecko, la privacy di base e la compatibilità con le
+    estensioni, aggiungendo temi e personalizzazioni della community. È
+    software libero con licenza MPL-2.0. Su Linux si installa da Flathub come
+    Flatpak: il file pubblicato è il riferimento .flatpakref, che si apre con
+    il centro software o con flatpak install.
+  en: >-
+    Zen Browser is a Firefox-based browser built to cut down on clutter: it
+    groups tabs into separate workspaces, supports split view for multiple
+    pages side by side, and brings a sidebar and command palette inspired by
+    tiling window managers. It inherits Firefox's Gecko engine, baseline
+    privacy and extension compatibility, adding community themes and
+    customization on top. It is free software under the MPL-2.0 license. On
+    Linux it installs from Flathub as a Flatpak: the published file is the
+    .flatpakref reference, which opens with the software center or with
+    flatpak install.
+url: https://zen-browser.app
+repo: https://github.com/zen-browser/desktop
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/zen-browser/zen-browser.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^zen\.installer\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: '^zen\.installer-arm64\.exe$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^zen\.macos-universal\.dmg$'
+  - platform: linux
+    arch: universal
+    format: FLATPAK
+    url: https://dl.flathub.org/repo/appstream/app.zen_browser.zen.flatpakref

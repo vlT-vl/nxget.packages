@@ -1,0 +1,52 @@
+id: onlyoffice
+name: ONLYOFFICE Desktop Editors
+publisher: ONLYOFFICE
+category: Productivity
+description: A free office suite for documents, spreadsheets, presentations and PDFs, compatible with Microsoft formats.
+about:
+  it: >-
+    ONLYOFFICE Desktop Editors è una suite per ufficio gratuita e open source
+    che riunisce editor di documenti, fogli di calcolo, presentazioni e
+    moduli/PDF in un'unica app, con compatibilità nativa con i formati
+    Microsoft Office (DOCX, XLSX, PPTX) mantenuta durante la modifica. Lavora
+    sia su file locali sia connessa a server ONLYOFFICE, Nextcloud o altri
+    servizi cloud per la co-editing in tempo reale con altre persone. Include
+    strumenti di revisione, commenti, firma digitale dei PDF e un pannello
+    plugin estendibile. Su Linux si installa da Flathub come Flatpak: il file
+    pubblicato è il riferimento .flatpakref, che si apre con il centro
+    software o con flatpak install.
+  en: >-
+    ONLYOFFICE Desktop Editors is a free, open source office suite that
+    brings document, spreadsheet, presentation and form/PDF editors together
+    in one app, with native compatibility for Microsoft Office formats (DOCX,
+    XLSX, PPTX) kept intact while editing. It works on local files or
+    connected to an ONLYOFFICE server, Nextcloud or other cloud services for
+    real-time co-editing with other people. It includes review tools,
+    comments, PDF digital signing and an extensible plugin panel. On Linux it
+    installs from Flathub as a Flatpak: the published file is the
+    .flatpakref reference, which opens with the software center or with
+    flatpak install.
+url: https://www.onlyoffice.com
+repo: https://github.com/ONLYOFFICE/DesktopEditors
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onlyoffice/onlyoffice.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^DesktopEditors_x64\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: '^DesktopEditors_arm64\.exe$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^ONLYOFFICE-x86_64\.dmg$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^ONLYOFFICE-arm\.dmg$'
+  - platform: linux
+    arch: universal
+    format: FLATPAK
+    url: https://dl.flathub.org/repo/appstream/org.onlyoffice.desktopeditors.flatpakref

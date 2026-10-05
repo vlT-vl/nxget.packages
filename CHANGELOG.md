@@ -2,6 +2,18 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-05
+
+- Aggiunti i manifest di: Zen Browser, ONLYOFFICE Desktop Editors, Wisp,
+  Purge, Google Chrome, Mozilla Firefox, RVTools — catalogo a 36 app.
+- Introdotta la convenzione di preferire il Flatpak ufficiale verificato
+  su Flathub come asset Linux, quando disponibile, invece di AppImage/deb
+  nativi.
+- Aggiunto il campo opzionale `osVersion` per gli asset macOS, per le app
+  che pubblicano build diverse per ogni major di macOS invece di un solo
+  file compatibile con tutte le versioni supportate. Applicato a OnyX
+  (Sonoma, Sequoia, Tahoe, Golden Gate).
+
 ## 2026-09-21
 
 - Aggiunto lo schema per le app a distribuzione riservata (`access:

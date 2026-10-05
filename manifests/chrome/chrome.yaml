@@ -1,0 +1,53 @@
+id: chrome
+name: Google Chrome
+publisher: Google LLC
+category: Utility
+description: Google's web browser, with sync, extensions and deep integration with Google services.
+about:
+  it: >-
+    Google Chrome è il browser di Google basato su Chromium, con
+    sincronizzazione di cronologia, password ed estensioni tra dispositivi
+    tramite account Google, un vasto catalogo di estensioni nel Chrome Web
+    Store e aggiornamenti automatici in background. Integra strumenti per
+    sviluppatori, traduzione automatica delle pagine, gestione dei profili
+    multipli e Google Password Manager. I file pubblicati sono gli installer
+    standalone offline ufficiali di Google: Chrome aggiorna versioni diverse
+    per piattaforma in momenti leggermente diversi, quindi ogni file riporta
+    la propria versione invece di un unico numero per l'app.
+  en: >-
+    Google Chrome is Google's Chromium-based browser, with history, password
+    and extension sync across devices through a Google account, a large
+    extension catalog in the Chrome Web Store, and automatic background
+    updates. It bundles developer tools, automatic page translation,
+    multiple profile management and Google Password Manager. The published
+    files are Google's official offline standalone installers: Chrome rolls
+    out different versions per platform at slightly different times, so each
+    file lists its own version instead of a single app-wide number.
+url: https://www.google.com/chrome/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chrome/chrome.png
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    url: https://dl.google.com/chrome/install/googlechromestandaloneenterprise64.msi
+    version: '155.0.8059.26'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    url: https://dl.google.com/chrome/install/googlechromestandaloneenterprise_arm64.msi
+    version: '155.0.8059.26'
+  - platform: macos
+    arch: universal
+    format: DMG
+    url: https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
+    version: '154.0.8037.98'
+  - platform: linux
+    arch: x64
+    format: DEB
+    url: https://dl.google.com/linux/direct/google-chrome-stable_current_amd64.deb
+    version: '154.0.8037.97'
+  - platform: linux
+    arch: arm64
+    format: DEB
+    url: https://dl.google.com/linux/direct/google-chrome-stable_current_arm64.deb
+    version: '154.0.8037.97'

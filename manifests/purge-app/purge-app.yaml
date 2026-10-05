@@ -1,0 +1,30 @@
+id: purge-app
+name: Purge
+publisher: Jithin Sabu
+category: Utility
+description: Free up a Mac by clearing app cache and leftover junk, open source and safe to the Trash.
+about:
+  it: >-
+    Purge è un'utility open source gratuita per liberare spazio su macOS:
+    individua e ripulisce la cache e i file residui accumulati dalle app nel
+    tempo, spostando tutto nel Cestino invece di cancellarlo subito, così
+    niente viene perso per errore. È pensata come alternativa semplice e
+    trasparente ai software di pulizia a pagamento, con codice sorgente
+    pubblico e nessuna funzione nascosta. Distribuita come app universale per
+    macOS, compatibile Apple Silicon e Intel.
+  en: >-
+    Purge is a free, open source utility for freeing up space on a Mac: it
+    finds and clears the cache and leftover files apps pile up over time,
+    moving everything to the Trash instead of deleting it outright, so
+    nothing is ever lost by mistake. It's meant as a simple, transparent
+    alternative to paid cleaning software, with public source code and no
+    hidden behavior. Distributed as a universal macOS app, compatible with
+    Apple Silicon and Intel.
+url: https://purgemac.com
+repo: https://github.com/jithin-sabu/purge-app
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/purge-app/purge-app.png
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^Purgev[\d.]+\.dmg$'

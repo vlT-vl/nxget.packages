@@ -10,23 +10,44 @@ about:
     di manutenzione integrati di macOS, pulisce cache di sistema/utente/browser e
     file temporanei, e offre decine di impostazioni nascoste per Finder, Dock,
     Safari e altre app Apple non esposte dalle Preferenze di Sistema. Ogni build è
-    compilata e certificata per una specifica versione major di macOS: bisogna
-    scaricare quella corrispondente al proprio sistema, non genericamente
-    "l'ultima" — qui è pubblicata solo la build più recente (Apple Silicon).
+    compilata e certificata per una specifica versione major di macOS e si rifiuta
+    di avviarsi su una major diversa: qui sono pubblicate le build per Sonoma (14),
+    Sequoia (15), Tahoe (26) e Golden Gate (27), ciascuna con la propria versione;
+    la build per Golden Gate è solo Apple Silicon, le altre tre sono universali.
   en: >-
     OnyX is a free macOS utility by Titanium Software that verifies the startup
     disk's file structure and permissions, runs macOS's built-in maintenance
     scripts, cleans system/user/browser caches and temporary files, and exposes
     dozens of hidden settings for Finder, Dock, Safari and other Apple apps not
     surfaced by System Settings. Each build is compiled and certified for one
-    specific macOS major version — you need the one matching your system, not
-    generically "the latest" — so only the newest build (Apple Silicon) is
-    published here.
+    specific macOS major version and refuses to launch on a different one: the
+    builds published here cover Sonoma (14), Sequoia (15), Tahoe (26) and Golden
+    Gate (27), each with its own version number; the Golden Gate build is Apple
+    Silicon only, the other three are universal.
 url: https://titanium-software.fr/en/onyx.html
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.png
-version: '5.1.0'
 assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    osVersion: '14'
+    url: https://www.titanium-software.fr/download/14/OnyX.dmg
+    version: '4.6.2'
+  - platform: macos
+    arch: universal
+    format: DMG
+    osVersion: '15'
+    url: https://www.titanium-software.fr/download/15/OnyX.dmg
+    version: '4.8.5'
+  - platform: macos
+    arch: universal
+    format: DMG
+    osVersion: '26'
+    url: https://www.titanium-software.fr/download/26/OnyX.dmg
+    version: '5.0.6'
   - platform: macos
     arch: arm64
     format: DMG
+    osVersion: '27'
     url: https://www.titanium-software.fr/download/27/OnyX.dmg
+    version: '5.1.0'

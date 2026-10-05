@@ -1,0 +1,33 @@
+id: wisp
+name: Wisp
+publisher: Phanith NY
+category: Utility
+description: A free, native macOS system monitor for CPU, memory, network and storage, with a menu bar dashboard.
+about:
+  it: >-
+    Wisp è un monitor di sistema nativo e gratuito per macOS: mostra attività
+    di CPU, memoria, rete e spazio di archiviazione, con una dashboard nella
+    menu bar e uno storico locale di CPU e memoria. Offre lettura per singola
+    app e dei sensori hardware dove macOS e l'hardware lo permettono, senza
+    account, pubblicità, telemetria o invio di dati di monitoraggio. Continua
+    a monitorare dalla menu bar anche chiudendo la finestra; richiede macOS 26
+    o successivo ed è distribuito come binario universale per Apple Silicon e
+    Intel. Il codice sorgente dell'app non è incluso in questo repository di
+    release ed è closed source.
+  en: >-
+    Wisp is a free, native macOS system monitor: it shows CPU, memory,
+    network and storage activity, with a menu bar dashboard and local CPU and
+    memory history. It offers per-app readings and hardware sensor data where
+    macOS and the hardware allow it, with no accounts, ads, telemetry or
+    monitoring data uploads. It keeps monitoring from the menu bar even after
+    its window is closed; it requires macOS 26 or later and ships as a
+    universal binary for Apple Silicon and Intel. The app's source code is
+    not included in this release repository and is closed source.
+url: https://github.com/PhanithNY/wisp-releases
+repo: https://github.com/PhanithNY/wisp-releases
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/wisp/wisp.png
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^Wisp\.dmg$'

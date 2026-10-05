@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R210926-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R051026-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -176,7 +176,7 @@ assets:
 | `license` | no | `{name, url}`, the license text a consumer can show in a modal. Always present for first-party apps |
 | `releasePrefix` | no | Tag prefix identifying this app's releases inside a multi-product repo |
 | `access` | no | `voucher` for apps whose download is gated by a voucher; absent means public |
-| `assets` | yes | List of downloadable files, one per platform/architecture |
+| `assets` | yes | List of downloadable files, one per platform/architecture (or per platform/architecture/`osVersion`, see below) |
 
 ### Assets
 
@@ -188,8 +188,9 @@ assets:
 | `match` | regular expression | Evaluated against the file names of `repo`'s latest release; no download URL is stored |
 | `url` | link | A fixed download link the consumer uses as published |
 | `version` | quoted string | Optional override of the app's `version` for this one asset, used only when its version differs from the others (e.g. a Flatpak that lags behind, or a platform with its own numbering) |
+| `osVersion` | quoted string | Optional, `macos` only: the exact macOS major version (e.g. `'15'`) this specific build is pinned to, for vendors who publish a genuinely different file per macOS major instead of one file that runs on every supported version |
 
-`match` and `url` are mutually exclusive on a single asset. A consumer must check for `url` first and use it verbatim; only fall back to fetching `repo`'s Releases and evaluating `match` when `url` is absent. Publish one file per platform and architecture, and never an asset that is not a plain download (symbols, checksums, delta updates, portable variants of an already listed installer).
+`match` and `url` are mutually exclusive on a single asset. A consumer must check for `url` first and use it verbatim; only fall back to fetching `repo`'s Releases and evaluating `match` when `url` is absent. Publish one file per platform and architecture, and never an asset that is not a plain download (symbols, checksums, delta updates, portable variants of an already listed installer). An app whose macOS builds are pinned per `osVersion` is the one case where several assets share the same `platform`/`arch`: one per macOS major the vendor actually publishes a distinct file for.
 
 ### Details
 
@@ -206,6 +207,8 @@ assets:
 **Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself and it has to be updated by hand on every vendor release; there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the manifest needs updating by hand on each release.
 
 **Flatpak-only Linux apps**: when an app's only Linux distribution is Flatpak (no downloadable installer), publish the Flathub reference file as the asset: `platform: linux`, `arch: universal`, `format: FLATPAK` and `url: https://dl.flathub.org/repo/appstream/<app-id>.flatpakref`. A `.flatpakref` is a small real file that the system's software center (or `flatpak install`) opens to add the Flathub remote and install the app for the machine's own architecture, so `universal` is accurate. The `about` text should say the Linux file is a Flatpak reference. Snap has no equivalent downloadable file and is not published.
+
+**`osVersion`**: most macOS apps ship one build that runs on every macOS version they support, so this field is absent almost everywhere. It exists for the rare vendor that compiles and certifies a genuinely different file per macOS major and has the app refuse to launch on a mismatched one (OnyX is the current example: a separate build for Sonoma, Sequoia, Tahoe and Golden Gate, with its own version and, on the oldest ones, a wider architecture than the newest). Use it only when verified against the vendor's own distribution, never to pre-emptively split an app that actually ships one cross-version build. When present, publish one asset per macOS major the vendor actually offers a distinct file for (up to the four current ones — Sonoma 14, Sequoia 15, Tahoe 26, Golden Gate 27 — whichever the vendor has), each with its own `url`/`match` and, if the versions differ, its own `version`.
 
 ### Writing rules
 
@@ -283,8 +286,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R210926 |
-| Updated | 21 September 2026 |
+| Build | R051026 |
+| Updated | 5 October 2026 |
 | API version | v1 |
 | Branch | `api` |
 

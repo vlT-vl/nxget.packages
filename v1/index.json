@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-09-21T15:29:57.325Z",
+  "generated_at": "2026-10-05T12:32:07.490Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -103,6 +103,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cogito/cogito.yaml"
     },
     {
+      "id": "chrome",
+      "name": "Google Chrome",
+      "publisher": "Google LLC",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chrome/chrome.yaml"
+    },
+    {
       "id": "keepassxc",
       "name": "KeePassXC",
       "publisher": "KeePassXC Team",
@@ -131,11 +138,25 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/mist/mist.yaml"
     },
     {
+      "id": "firefox",
+      "name": "Mozilla Firefox",
+      "publisher": "Mozilla Corporation",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/firefox/firefox.yaml"
+    },
+    {
       "id": "obs",
       "name": "OBS Studio",
       "publisher": "OBS Project",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/obs/obs.yaml"
+    },
+    {
+      "id": "onlyoffice",
+      "name": "ONLYOFFICE Desktop Editors",
+      "publisher": "ONLYOFFICE",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onlyoffice/onlyoffice.yaml"
     },
     {
       "id": "onyx",
@@ -159,6 +180,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-ui/pmxtools-ui.yaml"
     },
     {
+      "id": "purge-app",
+      "name": "Purge",
+      "publisher": "Jithin Sabu",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/purge-app/purge-app.yaml"
+    },
+    {
       "id": "qbittorrent",
       "name": "qBittorrent",
       "publisher": "qBittorrent Project",
@@ -171,6 +199,13 @@
       "publisher": "Ryan Hanson",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rectangle/rectangle.yaml"
+    },
+    {
+      "id": "rvtools",
+      "name": "RVTools",
+      "publisher": "Dell Inc.",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rvtools/rvtools.yaml"
     },
     {
       "id": "spotify",
@@ -206,6 +241,20 @@
       "publisher": "VSCodium (community)",
       "category": "Development",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscodium/vscodium.yaml"
+    },
+    {
+      "id": "wisp",
+      "name": "Wisp",
+      "publisher": "Phanith NY",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/wisp/wisp.yaml"
+    },
+    {
+      "id": "zen-browser",
+      "name": "Zen Browser",
+      "publisher": "Zen",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/zen-browser/zen-browser.yaml"
     }
   ]
 }
