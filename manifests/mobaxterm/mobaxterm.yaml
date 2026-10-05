@@ -1,0 +1,33 @@
+id: mobaxterm
+name: MobaXterm
+publisher: Mobatek
+category: Development
+description: An enhanced Windows terminal with an X11 server, SSH/RDP/VNC sessions and a Unix-like command set, all in one tabbed window.
+about:
+  it: >-
+    MobaXterm è un terminale avanzato per Windows che riunisce in un'unica
+    finestra a schede un server X11, sessioni SSH/RDP/VNC/Telnet/Mosh e una
+    toolbox di comandi stile Unix (bash, ls, grep, awk, rsync...) senza
+    bisogno di installare WSL o Cygwin a parte. Include un browser SFTP
+    integrato per ogni sessione SSH, un gestore di sessioni con cartelle, il
+    port forwarding grafico e un plugin system basato su Python. L'edizione
+    Home qui pubblicata è gratuita per uso personale, con alcune limitazioni
+    (numero di sessioni salvabili) rispetto alla versione Professional a
+    pagamento. Solo Windows.
+  en: >-
+    MobaXterm is an enhanced Windows terminal that brings an X11 server,
+    SSH/RDP/VNC/Telnet/Mosh sessions and a Unix-like command toolbox (bash,
+    ls, grep, awk, rsync...) together in one tabbed window, without needing
+    WSL or Cygwin installed separately. It includes a built-in SFTP browser
+    for every SSH session, a session manager with folders, graphical port
+    forwarding and a Python-based plugin system. The Home edition published
+    here is free for personal use, with some limitations (number of savable
+    sessions) compared to the paid Professional edition. Windows only.
+url: https://mobaxterm.mobatek.net/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/mobaxterm/mobaxterm.png
+version: '26.5'
+assets:
+  - platform: windows
+    arch: x64
+    format: ZIP
+    url: https://download.mobatek.net/2652026082870834/MobaXterm_Installer_v26.5.zip

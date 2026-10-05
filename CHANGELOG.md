@@ -13,6 +13,9 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
   che pubblicano build diverse per ogni major di macOS invece di un solo
   file compatibile con tutte le versioni supportate. Applicato a OnyX
   (Sonoma, Sequoia, Tahoe, Golden Gate).
+- Aggiunto il manifest di Coucou (solo macOS) — catalogo a 37 app.
+- Aggiunti i manifest di: Markd, Thaw, Visual Studio Code, Pulse Editor,
+  MobaXterm, FreeFlow, Dyad, PI Desktop — catalogo a 45 app.
 
 ## 2026-09-21
 

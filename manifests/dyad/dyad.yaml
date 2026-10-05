@@ -1,0 +1,40 @@
+id: dyad
+name: Dyad
+publisher: Will Chen
+category: Development
+description: A free, local, open source AI app builder — an alternative to v0, Lovable, Replit and Bolt that runs on your own machine.
+about:
+  it: >-
+    Dyad è un app builder AI gratuito, locale e open source: genera app web
+    a partire da un prompt, con il codice generato che resta sul proprio
+    computer invece che su un servizio cloud di terze parti, pensato come
+    alternativa a v0, Lovable, Replit e Bolt per chi vuole restare in
+    controllo del proprio codice e dei propri dati. Basato su Electron,
+    supporta diversi provider AI (incluse chiavi API proprie).
+  en: >-
+    Dyad is a free, local, open source AI app builder: it generates web apps
+    from a prompt, with the generated code staying on your own machine
+    instead of a third-party cloud service, built as an alternative to v0,
+    Lovable, Replit and Bolt for people who want to stay in control of their
+    code and data. Built with Electron, it supports multiple AI providers
+    (including bringing your own API keys).
+url: https://dyad.sh
+repo: https://github.com/dyad-sh/dyad
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/dyad/dyad.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^dyad-[\d.]+\.Setup\.exe$'
+  - platform: macos
+    arch: arm64
+    format: ZIP
+    match: '^dyad-darwin-arm64-[\d.]+\.zip$'
+  - platform: macos
+    arch: x64
+    format: ZIP
+    match: '^dyad-darwin-x64-[\d.]+\.zip$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^dyad_[\d.]+_x86_64\.AppImage$'

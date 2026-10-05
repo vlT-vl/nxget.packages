@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T12:32:07.490Z",
+  "generated_at": "2026-10-05T16:07:30.483Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -103,6 +103,27 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cogito/cogito.yaml"
     },
     {
+      "id": "coucou",
+      "name": "Coucou",
+      "publisher": "Louis Raille",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/coucou/coucou.yaml"
+    },
+    {
+      "id": "dyad",
+      "name": "Dyad",
+      "publisher": "Will Chen",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/dyad/dyad.yaml"
+    },
+    {
+      "id": "freeflow",
+      "name": "FreeFlow",
+      "publisher": "Zach Latta",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/freeflow/freeflow.yaml"
+    },
+    {
       "id": "chrome",
       "name": "Google Chrome",
       "publisher": "Google LLC",
@@ -124,6 +145,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/krita/krita.yaml"
     },
     {
+      "id": "markd",
+      "name": "Markd",
+      "publisher": "Saurabh",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/markd/markd.yaml"
+    },
+    {
       "id": "microsoft-365",
       "name": "Microsoft 365",
       "publisher": "Microsoft Corporation",
@@ -136,6 +164,13 @@
       "publisher": "Nindi Gill",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/mist/mist.yaml"
+    },
+    {
+      "id": "mobaxterm",
+      "name": "MobaXterm",
+      "publisher": "Mobatek",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/mobaxterm/mobaxterm.yaml"
     },
     {
       "id": "firefox",
@@ -166,6 +201,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.yaml"
     },
     {
+      "id": "pi-desktop",
+      "name": "PI Desktop",
+      "publisher": "Lan",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pi-desktop/pi-desktop.yaml"
+    },
+    {
       "id": "pmxtools-cli",
       "name": "pmxtools CLI",
       "publisher": "vlT",
@@ -178,6 +220,13 @@
       "publisher": "vlT",
       "category": "vlT Software",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-ui/pmxtools-ui.yaml"
+    },
+    {
+      "id": "pulse-editor",
+      "name": "Pulse Editor",
+      "publisher": "ClayPulse",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pulse-editor/pulse-editor.yaml"
     },
     {
       "id": "purge-app",
@@ -229,11 +278,25 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/tabby/tabby.yaml"
     },
     {
+      "id": "thaw",
+      "name": "Thaw",
+      "publisher": "Jordan Baird",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/thaw/thaw.yaml"
+    },
+    {
       "id": "unigetui",
       "name": "UniGetUI",
       "publisher": "Devolutions",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/unigetui/unigetui.yaml"
+    },
+    {
+      "id": "vscode",
+      "name": "Visual Studio Code",
+      "publisher": "Microsoft Corporation",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscode/vscode.yaml"
     },
     {
       "id": "vscodium",

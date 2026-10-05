@@ -1,0 +1,50 @@
+id: vscode
+name: Visual Studio Code
+publisher: Microsoft Corporation
+category: Development
+description: A free, extensible source code editor with built-in debugging, Git and a vast extension marketplace.
+about:
+  it: >-
+    Visual Studio Code è l'editor di codice gratuito di Microsoft, basato su
+    Electron: IntelliSense, debug integrato, controllo versione Git, un
+    terminale integrato e un marketplace con migliaia di estensioni per
+    linguaggi, framework e strumenti. Open source (licenza MIT per il codice
+    su GitHub; il build ufficiale distribuito da Microsoft aggiunge
+    telemetria e branding proprietari, stesso rapporto che VS Code ha sempre
+    avuto con `microsoft/vscode`). I link pubblicati sono gli alias "stable
+    latest" ufficiali di Microsoft (`update.code.visualstudio.com`): le
+    release GitHub del repository non portano gli installer.
+  en: >-
+    Visual Studio Code is Microsoft's free, Electron-based code editor:
+    IntelliSense, built-in debugging, Git version control, an integrated
+    terminal and a marketplace with thousands of extensions for languages,
+    frameworks and tools. Open source (MIT-licensed on GitHub; the official
+    build Microsoft distributes adds proprietary telemetry and branding, the
+    same relationship VS Code has always had with `microsoft/vscode`). The
+    published links are Microsoft's official "stable latest" aliases
+    (`update.code.visualstudio.com`): the GitHub repository's releases carry
+    no installers.
+url: https://code.visualstudio.com
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscode/vscode.png
+version: '1.140.0'
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://update.code.visualstudio.com/latest/win32-x64-user/stable
+  - platform: windows
+    arch: arm64
+    format: EXE
+    url: https://update.code.visualstudio.com/latest/win32-arm64-user/stable
+  - platform: macos
+    arch: universal
+    format: ZIP
+    url: https://update.code.visualstudio.com/latest/darwin-universal/stable
+  - platform: linux
+    arch: x64
+    format: DEB
+    url: https://update.code.visualstudio.com/latest/linux-deb-x64/stable
+  - platform: linux
+    arch: arm64
+    format: DEB
+    url: https://update.code.visualstudio.com/latest/linux-deb-arm64/stable

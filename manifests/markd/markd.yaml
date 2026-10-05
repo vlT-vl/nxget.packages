@@ -1,0 +1,30 @@
+id: markd
+name: Markd
+publisher: Saurabh
+category: Productivity
+description: A fast, local-first Markdown notes app for people who write, with no cloud account required.
+about:
+  it: >-
+    Markd è un'app di note in Markdown local-first, pensata per velocità,
+    privacy e piena proprietà dei propri file: le note restano sul disco,
+    senza bisogno di un account cloud. Scritta con Tauri. Distribuita
+    ufficialmente solo per macOS Apple Silicon (nessuna build Intel
+    pubblicata) e Linux x64 (AppImage); non esiste una build Windows.
+  en: >-
+    Markd is a local-first Markdown notes app built for speed, privacy and
+    full ownership of your files: notes stay on disk, no cloud account
+    needed. Built with Tauri. Officially distributed only for macOS Apple
+    Silicon (no Intel build published) and Linux x64 (AppImage); there is no
+    Windows build.
+url: https://usemarkd.app
+repo: https://github.com/starc007/markd
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/markd/markd.png
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^Markd_[\d.]+_aarch64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^Markd_[\d.]+_amd64\.AppImage$'

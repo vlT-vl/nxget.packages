@@ -1,0 +1,36 @@
+id: thaw
+name: Thaw
+publisher: Jordan Baird
+category: Utility
+description: An open source menu bar manager for macOS that hides, organizes and restyles menu bar icons.
+about:
+  it: >-
+    Thaw è un gestore open source della barra dei menu per macOS: nasconde le
+    icone non necessarie in una sezione sempre nascosta, le rivela con hover,
+    click, scroll, swipe o scorciatoia da tastiera, e permette di cercarle e
+    raggiungerle da tastiera. Supporta trigger che rivelano un'icona quando si
+    verifica una condizione (batteria, Focus attivo, rete Wi-Fi, uscita di
+    uno script), profili legati a display/Space/Focus e una modalità Zen che
+    nasconde tutto con un'azione sola. Permette anche di restylizzare la
+    barra (tinta, gradiente, ombra, bordo, forme personalizzate) per
+    light/dark mode e per Space. Pensato esplicitamente per macOS recente:
+    supporta solo macOS 26 e 27, nessuna versione precedente.
+  en: >-
+    Thaw is an open source menu bar manager for macOS: it hides icons you
+    don't need into an always-hidden section, reveals them with a hover,
+    click, scroll, swipe or hotkey, and lets you search and jump to any item
+    from the keyboard. It supports triggers that reveal an icon when a
+    condition is met (battery level, active Focus, Wi-Fi network, a script's
+    exit code), profiles bound to a display/Space/Focus, and a Zen mode that
+    conceals everything with one action. It also restyles the bar itself
+    (tint, gradient, shadow, border, custom shapes) per light/dark mode and
+    per Space. Built explicitly for modern macOS: only macOS 26 and 27 are
+    supported, no earlier version.
+url: https://github.com/thaw-app/Thaw
+repo: https://github.com/thaw-app/Thaw
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/thaw/thaw.png
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^Thaw\.dmg$'

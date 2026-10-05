@@ -1,0 +1,36 @@
+id: pulse-editor
+name: Pulse Editor
+publisher: ClayPulse
+category: Development
+description: A modular, AI-powered code editor where agents can build, ship and extend workflows.
+about:
+  it: >-
+    Pulse Editor è un editor di codice modulare e cross-platform pensato
+    perché agenti AI possano costruire, distribuire e far evolvere flussi di
+    lavoro ed estensioni direttamente dentro l'app, con collaborazione
+    federata tra app di terze parti. Basato su Electron. Progetto ancora in
+    fase beta pubblica (versione 0.x), publisher ClayPulse — nessun nome
+    reale individuale pubblicato per questo progetto collettivo.
+  en: >-
+    Pulse Editor is a modular, cross-platform code editor built for AI
+    agents to build, ship and evolve workflows and extensions directly
+    inside the app, with federated collaboration across third-party apps.
+    Built with Electron. Still in public beta (0.x version), published by
+    ClayPulse — no individual real name is published for this collective
+    project.
+url: https://github.com/ClayPulse/pulse-editor
+repo: https://github.com/ClayPulse/pulse-editor
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pulse-editor/pulse-editor.png
+assets:
+  - platform: windows
+    arch: x64
+    format: ZIP
+    match: '^windows-x64\.zip$'
+  - platform: macos
+    arch: arm64
+    format: ZIP
+    match: '^macos-arm64\.zip$'
+  - platform: linux
+    arch: x64
+    format: ZIP
+    match: '^linux-x64\.zip$'

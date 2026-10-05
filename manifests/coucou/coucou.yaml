@@ -1,0 +1,38 @@
+id: coucou
+name: Coucou
+publisher: Louis Raille
+category: Development
+description: A tiny notch companion that watches your AI coding agent sessions and lets you approve permissions without switching windows.
+about:
+  it: >-
+    Coucou è un piccolo compagno open source che vive nel notch del Mac (o in
+    cima allo schermo su Windows e Linux) e tiene d'occhio le sessioni dei
+    coding agent come Claude Code, Codex, Cursor, Gemini CLI e Antigravity.
+    Permette di approvare i permessi, seguire cosa sta facendo l'agente,
+    trascinare un file o aprire una chat con Claude senza lasciare la finestra
+    su cui si sta lavorando. Scritto in Swift/SwiftUI nativo per macOS;
+    licenza MIT. Il progetto dichiara anche build per Windows e Linux, ma solo
+    quella macOS ha una release stabile e aggiornata regolarmente al momento
+    della pubblicazione di questo manifest: una release Linux esiste ma è
+    ferma a una versione molto più vecchia di quella macOS, e non esiste
+    ancora una release Windows scaricabile.
+  en: >-
+    Coucou is a tiny open source companion that lives in the Mac's notch (or
+    at the top of the screen on Windows and Linux) and keeps an eye on coding
+    agent sessions such as Claude Code, Codex, Cursor, Gemini CLI and
+    Antigravity. It lets you approve permissions, watch what the agent is
+    doing, drop a file in or open a chat with Claude without leaving the
+    window you're working in. Written in native Swift/SwiftUI for macOS;
+    MIT-licensed. The project also advertises Windows and Linux builds, but
+    only the macOS one has a stable release kept up to date as of this
+    manifest: a Linux release exists but is stuck on a much older version
+    than macOS, and there is no downloadable Windows release yet.
+url: https://louis-cfm.github.io/coucou/
+repo: https://github.com/Louis-CFM/coucou
+releasePrefix: v
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/coucou/coucou.png
+assets:
+  - platform: macos
+    arch: universal
+    format: ZIP
+    match: '^Coucou\.zip$'

@@ -1,0 +1,24 @@
+id: freeflow
+name: FreeFlow
+publisher: Zach Latta
+category: Productivity
+description: A free, fast voice dictation app for macOS that transcribes speech to text anywhere you type.
+about:
+  it: >-
+    FreeFlow è un'app di dettatura vocale gratuita per macOS, pensata come
+    alternativa libera e veloce a Wispr Flow: trascrive la voce in testo in
+    qualunque campo di testo del sistema, con una scorciatoia globale per
+    avviare/fermare la registrazione. Open source, licenza MIT.
+  en: >-
+    FreeFlow is a free, fast voice dictation app for macOS, built as an open
+    alternative to Wispr Flow: it transcribes speech into text in any text
+    field on the system, with a global hotkey to start/stop recording. Open
+    source, MIT-licensed.
+url: https://freeflow.zachlatta.com
+repo: https://github.com/zachlatta/freeflow
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/freeflow/freeflow.png
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^FreeFlow\.dmg$'

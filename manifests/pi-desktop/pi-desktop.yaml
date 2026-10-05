@@ -1,0 +1,43 @@
+id: pi-desktop
+name: PI Desktop
+publisher: Lan
+category: Development
+description: A local-first desktop shell for AI coding agents, built on Electron with a Rust host core and user-installable plugins.
+about:
+  it: >-
+    PI Desktop è un guscio desktop local-first per agenti AI di coding:
+    combina un frontend Electron con un core host scritto in Rust e un "pi
+    Agent Harness" che esegue gli agenti, estendibile con plugin
+    installabili dall'utente. Pensato per chi vuole eseguire e orchestrare
+    agenti di coding sulla propria macchina invece che tramite un servizio
+    cloud di terze parti.
+  en: >-
+    PI Desktop is a local-first desktop shell for AI coding agents: it
+    combines an Electron frontend with a Rust host core and a "pi Agent
+    Harness" that runs the agents, extensible with user-installable plugins.
+    Built for people who want to run and orchestrate coding agents on their
+    own machine instead of through a third-party cloud service.
+url: https://pi-docs.aiuo.net
+repo: https://github.com/vastsa/PI-Desktop
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pi-desktop/pi-desktop.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^PI-Desktop-Setup-[\d.]+\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^PI-Desktop-[\d.]+-arm64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^PI-Desktop-[\d.]+-x64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^PI-Desktop-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^PI-Desktop-[\d.]+-linux-arm64\.AppImage$'
