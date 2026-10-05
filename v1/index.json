@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T16:07:30.483Z",
+  "generated_at": "2026-10-05T16:17:33.597Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -293,7 +293,7 @@
     },
     {
       "id": "vscode",
-      "name": "Visual Studio Code",
+      "name": "VS Code",
       "publisher": "Microsoft Corporation",
       "category": "Development",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscode/vscode.yaml"
