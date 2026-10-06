@@ -1,0 +1,46 @@
+id: pulsar
+name: Pulsar
+publisher: Pulsar Edit
+category: Development
+description: A community-led, hyper-hackable text editor forked from Atom and built on Electron.
+about:
+  it: >-
+    Pulsar è un editor di testo nato come fork di Atom dopo la sua
+    dismissione da parte di GitHub, portato avanti da una comunità
+    indipendente. È costruito su Electron ed è pensato per essere
+    profondamente personalizzabile tramite pacchetti e temi, restando però
+    semplice da usare con la configurazione di default. Supporta ancora le
+    estensioni scritte per Atom. Su Linux non pubblica un Flatpak ufficiale
+    verificato, quindi qui viene distribuito il pacchetto .deb nativo.
+  en: >-
+    Pulsar is a text editor born as a fork of Atom after GitHub discontinued
+    it, carried forward by an independent community. It is built on
+    Electron and designed to be deeply customizable through packages and
+    themes, while staying approachable with its default configuration. It
+    still supports packages written for Atom. On Linux it does not publish
+    an official verified Flatpak, so this registry distributes the native
+    .deb package.
+url: https://pulsar-edit.dev/
+repo: https://github.com/pulsar-edit/pulsar
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pulsar/pulsar.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Windows\.Pulsar\.Setup\.[\d.]+\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^Silicon\.Mac\.Pulsar-[\d.]+-arm64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^Intel\.Mac\.Pulsar-[\d.]+\.dmg$'
+  - platform: linux
+    arch: x64
+    format: DEB
+    match: '^Linux\.pulsar_[\d.]+_amd64\.deb$'
+  - platform: linux
+    arch: arm64
+    format: DEB
+    match: '^ARM\.Linux\.pulsar_[\d.]+_arm64\.deb$'

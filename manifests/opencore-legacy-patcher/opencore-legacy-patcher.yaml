@@ -1,5 +1,5 @@
 id: opencore-legacy-patcher
-name: OpenCore Legacy Patcher
+name: OpenCore
 publisher: Dortania
 category: Utility
 description: A patcher that extends official macOS support to Macs as old as 2007, built on Acidanthera's OpenCorePkg.
