@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T14:05:03.182Z",
+  "generated_at": "2026-10-06T15:00:18.360Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -248,6 +248,13 @@
       "publisher": "Titanium Software",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.yaml"
+    },
+    {
+      "id": "opencore-legacy-patcher",
+      "name": "OpenCore Legacy Patcher",
+      "publisher": "Dortania",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/opencore-legacy-patcher/opencore-legacy-patcher.yaml"
     },
     {
       "id": "open-design",

@@ -1,0 +1,34 @@
+id: opencore-legacy-patcher
+name: OpenCore Legacy Patcher
+publisher: Dortania
+category: Utility
+description: A patcher that extends official macOS support to Macs as old as 2007, built on Acidanthera's OpenCorePkg.
+about:
+  it: >-
+    OpenCore Legacy Patcher è un tool basato su Python che usa OpenCorePkg e
+    Lilu di Acidanthera per installare ed eseguire versioni recenti di
+    macOS, da Big Sur in su, su Mac che Apple non supporta più ufficialmente,
+    fino a modelli del 2007. Sblocca anche funzioni come Sidecar e AirPlay
+    to Mac su Mac supportati nativamente, abilita l'accelerazione grafica
+    per GPU Metal e non Metal, e mantiene attivi System Integrity
+    Protection, FileVault 2 e Secure Boot dov'è possibile. È offerto senza
+    garanzie: supporta solo installazioni pulite o aggiornamenti, non Mac
+    già patchati con altri strumenti.
+  en: >-
+    OpenCore Legacy Patcher is a Python-based tool built on Acidanthera's
+    OpenCorePkg and Lilu that installs and runs recent macOS versions, from
+    Big Sur onward, on Macs Apple no longer officially supports, as old as
+    2007 models. It also unlocks features like Sidecar and AirPlay to Mac
+    on natively supported Macs, enables graphics acceleration for both
+    Metal and non-Metal GPUs, and keeps System Integrity Protection,
+    FileVault 2 and Secure Boot working where possible. Offered as-is: it
+    only supports clean installs or upgrades, not Macs already patched with
+    other tools.
+url: https://dortania.github.io/OpenCore-Legacy-Patcher/
+repo: https://github.com/dortania/OpenCore-Legacy-Patcher
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/opencore-legacy-patcher/opencore-legacy-patcher.png
+assets:
+  - platform: macos
+    arch: universal
+    format: PKG
+    match: '^OpenCore-Patcher\.pkg$'
