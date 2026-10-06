@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-05T16:18:11.241Z",
+  "generated_at": "2026-10-06T14:05:03.182Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -10,6 +10,13 @@
       "publisher": "1Password",
       "category": "Security",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/1password/1password.yaml"
+    },
+    {
+      "id": "affinity",
+      "name": "Affinity",
+      "publisher": "Canva",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/affinity/affinity.yaml"
     },
     {
       "id": "anyscp",
@@ -52,6 +59,13 @@
       "publisher": "Bitwarden Inc.",
       "category": "Security",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bitwarden/bitwarden.yaml"
+    },
+    {
+      "id": "blender",
+      "name": "Blender",
+      "publisher": "Blender Foundation",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/blender/blender.yaml"
     },
     {
       "id": "brewui",
@@ -124,11 +138,39 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/freeflow/freeflow.yaml"
     },
     {
+      "id": "genex",
+      "name": "Genex",
+      "publisher": "Genex Games",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/genex/genex.yaml"
+    },
+    {
+      "id": "gimp",
+      "name": "GIMP",
+      "publisher": "The GIMP team",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/gimp/gimp.yaml"
+    },
+    {
+      "id": "godot",
+      "name": "Godot Engine",
+      "publisher": "Godot Engine Community",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/godot/godot.yaml"
+    },
+    {
       "id": "chrome",
       "name": "Google Chrome",
       "publisher": "Google LLC",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chrome/chrome.yaml"
+    },
+    {
+      "id": "heymac",
+      "name": "Hey Mac",
+      "publisher": "Harshit Maurya",
+      "category": "Security",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/heymac/heymac.yaml"
     },
     {
       "id": "keepassxc",
@@ -143,6 +185,13 @@
       "publisher": "Krita Foundation",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/krita/krita.yaml"
+    },
+    {
+      "id": "macsai",
+      "name": "Mac Sai",
+      "publisher": "Iliya Mirzaei",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/macsai/macsai.yaml"
     },
     {
       "id": "markd",
@@ -199,6 +248,13 @@
       "publisher": "Titanium Software",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/onyx/onyx.yaml"
+    },
+    {
+      "id": "open-design",
+      "name": "OpenDesign",
+      "publisher": "OpenDesign",
+      "category": "Development",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/open-design/open-design.yaml"
     },
     {
       "id": "pi-desktop",
@@ -290,6 +346,13 @@
       "publisher": "Devolutions",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/unigetui/unigetui.yaml"
+    },
+    {
+      "id": "vorssaint",
+      "name": "Vorssaint",
+      "publisher": "Vorssaint",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vorssaint/vorssaint.yaml"
     },
     {
       "id": "vscode",

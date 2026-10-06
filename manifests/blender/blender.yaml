@@ -1,0 +1,47 @@
+id: blender
+name: Blender
+publisher: Blender Foundation
+category: Multimedia
+description: A free and open-source 3D creation suite for modeling, sculpting, animation, simulation, rendering and video editing.
+about:
+  it: >-
+    Blender è una suite 3D gratuita e open source che copre l'intera
+    pipeline: modellazione, sculpting, rigging, animazione, simulazione
+    fisica, rendering (con i motori Eevee e Cycles), video editing e
+    compositing, oltre a un editor di script Python per estendere ogni
+    funzione. È sviluppato dalla comunità sotto l'egida della Blender
+    Foundation, con licenza GPL. I file pubblicati qui sono gli installer
+    per Windows (Intel/AMD e ARM) e il disco immagine per macOS Apple
+    Silicon; dalla serie 5.x Blender non pubblica più una build nativa per
+    Mac Intel. Su Linux Blender non distribuisce né un pacchetto .deb né un
+    Flatpak ufficiale verificato (solo un archivio .tar.xz e lo Snap
+    Store), quindi questo registro non pubblica una build Linux per questa
+    app.
+  en: >-
+    Blender is a free and open-source 3D creation suite covering the whole
+    pipeline: modeling, sculpting, rigging, animation, physics simulation,
+    rendering (with the Eevee and Cycles engines), video editing and
+    compositing, plus a Python scripting editor to extend every feature. It
+    is developed by the community under the Blender Foundation, under the
+    GPL license. The files published here are the Windows installers
+    (Intel/AMD and ARM) and the macOS Apple Silicon disk image; as of the
+    5.x series Blender no longer publishes a native Intel Mac build. On
+    Linux Blender ships neither a .deb package nor an official verified
+    Flatpak (only a .tar.xz archive and the Snap Store), so this registry
+    does not publish a Linux build for this app.
+url: https://www.blender.org/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/blender/blender.png
+version: '5.2.2'
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.2-windows-x64.msi
+  - platform: windows
+    arch: arm64
+    format: MSI
+    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.2-windows-arm64.msi
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.2-macos-arm64.dmg

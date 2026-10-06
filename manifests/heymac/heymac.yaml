@@ -1,0 +1,25 @@
+id: heymac
+name: Hey Mac
+publisher: Harshit Maurya
+category: Security
+description: Face unlock for the Mac lock screen and selected apps, fully on-device, built with Swift and Core ML.
+about:
+  it: >-
+    Hey Mac porta lo sblocco col volto, tipico di iOS, al login screen di
+    macOS e permette di proteggere con lo stesso riconoscimento anche
+    singole app scelte dall'utente. Il riconoscimento gira interamente in
+    locale con Core ML, senza inviare immagini o dati biometrici altrove.
+    Richiede un Mac con chip Apple Silicon.
+  en: >-
+    Hey Mac brings iOS-style face unlock to the macOS login screen and lets
+    you gate chosen individual apps behind the same recognition. Face
+    recognition runs entirely on-device with Core ML, with no images or
+    biometric data ever sent anywhere. Requires a Mac with Apple Silicon.
+url: https://github.com/iharshitmaurya/HeyMac
+repo: https://github.com/iharshitmaurya/HeyMac
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/heymac/heymac.png
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^HeyMac-[\d.]+\.dmg$'

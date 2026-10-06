@@ -1,0 +1,42 @@
+id: affinity
+name: Affinity
+publisher: Canva
+category: Multimedia
+description: Canva's unified, free desktop app for pixel, vector and page-layout design, successor to Affinity Photo, Designer and Publisher.
+about:
+  it: >-
+    Affinity è l'app desktop di Canva che unifica in un solo programma gli
+    strumenti un tempo divisi tra Affinity Photo, Designer e Publisher:
+    editing pixel, disegno vettoriale e impaginazione, con cambio di
+    modalità (persona) senza riaprire o esportare il file. È gratuita per le
+    funzioni principali con un account Canva, senza bisogno di
+    abbonamento. Per Windows è pubblicata anche una build "Enterprise" EXE,
+    pensata per la distribuzione IT accanto alla versione MSIX da Microsoft
+    Store: qui viene pubblicata quella EXE perché è un installer classico,
+    compatibile con lo schema di questo registro. Non è disponibile per
+    Linux.
+  en: >-
+    Affinity is Canva's desktop app that unifies the tools once split across
+    Affinity Photo, Designer and Publisher: pixel editing, vector drawing
+    and page layout, switching mode (persona) without reopening or
+    exporting the file. The core tools are free with a Canva account, no
+    subscription required. For Windows, Canva also publishes an
+    "Enterprise" EXE build meant for IT deployment alongside the MSIX build
+    from the Microsoft Store: this registry publishes that EXE build since
+    it is a plain installer that fits this schema. Not available for Linux.
+url: https://www.affinity.studio/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/affinity/affinity.png
+version: '3.3.0.4850'
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://downloads.affinity.studio/Affinity%20x64.exe
+  - platform: windows
+    arch: arm64
+    format: EXE
+    url: https://downloads.affinity.studio/Affinity%20arm64.exe
+  - platform: macos
+    arch: universal
+    format: DMG
+    url: https://downloads.affinity.studio/Affinity.dmg

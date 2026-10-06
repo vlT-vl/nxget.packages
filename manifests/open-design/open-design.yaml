@@ -1,0 +1,38 @@
+id: open-design
+name: OpenDesign
+publisher: OpenDesign
+category: Development
+description: A local-first desktop app that turns a coding agent into a design engine, producing real HTML, PDF, PPTX and video files.
+about:
+  it: >-
+    OpenDesign è un'app desktop local-first, open source, che collega il
+    coding agent già installato (Claude Code, Codex, Cursor e altri tramite
+    BYOK) a un motore di design: da un brief genera prototipi, landing page,
+    dashboard, slide, immagini e video come file veri, esportabili in
+    HTML, PDF, PPTX o MP4, non come semplici screenshot. Include oltre 100
+    skill funzionali, un catalogo di template di rendering e più di 150
+    design system pronti all'uso. Licenza Apache 2.0.
+  en: >-
+    OpenDesign is a local-first, open-source desktop app that turns the
+    coding agent you already have installed (Claude Code, Codex, Cursor and
+    others via BYOK) into a design engine: from a brief it produces
+    prototypes, landing pages, dashboards, slides, images and video as real
+    files, exportable to HTML, PDF, PPTX or MP4, not just screenshots. It
+    ships with 100+ functional skills, a rendering-template catalog and
+    150+ ready-to-use design systems. Apache 2.0 licensed.
+url: https://open-design.ai/
+repo: https://github.com/nexu-io/open-design
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/open-design/open-design.png
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: 'open-design-[\d.]+-win-x64-setup\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: 'open-design-[\d.]+-mac-arm64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: 'open-design-[\d.]+-mac-x64\.dmg$'

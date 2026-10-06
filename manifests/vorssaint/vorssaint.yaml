@@ -1,0 +1,29 @@
+id: vorssaint
+name: Vorssaint
+publisher: Vorssaint
+category: Utility
+description: A free, open-source menu bar toolkit bundling a volume mixer, system monitor, window manager and more into one Mac app.
+about:
+  it: >-
+    Vorssaint è un'utility gratuita e open source che raccoglie in un'unica
+    icona nella barra dei menu un mixer del volume per app, un monitor di
+    sistema con temperature e grafici, un app switcher con anteprime, lo
+    snap delle finestre, l'anteprima del Dock, la cronologia degli appunti,
+    gli snippet di testo e un disinstallatore. Ogni funzione si installa o
+    rimuove singolarmente e non richiede account né abbonamento. Richiede un
+    Mac con chip Apple Silicon.
+  en: >-
+    Vorssaint is a free, open-source utility that gathers a per-app volume
+    mixer, a system monitor with temperatures and graphs, an app switcher
+    with live previews, window snapping, Dock preview, clipboard history,
+    text snippets and an uninstaller behind a single menu bar icon. Each
+    feature installs or uninstalls on its own and needs no account or
+    subscription. Requires a Mac with Apple Silicon.
+url: https://vorssaint.com
+repo: https://github.com/vorssaint/vorssaint-utils
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vorssaint/vorssaint.png
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: 'Vorssaint-[\d.]+\.dmg$'

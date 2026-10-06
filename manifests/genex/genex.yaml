@@ -1,0 +1,36 @@
+id: genex
+name: Genex
+publisher: Genex Games
+category: Development
+description: A desktop app for building games with AI, mixing coding-agent models across a main agent, workers and reviewers.
+about:
+  it: >-
+    Genex è un'app desktop per lo sviluppo di videogiochi assistito da AI:
+    usa l'abbonamento Claude Code o ChatGPT già posseduto, oppure modelli
+    locali, e coordina più agenti (principale, worker, revisori) mescolando
+    modelli diversi sullo stesso progetto. Include un plugin per Blender per
+    creare asset 3D in locale, l'integrazione con servizi come Meshy, Tripo
+    ed ElevenLabs tramite un router di strumenti, ed esporta ovunque o
+    pubblica direttamente sul web. Licenza MIT. Al momento gira su macOS
+    Apple Silicon e Linux a 64 bit; una build per Windows è in arrivo.
+  en: >-
+    Genex is a desktop app for AI-assisted game development: it uses an
+    existing Claude Code or ChatGPT subscription, or local models, and
+    coordinates multiple agents (a main agent, workers and reviewers) mixing
+    different models on the same project. It includes a Blender plugin for
+    local 3D asset creation, integrations with services like Meshy, Tripo
+    and ElevenLabs through a tools router, and exports anywhere or publishes
+    straight to the web. MIT licensed. It currently runs on Apple Silicon
+    macOS and 64-bit Linux; a Windows build is coming.
+url: https://genex.games
+repo: https://github.com/genex-games/genex-desktop
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/genex/genex.png
+assets:
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^Genex\.dmg$'
+  - platform: linux
+    arch: x64
+    format: DEB
+    match: 'genex_[\d.]+_amd64\.deb$'

@@ -1,0 +1,32 @@
+id: macsai
+name: Mac Sai
+publisher: Iliya Mirzaei
+category: Utility
+description: An open-source, Apple-notarized Mac cleaner, optimizer and malware scanner built with Swift and SwiftUI.
+about:
+  it: >-
+    Mac Sai è un cleaner, ottimizzatore e scanner anti-malware per macOS,
+    open source e notarizzato da Apple, pensato come alternativa gratuita a
+    CleanMyMac. Trova ed elimina file di sistema inutili (cache, log, file
+    di lingua, versioni di documenti, residui di utenti cancellati), assottiglia
+    i binari universali con lipo, disinstalla le app rimuovendo ogni file
+    associato, gestisce estensioni e pannelli di preferenze di terze parti e
+    controlla gli aggiornamenti tramite i feed Sparkle delle app installate.
+    Nessun abbonamento, nessuna funzione a pagamento.
+  en: >-
+    Mac Sai is an open-source, Apple-notarized cleaner, optimizer and
+    malware scanner for macOS, built as a free alternative to CleanMyMac. It
+    finds and removes unneeded system files (caches, logs, language files,
+    document versions, leftovers from deleted users), thins universal
+    binaries with lipo, uninstalls apps along with every associated file,
+    manages third-party extensions and preference panes, and checks for
+    updates through installed apps' own Sparkle feeds. No subscription, no
+    paid tier.
+url: https://github.com/iliyami/MacSai
+repo: https://github.com/iliyami/MacSai
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/macsai/macsai.png
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: 'MacSai-[\d.]+\.dmg$'

@@ -1,0 +1,48 @@
+id: godot
+name: Godot Engine
+publisher: Godot Engine Community
+category: Development
+description: A free and open-source 2D and 3D game engine with a unified editor and no royalties.
+about:
+  it: >-
+    Godot è un motore di gioco gratuito e open source per progetti 2D e 3D,
+    con un editor unificato, un linguaggio proprio (GDScript) oltre al
+    supporto per C# e C++, e l'esportazione verso desktop, mobile e web senza
+    royalty né licenze a pagamento. Lo sviluppo è interamente guidato dalla
+    comunità, sotto l'egida della Godot Foundation no-profit. I file
+    pubblicati qui sono la build standard (non Mono/C#) per Windows
+    (Intel/AMD e ARM), il disco immagine universale per macOS e gli archivi
+    per Linux a 64 bit (x86_64 e ARM64).
+  en: >-
+    Godot is a free and open-source game engine for 2D and 3D projects, with
+    a unified editor, its own scripting language (GDScript) alongside C# and
+    C++ support, and export to desktop, mobile and web with no royalties or
+    paid licenses. Development is fully community-driven, under the
+    non-profit Godot Foundation. The files published here are the standard
+    (non-Mono/C#) build for Windows (Intel/AMD and ARM), the universal macOS
+    disk image and the Linux 64-bit archives (x86_64 and ARM64).
+url: https://godotengine.org/
+repo: https://github.com/godotengine/godot
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/godot/godot.png
+releasePrefix: '4.'
+assets:
+  - platform: windows
+    arch: x64
+    format: ZIP
+    match: 'Godot_v[\d.]+-stable_win64\.exe\.zip$'
+  - platform: windows
+    arch: arm64
+    format: ZIP
+    match: 'Godot_v[\d.]+-stable_windows_arm64\.exe\.zip$'
+  - platform: macos
+    arch: universal
+    format: ZIP
+    match: 'Godot_v[\d.]+-stable_macos\.universal\.zip$'
+  - platform: linux
+    arch: x64
+    format: ZIP
+    match: 'Godot_v[\d.]+-stable_linux\.x86_64\.zip$'
+  - platform: linux
+    arch: arm64
+    format: ZIP
+    match: 'Godot_v[\d.]+-stable_linux\.arm64\.zip$'

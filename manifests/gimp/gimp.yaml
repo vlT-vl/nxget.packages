@@ -1,0 +1,45 @@
+id: gimp
+name: GIMP
+publisher: The GIMP team
+category: Multimedia
+description: A free and open-source raster graphics editor for photo retouching, image composition and image authoring.
+about:
+  it: >-
+    GIMP è un editor di immagini gratuito e open source, usato per il ritocco
+    fotografico, la composizione e la creazione di illustrazioni. Offre
+    strumenti di selezione e pittura avanzati, un sistema di livelli e maschere,
+    centinaia di filtri ed effetti, gestione del colore professionale e
+    supporto agli script in Python e Script-Fu per automatizzare operazioni
+    ripetitive. Il progetto è sviluppato dalla comunità GIMP e il codice
+    sorgente vive su GitLab; i file pubblicati qui sono l'installer per
+    Windows, i due dischi immagine per macOS (Apple Silicon e Intel) e, per
+    Linux, il riferimento Flatpak ufficiale su Flathub.
+  en: >-
+    GIMP is a free and open-source image editor used for photo retouching,
+    image composition and illustration. It offers advanced selection and
+    painting tools, a layer and mask system, hundreds of filters and effects,
+    professional color management and Python/Script-Fu scripting to automate
+    repetitive work. The project is developed by the GIMP community and its
+    source lives on GitLab; the files published here are the Windows
+    installer, the two macOS disk images (Apple Silicon and Intel) and, for
+    Linux, the official Flatpak reference on Flathub.
+url: https://www.gimp.org/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/gimp/gimp.png
+version: '3.2.6'
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.6-setup.exe
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.6-arm64.dmg
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.6-x86_64.dmg
+  - platform: linux
+    arch: universal
+    format: FLATPAK
+    url: https://dl.flathub.org/repo/appstream/org.gimp.GIMP.flatpakref
