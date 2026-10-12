@@ -1,0 +1,49 @@
+id: revpdf
+name: RevPDF
+publisher: Pawandeep Singh
+category: Productivity
+description: A fast, native and privacy-focused offline PDF editor with split, merge, compress and image export tools.
+about:
+  it: >-
+    RevPDF è un editor PDF nativo, veloce e rispettoso della privacy: tutta
+    l'elaborazione avviene offline, senza registrazione, senza cloud e senza
+    tracciamento dei dati. Oltre alla modifica dei documenti offre strumenti
+    per dividere un PDF per pagine o intervalli, unire più file in uno solo,
+    comprimerlo riducendone il peso senza perdere qualità, esportare le pagine
+    come immagini e creare un PDF a partire dalle proprie foto. È gratuito per
+    l'uso su desktop. Per Windows l'editore indica la build come beta.
+  en: >-
+    RevPDF is a fast, native and privacy-focused PDF editor: everything is
+    processed offline, with no sign-up, no cloud and no data tracking. Besides
+    editing documents it offers tools to split a PDF by pages or ranges, merge
+    several files into one, compress it to a smaller size without losing
+    quality, export pages as images and build a PDF from your own photos. It
+    is free to use on desktop. For Windows the publisher labels the build as
+    beta.
+url: https://revpdf.com/
+repo: https://github.com/Pawandeep-prog/revpdf-release
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/revpdf/revpdf.png
+license:
+  name: RevPDF Editor End User License Agreement
+  url: https://raw.githubusercontent.com/Pawandeep-prog/revpdf-release/HEAD/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^revpdf_editor_winx64\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: '^revpdf_editor_arm\.exe$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^RevPDF_Editor_Universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^revpdf_editor-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^revpdf_editor-aarch64\.AppImage$'

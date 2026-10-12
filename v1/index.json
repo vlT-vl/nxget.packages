@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-06T17:18:21.955Z",
+  "generated_at": "2026-10-12T14:09:07.900Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -311,6 +311,13 @@
       "publisher": "Ryan Hanson",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rectangle/rectangle.yaml"
+    },
+    {
+      "id": "revpdf",
+      "name": "RevPDF",
+      "publisher": "Pawandeep Singh",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/revpdf/revpdf.yaml"
     },
     {
       "id": "rvtools",
