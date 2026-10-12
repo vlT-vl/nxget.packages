@@ -2,6 +2,30 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-12
+
+- Aggiunto il manifest di RevPDF (Windows x64/arm64, macOS universale,
+  Linux x64/arm64) — catalogo a 56 app.
+- Aggiunto l'aggiornamento automatico notturno dei manifest con link
+  statici (workflow `update.yml`, ogni notte alle 02:23 UTC): legge la
+  versione corrente dalla fonte di ogni app, aggiorna solo le righe
+  `version:` e `url:` dopo aver verificato il nuovo link, e controlla che
+  tutti i link fissi e le regole `match` funzionino ancora. Le app per cui un
+  aggiornamento farebbe perdere versioni di macOS supportate (AppCleaner)
+  restano bloccate.
+- Tutti i link di download usano ora la versione esatta invece degli alias
+  `latest`, dove il vendor li offre: 1Password, Affinity (macOS), ChatGPT,
+  Chrome (Linux), Claude (macOS), Claudete, Cogito, Firefox, Microsoft 365
+  (macOS) e VS Code; l'aggiornamento automatico riscrive i link a ogni nuova
+  versione e rimanda tutto se un link nuovo non è ancora online. Dove il
+  vendor non pubblica file versionati (Chrome Windows e macOS, Spotify,
+  Claude e Affinity Windows, Microsoft 365 Windows, OnyX, i Flatpak) il
+  link resta, dichiarato come eccezione. Aggiunto il formato `MSIXBUNDLE`;
+  1Password passa a MSI (x64), MSIXBUNDLE (arm64) e PKG (macOS), Affinity
+  macOS e ChatGPT a ZIP.
+- Aggiornate le versioni di: 1Password, Affinity, ChatGPT, Chrome, Claude,
+  Claudete, Firefox, Krita, Microsoft 365, OnyX (macOS 27), Spotify, VS Code.
+
 ## 2026-10-05
 
 - Aggiunti i manifest di: Zen Browser, ONLYOFFICE Desktop Editors, Wisp,

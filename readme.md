@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R051026-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R121026-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -18,9 +18,9 @@
 
 ## Overview
 
-**nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app, committed by hand — never generated or modified by automation.
+**nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app. The only automated change is the nightly refresh of the `version` and `url` lines of apps with fixed download links (see [GitHub Actions automation](#github-actions-automation)).
 
-This repo does **not** call the GitHub Releases API and does not resolve download links for apps that publish real GitHub Releases. It only publishes the catalog itself: for each app its id, name, publisher, category, description, bilingual `about`, official site, optional source repo, a 512×512 icon, an optional license link, an optional voucher flag and, per asset, either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL. Resolving `match` rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
+This repo does not resolve download links for apps that publish real GitHub Releases; the nightly workflow only reads their Releases to check that every `match` rule still finds its file. It only publishes the catalog itself: for each app its id, name, publisher, category, description, bilingual `about`, official site, optional source repo, a 512×512 icon, an optional license link, an optional voucher flag and, per asset, either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL. Resolving `match` rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
 
 ```
 Consumer ──► https://raw.githubusercontent.com/<owner>/nxget.packages/api
@@ -184,7 +184,7 @@ assets:
 |---|---|---|
 | `platform` | `windows`, `macos`, `linux` | Target operating system |
 | `arch` | `x64`, `arm64`, `universal` | CPU architecture. `universal` means a single file for every CPU of that platform: a universal macOS binary, an installer stub that picks the right build, or a Flatpak reference. Other architectures (32-bit ARM, x86) are not published |
-| `format` | `EXE`, `MSI`, `PKG`, `DMG`, `ZIP`, `TARGZ`, `DEB`, `APPIMAGE`, `BIN`, `FLATPAK` | File type. `BIN` is a bare executable with no archive around it; `FLATPAK` is a Flathub `.flatpakref` reference file |
+| `format` | `EXE`, `MSI`, `MSIXBUNDLE`, `PKG`, `DMG`, `ZIP`, `TARGZ`, `DEB`, `APPIMAGE`, `BIN`, `FLATPAK` | File type. `BIN` is a bare executable with no archive around it; `FLATPAK` is a Flathub `.flatpakref` reference file |
 | `match` | regular expression | Evaluated against the file names of `repo`'s latest release; no download URL is stored |
 | `url` | link | A fixed download link the consumer uses as published |
 | `version` | quoted string | Optional override of the app's `version` for this one asset, used only when its version differs from the others (e.g. a Flatpak that lags behind, or a platform with its own numbering) |
@@ -204,7 +204,7 @@ assets:
 
 **`version`**: for an app with no `repo` it is the version the fixed links currently serve, taken from the vendor's own feed, the app bundle or the package registries it publishes to — never guessed. When the platforms number their builds differently (Microsoft 365: `2608 (Build …)` on Windows, `16.113.1` on macOS) the app-level `version` is left out and each asset states its own; when only one asset differs (a Flatpak that lags behind the vendor's builds) the app-level `version` covers the rest and that asset overrides it. A Flatpak reference installs whatever version Flathub ships when it is opened, so its `version` is the one Flathub currently lists. An app with a `repo` never carries `version`, even when its assets are fixed `url` links: the consumer reads the latest version and the history from the repo's Releases, and static versions are not mixed in with them.
 
-**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself and it has to be updated by hand on every vendor release; there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the manifest needs updating by hand on each release.
+**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself, every `url` points to that exact version — a "latest" alias is never published when the vendor offers a versioned file — and both are refreshed nightly from the vendor's own feed (see [GitHub Actions automation](#github-actions-automation)); there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the updater rewrites that link together with `version` on each release.
 
 **Flatpak-only Linux apps**: when an app's only Linux distribution is Flatpak (no downloadable installer), publish the Flathub reference file as the asset: `platform: linux`, `arch: universal`, `format: FLATPAK` and `url: https://dl.flathub.org/repo/appstream/<app-id>.flatpakref`. A `.flatpakref` is a small real file that the system's software center (or `flatpak install`) opens to add the Flathub remote and install the app for the machine's own architecture, so `universal` is accurate. The `about` text should say the Linux file is a Flatpak reference. Snap has no equivalent downloadable file and is not published.
 
@@ -212,7 +212,9 @@ assets:
 
 ### Writing rules
 
-- Manifests are written and committed by hand and contain no YAML comments.
+- Manifests are written by hand and contain no YAML comments. The updater only ever rewrites existing `version:` and `url:` lines, in place, and nothing else.
+- A fixed `url` always carries the version it serves (a versioned file name, a versioned path or the vendor's version archive); never a `latest`, `current` or other rolling alias. The only exceptions are links for which the vendor publishes no versioned file at all (a Flatpak reference, Google's Chrome installers for Windows and macOS, Spotify, a click-to-run stub…); each one is declared with its reason under `unversioned` in `scripts/sources.json`, and the updater reports any other link without a version as a problem.
+- Every app with a static `version` needs an entry in `scripts/sources.json` naming where its current version is published and how the links are built from it; without one the updater only warns about it.
 - Every `match` pattern must resolve to exactly one file of the latest stable release, and every fixed `url` must answer with a file — check both before publishing.
 - `description` is an unquoted YAML value: it must not contain a colon followed by a space, or the manifest will not parse.
 - Never hard-code a version in a `match` pattern; use a wildcard such as `[\d.]+`.
@@ -236,10 +238,13 @@ nxget.packages/                          (branch: api)
 │       └── <id>.png            # 512×512 transparent PNG icon, true brand colors
 │
 ├── scripts/
-│   └── build-index.js          # reads manifests/*/*.yaml, writes v1/index.json — no network calls
+│   ├── build-index.js          # reads manifests/*/*.yaml, writes v1/index.json — no network calls
+│   ├── update-manifests.js     # checks every source, refreshes static versions and links, verifies links and match rules
+│   └── sources.json            # per-app map of where the current version is published
 │
 ├── .github/workflows/
-│   └── build.yml               # manual only (workflow_dispatch) → rebuild + commit v1/index.json
+│   ├── build.yml               # manual only (workflow_dispatch) → rebuild + commit v1/index.json
+│   └── update.yml              # nightly + manual → run the updater, verify, commit manifests
 │
 └── v1/
     └── index.json              # the only generated file in this repo
@@ -249,15 +254,31 @@ nxget.packages/                          (branch: api)
 
 ## GitHub Actions automation
 
-The only automation in this repo is a single workflow that rebuilds `v1/index.json`. It never runs on its own: it has no `push` or `schedule` trigger and starts only when launched manually from the Actions tab. It never writes a manifest itself.
+Two workflows live in this repo.
 
-| Property | Value |
-|---|---|
-| Trigger | `workflow_dispatch` only (manual launch) |
-| Runtime | Node.js 24 |
-| Branch | commits directly to `api` |
-| Commit | `chore: rebuild index.json` (only if a diff is detected) |
-| Network calls | none — `build-index.js` only reads the local `manifests/` checkout |
+**`update.yml` — nightly manifest refresh.** Runs every night at 02:23 UTC and can also be launched manually from the Actions tab. It runs `scripts/update-manifests.js`, which for every app with a static `version`:
+
+1. reads the current version from the source listed in `scripts/sources.json` (Homebrew cask API, the vendor's own feed or download page, Flathub, Google's version history, Microsoft's release feed);
+2. updates the manifest only if that version is newer than the one written — it never downgrades;
+3. builds the new download link of every asset from the new version (a versioned file name, a versioned path or the vendor's archive, with extra parts such as a build number or a hash read from the same source when the link needs them) and requires each one to answer with a real file before touching anything — if one is not live yet, the whole update is postponed to the next run, so a version label never gets ahead of its binaries; the same rewrite also converts any rolling alias to a versioned link, and it never adds or removes an asset;
+4. edits only the existing `version:` and `url:` lines in place, then re-parses the result and refuses to write unless it equals the old manifest plus exactly those changes — comments, key order, quoting and everything else are untouched;
+5. writes through a temporary file and a rename, so a manifest is never left half-written or missing.
+
+It then checks that every fixed `url` in the catalog answers with a file and that every `match` rule still resolves to exactly one asset of the latest stable release. The workflow verifies the result (only `manifests/*/*.yaml` may be modified and the index must still build) and commits the changes straight to `api`. If any check reported a problem, the run ends in failure after the valid updates have been pushed, so GitHub notifies the maintainer; nothing is ever deleted or rewritten to hide a problem.
+
+Links the vendor publishes no versioned file for are declared under `unversioned` in `scripts/sources.json` with the reason; for the Chrome installers the update is additionally postponed while the served file is older than the release (checked on its `Last-Modified`). Apps listed as `pinned` are never updated automatically (their links are still checked), which is used when a newer build would silently drop supported macOS versions.
+
+**`build.yml` — manual index rebuild.** Never runs on its own: it has no `push` or `schedule` trigger and starts only when launched manually. It rebuilds and commits `v1/index.json`.
+
+| Property | `update.yml` | `build.yml` |
+|---|---|---|
+| Trigger | `schedule` (daily, 02:23 UTC) and `workflow_dispatch` | `workflow_dispatch` only |
+| Runtime | Node.js 24 | Node.js 24 |
+| Branch | commits directly to `api` | commits directly to `api` |
+| Commit | `chore: update manifest versions (<ids>)`, only if a manifest changed | `chore: rebuild index.json` (only if a diff is detected) |
+| Network calls | the sources in `scripts/sources.json`, the fixed download links and the GitHub Releases API | none |
+
+Run it locally from a copy outside synced folders with `node scripts/update-manifests.js` (dry run) or with `--write`; `--only=<id>,<id>`, `--skip-links` and `--skip-repos` narrow the run.
 
 ---
 
@@ -286,8 +307,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R051026 |
-| Updated | 5 October 2026 |
+| Build | R121026 |
+| Updated | 12 October 2026 |
 | API version | v1 |
 | Branch | `api` |
 

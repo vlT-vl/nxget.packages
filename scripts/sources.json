@@ -1,0 +1,494 @@
+{
+  "skipUrlCheckHosts": [
+    "claude.ai"
+  ],
+  "apps": {
+    "1password": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "cask",
+            "token": "1password"
+          },
+          "urls": [
+            {
+              "from": "^https://(?:downloads\\.1password\\.com/win/1PasswordSetup-latest\\.exe|c\\.1password\\.com/dist/1P/win8/1PasswordSetup-[\\d.]+\\.msi)$",
+              "to": "https://c.1password.com/dist/1P/win8/1PasswordSetup-{version}.msi"
+            },
+            {
+              "from": "^https://(?:downloads\\.1password\\.com/win/1PasswordSetup-arm64-latest\\.exe|c\\.1password\\.com/dist/1P/win8/1PasswordSetup-[\\d.]+\\.msixbundle)$",
+              "to": "https://c.1password.com/dist/1P/win8/1PasswordSetup-{version}.msixbundle"
+            },
+            {
+              "from": "^https://downloads\\.1password\\.com/mac/(?:1Password\\.zip|1Password-[\\d.]+\\.pkg)$",
+              "to": "https://downloads.1password.com/mac/1Password-{version}.pkg"
+            },
+            {
+              "from": "^https://downloads\\.1password\\.com/linux/tar/stable/x86_64/1password-(?:latest|[\\d.]+\\.x64)\\.tar\\.gz$",
+              "to": "https://downloads.1password.com/linux/tar/stable/x86_64/1password-{version}.x64.tar.gz"
+            },
+            {
+              "from": "^https://downloads\\.1password\\.com/linux/tar/stable/aarch64/1password-(?:latest|[\\d.]+\\.arm64)\\.tar\\.gz$",
+              "to": "https://downloads.1password.com/linux/tar/stable/aarch64/1password-{version}.arm64.tar.gz"
+            }
+          ]
+        }
+      ]
+    },
+    "affinity": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "cask",
+            "token": "affinity",
+            "transform": "joinComma"
+          },
+          "urls": [
+            {
+              "from": "^https://(?:downloads\\.affinity\\.studio/Affinity\\.dmg|affinity-update\\.s3\\.amazonaws\\.com/mac2/retail/Affinity%20Affinity%20Store%20\\d+\\.zip)$",
+              "to": "https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%20{last}.zip"
+            }
+          ]
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "windows"
+          },
+          "reason": "Affinity publishes no versioned Windows installer, only the downloads.affinity.studio file served for the current release"
+        }
+      ]
+    },
+    "appcleaner": {
+      "pinned": "AppCleaner 3.7 requires macOS 15.6 and would drop Sonoma and Sequoia, 3.6.8 is the last build covering macOS 14"
+    },
+    "blender": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "cask",
+            "token": "blender"
+          },
+          "urls": [
+            {
+              "from": "/release/Blender\\d+\\.\\d+/",
+              "to": "/release/Blender{majorMinor}/"
+            },
+            {
+              "from": "blender-\\d+(?:\\.\\d+)+-",
+              "to": "blender-{version}-"
+            }
+          ]
+        }
+      ]
+    },
+    "chatgpt": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "regex",
+            "url": "https://persistent.oaistatic.com/codex-app-prod/appcast.xml",
+            "regex": "<sparkle:shortVersionString>([^<]+)</sparkle:shortVersionString>"
+          },
+          "urls": [
+            {
+              "from": "^https://persistent\\.oaistatic\\.com/codex-app-prod/(?:ChatGPT\\.dmg|ChatGPT-darwin-arm64-[\\d.]+\\.zip)$",
+              "to": "https://persistent.oaistatic.com/codex-app-prod/ChatGPT-darwin-arm64-{version}.zip"
+            }
+          ]
+        }
+      ]
+    },
+    "chrome": {
+      "rules": [
+        {
+          "target": "asset",
+          "select": {
+            "platform": "windows"
+          },
+          "source": {
+            "type": "chromeHistory",
+            "platform": "win64"
+          },
+          "freshness": true
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "macos"
+          },
+          "source": {
+            "type": "chromeHistory",
+            "platform": "mac"
+          },
+          "freshness": true
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "linux"
+          },
+          "source": {
+            "type": "chromeHistory",
+            "platform": "linux"
+          },
+          "urls": [
+            {
+              "from": "^https://dl\\.google\\.com/linux/(?:direct|chrome/deb/pool/main/g/google-chrome-stable)/google-chrome-stable_[^_/]+_amd64\\.deb$",
+              "to": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_{version}-1_amd64.deb"
+            },
+            {
+              "from": "^https://dl\\.google\\.com/linux/(?:direct|chrome/deb/pool/main/g/google-chrome-stable)/google-chrome-stable_[^_/]+_arm64\\.deb$",
+              "to": "https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_{version}-1_arm64.deb"
+            }
+          ]
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "windows"
+          },
+          "reason": "Google publishes no versioned Windows installer, the update is only accepted if the served MSI is not older than the release"
+        },
+        {
+          "select": {
+            "platform": "macos"
+          },
+          "reason": "Google publishes no versioned macOS disk image, the update is only accepted if the served DMG is not older than the release"
+        }
+      ]
+    },
+    "claude": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "regex",
+            "url": "https://downloads.claude.ai/releases/darwin/universal/RELEASES.json",
+            "regex": "\"version\":\"(?<version>[\\d.]+)\",\"updateTo\":\\{[^}]*\"url\":\"https://downloads\\.claude\\.ai/releases/darwin/universal/[\\d.]+/Claude-(?<hash>[0-9a-f]+)\\.zip\""
+          },
+          "urls": [
+            {
+              "from": "^https://(?:claude\\.ai/api/desktop/darwin/universal/dmg/latest/redirect|downloads\\.claude\\.ai/releases/darwin/universal/[\\d.]+/Claude-[0-9a-f]+\\.dmg)$",
+              "to": "https://downloads.claude.ai/releases/darwin/universal/{version}/Claude-{hash}.dmg"
+            }
+          ]
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "windows"
+          },
+          "reason": "Anthropic publishes no versioned Windows installer, only the claude.ai redirect and the Squirrel nupkg"
+        }
+      ]
+    },
+    "claudete": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "regex",
+            "url": "https://updates.claudete.co/latest-mac.yml",
+            "regex": "^version:\\s*([\\d.]+)",
+            "flags": "m"
+          },
+          "urls": [
+            {
+              "from": "^https://(?:claudete\\.co/download-apple|updates\\.claudete\\.co/(?:latest/claudete-arm64|claudete-[\\d.]+-arm64)\\.dmg)$",
+              "to": "https://updates.claudete.co/claudete-{version}-arm64.dmg"
+            },
+            {
+              "from": "^https://(?:claudete\\.co/download-intel|updates\\.claudete\\.co/(?:latest/claudete-x64|claudete-[\\d.]+-x64)\\.dmg)$",
+              "to": "https://updates.claudete.co/claudete-{version}-x64.dmg"
+            }
+          ]
+        }
+      ]
+    },
+    "cogito": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "redirect",
+            "url": "https://cogito.md/download/latest",
+            "regex": "/releases/(\\d+(?:\\.\\d+)+)/"
+          },
+          "urlFromSource": true
+        }
+      ]
+    },
+    "firefox": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "json",
+            "url": "https://product-details.mozilla.org/1.0/firefox_versions.json",
+            "path": "LATEST_FIREFOX_VERSION"
+          },
+          "urls": [
+            {
+              "from": "^https://(?:download\\.mozilla\\.org/\\?product=firefox-latest-ssl&os=win64&lang=en-US|archive\\.mozilla\\.org/pub/firefox/releases/[\\d.]+/win64/en-US/Firefox%20Setup%20[\\d.]+\\.exe)$",
+              "to": "https://archive.mozilla.org/pub/firefox/releases/{version}/win64/en-US/Firefox%20Setup%20{version}.exe"
+            },
+            {
+              "from": "^https://(?:download\\.mozilla\\.org/\\?product=firefox-latest-ssl&os=win64-aarch64&lang=en-US|archive\\.mozilla\\.org/pub/firefox/releases/[\\d.]+/win64-aarch64/en-US/Firefox%20Setup%20[\\d.]+\\.exe)$",
+              "to": "https://archive.mozilla.org/pub/firefox/releases/{version}/win64-aarch64/en-US/Firefox%20Setup%20{version}.exe"
+            },
+            {
+              "from": "^https://(?:download\\.mozilla\\.org/\\?product=firefox-latest-ssl&os=osx&lang=en-US|archive\\.mozilla\\.org/pub/firefox/releases/[\\d.]+/mac/en-US/Firefox%20[\\d.]+\\.dmg)$",
+              "to": "https://archive.mozilla.org/pub/firefox/releases/{version}/mac/en-US/Firefox%20{version}.dmg"
+            }
+          ]
+        }
+      ]
+    },
+    "gimp": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "json",
+            "url": "https://www.gimp.org/gimp_versions.json",
+            "path": "STABLE.0.version"
+          },
+          "urls": [
+            {
+              "from": "/gimp/v\\d+\\.\\d+/",
+              "to": "/gimp/v{majorMinor}/"
+            },
+            {
+              "from": "gimp-\\d+(?:\\.\\d+)+-",
+              "to": "gimp-{version}-"
+            }
+          ]
+        }
+      ]
+    },
+    "krita": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "regex",
+            "url": "https://krita.org/en/download/",
+            "regex": "download\\.kde\\.org/stable/krita/(\\d+(?:\\.\\d+)+)/krita-x64-"
+          },
+          "urls": [
+            {
+              "from": "/stable/krita/\\d+(?:\\.\\d+)+/",
+              "to": "/stable/krita/{version}/"
+            },
+            {
+              "from": "krita-x64-\\d+(?:\\.\\d+)+-setup",
+              "to": "krita-x64-{version}-setup"
+            },
+            {
+              "from": "krita-\\d+(?:\\.\\d+)+-signed",
+              "to": "krita-{version}-signed"
+            },
+            {
+              "from": "krita-\\d+(?:\\.\\d+)+-x86_64",
+              "to": "krita-{version}-x86_64"
+            }
+          ]
+        }
+      ]
+    },
+    "microsoft-365": {
+      "rules": [
+        {
+          "target": "asset",
+          "select": {
+            "platform": "windows"
+          },
+          "source": {
+            "type": "officeFeed",
+            "channelId": "Current"
+          }
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "macos"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://learn.microsoft.com/en-us/officeupdates/update-history-office-for-mac",
+            "regex": "Version (?<version>16\\.\\d{3}\\.\\d+) \\((?<build>\\d{8})\\)",
+            "stripTags": true
+          },
+          "urls": [
+            {
+              "from": "^https://(?:go\\.microsoft\\.com/fwlink/\\?linkid=525133|res\\.public\\.onecdn\\.static\\.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_[\\d.]+_Installer\\.pkg)$",
+              "to": "https://res.public.onecdn.static.microsoft/mro1cdnstorage/C1297A47-86C4-4C1F-97FA-950631F94777/MacAutoupdate/Microsoft_365_and_Office_{majorMinor}.{build}_Installer.pkg"
+            }
+          ]
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "windows"
+          },
+          "reason": "Microsoft publishes only the click-to-run setup stub, which installs the current build of the channel"
+        }
+      ]
+    },
+    "mobaxterm": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "linkScan",
+            "url": "https://mobaxterm.mobatek.net/download-home-edition.html",
+            "regex": "(https://download\\.mobatek\\.net/\\d+/MobaXterm_Installer_v(\\d+(?:\\.\\d+)*)\\.zip)"
+          },
+          "urlFromSource": true
+        }
+      ]
+    },
+    "onyx": {
+      "rules": [
+        {
+          "target": "asset",
+          "select": {
+            "osVersion": "14"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://titanium-software.fr/en/onyx.html",
+            "regex": "OnyX (\\d+(?:\\.\\d+)+) for macOS [A-Za-z ]+? 14\\b",
+            "stripTags": true
+          }
+        },
+        {
+          "target": "asset",
+          "select": {
+            "osVersion": "15"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://titanium-software.fr/en/onyx.html",
+            "regex": "OnyX (\\d+(?:\\.\\d+)+) for macOS [A-Za-z ]+? 15\\b",
+            "stripTags": true
+          }
+        },
+        {
+          "target": "asset",
+          "select": {
+            "osVersion": "26"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://titanium-software.fr/en/onyx.html",
+            "regex": "OnyX (\\d+(?:\\.\\d+)+) for macOS [A-Za-z ]+? 26\\b",
+            "stripTags": true
+          }
+        },
+        {
+          "target": "asset",
+          "select": {
+            "osVersion": "27"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://titanium-software.fr/en/onyx.html",
+            "regex": "OnyX (\\d+(?:\\.\\d+)+) for macOS [A-Za-z ]+? 27\\b",
+            "stripTags": true
+          }
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "macos"
+          },
+          "reason": "the vendor serves one rolling build per macOS major at a fixed path and has no versioned file"
+        }
+      ]
+    },
+    "rvtools": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "probe",
+            "urlTemplate": "https://downloads.dell.com/rvtools/RVTools{version}.msi"
+          },
+          "urls": [
+            {
+              "from": "RVTools\\d+(?:\\.\\d+)+\\.msi",
+              "to": "RVTools{version}.msi"
+            }
+          ]
+        }
+      ]
+    },
+    "spotify": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "cask",
+            "token": "spotify"
+          }
+        },
+        {
+          "target": "asset",
+          "select": {
+            "format": "FLATPAK"
+          },
+          "source": {
+            "type": "flathub",
+            "appId": "com.spotify.Client"
+          }
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "windows"
+          },
+          "reason": "Spotify publishes no versioned Windows installer"
+        },
+        {
+          "select": {
+            "platform": "macos"
+          },
+          "reason": "Spotify publishes no versioned macOS disk image"
+        }
+      ]
+    },
+    "vscode": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "json",
+            "url": "https://update.code.visualstudio.com/api/releases/stable",
+            "path": "0"
+          },
+          "urls": [
+            {
+              "from": "^https://update\\.code\\.visualstudio\\.com/(?:latest|\\d+(?:\\.\\d+)+)/(win32-x64-user|win32-arm64-user|darwin-universal|linux-deb-x64|linux-deb-arm64)/stable$",
+              "to": "https://update.code.visualstudio.com/{version}/{1}/stable"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "unversionedFormats": {
+    "FLATPAK": "a Flatpak reference always installs what Flathub currently ships, Flathub has no per-version file"
+  }
+}

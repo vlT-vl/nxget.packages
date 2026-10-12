@@ -1,0 +1,67 @@
+name: Update manifests
+
+on:
+  schedule:
+    - cron: '23 2 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-manifests
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: api
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Check sources and update manifests
+        id: update
+        continue-on-error: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/update-manifests.js --write --commit-msg="$RUNNER_TEMP/commit-message.txt"
+
+      - name: Verify the result
+        run: |
+          if git diff --name-only | grep -qv '^manifests/[^/]*/[^/]*\.yaml$'; then
+            echo "Unexpected files modified:"
+            git diff --name-only
+            exit 1
+          fi
+          node scripts/build-index.js
+          git checkout -- v1/index.json
+
+      - name: Commit and push
+        run: |
+          if git diff --quiet; then
+            echo "No manifest changes — nothing to commit."
+            exit 0
+          fi
+          if [ ! -s "$RUNNER_TEMP/commit-message.txt" ]; then
+            echo "Manifests changed without a commit message."
+            exit 1
+          fi
+          git config user.name "Veronesi Lorenzo | vlT"
+          git config user.email "vlt.vltech@gmail.com"
+          git add manifests
+          git commit -F "$RUNNER_TEMP/commit-message.txt"
+          git pull --rebase origin api
+          git push origin HEAD:api
+
+      - name: Fail if the check reported problems
+        if: steps.update.outcome == 'failure'
+        run: exit 1
