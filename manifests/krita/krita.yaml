@@ -26,17 +26,17 @@ about:
     image and the 64-bit Linux AppImage.
 url: https://krita.org/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/krita/krita.png
-version: '5.3.4'
+version: '5.3.4.1'
 assets:
   - platform: windows
     arch: x64
     format: EXE
-    url: https://download.kde.org/stable/krita/5.3.4/krita-x64-5.3.4-setup.exe
+    url: https://download.kde.org/stable/krita/5.3.4.1/krita-x64-5.3.4.1-setup.exe
   - platform: macos
     arch: universal
     format: DMG
-    url: https://download.kde.org/stable/krita/5.3.4/krita-5.3.4-signed.dmg
+    url: https://download.kde.org/stable/krita/5.3.4.1/krita-5.3.4.1-signed.dmg
   - platform: linux
     arch: x64
     format: APPIMAGE
-    url: https://download.kde.org/stable/krita/5.3.4/krita-5.3.4-x86_64.AppImage
+    url: https://download.kde.org/stable/krita/5.3.4.1/krita-5.3.4.1-x86_64.AppImage

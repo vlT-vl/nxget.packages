@@ -26,7 +26,7 @@ about:
     it is a plain installer that fits this schema. Not available for Linux.
 url: https://www.affinity.studio/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/affinity/affinity.png
-version: '3.3.0.4850'
+version: '3.3.1.4940'
 assets:
   - platform: windows
     arch: x64
@@ -38,5 +38,5 @@ assets:
     url: https://downloads.affinity.studio/Affinity%20arm64.exe
   - platform: macos
     arch: universal
-    format: DMG
-    url: https://downloads.affinity.studio/Affinity.dmg
+    format: ZIP
+    url: https://affinity-update.s3.amazonaws.com/mac2/retail/Affinity%20Affinity%20Store%204940.zip
