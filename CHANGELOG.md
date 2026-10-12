@@ -6,8 +6,8 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
 
 - Aggiunto il manifest di RevPDF (Windows x64/arm64, macOS universale,
   Linux x64/arm64) — catalogo a 56 app.
-- Aggiunto l'aggiornamento automatico notturno dei manifest con link
-  statici (workflow `update.yml`, ogni notte alle 02:23 UTC): legge la
+- Aggiunto l'aggiornamento automatico settimanale dei manifest con link
+  statici (workflow `update.yml`, ogni domenica alle 03:00 ora italiana): legge la
   versione corrente dalla fonte di ogni app, aggiorna solo le righe
   `version:` e `url:` dopo aver verificato il nuovo link, e controlla che
   tutti i link fissi e le regole `match` funzionino ancora. Le app per cui un

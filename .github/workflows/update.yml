@@ -2,7 +2,8 @@ name: Update manifests
 
 on:
   schedule:
-    - cron: '23 2 * * *'
+    - cron: '0 1 * * 0'
+    - cron: '0 2 * * 0'
   workflow_dispatch:
 
 permissions:
@@ -13,7 +14,29 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
+  gate:
+    runs-on: ubuntu-latest
+    outputs:
+      run: ${{ steps.time.outputs.run }}
+    steps:
+      - name: Run only at 03:00 Europe/Rome
+        id: time
+        run: |
+          run=true
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            offset=$(TZ=Europe/Rome date +%z)
+            case "${{ github.event.schedule }}" in
+              "0 1 * * 0") [ "$offset" = "+0200" ] || run=false ;;
+              "0 2 * * 0") [ "$offset" = "+0100" ] || run=false ;;
+              *) run=false ;;
+            esac
+          fi
+          echo "Europe/Rome offset: $(TZ=Europe/Rome date +%z) — run: $run"
+          echo "run=$run" >> "$GITHUB_OUTPUT"
+
   update:
+    needs: gate
+    if: needs.gate.outputs.run == 'true'
     runs-on: ubuntu-latest
     timeout-minutes: 30
     steps:

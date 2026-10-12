@@ -18,9 +18,9 @@
 
 ## Overview
 
-**nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app. The only automated change is the nightly refresh of the `version` and `url` lines of apps with fixed download links (see [GitHub Actions automation](#github-actions-automation)).
+**nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app. The only automated change is the weekly refresh of the `version` and `url` lines of apps with fixed download links (see [GitHub Actions automation](#github-actions-automation)).
 
-This repo does not resolve download links for apps that publish real GitHub Releases; the nightly workflow only reads their Releases to check that every `match` rule still finds its file. It only publishes the catalog itself: for each app its id, name, publisher, category, description, bilingual `about`, official site, optional source repo, a 512×512 icon, an optional license link, an optional voucher flag and, per asset, either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL. Resolving `match` rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
+This repo does not resolve download links for apps that publish real GitHub Releases; the weekly workflow only reads their Releases to check that every `match` rule still finds its file. It only publishes the catalog itself: for each app its id, name, publisher, category, description, bilingual `about`, official site, optional source repo, a 512×512 icon, an optional license link, an optional voucher flag and, per asset, either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL. Resolving `match` rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
 
 ```
 Consumer ──► https://raw.githubusercontent.com/<owner>/nxget.packages/api
@@ -204,7 +204,7 @@ assets:
 
 **`version`**: for an app with no `repo` it is the version the fixed links currently serve, taken from the vendor's own feed, the app bundle or the package registries it publishes to — never guessed. When the platforms number their builds differently (Microsoft 365: `2608 (Build …)` on Windows, `16.113.1` on macOS) the app-level `version` is left out and each asset states its own; when only one asset differs (a Flatpak that lags behind the vendor's builds) the app-level `version` covers the rest and that asset overrides it. A Flatpak reference installs whatever version Flathub ships when it is opened, so its `version` is the one Flathub currently lists. An app with a `repo` never carries `version`, even when its assets are fixed `url` links: the consumer reads the latest version and the history from the repo's Releases, and static versions are not mixed in with them.
 
-**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself, every `url` points to that exact version — a "latest" alias is never published when the vendor offers a versioned file — and both are refreshed nightly from the vendor's own feed (see [GitHub Actions automation](#github-actions-automation)); there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the updater rewrites that link together with `version` on each release.
+**Apps with no GitHub repo to resolve against**: some apps aren't distributed via GitHub Releases at all (a closed-source vendor site, a single static download link). Omit `repo` and give each asset a fixed `url`. Because there is no Release to poll, the manifest carries the current `version` itself, every `url` points to that exact version — a "latest" alias is never published when the vendor offers a versioned file — and both are refreshed weekly from the vendor's own feed (see [GitHub Actions automation](#github-actions-automation)); there is no version history for these apps, only the current version. Use this sparingly: it's an escape hatch for apps that don't have a repo publishing Releases, not a shortcut to avoid writing a `match` regex for one that does. When a vendor publishes only versioned file names and no stable "latest" alias, the link has to pin a version and the updater rewrites that link together with `version` on each release.
 
 **Flatpak-only Linux apps**: when an app's only Linux distribution is Flatpak (no downloadable installer), publish the Flathub reference file as the asset: `platform: linux`, `arch: universal`, `format: FLATPAK` and `url: https://dl.flathub.org/repo/appstream/<app-id>.flatpakref`. A `.flatpakref` is a small real file that the system's software center (or `flatpak install`) opens to add the Flathub remote and install the app for the machine's own architecture, so `universal` is accurate. The `about` text should say the Linux file is a Flatpak reference. Snap has no equivalent downloadable file and is not published.
 
@@ -244,7 +244,7 @@ nxget.packages/                          (branch: api)
 │
 ├── .github/workflows/
 │   ├── build.yml               # manual only (workflow_dispatch) → rebuild + commit v1/index.json
-│   └── update.yml              # nightly + manual → run the updater, verify, commit manifests
+│   └── update.yml              # weekly + manual → run the updater, verify, commit manifests
 │
 └── v1/
     └── index.json              # the only generated file in this repo
@@ -256,7 +256,7 @@ nxget.packages/                          (branch: api)
 
 Two workflows live in this repo.
 
-**`update.yml` — nightly manifest refresh.** Runs every night at 02:23 UTC and can also be launched manually from the Actions tab. It runs `scripts/update-manifests.js`, which for every app with a static `version`:
+**`update.yml` — weekly manifest refresh.** Runs every Sunday at 03:00 Italian time (Europe/Rome), summer or winter: GitHub schedules in UTC only, so the workflow has two cron entries (01:00 and 02:00 UTC) and a first job lets through only the one that falls at 03:00 in Rome. It can also be launched manually from the Actions tab. It runs `scripts/update-manifests.js`, which for every app with a static `version`:
 
 1. reads the current version from the source listed in `scripts/sources.json` (Homebrew cask API, the vendor's own feed or download page, Flathub, Google's version history, Microsoft's release feed);
 2. updates the manifest only if that version is newer than the one written — it never downgrades;
@@ -272,7 +272,7 @@ Links the vendor publishes no versioned file for are declared under `unversioned
 
 | Property | `update.yml` | `build.yml` |
 |---|---|---|
-| Trigger | `schedule` (daily, 02:23 UTC) and `workflow_dispatch` | `workflow_dispatch` only |
+| Trigger | `schedule` (weekly, Sunday 03:00 Europe/Rome) and `workflow_dispatch` | `workflow_dispatch` only |
 | Runtime | Node.js 24 | Node.js 24 |
 | Branch | commits directly to `api` | commits directly to `api` |
 | Commit | `chore: update manifest versions (<ids>)`, only if a manifest changed | `chore: rebuild index.json` (only if a diff is detected) |
