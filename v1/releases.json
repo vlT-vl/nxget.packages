@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T09:52:55.570Z",
+  "generated_at": "2026-10-13T19:19:34.663Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -446,19 +446,25 @@
       ]
     },
     "brewui": {
-      "tag": "v0.5.0",
-      "published_at": "2026-09-30T04:02:39Z",
+      "tag": "v0.6.0",
+      "published_at": "2026-10-13T10:27:25Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/Homebrew/BrewUI/releases/download/v0.5.0/Homebrew-0.5.0.zip",
+              "url": "https://github.com/Homebrew/BrewUI/releases/download/v0.6.0/Homebrew-0.6.0.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.6.0",
+          "name": "v0.6.0",
+          "published_at": "2026-10-13T10:27:25Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.6.0"
+        },
         {
           "tag": "v0.5.0",
           "name": "v0.5.0",
@@ -512,12 +518,6 @@
           "name": "v0.2.2",
           "published_at": "2026-09-05T13:35:20Z",
           "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.2.2"
-        },
-        {
-          "tag": "v0.2.1",
-          "name": "v0.2.1",
-          "published_at": "2026-08-23T08:10:12Z",
-          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.2.1"
         }
       ]
     },
@@ -796,19 +796,19 @@
       ]
     },
     "concat": {
-      "tag": "v0.2.6",
-      "published_at": "2026-10-06T16:44:15Z",
+      "tag": "v0.2.7",
+      "published_at": "2026-10-13T18:23:56Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-aarch64.AppImage",
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-x86_64.AppImage",
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -816,33 +816,33 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-macos-arm64.dmg",
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-macos-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-macos-x86_64.dmg",
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-macos-x86_64.dmg",
               "format": "DMG"
             }
           }
         },
         "windows": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-windows-aarch64-setup.exe",
-              "format": "EXE"
-            }
-          },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-windows-x86_64-setup.exe",
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-windows-x86_64-setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.7",
+          "name": "Concat v0.2.7",
+          "published_at": "2026-10-13T18:23:56Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.7"
+        },
         {
           "tag": "v0.2.6",
           "name": "Concat v0.2.6",
@@ -2340,19 +2340,19 @@
       ]
     },
     "onlyoffice": {
-      "tag": "v9.4.0",
-      "published_at": "2026-05-19T09:55:56Z",
+      "tag": "v10.0.0",
+      "published_at": "2026-10-13T10:18:58Z",
       "downloads": {
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors_arm64.exe",
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors_arm64.exe",
               "format": "EXE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors_x64.exe",
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/DesktopEditors_x64.exe",
               "format": "EXE"
             }
           }
@@ -2360,19 +2360,25 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/ONLYOFFICE-arm.dmg",
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/ONLYOFFICE-arm.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/ONLYOFFICE-x86_64.dmg",
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v10.0.0/ONLYOFFICE-x86_64.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v10.0.0",
+          "name": "ONLYOFFICE-DesktopEditors-10.0.0",
+          "published_at": "2026-10-13T10:18:58Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v10.0.0"
+        },
         {
           "tag": "v9.4.0",
           "name": "ONLYOFFICE-DesktopEditors-9.4.0",
@@ -2426,12 +2432,6 @@
           "name": "ONLYOFFICE-DesktopEditors-9.0.0",
           "published_at": "2025-06-19T12:12:24Z",
           "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.0.0"
-        },
-        {
-          "tag": "v8.3.3",
-          "name": "ONLYOFFICE-DesktopEditors-8.3.3",
-          "published_at": "2025-04-17T08:40:42Z",
-          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v8.3.3"
         }
       ]
     },
@@ -2798,19 +2798,19 @@
       ]
     },
     "pi-desktop": {
-      "tag": "v0.19.1",
-      "published_at": "2026-10-13T05:13:10Z",
+      "tag": "v0.20.1",
+      "published_at": "2026-10-13T13:56:07Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-arm64.dmg",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.20.1/PI-Desktop-0.20.1-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-x64.dmg",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.20.1/PI-Desktop-0.20.1-x64.dmg",
               "format": "DMG"
             }
           }
@@ -2818,13 +2818,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-linux-arm64.AppImage",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.20.1/PI-Desktop-0.20.1-linux-arm64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-linux-x86_64.AppImage",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.20.1/PI-Desktop-0.20.1-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -2832,13 +2832,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-Setup-0.19.1.exe",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.20.1/PI-Desktop-Setup-0.20.1.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.20.1",
+          "name": "v0.20.1",
+          "published_at": "2026-10-13T13:56:07Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.20.1"
+        },
         {
           "tag": "v0.19.1",
           "name": "v0.19.1",
@@ -2892,12 +2898,6 @@
           "name": "v0.18.0-beta.3",
           "published_at": "2026-10-09T11:41:40Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.3"
-        },
-        {
-          "tag": "v0.18.0-beta.2",
-          "name": "v0.18.0-beta.2",
-          "published_at": "2026-10-09T03:47:50Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.2"
         }
       ]
     },
@@ -3892,53 +3892,53 @@
       ]
     },
     "vscodium": {
-      "tag": "1.135.06055",
-      "published_at": "2026-09-09T08:19:21Z",
+      "tag": "1.140.06880",
+      "published_at": "2026-10-13T17:03:30Z",
       "downloads": {
-        "linux": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-1.135.06055-anylinux-aarch64.AppImage",
-              "format": "APPIMAGE"
-            }
-          },
-          "x64": {
-            "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-1.135.06055-anylinux-x86_64.AppImage",
-              "format": "APPIMAGE"
-            }
-          }
-        },
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-darwin-arm64-1.135.06055.zip",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-darwin-arm64-1.140.06880.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-darwin-x64-1.135.06055.zip",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-darwin-x64-1.140.06880.zip",
               "format": "ZIP"
+            }
+          }
+        },
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-1.140.06880-anylinux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-1.140.06880-anylinux-x86_64.AppImage",
+              "format": "APPIMAGE"
             }
           }
         },
         "windows": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodiumUserSetup-arm64-1.135.06055.exe",
-              "format": "EXE"
-            }
-          },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodiumUserSetup-x64-1.135.06055.exe",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodiumUserSetup-x64-1.140.06880.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "1.140.06880",
+          "name": "1.140.06880",
+          "published_at": "2026-10-13T17:03:30Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.140.06880"
+        },
         {
           "tag": "1.135.06055",
           "name": "1.135.06055",
@@ -3992,12 +3992,6 @@
           "name": "1.110.01571",
           "published_at": "2026-03-06T11:59:01Z",
           "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.01571"
-        },
-        {
-          "tag": "1.109.51242",
-          "name": "1.109.51242",
-          "published_at": "2026-02-20T18:39:01Z",
-          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.109.51242"
         }
       ]
     },
