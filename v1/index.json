@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-12T14:09:07.900Z",
+  "generated_at": "2026-10-13T07:53:49.276Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -75,6 +75,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/brewui/brewui.yaml"
     },
     {
+      "id": "cadcraft",
+      "name": "CADCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cadcraft/cadcraft.yaml"
+    },
+    {
       "id": "chatgpt",
       "name": "ChatGPT",
       "publisher": "OpenAI",
@@ -117,6 +124,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cogito/cogito.yaml"
     },
     {
+      "id": "concat",
+      "name": "Concat",
+      "publisher": "Jareer A.",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/concat/concat.yaml"
+    },
+    {
       "id": "coucou",
       "name": "Coucou",
       "publisher": "Louis Raille",
@@ -124,11 +138,46 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/coucou/coucou.yaml"
     },
     {
+      "id": "deckcraft",
+      "name": "DeckCraft",
+      "publisher": "ArtCraft",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/deckcraft/deckcraft.yaml"
+    },
+    {
+      "id": "designcraft",
+      "name": "DesignCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/designcraft/designcraft.yaml"
+    },
+    {
       "id": "dyad",
       "name": "Dyad",
       "publisher": "Will Chen",
       "category": "Development",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/dyad/dyad.yaml"
+    },
+    {
+      "id": "effectcraft",
+      "name": "EffectCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/effectcraft/effectcraft.yaml"
+    },
+    {
+      "id": "figcraft",
+      "name": "FigCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/figcraft/figcraft.yaml"
+    },
+    {
+      "id": "filmcraft",
+      "name": "FilmCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/filmcraft/filmcraft.yaml"
     },
     {
       "id": "firefox",
@@ -173,6 +222,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chrome/chrome.yaml"
     },
     {
+      "id": "gridcraft",
+      "name": "GridCraft",
+      "publisher": "ArtCraft",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/gridcraft/gridcraft.yaml"
+    },
+    {
       "id": "heymac",
       "name": "Hey Mac",
       "publisher": "Harshit Maurya",
@@ -192,6 +248,13 @@
       "publisher": "Krita Foundation",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/krita/krita.yaml"
+    },
+    {
+      "id": "lightcraft",
+      "name": "LightCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/lightcraft/lightcraft.yaml"
     },
     {
       "id": "macsai",
@@ -264,6 +327,20 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/open-design/open-design.yaml"
     },
     {
+      "id": "pdfcraft",
+      "name": "PdfCraft",
+      "publisher": "ArtCraft",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pdfcraft/pdfcraft.yaml"
+    },
+    {
+      "id": "photocraft",
+      "name": "PhotoCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/photocraft/photocraft.yaml"
+    },
+    {
       "id": "pi-desktop",
       "name": "PI Desktop",
       "publisher": "Lan",
@@ -327,6 +404,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/rvtools/rvtools.yaml"
     },
     {
+      "id": "soundcraft",
+      "name": "SoundCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/soundcraft/soundcraft.yaml"
+    },
+    {
       "id": "spotify",
       "name": "Spotify",
       "publisher": "Spotify AB",
@@ -362,6 +446,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/unigetui/unigetui.yaml"
     },
     {
+      "id": "vectorcraft",
+      "name": "VectorCraft",
+      "publisher": "ArtCraft",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vectorcraft/vectorcraft.yaml"
+    },
+    {
       "id": "vorssaint",
       "name": "Vorssaint",
       "publisher": "Vorssaint",
@@ -388,6 +479,13 @@
       "publisher": "Phanith NY",
       "category": "Utility",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/wisp/wisp.yaml"
+    },
+    {
+      "id": "wordcraft",
+      "name": "WordCraft",
+      "publisher": "ArtCraft",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/wordcraft/wordcraft.yaml"
     },
     {
       "id": "zen-browser",

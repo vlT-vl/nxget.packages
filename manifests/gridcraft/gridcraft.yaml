@@ -1,0 +1,44 @@
+id: gridcraft
+name: GridCraft
+publisher: ArtCraft
+category: Productivity
+description: An open source, clean-room spreadsheet in the style of Excel, written in pure Rust.
+about:
+  it: >-
+    GridCraft è un foglio di calcolo open source, una reimplementazione da
+    zero in stile Excel scritta in Rust. Offre schede della barra
+    multifunzione, barra della formula, oltre 500 funzioni di calcolo,
+    matrici dinamiche, tabelle pivot e grafici, in un'app nativa che legge e
+    scrive file .xlsx.
+  en: >-
+    GridCraft is an open source spreadsheet, a clean-room reimplementation
+    in the style of Excel written in Rust. It offers ribbon tabs, a formula
+    bar, more than 500 calculation functions, dynamic arrays, PivotTables
+    and charts, in a native app that reads and writes .xlsx files.
+url: https://getartcraft.com/apps/gridcraft
+repo: https://github.com/storytold/gridcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/gridcraft/gridcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/gridcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^gridcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^gridcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^gridcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^gridcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^gridcraft-[\d.]+-linux-aarch64\.AppImage$'

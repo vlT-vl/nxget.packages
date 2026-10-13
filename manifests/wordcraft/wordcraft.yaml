@@ -1,0 +1,44 @@
+id: wordcraft
+name: WordCraft
+publisher: ArtCraft
+category: Productivity
+description: An open source, clean-room word processor in the style of Word, written in pure Rust.
+about:
+  it: >-
+    WordCraft è un elaboratore di testi open source, una reimplementazione
+    da zero in stile Word scritta in Rust. Offre la barra multifunzione, gli
+    stili, le tabelle, la revisione con modifiche rilevate, i riferimenti e
+    la stampa unione, in un'app nativa che legge e scrive file .docx.
+    Funziona offline.
+  en: >-
+    WordCraft is an open source word processor, a clean-room
+    reimplementation in the style of Word written in Rust. It offers the
+    ribbon, styles, tables, track changes, references and mail merge, in a
+    native app that reads and writes .docx files. It works offline.
+url: https://getartcraft.com/apps/wordcraft
+repo: https://github.com/storytold/wordcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/wordcraft/wordcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/wordcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^wordcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^wordcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^wordcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^wordcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^wordcraft-[\d.]+-linux-aarch64\.AppImage$'

@@ -1,0 +1,45 @@
+id: soundcraft
+name: SoundCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source, clean-room digital audio workstation in the style of Pro Tools, written in pure Rust.
+about:
+  it: >-
+    SoundCraft è una workstation audio digitale open source, una
+    reimplementazione da zero in stile Pro Tools scritta in Rust. Ha
+    finestre dedicate di Edit e Mix, audio e MIDI multitraccia, dieci insert
+    e send per traccia, panning surround e AudioSuite offline, in un'app
+    nativa costruita da zero.
+  en: >-
+    SoundCraft is an open source digital audio workstation, a clean-room
+    reimplementation in the style of Pro Tools written in Rust. It has
+    dedicated Edit and Mix windows, multitrack audio and MIDI, ten inserts
+    and sends per track, surround panning and offline AudioSuite, in a
+    native app built from scratch.
+url: https://getartcraft.com/apps/soundcraft
+repo: https://github.com/storytold/soundcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/soundcraft/soundcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/soundcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^soundcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^soundcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^soundcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^soundcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^soundcraft-[\d.]+-linux-aarch64\.AppImage$'

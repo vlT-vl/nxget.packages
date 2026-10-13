@@ -1,0 +1,46 @@
+id: figcraft
+name: FigCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source, clean-room tool for interface design and prototyping, written in pure Rust.
+about:
+  it: >-
+    FigCraft è uno strumento open source per la progettazione di interfacce
+    e il prototipaggio, una reimplementazione da zero scritta in Rust.
+    Include frame, auto layout, componenti e varianti, reti vettoriali,
+    stili, variabili e prototipi, in un'app nativa che si apre all'istante e
+    funziona offline. Nessun account, nessuna telemetria e nessun
+    abbonamento.
+  en: >-
+    FigCraft is an open source tool for interface design and prototyping, a
+    clean-room reimplementation written in Rust. It includes frames, auto
+    layout, components and variants, vector networks, styles, variables and
+    prototypes, in a native app that opens instantly and works offline. No
+    account, no telemetry and no subscription.
+url: https://getartcraft.com/apps/figcraft
+repo: https://github.com/storytold/figcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/figcraft/figcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/figcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^figcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^figcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^figcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^figcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^figcraft-[\d.]+-linux-aarch64\.AppImage$'

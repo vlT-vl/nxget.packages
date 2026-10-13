@@ -1,0 +1,42 @@
+id: pdfcraft
+name: PdfCraft
+publisher: ArtCraft
+category: Productivity
+description: An open source PDF reader and editor written from scratch in pure Rust.
+about:
+  it: >-
+    PdfCraft è un lettore e un editor PDF open source scritto da zero in
+    Rust. Permette di leggere, organizzare, unire, dividere e proteggere i
+    PDF in un'app nativa e veloce, senza account, senza telemetria e senza
+    cloud.
+  en: >-
+    PdfCraft is an open source PDF reader and editor written from scratch in
+    Rust. It lets you read, organize, combine, split and secure PDFs in a
+    fast native app, with no account, no telemetry and no cloud.
+url: https://getartcraft.com/apps/pdfcraft
+repo: https://github.com/storytold/pdfcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pdfcraft/pdfcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/pdfcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^pdfcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^pdfcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^pdfcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^pdfcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^pdfcraft-[\d.]+-linux-aarch64\.AppImage$'

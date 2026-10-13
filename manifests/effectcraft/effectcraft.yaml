@@ -1,0 +1,45 @@
+id: effectcraft
+name: EffectCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source motion graphics and compositing tool written from scratch in pure Rust.
+about:
+  it: >-
+    EffectCraft è uno strumento open source di motion graphics ed effetti
+    visivi scritto da zero in Rust. Offre composizioni, livelli, keyframe,
+    259 effetti, espressioni, camere e luci 3D e una coda di rendering, in
+    un compositor nativo. Il progetto è giovane e si evolve in fretta, ma è
+    già utilizzabile.
+  en: >-
+    EffectCraft is an open source motion graphics and compositing tool
+    written from scratch in Rust. It offers compositions, layers, keyframes,
+    259 effects, expressions, 3D cameras and lights and a render queue, in a
+    native compositor. The project is young and moving fast, but already
+    usable.
+url: https://getartcraft.com/apps/effectcraft
+repo: https://github.com/storytold/effectcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/effectcraft/effectcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/effectcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^effectcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^effectcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^effectcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^effectcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^effectcraft-[\d.]+-linux-aarch64\.AppImage$'

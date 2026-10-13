@@ -1,0 +1,45 @@
+id: deckcraft
+name: DeckCraft
+publisher: ArtCraft
+category: Productivity
+description: An open source, clean-room presentation app in the style of PowerPoint, written in pure Rust.
+about:
+  it: >-
+    DeckCraft è un programma di presentazioni open source, una
+    reimplementazione da zero in stile PowerPoint scritta in Rust. Comprende
+    schemi diapositiva, temi, oltre 150 forme vettoriali, transizioni,
+    animazioni e vista presentatore, in un'app nativa che apre e salva file
+    di presentazione. Nessun abbonamento e nessun cloud.
+  en: >-
+    DeckCraft is an open source presentation app, a clean-room
+    reimplementation in the style of PowerPoint written in Rust. It includes
+    slide masters, themes, more than 150 vector shapes, transitions,
+    animations and a presenter view, in a native app that opens and saves
+    presentation files. No subscription and no cloud.
+url: https://getartcraft.com/apps/deckcraft
+repo: https://github.com/storytold/deckcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/deckcraft/deckcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/deckcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^deckcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^deckcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^deckcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^deckcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^deckcraft-[\d.]+-linux-aarch64\.AppImage$'

@@ -1,0 +1,46 @@
+id: cadcraft
+name: CADCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source, clean-room CAD and drafting app in the style of AutoCAD, written in pure Rust.
+about:
+  it: >-
+    CADCraft è un'app di progettazione e disegno tecnico assistito (CAD)
+    open source, pensata come reimplementazione da zero in stile AutoCAD e
+    scritta interamente in Rust. Offre la riga di comando, gli snap agli
+    oggetti, i livelli, le quote, i retini, i blocchi e i disegni che chi
+    lavora in CAD già conosce, in un'applicazione nativa e veloce pensata
+    sia per le persone sia per gli agenti AI.
+  en: >-
+    CADCraft is an open source computer-aided design and drafting app, built
+    as a clean-room reimplementation in the style of AutoCAD and written
+    entirely in Rust. It brings the command line, object snaps, layers,
+    dimensions, hatches, blocks and drawings that CAD users already know, in
+    a fast native application designed for both people and AI agents.
+url: https://getartcraft.com/apps/cadcraft
+repo: https://github.com/storytold/cadcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/cadcraft/cadcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/cadcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^cadcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^cadcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^cadcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^cadcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^cadcraft-[\d.]+-linux-aarch64\.AppImage$'

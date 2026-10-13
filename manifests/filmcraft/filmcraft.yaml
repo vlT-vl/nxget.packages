@@ -1,0 +1,43 @@
+id: filmcraft
+name: FilmCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source nonlinear video editor written from scratch in pure Rust.
+about:
+  it: >-
+    FilmCraft è un editor video non lineare open source scritto da zero in
+    Rust. Ha monitor sorgente e programma, una vera timeline e tutte le
+    modalità di trim, in un montatore nativo che arriva fino ai propri
+    codec.
+  en: >-
+    FilmCraft is an open source nonlinear video editor written from scratch
+    in Rust. It has source and program monitors, a real timeline and every
+    trim mode, in a native editor that goes all the way down to its own
+    codecs.
+url: https://getartcraft.com/apps/filmcraft
+repo: https://github.com/storytold/filmcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/filmcraft/filmcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/filmcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^filmcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^filmcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^filmcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^filmcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^filmcraft-[\d.]+-linux-aarch64\.AppImage$'

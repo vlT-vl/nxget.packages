@@ -1,0 +1,43 @@
+id: vectorcraft
+name: VectorCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source vector illustration tool written from scratch in pure Rust.
+about:
+  it: >-
+    VectorCraft è uno strumento di illustrazione vettoriale open source
+    scritto da zero in Rust. Offre la penna, i pannelli e le scorciatoie che
+    gli illustratori si aspettano, in un'app nativa che sta al passo; è
+    disponibile anche nel browser.
+  en: >-
+    VectorCraft is an open source vector illustration tool written from
+    scratch in Rust. It offers the pen, panels and shortcuts that working
+    illustrators expect, in a native app that keeps up with you; it is
+    available in the browser too.
+url: https://getartcraft.com/apps/vectorcraft
+repo: https://github.com/storytold/vectorcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vectorcraft/vectorcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/vectorcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^vectorcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^vectorcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^vectorcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^vectorcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^vectorcraft-[\d.]+-linux-aarch64\.AppImage$'

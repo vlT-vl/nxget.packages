@@ -1,0 +1,44 @@
+id: designcraft
+name: DesignCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source page layout and publishing editor written from scratch in pure Rust.
+about:
+  it: >-
+    DesignCraft è un editor open source di impaginazione e publishing
+    scritto da zero in Rust. Gestisce pagine affiancate e pagine mastro,
+    testi concatenati, stili, campioni colore e testo attorno agli oggetti,
+    con un compositore di paragrafi di livello professionale. Nessun
+    abbonamento, nessun server di licenza e nessuna telemetria.
+  en: >-
+    DesignCraft is an open source page layout and publishing editor written
+    from scratch in Rust. It handles spreads and parent pages, threaded
+    stories, styles, swatches and text wrap, with a professional paragraph
+    composer. No subscription, no licence server and no telemetry.
+url: https://getartcraft.com/apps/designcraft
+repo: https://github.com/storytold/designcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/designcraft/designcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/designcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^designcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^designcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^designcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^designcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^designcraft-[\d.]+-linux-aarch64\.AppImage$'

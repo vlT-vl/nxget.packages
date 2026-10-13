@@ -1,0 +1,42 @@
+id: lightcraft
+name: LightCraft
+publisher: ArtCraft
+category: Multimedia
+description: An open source photo library and non-destructive raw developer written from scratch in pure Rust.
+about:
+  it: >-
+    LightCraft è una libreria fotografica e uno sviluppatore raw non
+    distruttivo, open source e scritto da zero in Rust. Le tue foto restano
+    sul tuo computer: nessun account, nessun cloud, nessuna telemetria e
+    nessun abbonamento.
+  en: >-
+    LightCraft is an open source photo library and non-destructive raw
+    developer written from scratch in Rust. Your photos stay on your
+    machine: no account, no cloud, no telemetry and no subscription.
+url: https://getartcraft.com/apps/lightcraft
+repo: https://github.com/storytold/lightcraft
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/lightcraft/lightcraft.png
+license:
+  name: Apache License 2.0 or MIT License
+  url: https://raw.githubusercontent.com/storytold/lightcraft/HEAD/LICENSE-APACHE
+assets:
+  - platform: windows
+    arch: x64
+    format: MSI
+    match: '^lightcraft-[\d.]+-windows-x64\.msi$'
+  - platform: windows
+    arch: arm64
+    format: MSI
+    match: '^lightcraft-[\d.]+-windows-arm64\.msi$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^lightcraft-[\d.]+-macos-universal\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^lightcraft-[\d.]+-linux-x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^lightcraft-[\d.]+-linux-aarch64\.AppImage$'
