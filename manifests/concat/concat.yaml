@@ -1,0 +1,62 @@
+id: concat
+name: Concat
+publisher: Jareer A.
+category: Multimedia
+description: A free, open source and offline video editor, a CapCut alternative with captions, text-to-speech and background removal.
+about:
+  it: >-
+    Concat è un editor video gratuito e open source, pensato come alternativa
+    a CapCut per macOS, Windows e Linux. Copre ciò per cui di solito si apre
+    CapCut: sottotitoli automatici, sintesi vocale, rimozione dello sfondo,
+    animazioni a keyframe, effetti e titoli, montaggio su più tracce ed
+    esportazione in 4K. Senza compromessi: nessuna filigrana, nessun account,
+    nessun abbonamento, nessun upload. Tutto gira in locale su un motore
+    nativo in Rust con compositor GPU; i modelli di intelligenza artificiale
+    per sottotitoli, voci e ritaglio si scaricano una volta dalle
+    impostazioni e poi funzionano offline, quindi i filmati non lasciano mai
+    il disco. Espone anche un'API JSON-RPC, gRPC e MCP, così script e agenti
+    AI possono montare video al posto tuo. Per macOS la build è separata per
+    Apple Silicon e Intel.
+  en: >-
+    Concat is a free, open source video editor built as a CapCut alternative
+    for macOS, Windows and Linux. It covers what people usually open CapCut
+    for: auto-captions, text-to-speech, background removal, keyframe
+    animation, effects and titles, multi-track cutting and 4K export. With
+    none of the catches: no watermark, no account, no subscription, no
+    upload. Everything runs locally on a native Rust engine with a GPU
+    compositor; the AI models for captions, voices and cutout download once
+    from Settings and then work offline, so your footage never leaves your
+    disk. It also exposes a JSON-RPC, gRPC and MCP API, so scripts and AI
+    agents can cut video with it too. On macOS the build is split between
+    Apple Silicon and Intel.
+url: https://concatenate.pages.dev/
+repo: https://github.com/jub0t/concat
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/concat/concat.png
+license:
+  name: GNU Affero General Public License v3.0
+  url: https://raw.githubusercontent.com/jub0t/concat/HEAD/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Concat-[\d.]+-windows-x86_64-setup\.exe$'
+  - platform: windows
+    arch: arm64
+    format: EXE
+    match: '^Concat-[\d.]+-windows-aarch64-setup\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^Concat-[\d.]+-macos-arm64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^Concat-[\d.]+-macos-x86_64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^Concat-[\d.]+-(?:linux-)?x86_64\.AppImage$'
+  - platform: linux
+    arch: arm64
+    format: APPIMAGE
+    match: '^Concat-[\d.]+-(?:linux-)?aarch64\.AppImage$'

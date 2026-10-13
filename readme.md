@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R121026-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R131026-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -307,8 +307,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R121026 |
-| Updated | 12 October 2026 |
+| Build | R131026 |
+| Updated | 13 October 2026 |
 | API version | v1 |
 | Branch | `api` |
 

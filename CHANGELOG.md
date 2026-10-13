@@ -2,6 +2,16 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-13
+
+- Aggiunto il manifest di Concat (Windows x64/arm64, macOS Apple Silicon e
+  Intel, Linux x64/arm64) — catalogo a 57 app.
+- Aggiunti i manifest delle 13 app della suite ArtCraft, ciascuna con il
+  proprio repo GitHub: CADCraft, DeckCraft, DesignCraft, EffectCraft,
+  FigCraft, FilmCraft, GridCraft, LightCraft, PdfCraft, PhotoCraft,
+  SoundCraft, VectorCraft, WordCraft (Windows x64/arm64, macOS universale,
+  Linux x64/arm64) — catalogo a 70 app.
+
 ## 2026-10-12
 
 - Aggiunto il manifest di RevPDF (Windows x64/arm64, macOS universale,
