@@ -18,19 +18,22 @@
 
 ## Overview
 
-**nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app. The only automated change is the weekly refresh of the `version` and `url` lines of apps with fixed download links (see [GitHub Actions automation](#github-actions-automation)).
+**nxget.packages** is the single source of truth for the nxget app catalog: one hand-written YAML manifest per app. The automated changes are the weekly refresh of the `version` and `url` lines of apps with fixed download links, and the 3-hourly regeneration of `v1/releases.json` (see [GitHub Actions automation](#github-actions-automation)).
 
-This repo does not resolve download links for apps that publish real GitHub Releases; the weekly workflow only reads their Releases to check that every `match` rule still finds its file. It only publishes the catalog itself: for each app its id, name, publisher, category, description, bilingual `about`, official site, optional source repo, a 512×512 icon, an optional license link, an optional voucher flag and, per asset, either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL. Resolving `match` rules against a live GitHub Release — turning a manifest into an actual download link — is left to each consumer (the `nxget-app-portal` web app today, a future `nxget.cli` in Go later), each running the same logic in its own language/runtime. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
+This repo does not resolve download links into the manifests; the weekly workflow only reads the Releases of apps with a `repo` to check that every `match` rule still finds its file. It only publishes the catalog itself: for each app its id, name, publisher, category, description, bilingual `about`, official site, optional source repo, a 512×512 icon, an optional license link, an optional voucher flag and, per asset, either a matching rule or — for apps with no GitHub repo to resolve against — a fixed download URL. For apps with a public GitHub `repo`, the registry also publishes the resolved latest stable release in `v1/releases.json`, so a consumer can read one file instead of calling the GitHub API. Assets with a fixed `url` need no resolving at all: the consumer uses the link as published.
 
 ```
 Consumer ──► https://raw.githubusercontent.com/<owner>/nxget.packages/api
                │
-               └── v1/index.json                → discovery entry point: id/name/publisher/category
-                     per app, plus a raw link to that app's full manifest
-                           │
-                           ├── manifests/<id>/<id>.yaml   → full manifest (description, about, url, repo,
-                           │                                  license, access, assets match rules or urls)
-                           └── manifests/<id>/<id>.png    → the app's 512×512 icon (the manifest's logo)
+               ├── v1/index.json                → discovery entry point: id/name/publisher/category
+               │     per app, plus a raw link to that app's full manifest
+               │           │
+               │           ├── manifests/<id>/<id>.yaml   → full manifest (description, about, url, repo,
+               │           │                                  license, access, assets match rules or urls)
+               │           └── manifests/<id>/<id>.png    → the app's 512×512 icon (the manifest's logo)
+               │
+               └── v1/releases.json             → latest stable release, resolved downloads and history
+                     per app with a public GitHub repo (no entry for the others)
 ```
 
 ---
@@ -40,6 +43,7 @@ Consumer ──► https://raw.githubusercontent.com/<owner>/nxget.packages/api
 | Endpoint | Description |
 |---|---|
 | `/v1/index.json` | Discovery document: every app's id/name/publisher/category plus a raw link to its manifest |
+| `/v1/releases.json` | Latest stable release, resolved download links and recent history, for every app with a public GitHub `repo` |
 | `/manifests/<id>/<id>.yaml` | Full manifest for a single app |
 | `/manifests/<id>/<id>.png` | The app's icon, 512×512 PNG with transparent background |
 
@@ -170,7 +174,7 @@ assets:
 | `description` | yes | One sentence, in English |
 | `about` | yes | `it` and `en` texts, each written from scratch, never a literal translation |
 | `url` | yes* | The official site. *Omitted only for voucher-gated apps |
-| `repo` | no | GitHub repository whose Releases the consumer reads for the latest version, the release history and the `match` rules. Omit it for apps not published on GitHub Releases |
+| `repo` | no | GitHub repository whose Releases provide the latest version, the release history and the `match` rules (resolved in `v1/releases.json`). Omit it for apps not published on GitHub Releases |
 | `logo` | yes | Raw URL of `manifests/<id>/<id>.png` |
 | `version` | only without `repo` | The current version of the published files, as a quoted string. Present only on apps with no `repo`, since there is no other way for a consumer to know it; an app with a `repo` must never carry it, whatever its assets are |
 | `license` | no | `{name, url}`, the license text a consumer can show in a modal. Always present for first-party apps |
@@ -190,7 +194,7 @@ assets:
 | `version` | quoted string | Optional override of the app's `version` for this one asset, used only when its version differs from the others (e.g. a Flatpak that lags behind, or a platform with its own numbering) |
 | `osVersion` | quoted string | Optional, `macos` only: the exact macOS major version (e.g. `'15'`) this specific build is pinned to, for vendors who publish a genuinely different file per macOS major instead of one file that runs on every supported version |
 
-`match` and `url` are mutually exclusive on a single asset. A consumer must check for `url` first and use it verbatim; only fall back to fetching `repo`'s Releases and evaluating `match` when `url` is absent. Publish one file per platform and architecture, and never an asset that is not a plain download (symbols, checksums, delta updates, portable variants of an already listed installer). An app whose macOS builds are pinned per `osVersion` is the one case where several assets share the same `platform`/`arch`: one per macOS major the vendor actually publishes a distinct file for.
+`match` and `url` are mutually exclusive on a single asset. A consumer must check for `url` first and use it verbatim; only fall back to the app's entry in `v1/releases.json` (or to fetching `repo`'s Releases and evaluating `match`) when `url` is absent. Publish one file per platform and architecture, and never an asset that is not a plain download (symbols, checksums, delta updates, portable variants of an already listed installer). An app whose macOS builds are pinned per `osVersion` is the one case where several assets share the same `platform`/`arch`: one per macOS major the vendor actually publishes a distinct file for.
 
 ### Details
 
@@ -240,21 +244,24 @@ nxget.packages/                          (branch: api)
 ├── scripts/
 │   ├── build-index.js          # reads manifests/*/*.yaml, writes v1/index.json — no network calls
 │   ├── update-manifests.js     # checks every source, refreshes static versions and links, verifies links and match rules
+│   ├── build-releases.js       # reads manifests with a public repo, writes v1/releases.json — GitHub Releases API
 │   └── sources.json            # per-app map of where the current version is published
 │
 ├── .github/workflows/
 │   ├── build.yml               # manual only (workflow_dispatch) → rebuild + commit v1/index.json
+│   ├── releases.yml            # every 3 hours, after "Update manifests", on manifests/** pushes, manual → rebuild + commit v1/releases.json
 │   └── update.yml              # weekly + manual → run the updater, verify, commit manifests
 │
 └── v1/
-    └── index.json              # the only generated file in this repo
+    ├── index.json              # generated: discovery index (build-index.js)
+    └── releases.json           # generated: latest stable release per app (build-releases.js)
 ```
 
 ---
 
 ## GitHub Actions automation
 
-Two workflows live in this repo.
+Three workflows live in this repo.
 
 **`update.yml` — weekly manifest refresh.** Runs every Sunday at 03:00 Italian time (Europe/Rome), summer or winter: GitHub schedules in UTC only, so the workflow has two cron entries (01:00 and 02:00 UTC) and a first job lets through only the one that falls at 03:00 in Rome. It can also be launched manually from the Actions tab. It runs `scripts/update-manifests.js`, which for every app with a static `version`:
 
@@ -269,6 +276,16 @@ It then checks that every fixed `url` in the catalog answers with a file and tha
 Links the vendor publishes no versioned file for are declared under `unversioned` in `scripts/sources.json` with the reason; for the Chrome installers the update is additionally postponed while the served file is older than the release (checked on its `Last-Modified`). Apps listed as `pinned` are never updated automatically (their links are still checked), which is used when a newer build would silently drop supported macOS versions.
 
 **`build.yml` — manual index rebuild.** Never runs on its own: it has no `push` or `schedule` trigger and starts only when launched manually. It rebuilds and commits `v1/index.json`.
+
+**`releases.yml` — release index refresh.** Runs every 3 hours (cron at minute 17), after every run of "Update manifests", on every push to `manifests/**` in the `api` branch, and on manual launch. It runs `scripts/build-releases.js`, which regenerates `v1/releases.json` (`schema_version` 1.0) from the manifests:
+
+1. for every app with a `repo` pointing to a public GitHub repository, it reads up to 3 pages of 100 releases and picks the latest stable release (neither draft nor prerelease, honoring `releasePrefix`), so the stable release is still found when the most recent releases are all prereleases;
+2. it applies the asset `match` rules (case-insensitive regular expressions, first matching rule wins) to the files of that release and records them under `downloads`, by platform and architecture (with `osVersion` where the app pins one, `default` otherwise), each with its `url` and `format`;
+3. it records `history`: up to 10 recent releases, each with `tag`, `name`, `published_at` and `url`.
+
+The file is only updated in place. An app's entry changes only if its content changes; if nothing changed, the file is neither rewritten nor committed, and `generated_at` changes only when the file does. If GitHub does not answer for a repo, that app keeps its previous entry. The file is never deleted or recreated. The commit is made by `github-actions[bot]` with the message `chore: update releases.json`, pushed with `git pull --rebase origin api` and up to 3 attempts. The workflow runs in its own concurrency group, `update-releases`, separate from `update.yml`. It touches only `v1/releases.json`, never `manifests/` or `v1/index.json`, and writes no `version` into any manifest.
+
+Apps without a `repo` (18) and apps whose repository is private (`pmxtools-cli`, `pmxtools-ui`) have no entry, so no private repository data ends up in the public file. At the time of writing, 50 of the 70 apps in the catalog are in the file.
 
 | Property | `update.yml` | `build.yml` |
 |---|---|---|
@@ -295,6 +312,9 @@ https://raw.githubusercontent.com/<owner>/nxget.packages/api
 ```bash
 # Discovery
 curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/v1/index.json
+
+# Latest stable release and resolved downloads, every app with a public repo
+curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/v1/releases.json
 
 # Full manifest for one app
 curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keepassxc/keepassxc.yaml

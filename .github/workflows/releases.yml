@@ -1,0 +1,57 @@
+name: Update releases
+
+on:
+  schedule:
+    - cron: '17 */3 * * *'
+  workflow_run:
+    workflows: ['Update manifests']
+    types: [completed]
+  push:
+    branches: [api]
+    paths:
+      - 'manifests/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-releases
+  cancel-in-progress: false
+
+jobs:
+  releases:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: api
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '24'
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Update releases.json
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: node scripts/build-releases.js
+
+      - name: Commit and push
+        run: |
+          if [ -z "$(git status --porcelain -- v1/releases.json)" ]; then
+            echo "No release changes — nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add v1/releases.json
+          git commit -m "chore: update releases.json"
+          for attempt in 1 2 3; do
+            git pull --rebase origin api && git push origin HEAD:api && exit 0
+            sleep 5
+          done
+          exit 1

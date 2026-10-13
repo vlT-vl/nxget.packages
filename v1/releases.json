@@ -1,0 +1,4209 @@
+{
+  "schema_version": "1.0",
+  "generated_at": "2026-10-13T09:52:55.570Z",
+  "apps": {
+    "anyscp": {
+      "tag": "v0.11.1",
+      "published_at": "2026-07-26T07:09:03Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/macnev2013/anySCP/releases/download/v0.11.1/anySCP_0.11.1_aarch64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/macnev2013/anySCP/releases/download/v0.11.1/anySCP_0.11.1_x64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/macnev2013/anySCP/releases/download/v0.11.1/anySCP_0.11.1_amd64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/macnev2013/anySCP/releases/download/v0.11.1/anySCP_0.11.1_x64-setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.11.1",
+          "name": "anySCP v0.11.1",
+          "published_at": "2026-07-26T07:09:03Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.11.1"
+        },
+        {
+          "tag": "v0.11.0",
+          "name": "anySCP v0.11.0",
+          "published_at": "2026-07-18T12:31:38Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.11.0"
+        },
+        {
+          "tag": "v0.10.5",
+          "name": "anySCP v0.10.5",
+          "published_at": "2026-06-26T09:04:27Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.10.5"
+        },
+        {
+          "tag": "v0.10.4",
+          "name": "anySCP v0.10.4",
+          "published_at": "2026-06-15T20:14:09Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.10.4"
+        },
+        {
+          "tag": "v0.10.3",
+          "name": "anySCP v0.10.3",
+          "published_at": "2026-06-07T20:42:21Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.10.3"
+        },
+        {
+          "tag": "v0.10.2",
+          "name": "anySCP v0.10.2",
+          "published_at": "2026-06-07T09:32:51Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.10.2"
+        },
+        {
+          "tag": "v0.10.1",
+          "name": "anySCP v0.10.1",
+          "published_at": "2026-06-07T08:36:21Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.10.1"
+        },
+        {
+          "tag": "v0.10.0",
+          "name": "anySCP v0.10.0",
+          "published_at": "2026-06-06T21:20:44Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.10.0"
+        },
+        {
+          "tag": "v0.9.0",
+          "name": "anySCP v0.9.0",
+          "published_at": "2026-05-31T19:30:58Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.9.0"
+        },
+        {
+          "tag": "v0.8.1",
+          "name": "anySCP v0.8.1",
+          "published_at": "2026-05-31T12:16:16Z",
+          "url": "https://github.com/macnev2013/anySCP/releases/tag/v0.8.1"
+        }
+      ]
+    },
+    "atoll": {
+      "tag": "v2.3.3",
+      "published_at": "2026-07-24T11:05:45Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/Ebullioscopic/Atoll/releases/download/v2.3.3/Atoll-2.3.3.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v2.3.3-beta.3",
+          "name": "Atoll 2.3.3-beta.3",
+          "published_at": "2026-09-07T04:07:06Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-beta.3"
+        },
+        {
+          "tag": "v2.3.3-alpha.4",
+          "name": "Atoll 2.3.3-alpha.4",
+          "published_at": "2026-09-07T04:14:43Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-alpha.4"
+        },
+        {
+          "tag": "v2.3.3-beta.2",
+          "name": "Atoll 2.3.3-beta.2",
+          "published_at": "2026-08-20T10:07:53Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-beta.2"
+        },
+        {
+          "tag": "v2.3.3-alpha.3",
+          "name": "Atoll 2.3.3-alpha.3",
+          "published_at": "2026-08-20T10:07:12Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-alpha.3"
+        },
+        {
+          "tag": "v2.3.3-beta.1",
+          "name": "Atoll 2.3.3-beta.1",
+          "published_at": "2026-08-11T05:15:17Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-beta.1"
+        },
+        {
+          "tag": "v2.3.3-alpha.2",
+          "name": "Atoll 2.3.3-alpha.2",
+          "published_at": "2026-08-11T05:24:03Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-alpha.2"
+        },
+        {
+          "tag": "v2.3.3-alpha.1",
+          "name": "Atoll 2.3.3-alpha.1",
+          "published_at": "2026-08-06T05:08:57Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3-alpha.1"
+        },
+        {
+          "tag": "v2.3.3",
+          "name": "Atoll 2.3.3",
+          "published_at": "2026-07-24T11:05:45Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.3"
+        },
+        {
+          "tag": "v2.3.2",
+          "name": "Atoll 2.3.2",
+          "published_at": "2026-07-20T10:03:06Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.2"
+        },
+        {
+          "tag": "v2.3.1",
+          "name": "Atoll 2.3.1",
+          "published_at": "2026-07-20T09:19:47Z",
+          "url": "https://github.com/Ebullioscopic/Atoll/releases/tag/v2.3.1"
+        }
+      ]
+    },
+    "audacity": {
+      "tag": "Audacity-4.0.1",
+      "published_at": "2026-09-30T11:59:48Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-macOS-4.0.1-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-macOS-4.0.1-x86_64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-win-4.0.1-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-win-4.0.1-x86_64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "Audacity-4.0.1",
+          "name": "Audacity-4.0.1",
+          "published_at": "2026-09-30T11:59:48Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.1"
+        },
+        {
+          "tag": "Audacity-4.0.0",
+          "name": "Audacity-4.0.0",
+          "published_at": "2026-09-03T10:19:48Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0"
+        },
+        {
+          "tag": "Audacity-3.7.9",
+          "name": "Audacity 3.7.9",
+          "published_at": "2026-09-01T15:05:46Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.9"
+        },
+        {
+          "tag": "Audacity-4.0.0-beta-4",
+          "name": "Audacity 4.0.0 Beta 4",
+          "published_at": "2026-08-28T15:25:10Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0-beta-4"
+        },
+        {
+          "tag": "Audacity-3.7.8",
+          "name": "Audacity 3.7.8",
+          "published_at": "2026-06-11T14:32:48Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.8"
+        },
+        {
+          "tag": "Audacity-4.0.0-beta-2",
+          "name": "Audacity 4.0.0 Beta 2",
+          "published_at": "2026-06-11T14:33:00Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0-beta-2"
+        },
+        {
+          "tag": "Audacity-3.7.7",
+          "name": "Audacity 3.7.7",
+          "published_at": "2025-12-11T19:48:17Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.7"
+        },
+        {
+          "tag": "Audacity-3.7.6",
+          "name": "Audacity 3.7.6",
+          "published_at": "2025-12-04T18:24:15Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.6"
+        },
+        {
+          "tag": "Audacity-4.0.0-alpha-2",
+          "name": "Audacity-4.0.0.alpha-2",
+          "published_at": "2025-11-03T11:42:02Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0-alpha-2"
+        },
+        {
+          "tag": "Audacity-3.7.5",
+          "name": "Audacity 3.7.5",
+          "published_at": "2025-08-05T09:48:55Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.5"
+        }
+      ]
+    },
+    "bazaar": {
+      "tag": "v0.9.4",
+      "published_at": "2026-08-15T07:13:08Z",
+      "downloads": {},
+      "history": [
+        {
+          "tag": "v0.9.4",
+          "name": "0.9.4",
+          "published_at": "2026-08-15T07:13:08Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.9.4"
+        },
+        {
+          "tag": "v0.9.3",
+          "name": "0.9.3",
+          "published_at": "2026-08-12T15:26:17Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.9.3"
+        },
+        {
+          "tag": "v0.9.2",
+          "name": "0.9.2",
+          "published_at": "2026-08-05T06:55:32Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.9.2"
+        },
+        {
+          "tag": "v0.9.1",
+          "name": "0.9.1",
+          "published_at": "2026-07-08T15:53:50Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.9.1"
+        },
+        {
+          "tag": "v0.9.0",
+          "name": "0.9.0: We have a mascot!!",
+          "published_at": "2026-07-03T09:28:34Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.9.0"
+        },
+        {
+          "tag": "v0.8.3",
+          "name": "0.8.3",
+          "published_at": "2026-06-08T08:21:42Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.8.3"
+        },
+        {
+          "tag": "v0.8.2",
+          "name": "0.8.2",
+          "published_at": "2026-06-08T05:08:14Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.8.2"
+        },
+        {
+          "tag": "v0.8.1",
+          "name": "0.8.1",
+          "published_at": "2026-05-22T21:40:50Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.8.1"
+        },
+        {
+          "tag": "v0.8.0",
+          "name": "0.8.0",
+          "published_at": "2026-05-16T19:58:51Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.8.0"
+        },
+        {
+          "tag": "v0.7.15",
+          "name": "0.7.15",
+          "published_at": "2026-04-17T20:13:48Z",
+          "url": "https://github.com/bazaar-org/bazaar/releases/tag/v0.7.15"
+        }
+      ]
+    },
+    "bitwarden": {
+      "tag": "desktop-v2026.9.1",
+      "published_at": "2026-10-01T19:35:06Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.9.1/Bitwarden-2026.9.1-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.9.1/Bitwarden-2026.9.1-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.9.1/Bitwarden-Installer-2026.9.1.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "desktop-v2026.9.1",
+          "name": "Desktop v2026.9.1",
+          "published_at": "2026-10-01T19:35:06Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.9.1"
+        },
+        {
+          "tag": "desktop-v2026.9.1-beta.1",
+          "name": "Desktop v2026.9.1-beta.1",
+          "published_at": "2026-09-30T13:03:05Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.9.1-beta.1"
+        },
+        {
+          "tag": "desktop-v2026.9.0",
+          "name": "Desktop v2026.9.0",
+          "published_at": "2026-09-17T13:52:45Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.9.0"
+        },
+        {
+          "tag": "desktop-v2026.8.0",
+          "name": "Desktop v2026.8.0",
+          "published_at": "2026-08-20T16:25:03Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.8.0"
+        },
+        {
+          "tag": "desktop-v2026.7.0",
+          "name": "Desktop v2026.7.0",
+          "published_at": "2026-07-23T15:20:46Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.7.0"
+        },
+        {
+          "tag": "desktop-v2026.6.1",
+          "name": "Desktop v2026.6.1",
+          "published_at": "2026-06-30T16:09:04Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.1"
+        },
+        {
+          "tag": "desktop-v2026.6.0",
+          "name": "Desktop v2026.6.0",
+          "published_at": "2026-06-25T18:45:22Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.0"
+        },
+        {
+          "tag": "desktop-v2026.5.0",
+          "name": "Desktop v2026.5.0",
+          "published_at": "2026-05-29T19:10:27Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.5.0"
+        },
+        {
+          "tag": "desktop-v2026.4.0",
+          "name": "Desktop v2026.4.0",
+          "published_at": "2026-05-20T18:50:23Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.4.0"
+        },
+        {
+          "tag": "desktop-v2026.3.1",
+          "name": "Desktop v2026.3.1",
+          "published_at": "2026-04-02T16:03:55Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.3.1"
+        }
+      ]
+    },
+    "brewui": {
+      "tag": "v0.5.0",
+      "published_at": "2026-09-30T04:02:39Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/Homebrew/BrewUI/releases/download/v0.5.0/Homebrew-0.5.0.zip",
+              "format": "ZIP"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.5.0",
+          "name": "v0.5.0",
+          "published_at": "2026-09-30T04:02:39Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.4",
+          "name": "v0.4.4",
+          "published_at": "2026-09-22T23:40:23Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.4.4"
+        },
+        {
+          "tag": "v0.4.3",
+          "name": "v0.4.3",
+          "published_at": "2026-09-17T11:59:06Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.4.3"
+        },
+        {
+          "tag": "v0.4.2",
+          "name": "v0.4.2",
+          "published_at": "2026-09-15T22:19:19Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.4.2"
+        },
+        {
+          "tag": "v0.4.1",
+          "name": "v0.4.1",
+          "published_at": "2026-09-14T13:16:46Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.4.1"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "v0.4.0",
+          "published_at": "2026-09-10T13:39:07Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.1",
+          "name": "v0.3.1",
+          "published_at": "2026-09-10T05:14:38Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.3.1"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "v0.3.0",
+          "published_at": "2026-09-09T13:24:56Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.2.2",
+          "name": "v0.2.2",
+          "published_at": "2026-09-05T13:35:20Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.2.2"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "v0.2.1",
+          "published_at": "2026-08-23T08:10:12Z",
+          "url": "https://github.com/Homebrew/BrewUI/releases/tag/v0.2.1"
+        }
+      ]
+    },
+    "cadcraft": {
+      "tag": "v0.6.2",
+      "published_at": "2026-10-12T16:40:01Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/cadcraft/releases/download/v0.6.2/cadcraft-0.6.2-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/cadcraft/releases/download/v0.6.2/cadcraft-0.6.2-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/cadcraft/releases/download/v0.6.2/cadcraft-0.6.2-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/cadcraft/releases/download/v0.6.2/cadcraft-0.6.2-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/cadcraft/releases/download/v0.6.2/cadcraft-0.6.2-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.6.2",
+          "name": "CADCraft v0.6.2",
+          "published_at": "2026-10-12T16:40:01Z",
+          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.6.2"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "CADCraft v0.5.0",
+          "published_at": "2026-10-11T00:11:33Z",
+          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "CADCraft v0.4.0",
+          "published_at": "2026-10-10T02:51:15Z",
+          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "CADCraft v0.3.0",
+          "published_at": "2026-10-08T14:41:49Z",
+          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "CADCraft v0.1.0",
+          "published_at": "2026-10-08T03:07:48Z",
+          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "claude-code": {
+      "tag": "v2.1.296",
+      "published_at": "2026-10-09T19:28:59Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.296/claude-darwin-arm64.tar.gz",
+              "format": "TARGZ"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.296/claude-darwin-x64.tar.gz",
+              "format": "TARGZ"
+            }
+          }
+        },
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.296/claude-linux-arm64.tar.gz",
+              "format": "TARGZ"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.296/claude-linux-x64.tar.gz",
+              "format": "TARGZ"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.296/claude-win32-arm64.zip",
+              "format": "ZIP"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.296/claude-win32-x64.zip",
+              "format": "ZIP"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v2.1.296",
+          "name": "v2.1.296",
+          "published_at": "2026-10-09T19:28:59Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296"
+        },
+        {
+          "tag": "v2.1.295",
+          "name": "v2.1.295",
+          "published_at": "2026-10-08T19:48:38Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
+        },
+        {
+          "tag": "v2.1.294",
+          "name": "v2.1.294",
+          "published_at": "2026-10-08T05:03:54Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.294"
+        },
+        {
+          "tag": "v2.1.293",
+          "name": "v2.1.293",
+          "published_at": "2026-10-07T18:10:20Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
+        },
+        {
+          "tag": "v2.1.292",
+          "name": "v2.1.292",
+          "published_at": "2026-10-06T18:59:30Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292"
+        },
+        {
+          "tag": "v2.1.291",
+          "name": "v2.1.291",
+          "published_at": "2026-10-06T03:55:19Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.291"
+        },
+        {
+          "tag": "v2.1.290",
+          "name": "v2.1.290",
+          "published_at": "2026-10-05T23:33:17Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
+        },
+        {
+          "tag": "v2.1.289",
+          "name": "v2.1.289",
+          "published_at": "2026-10-03T23:07:17Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"
+        },
+        {
+          "tag": "v2.1.288",
+          "name": "v2.1.288",
+          "published_at": "2026-10-02T20:19:57Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.288"
+        },
+        {
+          "tag": "v2.1.287",
+          "name": "v2.1.287",
+          "published_at": "2026-10-01T18:00:22Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.287"
+        }
+      ]
+    },
+    "codexbar": {
+      "tag": "v0.74.1",
+      "published_at": "2026-10-11T21:37:03Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/steipete/CodexBar/releases/download/v0.74.1/CodexBar-macos-universal-0.74.1.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/steipete/CodexBar/releases/download/v0.74.1/CodexBarDesktop-v0.74.1-linux-aarch64.tar.gz",
+              "format": "TARGZ"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/steipete/CodexBar/releases/download/v0.74.1/CodexBarDesktop-v0.74.1-linux-x86_64.tar.gz",
+              "format": "TARGZ"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.74.1",
+          "name": "CodexBar 0.74.1",
+          "published_at": "2026-10-11T21:37:03Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.74.1"
+        },
+        {
+          "tag": "v0.74.0",
+          "name": "CodexBar 0.74.0",
+          "published_at": "2026-10-10T08:49:41Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.74.0"
+        },
+        {
+          "tag": "v0.73.0",
+          "name": "CodexBar 0.73.0",
+          "published_at": "2026-10-07T12:26:56Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.73.0"
+        },
+        {
+          "tag": "v0.72.0",
+          "name": "CodexBar 0.72.0",
+          "published_at": "2026-10-04T19:33:35Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.72.0"
+        },
+        {
+          "tag": "v0.71.1",
+          "name": "CodexBar 0.71.1",
+          "published_at": "2026-10-03T09:10:03Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.71.1"
+        },
+        {
+          "tag": "v0.71.0",
+          "name": "CodexBar 0.71.0",
+          "published_at": "2026-10-02T17:52:41Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.71.0"
+        },
+        {
+          "tag": "v0.70.0",
+          "name": "CodexBar 0.70.0",
+          "published_at": "2026-09-30T07:15:09Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.70.0"
+        },
+        {
+          "tag": "v0.69.0",
+          "name": "CodexBar 0.69.0",
+          "published_at": "2026-09-28T18:43:30Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.69.0"
+        },
+        {
+          "tag": "v0.68.0",
+          "name": "CodexBar 0.68.0",
+          "published_at": "2026-09-27T12:39:55Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.68.0"
+        },
+        {
+          "tag": "v0.67.0",
+          "name": "CodexBar 0.67.0",
+          "published_at": "2026-09-26T00:48:11Z",
+          "url": "https://github.com/steipete/CodexBar/releases/tag/v0.67.0"
+        }
+      ]
+    },
+    "concat": {
+      "tag": "v0.2.6",
+      "published_at": "2026-10-06T16:44:15Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-macos-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-macos-x86_64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-windows-aarch64-setup.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/jub0t/concat/releases/download/v0.2.6/Concat-0.2.6-windows-x86_64-setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.2.6",
+          "name": "Concat v0.2.6",
+          "published_at": "2026-10-06T16:44:15Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.6"
+        },
+        {
+          "tag": "v0.2.5",
+          "name": "Concat v0.2.5",
+          "published_at": "2026-09-28T15:51:27Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.5"
+        },
+        {
+          "tag": "v0.2.4",
+          "name": "Concat v0.2.4",
+          "published_at": "2026-09-24T17:34:02Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.4"
+        },
+        {
+          "tag": "v0.2.3",
+          "name": "Concat v0.2.3",
+          "published_at": "2026-09-19T18:56:49Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.3"
+        },
+        {
+          "tag": "v0.2.2",
+          "name": "Concat v0.2.2",
+          "published_at": "2026-09-15T15:32:53Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.2"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "Concat v0.2.1",
+          "published_at": "2026-09-04T20:50:16Z",
+          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.1"
+        }
+      ]
+    },
+    "coucou": {
+      "tag": "v0.3.0",
+      "published_at": "2026-10-10T23:26:54Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.3.0/Coucou.zip",
+              "format": "ZIP"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.3.0",
+          "name": "Coucou 0.3.0",
+          "published_at": "2026-10-10T23:26:54Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.2.3",
+          "name": "Coucou 0.2.3",
+          "published_at": "2026-10-08T17:10:31Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.2.3"
+        },
+        {
+          "tag": "v0.2.2",
+          "name": "Coucou 0.2.2",
+          "published_at": "2026-10-08T11:09:44Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.2.2"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "Coucou 0.2.1",
+          "published_at": "2026-10-07T15:50:44Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.2.1"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "Coucou 0.2.0",
+          "published_at": "2026-10-06T18:14:02Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.9",
+          "name": "Coucou 0.1.9",
+          "published_at": "2026-10-06T07:22:41Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.9"
+        },
+        {
+          "tag": "v0.1.8",
+          "name": "Coucou 0.1.8",
+          "published_at": "2026-10-05T22:13:22Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.8"
+        },
+        {
+          "tag": "v0.1.7",
+          "name": "Coucou 0.1.7",
+          "published_at": "2026-10-04T14:58:46Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.7"
+        },
+        {
+          "tag": "v0.1.6",
+          "name": "Coucou 0.1.6",
+          "published_at": "2026-10-04T03:03:15Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.6"
+        },
+        {
+          "tag": "v0.1.5",
+          "name": "Coucou 0.1.5",
+          "published_at": "2026-10-04T00:15:26Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.5"
+        }
+      ]
+    },
+    "deckcraft": {
+      "tag": "v0.6.1",
+      "published_at": "2026-10-12T18:22:34Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.6.1/deckcraft-0.6.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.6.1/deckcraft-0.6.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.6.1/deckcraft-0.6.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.6.1/deckcraft-0.6.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.6.1/deckcraft-0.6.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.6.1",
+          "name": "DeckCraft v0.6.1",
+          "published_at": "2026-10-12T18:22:34Z",
+          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.6.1"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "DeckCraft v0.5.0",
+          "published_at": "2026-10-11T01:17:33Z",
+          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "DeckCraft v0.4.0",
+          "published_at": "2026-10-10T02:51:18Z",
+          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "DeckCraft v0.3.0",
+          "published_at": "2026-10-08T14:41:56Z",
+          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "DeckCraft v0.1.0",
+          "published_at": "2026-10-08T00:23:17Z",
+          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "designcraft": {
+      "tag": "v0.7.1",
+      "published_at": "2026-10-12T21:22:52Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.7.1/designcraft-0.7.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.7.1/designcraft-0.7.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.7.1/designcraft-0.7.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.7.1/designcraft-0.7.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.7.1/designcraft-0.7.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.7.1",
+          "name": "DesignCraft v0.7.1",
+          "published_at": "2026-10-12T21:22:52Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.7.1"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "DesignCraft v0.6.0",
+          "published_at": "2026-10-11T00:51:50Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "DesignCraft v0.5.0",
+          "published_at": "2026-10-10T02:51:21Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "DesignCraft v0.4.0",
+          "published_at": "2026-10-08T14:41:43Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "DesignCraft v0.2.1",
+          "published_at": "2026-10-06T12:15:04Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.1"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "DesignCraft v0.2.0",
+          "published_at": "2026-10-05T06:55:53Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "DesignCraft v0.1.1",
+          "published_at": "2026-10-03T14:24:21Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "DesignCraft v0.1.0",
+          "published_at": "2026-10-02T22:31:38Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "dyad": {
+      "tag": "v1.19.0",
+      "published_at": "2026-10-12T17:57:56Z",
+      "downloads": {
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.19.0/dyad-1.19.0.Setup.exe",
+              "format": "EXE"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.19.0/dyad-darwin-arm64-1.19.0.zip",
+              "format": "ZIP"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.19.0/dyad-darwin-x64-1.19.0.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.19.0/dyad_1.19.0_x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.19.0",
+          "name": "v1.19.0",
+          "published_at": "2026-10-12T17:57:56Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.19.0"
+        },
+        {
+          "tag": "v1.19.0-beta.1",
+          "name": "v1.19.0-beta.1",
+          "published_at": "2026-10-09T17:58:40Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.19.0-beta.1"
+        },
+        {
+          "tag": "v1.18.0",
+          "name": "v1.18.0",
+          "published_at": "2026-10-05T17:37:54Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.18.0"
+        },
+        {
+          "tag": "v1.18.0-beta.1",
+          "name": "v1.18.0-beta.1",
+          "published_at": "2026-10-01T18:41:06Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.18.0-beta.1"
+        },
+        {
+          "tag": "v1.17.0",
+          "name": "v1.17.0",
+          "published_at": "2026-09-28T18:36:13Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0"
+        },
+        {
+          "tag": "v1.17.0-beta.1",
+          "name": "v1.17.0-beta.1",
+          "published_at": "2026-09-24T19:16:34Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0-beta.1"
+        },
+        {
+          "tag": "v1.16.0",
+          "name": "v1.16.0",
+          "published_at": "2026-09-21T17:05:21Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.16.0"
+        },
+        {
+          "tag": "v1.16.0-beta.1",
+          "name": "v1.16.0-beta.1",
+          "published_at": "2026-09-16T20:32:34Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.16.0-beta.1"
+        },
+        {
+          "tag": "v1.15.0",
+          "name": "v1.15.0",
+          "published_at": "2026-09-11T23:56:43Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.15.0"
+        },
+        {
+          "tag": "v1.15.0-beta.1",
+          "name": "v1.15.0-beta.1",
+          "published_at": "2026-09-10T08:29:30Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.15.0-beta.1"
+        }
+      ]
+    },
+    "effectcraft": {
+      "tag": "v0.9.2",
+      "published_at": "2026-10-12T21:22:55Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.9.2/effectcraft-0.9.2-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.9.2/effectcraft-0.9.2-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.9.2/effectcraft-0.9.2-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.9.2/effectcraft-0.9.2-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.9.2/effectcraft-0.9.2-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.9.2",
+          "name": "EffectCraft v0.9.2",
+          "published_at": "2026-10-12T21:22:55Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.9.2"
+        },
+        {
+          "tag": "v0.8.0",
+          "name": "EffectCraft v0.8.0",
+          "published_at": "2026-10-11T02:10:32Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.8.0"
+        },
+        {
+          "tag": "v0.7.0",
+          "name": "EffectCraft v0.7.0",
+          "published_at": "2026-10-10T02:51:24Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.7.0"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "EffectCraft v0.6.0",
+          "published_at": "2026-10-08T14:41:40Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "EffectCraft v0.4.0",
+          "published_at": "2026-10-07T09:30:16Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.1",
+          "name": "EffectCraft v0.3.1",
+          "published_at": "2026-10-06T12:37:20Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.1"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "EffectCraft v0.3.0",
+          "published_at": "2026-10-06T02:03:48Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "EffectCraft v0.2.0",
+          "published_at": "2026-10-05T07:11:27Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "EffectCraft v0.1.1",
+          "published_at": "2026-10-03T14:24:20Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "EffectCraft v0.1.0",
+          "published_at": "2026-10-02T22:31:37Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "figcraft": {
+      "tag": "v0.5.1",
+      "published_at": "2026-10-12T15:51:49Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.5.1/figcraft-0.5.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.5.1/figcraft-0.5.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.5.1/figcraft-0.5.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.5.1/figcraft-0.5.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.5.1/figcraft-0.5.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.5.1",
+          "name": "FigCraft v0.5.1",
+          "published_at": "2026-10-12T15:51:49Z",
+          "url": "https://github.com/storytold/figcraft/releases/tag/v0.5.1"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "FigCraft v0.5.0",
+          "published_at": "2026-10-12T13:07:53Z",
+          "url": "https://github.com/storytold/figcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "FigCraft v0.4.0",
+          "published_at": "2026-10-12T05:39:52Z",
+          "url": "https://github.com/storytold/figcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.1",
+          "name": "FigCraft v0.3.1",
+          "published_at": "2026-10-11T02:04:36Z",
+          "url": "https://github.com/storytold/figcraft/releases/tag/v0.3.1"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "FigCraft v0.2.0",
+          "published_at": "2026-10-10T02:51:26Z",
+          "url": "https://github.com/storytold/figcraft/releases/tag/v0.2.0"
+        }
+      ]
+    },
+    "filmcraft": {
+      "tag": "v0.7.2",
+      "published_at": "2026-10-12T21:22:57Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/filmcraft/releases/download/v0.7.2/filmcraft-0.7.2-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/filmcraft/releases/download/v0.7.2/filmcraft-0.7.2-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/filmcraft/releases/download/v0.7.2/filmcraft-0.7.2-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/filmcraft/releases/download/v0.7.2/filmcraft-0.7.2-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/filmcraft/releases/download/v0.7.2/filmcraft-0.7.2-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.7.2",
+          "name": "FilmCraft v0.7.2",
+          "published_at": "2026-10-12T21:22:57Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.7.2"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "FilmCraft v0.6.0",
+          "published_at": "2026-10-11T00:28:54Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "FilmCraft v0.5.0",
+          "published_at": "2026-10-10T02:51:29Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "FilmCraft v0.4.0",
+          "published_at": "2026-10-08T14:41:28Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "FilmCraft v0.2.1",
+          "published_at": "2026-10-06T12:18:26Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.2.1"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "FilmCraft v0.2.0",
+          "published_at": "2026-10-05T07:02:01Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "FilmCraft v0.1.1",
+          "published_at": "2026-10-03T14:24:18Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "FilmCraft v0.1.0",
+          "published_at": "2026-10-02T22:31:33Z",
+          "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "freeflow": {
+      "tag": "v1.3.1",
+      "published_at": "2026-10-09T07:43:25Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/zachlatta/freeflow/releases/download/v1.3.1/FreeFlow.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "dev",
+          "name": "FreeFlow Dev b2e3aa0c54ca",
+          "published_at": "2026-04-30T09:55:39Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/dev"
+        },
+        {
+          "tag": "v1.3.1",
+          "name": "FreeFlow 1.3.1",
+          "published_at": "2026-10-09T07:43:25Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.3.1"
+        },
+        {
+          "tag": "v1.3.0",
+          "name": "FreeFlow 1.3.0",
+          "published_at": "2026-10-09T07:24:16Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.3.0"
+        },
+        {
+          "tag": "v1.2.1",
+          "name": "FreeFlow 1.2.1",
+          "published_at": "2026-08-11T12:54:59Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.2.1"
+        },
+        {
+          "tag": "v1.2.0",
+          "name": "FreeFlow 1.2.0",
+          "published_at": "2026-07-13T21:38:45Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.2.0"
+        },
+        {
+          "tag": "v1.1.0",
+          "name": "FreeFlow 1.1.0",
+          "published_at": "2026-06-03T19:09:33Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.1.0"
+        },
+        {
+          "tag": "v1.0.0",
+          "name": "FreeFlow 1.0.0",
+          "published_at": "2026-05-20T12:05:50Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.0.0"
+        },
+        {
+          "tag": "v0.3.3",
+          "name": "FreeFlow 0.3.3",
+          "published_at": "2026-04-27T08:11:28Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v0.3.3"
+        },
+        {
+          "tag": "v0.3.2",
+          "name": "FreeFlow 0.3.2",
+          "published_at": "2026-04-23T15:08:41Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v0.3.2"
+        },
+        {
+          "tag": "v0.3.1",
+          "name": "FreeFlow 0.3.1",
+          "published_at": "2026-04-23T13:35:59Z",
+          "url": "https://github.com/zachlatta/freeflow/releases/tag/v0.3.1"
+        }
+      ]
+    },
+    "genex": {
+      "tag": "v0.1.7",
+      "published_at": "2026-10-12T15:31:15Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.7/Genex.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.7/genex_0.1.7_amd64.deb",
+              "format": "DEB"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.1.7",
+          "name": "Genex 0.1.7",
+          "published_at": "2026-10-12T15:31:15Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.7"
+        },
+        {
+          "tag": "v0.1.6",
+          "name": "Genex 0.1.6",
+          "published_at": "2026-10-10T23:58:49Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.6"
+        },
+        {
+          "tag": "v0.1.5",
+          "name": "Genex 0.1.5",
+          "published_at": "2026-10-09T20:46:37Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.5"
+        },
+        {
+          "tag": "v0.1.4",
+          "name": "Genex 0.1.4",
+          "published_at": "2026-10-06T17:45:57Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.4"
+        },
+        {
+          "tag": "v0.1.3",
+          "name": "Genex 0.1.3",
+          "published_at": "2026-10-05T23:33:19Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.3"
+        },
+        {
+          "tag": "v0.1.2",
+          "name": "Genex 0.1.2",
+          "published_at": "2026-10-05T15:38:53Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.2"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "Genex 0.1.1",
+          "published_at": "2026-10-05T10:50:40Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "Genex 0.1.0",
+          "published_at": "2026-10-02T19:26:18Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "godot": {
+      "tag": "4.7.2-stable",
+      "published_at": "2026-08-18T16:12:28Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.arm64.zip",
+              "format": "ZIP"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_linux.x86_64.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_macos.universal.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_win64.exe.zip",
+              "format": "ZIP"
+            }
+          },
+          "arm64": {
+            "default": {
+              "url": "https://github.com/godotengine/godot/releases/download/4.7.2-stable/Godot_v4.7.2-stable_windows_arm64.exe.zip",
+              "format": "ZIP"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "4.7.2-stable",
+          "name": "4.7.2-stable",
+          "published_at": "2026-08-18T16:12:28Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.7.2-stable"
+        },
+        {
+          "tag": "4.7.1-stable",
+          "name": "4.7.1-stable",
+          "published_at": "2026-07-14T18:03:10Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.7.1-stable"
+        },
+        {
+          "tag": "4.7-stable",
+          "name": "4.7-stable",
+          "published_at": "2026-06-18T12:06:17Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.7-stable"
+        },
+        {
+          "tag": "4.6.3-stable",
+          "name": "4.6.3-stable",
+          "published_at": "2026-05-20T20:49:16Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.6.3-stable"
+        },
+        {
+          "tag": "4.6.2-stable",
+          "name": "4.6.2-stable",
+          "published_at": "2026-04-01T19:12:33Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.6.2-stable"
+        },
+        {
+          "tag": "4.5.2-stable",
+          "name": "4.5.2-stable",
+          "published_at": "2026-03-19T14:32:41Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.5.2-stable"
+        },
+        {
+          "tag": "4.6.1-stable",
+          "name": "4.6.1-stable",
+          "published_at": "2026-02-16T20:26:38Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.6.1-stable"
+        },
+        {
+          "tag": "4.6-stable",
+          "name": "4.6-stable",
+          "published_at": "2026-01-26T14:05:33Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.6-stable"
+        },
+        {
+          "tag": "4.5.1-stable",
+          "name": "4.5.1-stable",
+          "published_at": "2025-10-15T15:26:55Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.5.1-stable"
+        },
+        {
+          "tag": "4.5-stable",
+          "name": "4.5-stable",
+          "published_at": "2025-09-15T20:33:46Z",
+          "url": "https://github.com/godotengine/godot/releases/tag/4.5-stable"
+        }
+      ]
+    },
+    "gridcraft": {
+      "tag": "v0.6.1",
+      "published_at": "2026-10-12T17:07:30Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.6.1/gridcraft-0.6.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.6.1/gridcraft-0.6.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.6.1/gridcraft-0.6.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.6.1/gridcraft-0.6.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.6.1/gridcraft-0.6.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.6.1",
+          "name": "GridCraft v0.6.1",
+          "published_at": "2026-10-12T17:07:30Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.6.1"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "GridCraft v0.5.0",
+          "published_at": "2026-10-10T23:50:05Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "GridCraft v0.4.0",
+          "published_at": "2026-10-10T02:51:32Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "GridCraft v0.3.0",
+          "published_at": "2026-10-08T14:41:54Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "GridCraft v0.1.0",
+          "published_at": "2026-10-08T00:47:18Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "heymac": {
+      "tag": "v1.0.3",
+      "published_at": "2026-09-24T19:43:43Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/iharshitmaurya/HeyMac/releases/download/v1.0.3/HeyMac-1.0.3.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.0.3",
+          "name": "Hey Mac 1.0.3",
+          "published_at": "2026-09-24T19:43:43Z",
+          "url": "https://github.com/iharshitmaurya/HeyMac/releases/tag/v1.0.3"
+        },
+        {
+          "tag": "v1.0.1",
+          "name": "Hey Mac 1.0.1",
+          "published_at": "2026-09-24T17:49:21Z",
+          "url": "https://github.com/iharshitmaurya/HeyMac/releases/tag/v1.0.1"
+        },
+        {
+          "tag": "v1.0.0",
+          "name": "Hey Mac 1.0.0",
+          "published_at": "2026-09-20T18:48:52Z",
+          "url": "https://github.com/iharshitmaurya/HeyMac/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    "keepassxc": {
+      "tag": "2.7.12",
+      "published_at": "2026-03-10T01:16:42Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-Win64.msi",
+              "format": "MSI"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "2.8.0-beta1",
+          "name": "Release 2.8.0-beta1",
+          "published_at": "2026-09-23T04:08:04Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0-beta1"
+        },
+        {
+          "tag": "2.7.12",
+          "name": "Release 2.7.12",
+          "published_at": "2026-03-10T01:16:42Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.12"
+        },
+        {
+          "tag": "2.7.11",
+          "name": "Release 2.7.11",
+          "published_at": "2025-11-23T23:29:50Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.11"
+        },
+        {
+          "tag": "2.7.10",
+          "name": "Release 2.7.10",
+          "published_at": "2025-03-02T22:38:41Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.10"
+        },
+        {
+          "tag": "2.7.9",
+          "name": "Release 2.7.9",
+          "published_at": "2024-06-19T21:42:23Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.9"
+        },
+        {
+          "tag": "2.7.8",
+          "name": "Release 2.7.8",
+          "published_at": "2024-05-06T10:11:47Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.8"
+        },
+        {
+          "tag": "2.7.7",
+          "name": "Release 2.7.7",
+          "published_at": "2024-03-09T23:40:32Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.7"
+        },
+        {
+          "tag": "2.7.6",
+          "name": "Release 2.7.6",
+          "published_at": "2023-08-15T23:09:10Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.6"
+        },
+        {
+          "tag": "2.7.5",
+          "name": "Release 2.7.5",
+          "published_at": "2023-05-14T18:35:33Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.5"
+        },
+        {
+          "tag": "2.7.4",
+          "name": "Release 2.7.4",
+          "published_at": "2022-10-29T19:23:07Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.4"
+        }
+      ]
+    },
+    "lightcraft": {
+      "tag": "v0.7.1",
+      "published_at": "2026-10-12T21:22:50Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.7.1/lightcraft-0.7.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.7.1/lightcraft-0.7.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.7.1/lightcraft-0.7.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.7.1/lightcraft-0.7.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.7.1/lightcraft-0.7.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.7.1",
+          "name": "LightCraft v0.7.1",
+          "published_at": "2026-10-12T21:22:50Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.7.1"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "LightCraft v0.6.0",
+          "published_at": "2026-10-11T00:54:31Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "LightCraft v0.5.0",
+          "published_at": "2026-10-10T02:51:35Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "LightCraft v0.4.0",
+          "published_at": "2026-10-08T14:41:31Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "LightCraft v0.2.1",
+          "published_at": "2026-10-06T12:10:48Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.1"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "LightCraft v0.2.0",
+          "published_at": "2026-10-05T06:49:58Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "LightCraft v0.1.1",
+          "published_at": "2026-10-03T14:24:19Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "LightCraft v0.1.0",
+          "published_at": "2026-10-02T22:31:34Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "macsai": {
+      "tag": "v1.24.1",
+      "published_at": "2026-10-09T20:28:09Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/iliyami/MacSai/releases/download/v1.24.1/MacSai-1.24.1.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.24.1",
+          "name": "Mac Sai v1.24.1",
+          "published_at": "2026-10-09T20:28:09Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.24.1"
+        },
+        {
+          "tag": "v1.24.0",
+          "name": "Mac Sai v1.24.0",
+          "published_at": "2026-10-09T20:01:33Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.24.0"
+        },
+        {
+          "tag": "v1.23.1",
+          "name": "Mac Sai v1.23.1",
+          "published_at": "2026-10-09T17:10:58Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.23.1"
+        },
+        {
+          "tag": "v1.21.3",
+          "name": "Mac Sai v1.21.3",
+          "published_at": "2026-09-30T00:10:13Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.21.3"
+        },
+        {
+          "tag": "v1.21.2",
+          "name": "Mac Sai v1.21.2",
+          "published_at": "2026-09-28T19:09:10Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.21.2"
+        },
+        {
+          "tag": "v1.21.0",
+          "name": "Mac Sai v1.21.0",
+          "published_at": "2026-09-22T05:06:01Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.21.0"
+        },
+        {
+          "tag": "v1.20.0",
+          "name": "Mac Sai v1.20.0",
+          "published_at": "2026-09-17T08:41:08Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.20.0"
+        },
+        {
+          "tag": "v1.19.0",
+          "name": "Mac Sai v1.19.0",
+          "published_at": "2026-09-03T16:33:11Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.19.0"
+        },
+        {
+          "tag": "v1.18.8",
+          "name": "Mac Sai v1.18.8",
+          "published_at": "2026-08-08T09:44:44Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.18.8"
+        },
+        {
+          "tag": "v1.18.7",
+          "name": "Mac Sai v1.18.7",
+          "published_at": "2026-08-04T17:04:47Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.18.7"
+        }
+      ]
+    },
+    "markd": {
+      "tag": "v0.1.6",
+      "published_at": "2026-07-20T19:03:38Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/starc007/markd/releases/download/v0.1.6/Markd_0.1.6_aarch64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/starc007/markd/releases/download/v0.1.6/Markd_0.1.6_amd64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.1.6",
+          "name": "Markd v0.1.6",
+          "published_at": "2026-07-20T19:03:38Z",
+          "url": "https://github.com/starc007/markd/releases/tag/v0.1.6"
+        },
+        {
+          "tag": "v0.1.5",
+          "name": "Markd v0.1.5",
+          "published_at": "2026-07-16T10:12:40Z",
+          "url": "https://github.com/starc007/markd/releases/tag/v0.1.5"
+        },
+        {
+          "tag": "v0.1.4",
+          "name": "Markd v0.1.4",
+          "published_at": "2026-07-12T14:06:01Z",
+          "url": "https://github.com/starc007/markd/releases/tag/v0.1.4"
+        }
+      ]
+    },
+    "mist": {
+      "tag": "v0.40",
+      "published_at": "2026-07-07T18:32:09Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/ninxsoft/Mist/releases/download/v0.40/Mist.0.40.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.40",
+          "name": "0.40",
+          "published_at": "2026-07-07T18:32:09Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.40"
+        },
+        {
+          "tag": "v0.30",
+          "name": "0.30",
+          "published_at": "2025-09-23T11:37:14Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.30"
+        },
+        {
+          "tag": "v0.20.1",
+          "name": "0.20.1",
+          "published_at": "2024-10-05T05:08:06Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.20.1"
+        },
+        {
+          "tag": "v0.20",
+          "name": "0.20",
+          "published_at": "2024-07-14T19:43:24Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.20"
+        },
+        {
+          "tag": "v0.10",
+          "name": "0.10",
+          "published_at": "2024-02-25T16:05:38Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.10"
+        },
+        {
+          "tag": "v0.9.1",
+          "name": "0.9.1",
+          "published_at": "2023-08-25T10:17:49Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.9.1"
+        },
+        {
+          "tag": "v0.9",
+          "name": "0.9",
+          "published_at": "2023-06-26T01:33:14Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.9"
+        },
+        {
+          "tag": "v0.8.1",
+          "name": "0.8.1",
+          "published_at": "2023-06-15T10:25:19Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.8.1"
+        },
+        {
+          "tag": "v0.8",
+          "name": "0.8",
+          "published_at": "2023-06-14T08:15:43Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.8"
+        },
+        {
+          "tag": "v0.7.1",
+          "name": "0.7.1",
+          "published_at": "2023-06-09T15:48:47Z",
+          "url": "https://github.com/ninxsoft/Mist/releases/tag/v0.7.1"
+        }
+      ]
+    },
+    "obs": {
+      "tag": "32.2.2",
+      "published_at": "2026-08-14T22:43:31Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-macOS-Apple.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-macOS-Intel.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Ubuntu-24.04-x86_64.deb",
+              "format": "DEB"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Windows-arm64.zip",
+              "format": "ZIP"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Windows-x64-Installer.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "33.0.0-rc1",
+          "name": "OBS Studio 33.0.0 Release Candidate 1",
+          "published_at": "2026-10-09T02:15:44Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-rc1"
+        },
+        {
+          "tag": "33.0.0-beta6",
+          "name": "OBS Studio 33.0.0 Beta 6",
+          "published_at": "2026-10-02T23:27:06Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta6"
+        },
+        {
+          "tag": "33.0.0-beta5",
+          "name": "OBS Studio 33.0.0 Beta 5",
+          "published_at": "2026-10-01T00:09:26Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta5"
+        },
+        {
+          "tag": "33.0.0-beta4",
+          "name": "OBS Studio 33.0.0 Beta 4",
+          "published_at": "2026-09-25T22:29:13Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta4"
+        },
+        {
+          "tag": "32.2.2",
+          "name": "OBS Studio 32.2.2",
+          "published_at": "2026-08-14T22:43:31Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.2"
+        },
+        {
+          "tag": "32.2.1",
+          "name": "OBS Studio 32.2.1",
+          "published_at": "2026-07-24T22:58:26Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.1"
+        },
+        {
+          "tag": "32.2.0",
+          "name": "OBS Studio 32.2.0",
+          "published_at": "2026-07-21T22:25:33Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.0"
+        },
+        {
+          "tag": "32.2.0-rc2",
+          "name": "OBS Studio 32.2.0 Release Candidate 2",
+          "published_at": "2026-07-16T21:10:05Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.0-rc2"
+        },
+        {
+          "tag": "32.2.0-rc1",
+          "name": "OBS Studio 32.2.0 Release Candidate 1",
+          "published_at": "2026-07-10T23:14:13Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.0-rc1"
+        },
+        {
+          "tag": "32.2.0-beta3",
+          "name": "OBS Studio 32.2.0 Beta 3",
+          "published_at": "2026-07-03T00:04:20Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.0-beta3"
+        }
+      ]
+    },
+    "onlyoffice": {
+      "tag": "v9.4.0",
+      "published_at": "2026-05-19T09:55:56Z",
+      "downloads": {
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors_arm64.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/DesktopEditors_x64.exe",
+              "format": "EXE"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/ONLYOFFICE-arm.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/download/v9.4.0/ONLYOFFICE-x86_64.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v9.4.0",
+          "name": "ONLYOFFICE-DesktopEditors-9.4.0",
+          "published_at": "2026-05-19T09:55:56Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.4.0"
+        },
+        {
+          "tag": "v9.3.1",
+          "name": "ONLYOFFICE-DesktopEditors-9.3.1",
+          "published_at": "2026-03-03T13:28:11Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.3.1"
+        },
+        {
+          "tag": "v9.3.0",
+          "name": "ONLYOFFICE-DesktopEditors-9.3.0",
+          "published_at": "2026-02-25T13:21:30Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.3.0"
+        },
+        {
+          "tag": "v9.2.1",
+          "name": "ONLYOFFICE-DesktopEditors-9.2.1",
+          "published_at": "2025-12-26T07:52:39Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.2.1"
+        },
+        {
+          "tag": "v9.2.0",
+          "name": "ONLYOFFICE-DesktopEditors-9.2.0",
+          "published_at": "2025-12-01T13:25:06Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.2.0"
+        },
+        {
+          "tag": "v9.1.0",
+          "name": "ONLYOFFICE-DesktopEditors-9.1.0",
+          "published_at": "2025-10-15T11:05:28Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.1.0"
+        },
+        {
+          "tag": "v9.0.4",
+          "name": "ONLYOFFICE-DesktopEditors-9.0.4",
+          "published_at": "2025-08-06T14:21:37Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.0.4"
+        },
+        {
+          "tag": "v9.0.3",
+          "name": "ONLYOFFICE-DesktopEditors-9.0.3",
+          "published_at": "2025-07-09T08:13:54Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.0.3"
+        },
+        {
+          "tag": "v9.0.0",
+          "name": "ONLYOFFICE-DesktopEditors-9.0.0",
+          "published_at": "2025-06-19T12:12:24Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v9.0.0"
+        },
+        {
+          "tag": "v8.3.3",
+          "name": "ONLYOFFICE-DesktopEditors-8.3.3",
+          "published_at": "2025-04-17T08:40:42Z",
+          "url": "https://github.com/ONLYOFFICE/DesktopEditors/releases/tag/v8.3.3"
+        }
+      ]
+    },
+    "open-design": {
+      "tag": "open-design-v0.24.1",
+      "published_at": "2026-09-24T09:48:53Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.24.1/open-design-0.24.1-mac-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.24.1/open-design-0.24.1-mac-x64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.24.1/open-design-0.24.1-win-x64-setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "open-design-v0.24.1",
+          "name": "Open Design 0.24.1 — ✨ World’s First Design Plan",
+          "published_at": "2026-09-24T09:48:53Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.24.1"
+        },
+        {
+          "tag": "open-design-v0.24.0",
+          "name": "Open Design 0.24.0 — Every Run, Kept Intact",
+          "published_at": "2026-09-22T16:51:27Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.24.0"
+        },
+        {
+          "tag": "open-design-v0.23.0",
+          "name": "Open Design 0.23.0 — Home, Rebuilt.",
+          "published_at": "2026-09-20T11:10:26Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.23.0"
+        },
+        {
+          "tag": "open-design-v0.22.2",
+          "name": "Open Design 0.22.2 — More reliable update restarts",
+          "published_at": "2026-09-10T10:24:49Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.22.2"
+        },
+        {
+          "tag": "open-design-v0.22.1",
+          "name": "Open Design 0.22.1 — Smoother design runs and recovery",
+          "published_at": "2026-09-09T12:30:14Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.22.1"
+        },
+        {
+          "tag": "open-design-v0.22.0",
+          "name": "Open Design 0.22.0 — Introducing OpenDesign Arena",
+          "published_at": "2026-09-08T12:09:13Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.22.0"
+        },
+        {
+          "tag": "open-design-v0.21.1",
+          "name": "Open Design 0.21.1 — Community First: No Login Required",
+          "published_at": "2026-08-31T13:07:04Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.21.1"
+        },
+        {
+          "tag": "open-design-v0.21.0",
+          "name": "Open Design 0.21.0 — Reliable, Start to Finish",
+          "published_at": "2026-08-25T14:15:03Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.21.0"
+        },
+        {
+          "tag": "open-design-v0.20.2",
+          "name": "Open Design 0.20.2 — Production Exports, Under a Minute",
+          "published_at": "2026-08-21T16:54:40Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.20.2"
+        },
+        {
+          "tag": "open-design-v0.20.1",
+          "name": "Open Design 0.20.1 — Meet Go Plan: Unlimited Access to Three Powerful Models",
+          "published_at": "2026-08-20T16:04:05Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.20.1"
+        }
+      ]
+    },
+    "opencore-legacy-patcher": {
+      "tag": "2.5.1",
+      "published_at": "2026-09-19T20:03:30Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/download/2.5.1/OpenCore-Patcher.pkg",
+              "format": "PKG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "3.0.0-rc.3",
+          "name": "3.0.0-rc.3",
+          "published_at": "2026-10-08T01:07:17Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/3.0.0-rc.3"
+        },
+        {
+          "tag": "3.0.0-rc.2",
+          "name": "3.0.0-rc.2",
+          "published_at": "2026-10-04T05:11:31Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/3.0.0-rc.2"
+        },
+        {
+          "tag": "3.0.0-rc.1",
+          "name": "3.0.0-rc.1",
+          "published_at": "2026-10-04T01:50:08Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/3.0.0-rc.1"
+        },
+        {
+          "tag": "2.5.1",
+          "name": "2.5.1",
+          "published_at": "2026-09-19T20:03:30Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.5.1"
+        },
+        {
+          "tag": "2.5.0",
+          "name": "2.5.0",
+          "published_at": "2026-09-08T05:35:54Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.5.0"
+        },
+        {
+          "tag": "2.4.1",
+          "name": "2.4.1",
+          "published_at": "2025-09-01T18:04:40Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.4.1"
+        },
+        {
+          "tag": "2.4.0",
+          "name": "2.4.0",
+          "published_at": "2025-05-12T16:18:16Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.4.0"
+        },
+        {
+          "tag": "2.3.2",
+          "name": "2.3.2",
+          "published_at": "2025-04-04T12:54:56Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.3.2"
+        },
+        {
+          "tag": "2.3.1",
+          "name": "2.3.1",
+          "published_at": "2025-04-02T01:48:43Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.3.1"
+        },
+        {
+          "tag": "2.3.0",
+          "name": "2.3.0",
+          "published_at": "2025-03-31T17:25:02Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.3.0"
+        }
+      ]
+    },
+    "pdfcraft": {
+      "tag": "v0.7.1",
+      "published_at": "2026-10-12T15:55:32Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.7.1/pdfcraft-0.7.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.7.1/pdfcraft-0.7.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.7.1/pdfcraft-0.7.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.7.1/pdfcraft-0.7.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.7.1/pdfcraft-0.7.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.7.1",
+          "name": "PdfCraft v0.7.1",
+          "published_at": "2026-10-12T15:55:32Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.7.1"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "PdfCraft v0.6.0",
+          "published_at": "2026-10-11T01:34:01Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "PdfCraft v0.5.0",
+          "published_at": "2026-10-10T02:51:38Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "PdfCraft v0.4.0",
+          "published_at": "2026-10-08T14:41:34Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.2.1",
+          "name": "PrintCraft v0.2.1",
+          "published_at": "2026-10-06T12:37:41Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.1"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "PrintCraft v0.2.0",
+          "published_at": "2026-10-05T07:03:10Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "PrintCraft v0.1.1",
+          "published_at": "2026-10-03T14:24:20Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "PrintCraft v0.1.0",
+          "published_at": "2026-10-02T22:31:36Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "photocraft": {
+      "tag": "v0.8.2",
+      "published_at": "2026-10-12T21:22:47Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.8.2/photocraft-0.8.2-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.8.2/photocraft-0.8.2-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.8.2/photocraft-0.8.2-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.8.2/photocraft-0.8.2-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.8.2/photocraft-0.8.2-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.8.2",
+          "name": "PhotoCraft v0.8.2",
+          "published_at": "2026-10-12T21:22:47Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.8.2"
+        },
+        {
+          "tag": "v0.7.0",
+          "name": "PhotoCraft v0.7.0",
+          "published_at": "2026-10-11T02:12:31Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.7.0"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "PhotoCraft v0.6.0",
+          "published_at": "2026-10-10T02:51:42Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "PhotoCraft v0.5.0",
+          "published_at": "2026-10-08T14:52:50Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "PhotoCraft v0.3.0",
+          "published_at": "2026-10-07T10:33:19Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "PhotoCraft v0.2.0",
+          "published_at": "2026-10-05T04:42:21Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.2.0"
+        },
+        {
+          "tag": "v0.1.1",
+          "name": "PhotoCraft v0.1.1",
+          "published_at": "2026-10-03T14:24:16Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1"
+        },
+        {
+          "tag": "v0.1.1-rc.5",
+          "name": "PhotoCraft v0.1.1-rc.5",
+          "published_at": "2026-10-02T22:30:31Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.5"
+        },
+        {
+          "tag": "v0.1.1-rc.4",
+          "name": "PhotoCraft v0.1.1-rc.4",
+          "published_at": "2026-10-02T15:17:22Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1-rc.4"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "PhotoCraft v0.1.0",
+          "published_at": "2026-10-02T00:09:14Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "pi-desktop": {
+      "tag": "v0.19.1",
+      "published_at": "2026-10-13T05:13:10Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-x64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-linux-arm64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-0.19.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.19.1/PI-Desktop-Setup-0.19.1.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.19.1",
+          "name": "v0.19.1",
+          "published_at": "2026-10-13T05:13:10Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.19.1"
+        },
+        {
+          "tag": "v0.19.0",
+          "name": "v0.19.0",
+          "published_at": "2026-10-13T03:56:14Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.19.0"
+        },
+        {
+          "tag": "v0.18.0-beta.7",
+          "name": "v0.18.0-beta.7",
+          "published_at": "2026-10-12T17:45:41Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.7"
+        },
+        {
+          "tag": "v0.18.0-beta.6",
+          "name": "v0.18.0-beta.6",
+          "published_at": "2026-10-11T07:01:58Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.6"
+        },
+        {
+          "tag": "v0.18.0",
+          "name": "v0.18.0",
+          "published_at": "2026-10-10T11:43:38Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0"
+        },
+        {
+          "tag": "v0.18.0-beta.5",
+          "name": "v0.18.0-beta.5",
+          "published_at": "2026-10-10T08:45:41Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.5"
+        },
+        {
+          "tag": "v0.18.0-beta.4",
+          "name": "v0.18.0-beta.4",
+          "published_at": "2026-10-10T04:36:06Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.4"
+        },
+        {
+          "tag": "host-test-remote-mvp-20261010-f6cc3237",
+          "name": "Remote SSH MVP — Host-only test (2026-10-10)",
+          "published_at": "2026-10-10T15:27:22Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/host-test-remote-mvp-20261010-f6cc3237"
+        },
+        {
+          "tag": "v0.18.0-beta.3",
+          "name": "v0.18.0-beta.3",
+          "published_at": "2026-10-09T11:41:40Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.3"
+        },
+        {
+          "tag": "v0.18.0-beta.2",
+          "name": "v0.18.0-beta.2",
+          "published_at": "2026-10-09T03:47:50Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.2"
+        }
+      ]
+    },
+    "pulsar": {
+      "tag": "v1.132.1",
+      "published_at": "2026-05-20T22:47:11Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/ARM.Linux.pulsar_1.132.1_arm64.deb",
+              "format": "DEB"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Linux.pulsar_1.132.1_amd64.deb",
+              "format": "DEB"
+            }
+          }
+        },
+        "macos": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Intel.Mac.Pulsar-1.132.1.dmg",
+              "format": "DMG"
+            }
+          },
+          "arm64": {
+            "default": {
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Silicon.Mac.Pulsar-1.132.1-arm64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Windows.Pulsar.Setup.1.132.1.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.132.1",
+          "name": "v1.132.1",
+          "published_at": "2026-05-20T22:47:11Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.132.1"
+        },
+        {
+          "tag": "v1.132.0",
+          "name": "Pulsar 1.132.0: The terminal is now boarding",
+          "published_at": "2026-05-17T20:50:33Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.132.0"
+        },
+        {
+          "tag": "v1.131.3",
+          "name": "v1.131.3",
+          "published_at": "2026-03-20T03:51:07Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.131.3"
+        },
+        {
+          "tag": "v1.131.2",
+          "name": "v1.131.2",
+          "published_at": "2026-03-17T02:24:19Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.131.2"
+        },
+        {
+          "tag": "v1.131.1",
+          "name": "v1.131.1",
+          "published_at": "2026-02-17T01:04:00Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.131.1"
+        },
+        {
+          "tag": "v1.131.0",
+          "name": "Pulsar 1.131.0: A Valentine's Day & Electron 30 Edition",
+          "published_at": "2026-02-15T05:45:42Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.131.0"
+        },
+        {
+          "tag": "v1.130.1",
+          "name": "v1.130.1",
+          "published_at": "2025-10-10T00:15:59Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.130.1"
+        },
+        {
+          "tag": "v1.130.0",
+          "name": "v1.130.0",
+          "published_at": "2025-10-08T00:27:55Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.130.0"
+        },
+        {
+          "tag": "v1.129.0",
+          "name": "v1.129.0",
+          "published_at": "2025-08-06T19:28:44Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.129.0"
+        },
+        {
+          "tag": "v1.128.0",
+          "name": "v1.128.0",
+          "published_at": "2025-05-02T04:25:28Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.128.0"
+        }
+      ]
+    },
+    "purge-app": {
+      "tag": "v1.10.0",
+      "published_at": "2026-10-12T16:13:44Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.10.0/Purgev1.10.0.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.10.0",
+          "name": "Purge v1.10.0",
+          "published_at": "2026-10-12T16:13:44Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.10.0"
+        },
+        {
+          "tag": "v1.9.0",
+          "name": "Purge v1.9.0",
+          "published_at": "2026-10-09T21:28:39Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.9.0"
+        },
+        {
+          "tag": "v1.8.2",
+          "name": "Purge v1.8.2",
+          "published_at": "2026-10-06T11:32:57Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.2"
+        },
+        {
+          "tag": "v1.8.1",
+          "name": "Purge v1.8.1",
+          "published_at": "2026-10-06T10:30:42Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.1"
+        },
+        {
+          "tag": "v1.8.0",
+          "name": "Purge v1.8.0",
+          "published_at": "2026-10-05T23:47:22Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.0"
+        },
+        {
+          "tag": "v1.7.1",
+          "name": "Purge v1.7.1",
+          "published_at": "2026-10-04T23:24:24Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.7.1"
+        },
+        {
+          "tag": "v1.7.0",
+          "name": "Purge v1.7.0",
+          "published_at": "2026-10-01T02:45:56Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.7.0"
+        },
+        {
+          "tag": "v1.6.1",
+          "name": "Purge v1.6.1",
+          "published_at": "2026-09-27T08:22:20Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.6.1"
+        },
+        {
+          "tag": "v1.6.0",
+          "name": "Purge v1.6.0",
+          "published_at": "2026-09-26T22:52:56Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.6.0"
+        },
+        {
+          "tag": "v1.5.3",
+          "name": "Purge v1.5.3",
+          "published_at": "2026-09-24T13:03:15Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.5.3"
+        }
+      ]
+    },
+    "qbittorrent": {
+      "tag": "release-5.2.4",
+      "published_at": "2026-09-28T19:02:55Z",
+      "downloads": {
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.2.4/qbittorrent-5.2.4_x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.2.4/qbittorrent_5.2.4_x64_setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "release-5.2.4",
+          "name": "qBittorrent v5.2.4",
+          "published_at": "2026-09-28T19:02:55Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.2.4"
+        },
+        {
+          "tag": "release-5.3.0rc1",
+          "name": "qBittorrent v5.3.0rc1",
+          "published_at": "2026-09-28T19:14:01Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.3.0rc1"
+        },
+        {
+          "tag": "release-5.3.0beta1",
+          "name": "qBittorrent v5.3.0beta1",
+          "published_at": "2026-09-05T23:16:23Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.3.0beta1"
+        },
+        {
+          "tag": "release-5.2.3",
+          "name": "qBittorrent v5.2.3",
+          "published_at": "2026-07-07T21:52:42Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.2.3"
+        },
+        {
+          "tag": "release-5.2.2",
+          "name": "qBittorrent v5.2.2",
+          "published_at": "2026-06-16T04:33:21Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.2.2"
+        },
+        {
+          "tag": "release-5.2.1",
+          "name": "qBittorrent v5.2.1",
+          "published_at": "2026-05-25T23:21:39Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.2.1"
+        },
+        {
+          "tag": "release-5.2.0",
+          "name": "qBittorrent v5.2.0",
+          "published_at": "2026-05-03T19:21:43Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.2.0"
+        }
+      ]
+    },
+    "rectangle": {
+      "tag": "v2.0.3",
+      "published_at": "2026-10-05T20:38:54Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/rxhanson/Rectangle/releases/download/v2.0.3/Rectangle2.0.3.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v2.0.3",
+          "name": "v2.0.3",
+          "published_at": "2026-10-05T20:38:54Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v2.0.3"
+        },
+        {
+          "tag": "v2.0.2",
+          "name": "v2.0.2",
+          "published_at": "2026-09-27T12:34:07Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v2.0.2"
+        },
+        {
+          "tag": "v2.0.1",
+          "name": "v2.0.1",
+          "published_at": "2026-09-26T14:28:40Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v2.0.1"
+        },
+        {
+          "tag": "v2.0",
+          "name": "v2.0",
+          "published_at": "2026-09-25T18:35:33Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v2.0"
+        },
+        {
+          "tag": "v1.100",
+          "name": "v1.100",
+          "published_at": "2026-08-26T01:04:18Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v1.100"
+        },
+        {
+          "tag": "v0.99",
+          "name": "v0.99",
+          "published_at": "2026-08-20T02:39:41Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.99"
+        },
+        {
+          "tag": "v0.98",
+          "name": "v0.98",
+          "published_at": "2026-07-15T13:20:07Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.98"
+        },
+        {
+          "tag": "v0.97",
+          "name": "v0.97",
+          "published_at": "2026-07-14T20:45:35Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.97"
+        },
+        {
+          "tag": "v0.96",
+          "name": "v0.96",
+          "published_at": "2026-05-31T18:09:26Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.96"
+        },
+        {
+          "tag": "v0.95",
+          "name": "v0.95",
+          "published_at": "2026-04-02T17:12:41Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.95"
+        }
+      ]
+    },
+    "revpdf": {
+      "tag": "v5.0.0",
+      "published_at": "2026-08-25T09:52:01Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/download/v5.0.0/revpdf_editor-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/download/v5.0.0/revpdf_editor-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/download/v5.0.0/revpdf_editor_arm.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/download/v5.0.0/revpdf_editor_winx64.exe",
+              "format": "EXE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/download/v5.0.0/RevPDF_Editor_Universal.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v5.0.0",
+          "name": "RevPDF 5.0",
+          "published_at": "2026-08-25T09:52:01Z",
+          "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/tag/v5.0.0"
+        },
+        {
+          "tag": "v4.6.5",
+          "name": "RevPDF 4.6.5",
+          "published_at": "2026-07-05T05:22:42Z",
+          "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/tag/v4.6.5"
+        },
+        {
+          "tag": "v4.5.0",
+          "name": "RevPDF 4.5.0",
+          "published_at": "2026-06-13T10:27:02Z",
+          "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/tag/v4.5.0"
+        },
+        {
+          "tag": "v4.0.0",
+          "name": "RevPDF 4.0",
+          "published_at": "2026-05-05T21:10:33Z",
+          "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/tag/v4.0.0"
+        },
+        {
+          "tag": "v3.0.0",
+          "name": "RevPDF 3.0",
+          "published_at": "2026-04-23T07:52:21Z",
+          "url": "https://github.com/Pawandeep-prog/revpdf-release/releases/tag/v3.0.0"
+        }
+      ]
+    },
+    "soundcraft": {
+      "tag": "v0.6.1",
+      "published_at": "2026-10-12T15:57:05Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.6.1/soundcraft-0.6.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.6.1/soundcraft-0.6.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.6.1/soundcraft-0.6.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.6.1/soundcraft-0.6.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.6.1/soundcraft-0.6.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.6.1",
+          "name": "SoundCraft v0.6.1",
+          "published_at": "2026-10-12T15:57:05Z",
+          "url": "https://github.com/storytold/soundcraft/releases/tag/v0.6.1"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "SoundCraft v0.5.0",
+          "published_at": "2026-10-11T00:39:19Z",
+          "url": "https://github.com/storytold/soundcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "SoundCraft v0.4.0",
+          "published_at": "2026-10-10T02:51:45Z",
+          "url": "https://github.com/storytold/soundcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "SoundCraft v0.3.0",
+          "published_at": "2026-10-08T14:41:51Z",
+          "url": "https://github.com/storytold/soundcraft/releases/tag/v0.3.0"
+        }
+      ]
+    },
+    "svg-designer-studio": {
+      "tag": "v0.1.0-R130726",
+      "published_at": "2026-07-13T16:23:06Z",
+      "downloads": {
+        "macos": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/vlT-vl/SVG-Desiger-Studio/releases/download/v0.1.0-R130726/build-darwin-amd64.zip",
+              "format": "ZIP"
+            }
+          },
+          "arm64": {
+            "default": {
+              "url": "https://github.com/vlT-vl/SVG-Desiger-Studio/releases/download/v0.1.0-R130726/build-darwin-arm64.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/vlT-vl/SVG-Desiger-Studio/releases/download/v0.1.0-R130726/build-linux-amd64.zip",
+              "format": "ZIP"
+            }
+          },
+          "arm64": {
+            "default": {
+              "url": "https://github.com/vlT-vl/SVG-Desiger-Studio/releases/download/v0.1.0-R130726/build-linux-arm64.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/vlT-vl/SVG-Desiger-Studio/releases/download/v0.1.0-R130726/build-windows-amd64.zip",
+              "format": "ZIP"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.1.0-R130726",
+          "name": "v0.1.0-R130726",
+          "published_at": "2026-07-13T16:23:06Z",
+          "url": "https://github.com/vlT-vl/SVG-Desiger-Studio/releases/tag/v0.1.0-R130726"
+        }
+      ]
+    },
+    "tabby": {
+      "tag": "v1.0.238",
+      "published_at": "2026-10-07T06:43:54Z",
+      "downloads": {
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-arm64.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-setup-x64.exe",
+              "format": "EXE"
+            }
+          }
+        },
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-arm64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-linux-x64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-x86_64.dmg",
+              "format": "DMG"
+            }
+          },
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Eugeny/tabby/releases/download/v1.0.238/tabby-1.0.238-macos-arm64.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.0.238",
+          "name": "v1.0.238",
+          "published_at": "2026-10-07T06:43:54Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.238"
+        },
+        {
+          "tag": "v1.0.237",
+          "name": "v1.0.237",
+          "published_at": "2026-09-25T07:40:01Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.237"
+        },
+        {
+          "tag": "v1.0.236",
+          "name": "v1.0.236",
+          "published_at": "2026-09-23T17:14:24Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.236"
+        },
+        {
+          "tag": "v1.0.235",
+          "name": "v1.0.235",
+          "published_at": "2026-07-22T22:48:52Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.235"
+        },
+        {
+          "tag": "v1.0.234",
+          "name": "v1.0.234",
+          "published_at": "2026-05-17T15:19:21Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.234"
+        },
+        {
+          "tag": "v1.0.233",
+          "name": "v1.0.233",
+          "published_at": "2026-05-07T22:18:25Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.233"
+        },
+        {
+          "tag": "v1.0.232",
+          "name": "v1.0.232",
+          "published_at": "2026-05-04T18:26:59Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.232"
+        },
+        {
+          "tag": "v1.0.231",
+          "name": "v1.0.231",
+          "published_at": "2026-05-03T23:38:21Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.231"
+        },
+        {
+          "tag": "v1.0.230",
+          "name": "v1.0.230",
+          "published_at": "2026-01-14T06:55:33Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.230"
+        },
+        {
+          "tag": "v1.0.229",
+          "name": "v1.0.229",
+          "published_at": "2025-11-11T11:47:04Z",
+          "url": "https://github.com/Eugeny/tabby/releases/tag/v1.0.229"
+        }
+      ]
+    },
+    "thaw": {
+      "tag": "2.0.1",
+      "published_at": "2026-09-02T08:51:12Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/thaw-app/Thaw/releases/download/2.0.1/Thaw.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "3.0.0-alpha.8",
+          "name": "3.0.0-alpha.8",
+          "published_at": "2026-10-11T17:46:49Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.8"
+        },
+        {
+          "tag": "3.0.0-beta.2",
+          "name": "3.0.0-beta.2",
+          "published_at": "2026-10-07T00:08:09Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.2"
+        },
+        {
+          "tag": "3.0.0-beta.1",
+          "name": "3.0.0-beta.1",
+          "published_at": "2026-10-02T02:41:26Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.1"
+        },
+        {
+          "tag": "2.1.0-beta.6",
+          "name": "2.1.0-beta.6",
+          "published_at": "2026-10-01T02:30:37Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0-beta.6"
+        },
+        {
+          "tag": "3.0.0-alpha.7",
+          "name": "3.0.0-alpha.7",
+          "published_at": "2026-09-25T18:52:59Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.7"
+        },
+        {
+          "tag": "2.1.0-beta.5",
+          "name": "2.1.0-beta.5",
+          "published_at": "2026-09-25T18:28:40Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0-beta.5"
+        },
+        {
+          "tag": "3.0.0-alpha.6",
+          "name": "3.0.0-alpha.6",
+          "published_at": "2026-09-21T13:48:54Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.6"
+        },
+        {
+          "tag": "2.1.0-beta.4",
+          "name": "2.1.0-beta.4",
+          "published_at": "2026-09-21T03:13:29Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0-beta.4"
+        },
+        {
+          "tag": "3.0.0-alpha.5",
+          "name": "3.0.0-alpha.5",
+          "published_at": "2026-09-15T11:08:50Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.5"
+        },
+        {
+          "tag": "3.0.0-alpha.4.1",
+          "name": "3.0.0-alpha.4.1",
+          "published_at": "2026-09-15T03:55:16Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.4.1"
+        }
+      ]
+    },
+    "unigetui": {
+      "tag": "v2026.3.1",
+      "published_at": "2026-10-08T18:47:24Z",
+      "downloads": {
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.Installer.arm64.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.Installer.x64.exe",
+              "format": "EXE"
+            }
+          }
+        },
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.linux-arm64.tar.gz",
+              "format": "TARGZ"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.linux-x64.tar.gz",
+              "format": "TARGZ"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.macos-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.macos-x64.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v2026.3.1",
+          "name": "UniGetUI v2026.3.1",
+          "published_at": "2026-10-08T18:47:24Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.1"
+        },
+        {
+          "tag": "v2026.3.0",
+          "name": "UniGetUI v2026.3.0",
+          "published_at": "2026-09-15T17:47:57Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.0"
+        },
+        {
+          "tag": "v2026.2.7",
+          "name": "UniGetUI v2026.2.7",
+          "published_at": "2026-07-31T15:07:47Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.7"
+        },
+        {
+          "tag": "v2026.2.6",
+          "name": "UniGetUI v2026.2.6",
+          "published_at": "2026-07-29T20:00:24Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.6"
+        },
+        {
+          "tag": "v2026.2.5",
+          "name": "UniGetUI v2026.2.5",
+          "published_at": "2026-07-16T18:36:46Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.5"
+        },
+        {
+          "tag": "v2026.2.4",
+          "name": "UniGetUI v2026.2.4",
+          "published_at": "2026-07-15T14:33:13Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.4"
+        },
+        {
+          "tag": "v2026.2.3",
+          "name": "UniGetUI v2026.2.3",
+          "published_at": "2026-07-14T15:19:08Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.3"
+        },
+        {
+          "tag": "v2026.2.2",
+          "name": "UniGetUI v2026.2.2",
+          "published_at": "2026-06-25T12:53:24Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.2"
+        },
+        {
+          "tag": "v2026.2.1",
+          "name": "UniGetUI v2026.2.1",
+          "published_at": "2026-06-15T17:42:25Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.1"
+        },
+        {
+          "tag": "v2026.2.0",
+          "name": "UniGetUI v2026.2.0",
+          "published_at": "2026-06-02T15:57:33Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.0"
+        }
+      ]
+    },
+    "vectorcraft": {
+      "tag": "v0.10.0",
+      "published_at": "2026-10-12T15:56:13Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.10.0/vectorcraft-0.10.0-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.10.0/vectorcraft-0.10.0-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.10.0/vectorcraft-0.10.0-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.10.0/vectorcraft-0.10.0-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.10.0/vectorcraft-0.10.0-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.10.0",
+          "name": "VectorCraft v0.10.0",
+          "published_at": "2026-10-12T15:56:13Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.10.0"
+        },
+        {
+          "tag": "v0.9.0",
+          "name": "VectorCraft v0.9.0",
+          "published_at": "2026-10-11T00:56:53Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.9.0"
+        },
+        {
+          "tag": "v0.8.0",
+          "name": "VectorCraft v0.8.0",
+          "published_at": "2026-10-10T02:51:48Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.8.0"
+        },
+        {
+          "tag": "v0.7.0",
+          "name": "VectorCraft v0.7.0",
+          "published_at": "2026-10-08T18:43:46Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.7.0"
+        },
+        {
+          "tag": "v0.6.0",
+          "name": "VectorCraft v0.6.0",
+          "published_at": "2026-10-08T14:41:38Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.6.0"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "VectorCraft v0.5.0",
+          "published_at": "2026-10-08T13:03:59Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "VectorCraft v0.4.0",
+          "published_at": "2026-10-07T10:00:42Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.1",
+          "name": "VectorCraft v0.3.1",
+          "published_at": "2026-10-06T12:37:09Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.1"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "VectorCraft v0.3.0",
+          "published_at": "2026-10-06T01:34:54Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.2.0",
+          "name": "VectorCraft v0.2.0",
+          "published_at": "2026-10-05T07:04:13Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.2.0"
+        }
+      ]
+    },
+    "vorssaint": {
+      "tag": "v3.4.1",
+      "published_at": "2026-10-08T23:45:35Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/vorssaint/vorssaint-utils/releases/download/v3.4.1/Vorssaint-3.4.1.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v3.4.1",
+          "name": "v3.4.1",
+          "published_at": "2026-10-08T23:45:35Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1"
+        },
+        {
+          "tag": "v3.4.1-beta.5",
+          "name": "v3.4.1-beta.5",
+          "published_at": "2026-10-08T17:32:39Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1-beta.5"
+        },
+        {
+          "tag": "v3.4.1-beta.3",
+          "name": "v3.4.1-beta.3",
+          "published_at": "2026-10-08T05:05:38Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1-beta.3"
+        },
+        {
+          "tag": "v3.4.1-beta.2",
+          "name": "v3.4.1-beta.2",
+          "published_at": "2026-10-06T12:57:05Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1-beta.2"
+        },
+        {
+          "tag": "v3.4.1-beta.1",
+          "name": "v3.4.1-beta.1",
+          "published_at": "2026-09-29T11:33:16Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1-beta.1"
+        },
+        {
+          "tag": "v3.4.0",
+          "name": "v3.4.0",
+          "published_at": "2026-09-27T11:20:24Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0"
+        },
+        {
+          "tag": "v3.4.0-beta.7",
+          "name": "v3.4.0-beta.7",
+          "published_at": "2026-09-26T21:38:26Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0-beta.7"
+        },
+        {
+          "tag": "v3.4.0-beta.6",
+          "name": "v3.4.0-beta.6",
+          "published_at": "2026-09-26T00:46:36Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0-beta.6"
+        },
+        {
+          "tag": "v3.4.0-beta.5",
+          "name": "v3.4.0-beta.5",
+          "published_at": "2026-09-25T16:34:23Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0-beta.5"
+        },
+        {
+          "tag": "v3.4.0-beta.4",
+          "name": "v3.4.0-beta.4",
+          "published_at": "2026-09-23T10:07:22Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0-beta.4"
+        }
+      ]
+    },
+    "vscodium": {
+      "tag": "1.135.06055",
+      "published_at": "2026-09-09T08:19:21Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-1.135.06055-anylinux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-1.135.06055-anylinux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-darwin-arm64-1.135.06055.zip",
+              "format": "ZIP"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodium-darwin-x64-1.135.06055.zip",
+              "format": "ZIP"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodiumUserSetup-arm64-1.135.06055.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.135.06055/VSCodiumUserSetup-x64-1.135.06055.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "1.135.06055",
+          "name": "1.135.06055",
+          "published_at": "2026-09-09T08:19:21Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.135.06055"
+        },
+        {
+          "tag": "1.126.04524",
+          "name": "1.126.04524",
+          "published_at": "2026-07-07T13:01:09Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.126.04524"
+        },
+        {
+          "tag": "1.121.03429",
+          "name": "1.121.03429",
+          "published_at": "2026-05-22T22:14:58Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.121.03429"
+        },
+        {
+          "tag": "1.116.02821",
+          "name": "1.116.02821",
+          "published_at": "2026-04-27T14:01:34Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.116.02821"
+        },
+        {
+          "tag": "1.112.01907",
+          "name": "1.112.01907",
+          "published_at": "2026-03-20T12:01:28Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.112.01907"
+        },
+        {
+          "tag": "1.110.11631",
+          "name": "1.110.11631",
+          "published_at": "2026-03-08T23:34:19Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.11631"
+        },
+        {
+          "tag": "1.110.11607",
+          "name": "1.110.11607",
+          "published_at": "2026-03-07T23:19:53Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.11607"
+        },
+        {
+          "tag": "1.110.11602",
+          "name": "1.110.11602",
+          "published_at": "2026-03-07T18:24:37Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.11602"
+        },
+        {
+          "tag": "1.110.01571",
+          "name": "1.110.01571",
+          "published_at": "2026-03-06T11:59:01Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.01571"
+        },
+        {
+          "tag": "1.109.51242",
+          "name": "1.109.51242",
+          "published_at": "2026-02-20T18:39:01Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.109.51242"
+        }
+      ]
+    },
+    "wisp": {
+      "tag": "v1.0.3",
+      "published_at": "2026-10-13T08:58:54Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/PhanithNY/wisp-releases/releases/download/v1.0.3/Wisp.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.0.3",
+          "name": "Wisp 1.0.3",
+          "published_at": "2026-10-13T08:58:54Z",
+          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.3"
+        },
+        {
+          "tag": "v1.0.2",
+          "name": "Wisp 1.0.2",
+          "published_at": "2026-10-10T17:13:50Z",
+          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.2"
+        },
+        {
+          "tag": "v1.0.1",
+          "name": "Wisp 1.0.1",
+          "published_at": "2026-10-07T16:21:33Z",
+          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.1"
+        },
+        {
+          "tag": "v1.0.0",
+          "name": "Wisp 1.0.0",
+          "published_at": "2026-10-04T15:19:35Z",
+          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.0"
+        }
+      ]
+    },
+    "wordcraft": {
+      "tag": "v0.6.1",
+      "published_at": "2026-10-12T16:22:15Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.6.1/wordcraft-0.6.1-linux-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.6.1/wordcraft-0.6.1-linux-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.6.1/wordcraft-0.6.1-macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.6.1/wordcraft-0.6.1-windows-arm64.msi",
+              "format": "MSI"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.6.1/wordcraft-0.6.1-windows-x64.msi",
+              "format": "MSI"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v0.6.1",
+          "name": "WordCraft v0.6.1",
+          "published_at": "2026-10-12T16:22:15Z",
+          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.6.1"
+        },
+        {
+          "tag": "v0.5.0",
+          "name": "WordCraft v0.5.0",
+          "published_at": "2026-10-11T00:36:07Z",
+          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.5.0"
+        },
+        {
+          "tag": "v0.4.0",
+          "name": "WordCraft v0.4.0",
+          "published_at": "2026-10-10T02:51:51Z",
+          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.4.0"
+        },
+        {
+          "tag": "v0.3.0",
+          "name": "WordCraft v0.3.0",
+          "published_at": "2026-10-08T14:41:46Z",
+          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.3.0"
+        },
+        {
+          "tag": "v0.1.0",
+          "name": "WordCraft v0.1.0",
+          "published_at": "2026-10-07T22:35:41Z",
+          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.1.0"
+        }
+      ]
+    },
+    "zen-browser": {
+      "tag": "1.23.2b",
+      "published_at": "2026-10-09T19:11:05Z",
+      "downloads": {
+        "windows": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/zen-browser/desktop/releases/download/1.23.2b/zen.installer-arm64.exe",
+              "format": "EXE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/zen-browser/desktop/releases/download/1.23.2b/zen.installer.exe",
+              "format": "EXE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/zen-browser/desktop/releases/download/1.23.2b/zen.macos-universal.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "1.23.2b",
+          "name": "Release build - 1.23.2b (2026-10-09)",
+          "published_at": "2026-10-09T19:11:05Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.23.2b"
+        },
+        {
+          "tag": "1.23.1b",
+          "name": "Release build - 1.23.1b (2026-10-06)",
+          "published_at": "2026-10-07T06:55:29Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.23.1b"
+        },
+        {
+          "tag": "1.23b",
+          "name": "Release build - 1.23b (2026-10-02)",
+          "published_at": "2026-10-03T10:03:45Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.23b"
+        },
+        {
+          "tag": "1.22.3b",
+          "name": "Release build - 1.22.3b (2026-09-22)",
+          "published_at": "2026-09-23T10:46:10Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.22.3b"
+        },
+        {
+          "tag": "1.22.2b",
+          "name": "Release build - 1.22.2b (2026-09-15)",
+          "published_at": "2026-09-16T15:38:49Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.22.2b"
+        },
+        {
+          "tag": "1.22.1b",
+          "name": "Release build - 1.22.1b (2026-09-11)",
+          "published_at": "2026-09-12T16:22:28Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.22.1b"
+        },
+        {
+          "tag": "1.22b",
+          "name": "Release build - 1.22b (2026-09-04)",
+          "published_at": "2026-09-05T17:56:46Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.22b"
+        },
+        {
+          "tag": "1.21.16b",
+          "name": "Release build - 1.21.16b (2026-08-28)",
+          "published_at": "2026-08-29T21:29:27Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.21.16b"
+        },
+        {
+          "tag": "1.21.15b",
+          "name": "Release build - 1.21.15b (2026-08-18)",
+          "published_at": "2026-08-19T17:13:06Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.21.15b"
+        },
+        {
+          "tag": "1.21.14b",
+          "name": "Release build - 1.21.14b (2026-08-11)",
+          "published_at": "2026-08-13T16:18:49Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.21.14b"
+        }
+      ]
+    }
+  }
+}

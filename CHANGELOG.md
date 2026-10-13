@@ -11,6 +11,21 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
   FigCraft, FilmCraft, GridCraft, LightCraft, PdfCraft, PhotoCraft,
   SoundCraft, VectorCraft, WordCraft (Windows x64/arm64, macOS universale,
   Linux x64/arm64) — catalogo a 70 app.
+- Aggiunti lo script `scripts/build-releases.js` e il workflow `releases.yml`,
+  che producono `v1/releases.json`: per ogni app con `repo` GitHub pubblico,
+  l'ultima release stabile (non draft né prerelease, rispettando
+  `releasePrefix`), i file risolti dalle regole `match` e lo storico delle
+  ultime 10 release. Il workflow legge fino a 3 pagine da 100 release, così
+  trova la stabile anche quando le più recenti sono solo prerelease (caso
+  Thaw). Gira ogni 3 ore, dopo "Update manifests", su push a `manifests/**` e
+  a avvio manuale.
+- Il file viene aggiornato sul posto: una voce cambia solo se cambia il suo
+  contenuto; se non cambia nulla il file non viene riscritto né committato.
+  Se GitHub non risponde per un repo, la sua voce resta quella precedente.
+  Non tocca mai `manifests/` né `v1/index.json`.
+- Nessuna voce per le app senza `repo` (18) e per quelle con repo privato
+  (pmxtools-cli, pmxtools-ui), così nessun dato di repo privati finisce nel
+  file pubblico. Stato attuale: 50 app nel file su 70 nel catalogo.
 
 ## 2026-10-12
 
