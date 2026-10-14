@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T19:26:41.588Z",
+  "generated_at": "2026-10-14T23:56:44.687Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -3580,19 +3580,31 @@
       ]
     },
     "thaw": {
-      "tag": "2.0.1",
-      "published_at": "2026-09-02T08:51:12Z",
+      "tag": "2.1.0",
+      "published_at": "2026-10-14T23:26:11Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/thaw-app/Thaw/releases/download/2.0.1/Thaw.dmg",
+              "url": "https://github.com/thaw-app/Thaw/releases/download/2.1.0/Thaw.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "3.0.0-alpha.9",
+          "name": "3.0.0-alpha.9",
+          "published_at": "2026-10-14T23:43:44Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.9"
+        },
+        {
+          "tag": "2.1.0",
+          "name": "2.1.0",
+          "published_at": "2026-10-14T23:26:11Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0"
+        },
         {
           "tag": "3.0.0-alpha.8",
           "name": "3.0.0-alpha.8",
@@ -3640,18 +3652,6 @@
           "name": "2.1.0-beta.4",
           "published_at": "2026-09-21T03:13:29Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0-beta.4"
-        },
-        {
-          "tag": "3.0.0-alpha.5",
-          "name": "3.0.0-alpha.5",
-          "published_at": "2026-09-15T11:08:50Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.5"
-        },
-        {
-          "tag": "3.0.0-alpha.4.1",
-          "name": "3.0.0-alpha.4.1",
-          "published_at": "2026-09-15T03:55:16Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.4.1"
         }
       ]
     },
