@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T17:04:22.256Z",
+  "generated_at": "2026-10-15T21:26:03.261Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -354,13 +354,13 @@
       ]
     },
     "bitwarden": {
-      "tag": "desktop-v2026.9.1",
-      "published_at": "2026-10-01T19:35:06Z",
+      "tag": "desktop-v2026.10.0",
+      "published_at": "2026-10-15T18:56:38Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.9.1/Bitwarden-2026.9.1-universal.dmg",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.0/commercial-Bitwarden-2026.10.0-universal.dmg",
               "format": "DMG"
             }
           }
@@ -368,7 +368,7 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.9.1/Bitwarden-2026.9.1-x86_64.AppImage",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.0/commercial-Bitwarden-2026.10.0-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -376,13 +376,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.9.1/Bitwarden-Installer-2026.9.1.exe",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.0/Bitwarden-Installer-2026.10.0.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "desktop-v2026.10.0",
+          "name": "Desktop v2026.10.0",
+          "published_at": "2026-10-15T18:56:38Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.10.0"
+        },
         {
           "tag": "desktop-v2026.9.1",
           "name": "Desktop v2026.9.1",
@@ -436,12 +442,6 @@
           "name": "Desktop v2026.4.0",
           "published_at": "2026-05-20T18:50:23Z",
           "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.4.0"
-        },
-        {
-          "tag": "desktop-v2026.3.1",
-          "name": "Desktop v2026.3.1",
-          "published_at": "2026-04-02T16:03:55Z",
-          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.3.1"
         }
       ]
     },
@@ -602,19 +602,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.300",
-      "published_at": "2026-10-14T18:24:25Z",
+      "tag": "v2.1.301",
+      "published_at": "2026-10-15T19:22:06Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.300/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.301/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.300/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.301/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -622,13 +622,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.300/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.301/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.300/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.301/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -636,19 +636,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.300/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.301/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.300/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.301/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.301",
+          "name": "v2.1.301",
+          "published_at": "2026-10-15T19:22:06Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301"
+        },
         {
           "tag": "v2.1.300",
           "name": "v2.1.300",
@@ -702,12 +708,6 @@
           "name": "v2.1.290",
           "published_at": "2026-10-05T23:33:17Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.290"
-        },
-        {
-          "tag": "v2.1.289",
-          "name": "v2.1.289",
-          "published_at": "2026-10-03T23:07:17Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.289"
         }
       ]
     },
@@ -1178,6 +1178,12 @@
       },
       "history": [
         {
+          "tag": "v1.20.0-beta.1",
+          "name": "v1.20.0-beta.1",
+          "published_at": "2026-10-15T17:58:46Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0-beta.1"
+        },
+        {
           "tag": "v1.19.0",
           "name": "v1.19.0",
           "published_at": "2026-10-12T17:57:56Z",
@@ -1230,12 +1236,6 @@
           "name": "v1.15.0",
           "published_at": "2026-09-11T23:56:43Z",
           "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.15.0"
-        },
-        {
-          "tag": "v1.15.0-beta.1",
-          "name": "v1.15.0-beta.1",
-          "published_at": "2026-09-10T08:29:30Z",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.15.0-beta.1"
         }
       ]
     },
@@ -3656,19 +3656,19 @@
       ]
     },
     "unigetui": {
-      "tag": "v2026.3.1",
-      "published_at": "2026-10-08T18:47:24Z",
+      "tag": "v2026.3.2",
+      "published_at": "2026-10-15T18:58:36Z",
       "downloads": {
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.Installer.arm64.exe",
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.Installer.arm64.exe",
               "format": "EXE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.Installer.x64.exe",
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.Installer.x64.exe",
               "format": "EXE"
             }
           }
@@ -3676,13 +3676,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.linux-arm64.tar.gz",
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.linux-x64.tar.gz",
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -3690,19 +3690,25 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.macos-arm64.dmg",
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.macos-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.1/UniGetUI.macos-x64.dmg",
+              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.macos-x64.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2026.3.2",
+          "name": "UniGetUI v2026.3.2",
+          "published_at": "2026-10-15T18:58:36Z",
+          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.2"
+        },
         {
           "tag": "v2026.3.1",
           "name": "UniGetUI v2026.3.1",
@@ -3756,12 +3762,6 @@
           "name": "UniGetUI v2026.2.1",
           "published_at": "2026-06-15T17:42:25Z",
           "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.1"
-        },
-        {
-          "tag": "v2026.2.0",
-          "name": "UniGetUI v2026.2.0",
-          "published_at": "2026-06-02T15:57:33Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.0"
         }
       ]
     },
