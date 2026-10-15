@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-14T23:56:44.687Z",
+  "generated_at": "2026-10-15T04:44:10.699Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -888,19 +888,25 @@
       ]
     },
     "coucou": {
-      "tag": "v0.3.0",
-      "published_at": "2026-10-10T23:26:54Z",
+      "tag": "v0.4.0",
+      "published_at": "2026-10-15T01:28:00Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.3.0/Coucou.zip",
+              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.4.0/Coucou.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.4.0",
+          "name": "Coucou 0.4.0",
+          "published_at": "2026-10-15T01:28:00Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.4.0"
+        },
         {
           "tag": "v0.3.0",
           "name": "Coucou 0.3.0",
@@ -954,12 +960,6 @@
           "name": "Coucou 0.1.6",
           "published_at": "2026-10-04T03:03:15Z",
           "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.6"
-        },
-        {
-          "tag": "v0.1.5",
-          "name": "Coucou 0.1.5",
-          "published_at": "2026-10-04T00:15:26Z",
-          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.5"
         }
       ]
     },
