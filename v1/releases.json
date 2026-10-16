@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-15T21:26:03.261Z",
+  "generated_at": "2026-10-16T04:35:53.742Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2507,7 +2507,7 @@
       "history": [
         {
           "tag": "open-design-v0.25.0",
-          "name": "Open Design 0.25.0 — Steadier Ground",
+          "name": "Open Design 0.25.0 — OpenDesign Motion",
           "published_at": "2026-10-15T14:44:06Z",
           "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.25.0"
         },
