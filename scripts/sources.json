@@ -164,6 +164,142 @@
         }
       ]
     },
+    "teams": {
+      "rules": [
+        {
+          "target": "asset",
+          "select": {
+            "platform": "windows"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning",
+            "regex": "Windows\\s+Version history\\s+Release year\\s+Release date\\s+Teams version\\s+SlimCore version\\s+\\d{4}\\s+\\S+\\s+\\S+\\s+(?<version>[\\d.]+)",
+            "stripTags": true
+          }
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "macos"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://learn.microsoft.com/en-us/officeupdates/teams-app-versioning",
+            "regex": "New Teams app version\\s+Mac\\s+Version history\\s+Release year\\s+Release date\\s+Teams version\\s+SlimCore version\\s+\\d{4}\\s+\\S+\\s+\\S+\\s+(?<version>[\\d.]+)",
+            "stripTags": true
+          }
+        }
+      ],
+      "unversioned": [
+        {
+          "select": {
+            "platform": "windows"
+          },
+          "reason": "Microsoft publishes the current Teams MSIX through a rolling lkg CDN path"
+        },
+        {
+          "select": {
+            "platform": "macos"
+          },
+          "reason": "Microsoft publishes the current Teams PKG through a rolling lkg CDN path"
+        }
+      ]
+    },
+    "chromium": {
+      "rules": [
+        {
+          "target": "asset",
+          "select": {
+            "platform": "windows",
+            "arch": "x64"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/LAST_CHANGE",
+            "regex": "^(\\d+)$"
+          },
+          "urls": [
+            {
+              "from": "^https://storage\\.googleapis\\.com/chromium-browser-snapshots/Win_x64/\\d+/chrome-win\\.zip$",
+              "to": "https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/{version}/chrome-win.zip"
+            }
+          ]
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "windows",
+            "arch": "arm64"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Win_Arm64/LAST_CHANGE",
+            "regex": "^(\\d+)$"
+          },
+          "urls": [
+            {
+              "from": "^https://storage\\.googleapis\\.com/chromium-browser-snapshots/Win_Arm64/\\d+/chrome-win\\.zip$",
+              "to": "https://storage.googleapis.com/chromium-browser-snapshots/Win_Arm64/{version}/chrome-win.zip"
+            }
+          ]
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "macos",
+            "arch": "x64"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/LAST_CHANGE",
+            "regex": "^(\\d+)$"
+          },
+          "urls": [
+            {
+              "from": "^https://storage\\.googleapis\\.com/chromium-browser-snapshots/Mac/\\d+/chrome-mac\\.zip$",
+              "to": "https://storage.googleapis.com/chromium-browser-snapshots/Mac/{version}/chrome-mac.zip"
+            }
+          ]
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "macos",
+            "arch": "arm64"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/LAST_CHANGE",
+            "regex": "^(\\d+)$"
+          },
+          "urls": [
+            {
+              "from": "^https://storage\\.googleapis\\.com/chromium-browser-snapshots/Mac_Arm/\\d+/chrome-mac\\.zip$",
+              "to": "https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/{version}/chrome-mac.zip"
+            }
+          ]
+        },
+        {
+          "target": "asset",
+          "select": {
+            "platform": "linux",
+            "arch": "x64"
+          },
+          "source": {
+            "type": "regex",
+            "url": "https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/LAST_CHANGE",
+            "regex": "^(\\d+)$"
+          },
+          "urls": [
+            {
+              "from": "^https://storage\\.googleapis\\.com/chromium-browser-snapshots/Linux_x64/\\d+/chrome-linux\\.zip$",
+              "to": "https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/{version}/chrome-linux.zip"
+            }
+          ]
+        }
+      ]
+    },
     "claude": {
       "rules": [
         {

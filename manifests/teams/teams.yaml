@@ -1,0 +1,38 @@
+id: teams
+name: Microsoft Teams
+publisher: Microsoft Corporation
+category: Productivity
+description: Microsoft's collaboration app for chat, meetings, calls and shared work.
+about:
+  it: >-
+    Microsoft Teams è l'app di collaborazione di Microsoft per chat, riunioni,
+    chiamate, condivisione di file e lavoro coordinato tra persone e gruppi.
+    Il nuovo client desktop è distribuito da Microsoft come pacchetto MSIX per
+    Windows x64 e ARM64 e come PKG universale per macOS. Su Linux Microsoft
+    distribuisce Teams come applicazione web progressiva, quindi questo
+    manifest non pubblica un installer Linux.
+  en: >-
+    Microsoft Teams is Microsoft's collaboration app for chat, meetings,
+    calls, file sharing and coordinated work between people and groups. The
+    new desktop client is distributed by Microsoft as an MSIX package for
+    Windows x64 and ARM64 and as a universal PKG for macOS. On Linux,
+    Microsoft distributes Teams as a progressive web app, so this manifest
+    does not publish a Linux installer.
+url: https://www.microsoft.com/microsoft-teams/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/teams/teams.png
+assets:
+  - platform: windows
+    arch: x64
+    format: MSIX
+    url: https://statics.teams.cdn.office.net/production-windows-x64/enterprise/webview2/lkg/MSTeams-x64.msix
+    version: '26260.1701.5139.3736'
+  - platform: windows
+    arch: arm64
+    format: MSIX
+    url: https://statics.teams.cdn.office.net/production-windows-arm64/enterprise/webview2/lkg/MSTeams-arm64.msix
+    version: '26260.1701.5139.3736'
+  - platform: macos
+    arch: universal
+    format: PKG
+    url: https://statics.teams.cdn.office.net/production-osx/enterprise/webview2/lkg/MicrosoftTeams.pkg
+    version: '26261.303.5165.1465'

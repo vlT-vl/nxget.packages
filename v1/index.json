@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-13T07:53:49.276Z",
+  "generated_at": "2026-10-16T12:53:09.484Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -87,6 +87,13 @@
       "publisher": "OpenAI",
       "category": "Development",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chatgpt/chatgpt.yaml"
+    },
+    {
+      "id": "chromium",
+      "name": "Chromium",
+      "publisher": "The Chromium Authors",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chromium/chromium.yaml"
     },
     {
       "id": "claude",
@@ -276,6 +283,13 @@
       "publisher": "Microsoft Corporation",
       "category": "Productivity",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/microsoft-365/microsoft-365.yaml"
+    },
+    {
+      "id": "teams",
+      "name": "Microsoft Teams",
+      "publisher": "Microsoft Corporation",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/teams/teams.yaml"
     },
     {
       "id": "mist",

@@ -1,0 +1,55 @@
+id: chromium
+name: Chromium
+publisher: The Chromium Authors
+category: Utility
+description: The open-source browser project that provides the foundation for Google Chrome and other Chromium-based browsers.
+about:
+  it: >-
+    Chromium è il progetto open source del browser che fornisce la base a
+    Google Chrome e a molti altri browser. Google pubblica build desktop
+    ufficiali come snapshot continue del progetto, identificate da una
+    revisione Chromium e non da una release stabile con numero di versione
+    utente. Questi pacchetti non si aggiornano automaticamente e le revisioni
+    sono indipendenti tra piattaforme; Linux ARM64 non è pubblicato negli
+    snapshot ufficiali desktop. Il manifest segue quindi l'ultima revisione
+    disponibile per ciascuna piattaforma, senza inventare una release unica.
+  en: >-
+    Chromium is the open-source browser project that provides the foundation
+    for Google Chrome and many other browsers. Google publishes official
+    desktop builds as continuous project snapshots identified by a Chromium
+    revision, not by a user-facing stable release number. These packages do
+    not auto-update and revisions are independent between platforms; Linux
+    ARM64 is not published in the official desktop snapshots. This manifest
+    therefore follows the latest available revision for each platform without
+    pretending that they form one release.
+url: https://www.chromium.org/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/chromium/chromium.png
+license:
+  name: BSD 3-Clause License
+  url: https://raw.githubusercontent.com/chromium/chromium/main/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: ZIP
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1720571/chrome-win.zip
+    version: '1720571'
+  - platform: windows
+    arch: arm64
+    format: ZIP
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Win_Arm64/1720558/chrome-win.zip
+    version: '1720558'
+  - platform: macos
+    arch: x64
+    format: ZIP
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Mac/1720615/chrome-mac.zip
+    version: '1720615'
+  - platform: macos
+    arch: arm64
+    format: ZIP
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1720617/chrome-mac.zip
+    version: '1720617'
+  - platform: linux
+    arch: x64
+    format: ZIP
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1720609/chrome-linux.zip
+    version: '1720609'

@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R131026-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R161026-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -188,7 +188,7 @@ assets:
 |---|---|---|
 | `platform` | `windows`, `macos`, `linux` | Target operating system |
 | `arch` | `x64`, `arm64`, `universal` | CPU architecture. `universal` means a single file for every CPU of that platform: a universal macOS binary, an installer stub that picks the right build, or a Flatpak reference. Other architectures (32-bit ARM, x86) are not published |
-| `format` | `EXE`, `MSI`, `MSIXBUNDLE`, `PKG`, `DMG`, `ZIP`, `TARGZ`, `DEB`, `APPIMAGE`, `BIN`, `FLATPAK` | File type. `BIN` is a bare executable with no archive around it; `FLATPAK` is a Flathub `.flatpakref` reference file |
+| `format` | `EXE`, `MSI`, `MSIX`, `MSIXBUNDLE`, `PKG`, `DMG`, `ZIP`, `TARGZ`, `DEB`, `APPIMAGE`, `BIN`, `FLATPAK` | File type. `BIN` is a bare executable with no archive around it; `MSIX` is a Windows MSIX package; `FLATPAK` is a Flathub `.flatpakref` reference file |
 | `match` | regular expression | Evaluated against the file names of `repo`'s latest release; no download URL is stored |
 | `url` | link | A fixed download link the consumer uses as published |
 | `version` | quoted string | Optional override of the app's `version` for this one asset, used only when its version differs from the others (e.g. a Flatpak that lags behind, or a platform with its own numbering) |
@@ -217,7 +217,7 @@ assets:
 ### Writing rules
 
 - Manifests are written by hand and contain no YAML comments. The updater only ever rewrites existing `version:` and `url:` lines, in place, and nothing else.
-- A fixed `url` always carries the version it serves (a versioned file name, a versioned path or the vendor's version archive); never a `latest`, `current` or other rolling alias. The only exceptions are links for which the vendor publishes no versioned file at all (a Flatpak reference, Google's Chrome installers for Windows and macOS, Spotify, a click-to-run stub…); each one is declared with its reason under `unversioned` in `scripts/sources.json`, and the updater reports any other link without a version as a problem.
+- A fixed `url` always carries the version it serves (a versioned file name, a versioned path or the vendor's version archive); never a `latest`, `current` or other rolling alias. The only exceptions are links for which the vendor publishes no versioned file at all (a Flatpak reference, Google's Chrome installers for Windows and macOS, Spotify, a click-to-run stub, the rolling Microsoft Teams packages…); each one is declared with its reason under `unversioned` in `scripts/sources.json`, and the updater reports any other link without a version as a problem.
 - Every app with a static `version` needs an entry in `scripts/sources.json` naming where its current version is published and how the links are built from it; without one the updater only warns about it.
 - Every `match` pattern must resolve to exactly one file of the latest stable release, and every fixed `url` must answer with a file — check both before publishing.
 - `description` is an unquoted YAML value: it must not contain a colon followed by a space, or the manifest will not parse.
@@ -285,7 +285,7 @@ Links the vendor publishes no versioned file for are declared under `unversioned
 
 The file is only updated in place. An app's entry changes only if its content changes; if nothing changed, the file is neither rewritten nor committed, and `generated_at` changes only when the file does. If GitHub does not answer for a repo, that app keeps its previous entry. The file is never deleted or recreated. The commit is made by `github-actions[bot]` with the message `chore: update releases.json`, pushed with `git pull --rebase origin api` and up to 3 attempts. The workflow runs in its own concurrency group, `update-releases`, separate from `update.yml`. It touches only `v1/releases.json`, never `manifests/` or `v1/index.json`, and writes no `version` into any manifest.
 
-Apps without a `repo` (18) and apps whose repository is private (`pmxtools-cli`, `pmxtools-ui`) have no entry, so no private repository data ends up in the public file. At the time of writing, 50 of the 70 apps in the catalog are in the file.
+Apps without a `repo` (20) and apps whose repository is private (`pmxtools-cli`, `pmxtools-ui`) have no entry, so no private repository data ends up in the public file. At the time of writing, 50 of the 72 apps in the catalog are in the file.
 
 | Property | `update.yml` | `build.yml` |
 |---|---|---|
@@ -327,8 +327,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R131026 |
-| Updated | 13 October 2026 |
+| Build | R161026 |
+| Updated | 16 October 2026 |
 | API version | v1 |
 | Branch | `api` |
 

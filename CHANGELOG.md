@@ -2,6 +2,19 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-10-16
+
+- Aggiunto il manifest di Microsoft Teams con i pacchetti ufficiali New Teams
+  per Windows x64/ARM64 (MSIX) e macOS universale (PKG); Linux resta
+  distribuito da Microsoft come PWA — catalogo a 72 app.
+- Aggiunto il manifest di Chromium con gli snapshot desktop ufficiali Google
+  correnti per Windows x64/ARM64, macOS Intel/Apple Silicon e Linux x64.
+  Chromium non pubblica release GitHub installabili: il repository ufficiale è
+  un mirror del sorgente e gli snapshot sono identificati da revisioni
+  indipendenti per piattaforma. Linux ARM64 non è pubblicato negli snapshot
+  desktop ufficiali.
+- Aggiunto `MSIX` ai formati asset supportati.
+
 ## 2026-10-13
 
 - Aggiunto il manifest di Concat (Windows x64/arm64, macOS Apple Silicon e
