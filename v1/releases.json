@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T11:28:48.380Z",
+  "generated_at": "2026-10-16T14:41:40.464Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2888,6 +2888,12 @@
       },
       "history": [
         {
+          "tag": "v0.21.0-beta.1",
+          "name": "v0.21.0-beta.1",
+          "published_at": "2026-10-16T13:04:52Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.1"
+        },
+        {
           "tag": "v0.20.1",
           "name": "v0.20.1",
           "published_at": "2026-10-13T13:56:07Z",
@@ -2940,12 +2946,6 @@
           "name": "Remote SSH MVP — Host-only test (2026-10-10)",
           "published_at": "2026-10-10T15:27:22Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/host-test-remote-mvp-20261010-f6cc3237"
-        },
-        {
-          "tag": "v0.18.0-beta.3",
-          "name": "v0.18.0-beta.3",
-          "published_at": "2026-10-09T11:41:40Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.3"
         }
       ]
     },
@@ -3766,19 +3766,19 @@
       ]
     },
     "vectorcraft": {
-      "tag": "v0.11.0",
-      "published_at": "2026-10-14T14:54:46Z",
+      "tag": "v0.12.0",
+      "published_at": "2026-10-16T12:26:40Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.11.0/vectorcraft-0.11.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.12.0/vectorcraft-0.12.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.11.0/vectorcraft-0.11.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.12.0/vectorcraft-0.12.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3786,7 +3786,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.11.0/vectorcraft-0.11.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.12.0/vectorcraft-0.12.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -3794,19 +3794,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.11.0/vectorcraft-0.11.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.12.0/vectorcraft-0.12.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.11.0/vectorcraft-0.11.0-windows-x64.msi",
+              "url": "https://github.com/storytold/vectorcraft/releases/download/v0.12.0/vectorcraft-0.12.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.12.0",
+          "name": "VectorCraft v0.12.0",
+          "published_at": "2026-10-16T12:26:40Z",
+          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.12.0"
+        },
         {
           "tag": "v0.11.0",
           "name": "VectorCraft v0.11.0",
@@ -3860,12 +3866,6 @@
           "name": "VectorCraft v0.3.1",
           "published_at": "2026-10-06T12:37:09Z",
           "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.1"
-        },
-        {
-          "tag": "v0.3.0",
-          "name": "VectorCraft v0.3.0",
-          "published_at": "2026-10-06T01:34:54Z",
-          "url": "https://github.com/storytold/vectorcraft/releases/tag/v0.3.0"
         }
       ]
     },
