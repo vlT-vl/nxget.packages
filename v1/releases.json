@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T04:35:53.742Z",
+  "generated_at": "2026-10-16T11:28:48.380Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -808,13 +808,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-aarch64.AppImage",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-x86_64.AppImage",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -822,13 +822,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-macos-arm64.dmg",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-macos-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-macos-x86_64.dmg",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-macos-x86_64.dmg",
               "format": "DMG"
             }
           }
@@ -836,7 +836,7 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/concat/releases/download/v0.2.7/Concat-0.2.7-windows-x86_64-setup.exe",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-windows-x86_64-setup.exe",
               "format": "EXE"
             }
           }
@@ -847,43 +847,43 @@
           "tag": "v0.2.7",
           "name": "Concat v0.2.7",
           "published_at": "2026-10-13T18:23:56Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.7"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.7"
         },
         {
           "tag": "v0.2.6",
           "name": "Concat v0.2.6",
           "published_at": "2026-10-06T16:44:15Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.6"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.6"
         },
         {
           "tag": "v0.2.5",
           "name": "Concat v0.2.5",
           "published_at": "2026-09-28T15:51:27Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.5"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.5"
         },
         {
           "tag": "v0.2.4",
           "name": "Concat v0.2.4",
           "published_at": "2026-09-24T17:34:02Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.4"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.4"
         },
         {
           "tag": "v0.2.3",
           "name": "Concat v0.2.3",
           "published_at": "2026-09-19T18:56:49Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.3"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.3"
         },
         {
           "tag": "v0.2.2",
           "name": "Concat v0.2.2",
           "published_at": "2026-09-15T15:32:53Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.2"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.2"
         },
         {
           "tag": "v0.2.1",
           "name": "Concat v0.2.1",
           "published_at": "2026-09-04T20:50:16Z",
-          "url": "https://github.com/jub0t/concat/releases/tag/v0.2.1"
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.1"
         }
       ]
     },
@@ -1537,7 +1537,7 @@
       "history": [
         {
           "tag": "dev",
-          "name": "FreeFlow Dev b2e3aa0c54ca",
+          "name": "FreeFlow Dev 797a3f32e6b5",
           "published_at": "2026-04-30T09:55:39Z",
           "url": "https://github.com/zachlatta/freeflow/releases/tag/dev"
         },
