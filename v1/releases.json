@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T23:38:47.357Z",
+  "generated_at": "2026-10-17T04:31:35.951Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2084,19 +2084,25 @@
       ]
     },
     "macsai": {
-      "tag": "v1.25.3",
-      "published_at": "2026-10-14T07:05:09Z",
+      "tag": "v1.25.4",
+      "published_at": "2026-10-17T04:00:25Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/iliyami/MacSai/releases/download/v1.25.3/MacSai-1.25.3.dmg",
+              "url": "https://github.com/iliyami/MacSai/releases/download/v1.25.4/MacSai-1.25.4.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.25.4",
+          "name": "Mac Sai v1.25.4",
+          "published_at": "2026-10-17T04:00:25Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.25.4"
+        },
         {
           "tag": "v1.25.3",
           "name": "Mac Sai v1.25.3",
@@ -2150,12 +2156,6 @@
           "name": "Mac Sai v1.19.0",
           "published_at": "2026-09-03T16:33:11Z",
           "url": "https://github.com/iliyami/MacSai/releases/tag/v1.19.0"
-        },
-        {
-          "tag": "v1.18.8",
-          "name": "Mac Sai v1.18.8",
-          "published_at": "2026-08-08T09:44:44Z",
-          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.18.8"
         }
       ]
     },
