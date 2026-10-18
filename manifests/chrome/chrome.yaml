@@ -30,24 +30,24 @@ assets:
     arch: x64
     format: MSI
     url: https://dl.google.com/chrome/install/googlechromestandaloneenterprise64.msi
-    version: '156.0.8078.12'
+    version: '156.0.8078.36'
   - platform: windows
     arch: arm64
     format: MSI
     url: https://dl.google.com/chrome/install/googlechromestandaloneenterprise_arm64.msi
-    version: '156.0.8078.12'
+    version: '156.0.8078.36'
   - platform: macos
     arch: universal
     format: DMG
     url: https://dl.google.com/chrome/mac/stable/GGRO/googlechrome.dmg
-    version: '156.0.8078.12'
+    version: '156.0.8078.36'
   - platform: linux
     arch: x64
     format: DEB
-    url: https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_155.0.8059.39-1_amd64.deb
-    version: '155.0.8059.39'
+    url: https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_155.0.8059.84-1_amd64.deb
+    version: '155.0.8059.84'
   - platform: linux
     arch: arm64
     format: DEB
-    url: https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_155.0.8059.39-1_arm64.deb
-    version: '155.0.8059.39'
+    url: https://dl.google.com/linux/chrome/deb/pool/main/g/google-chrome-stable/google-chrome-stable_155.0.8059.84-1_arm64.deb
+    version: '155.0.8059.84'

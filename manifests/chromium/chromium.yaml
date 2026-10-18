@@ -31,25 +31,25 @@ assets:
   - platform: windows
     arch: x64
     format: ZIP
-    url: https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1720571/chrome-win.zip
-    version: '1720571'
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Win_x64/1721470/chrome-win.zip
+    version: '1721470'
   - platform: windows
     arch: arm64
     format: ZIP
-    url: https://storage.googleapis.com/chromium-browser-snapshots/Win_Arm64/1720558/chrome-win.zip
-    version: '1720558'
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Win_Arm64/1721469/chrome-win.zip
+    version: '1721469'
   - platform: macos
     arch: x64
     format: ZIP
-    url: https://storage.googleapis.com/chromium-browser-snapshots/Mac/1720615/chrome-mac.zip
-    version: '1720615'
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Mac/1721472/chrome-mac.zip
+    version: '1721472'
   - platform: macos
     arch: arm64
     format: ZIP
-    url: https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1720617/chrome-mac.zip
-    version: '1720617'
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Mac_Arm/1721471/chrome-mac.zip
+    version: '1721471'
   - platform: linux
     arch: x64
     format: ZIP
-    url: https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1720609/chrome-linux.zip
-    version: '1720609'
+    url: https://storage.googleapis.com/chromium-browser-snapshots/Linux_x64/1721472/chrome-linux.zip
+    version: '1721472'
