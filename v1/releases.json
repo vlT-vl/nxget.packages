@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-18T23:16:14.663Z",
+  "generated_at": "2026-10-19T13:22:36.613Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1628,13 +1628,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.7",
-      "published_at": "2026-10-12T15:31:15Z",
+      "tag": "v0.1.9",
+      "published_at": "2026-10-19T09:55:31Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.7/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.9/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1642,13 +1642,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.7/genex_0.1.7_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.9/genex_0.1.9_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.9",
+          "name": "Genex 0.1.9",
+          "published_at": "2026-10-19T09:55:31Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.9"
+        },
         {
           "tag": "v0.1.7",
           "name": "Genex 0.1.7",
@@ -2132,19 +2138,25 @@
       ]
     },
     "macsai": {
-      "tag": "v1.25.4",
-      "published_at": "2026-10-17T04:00:25Z",
+      "tag": "v1.25.7",
+      "published_at": "2026-10-19T05:45:37Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/iliyami/MacSai/releases/download/v1.25.4/MacSai-1.25.4.dmg",
+              "url": "https://github.com/iliyami/MacSai/releases/download/v1.25.7/MacSai-1.25.7.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.25.7",
+          "name": "Mac Sai v1.25.7",
+          "published_at": "2026-10-19T05:45:37Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.25.7"
+        },
         {
           "tag": "v1.25.4",
           "name": "Mac Sai v1.25.4",
@@ -2198,12 +2210,6 @@
           "name": "Mac Sai v1.20.0",
           "published_at": "2026-09-17T08:41:08Z",
           "url": "https://github.com/iliyami/MacSai/releases/tag/v1.20.0"
-        },
-        {
-          "tag": "v1.19.0",
-          "name": "Mac Sai v1.19.0",
-          "published_at": "2026-09-03T16:33:11Z",
-          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.19.0"
         }
       ]
     },
