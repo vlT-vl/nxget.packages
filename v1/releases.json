@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-20T00:23:15.536Z",
+  "generated_at": "2026-10-20T08:36:18.423Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -808,19 +808,19 @@
       ]
     },
     "concat": {
-      "tag": "v0.2.7",
-      "published_at": "2026-10-13T18:23:56Z",
+      "tag": "v0.2.8",
+      "published_at": "2026-10-20T08:18:58Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-aarch64.AppImage",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.8/Concat-0.2.8-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-x86_64.AppImage",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.8/Concat-0.2.8-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -828,13 +828,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-macos-arm64.dmg",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.8/Concat-0.2.8-macos-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-macos-x86_64.dmg",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.8/Concat-0.2.8-macos-x86_64.dmg",
               "format": "DMG"
             }
           }
@@ -842,13 +842,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.7/Concat-0.2.7-windows-x86_64-setup.exe",
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.8/Concat-0.2.8-windows-x86_64-setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.8",
+          "name": "Concat v0.2.8",
+          "published_at": "2026-10-20T08:18:58Z",
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.8"
+        },
         {
           "tag": "v0.2.7",
           "name": "Concat v0.2.7",
@@ -1628,13 +1634,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.11",
-      "published_at": "2026-10-19T23:30:27Z",
+      "tag": "v0.1.12",
+      "published_at": "2026-10-20T05:27:23Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.11/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.12/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1642,13 +1648,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.11/genex_0.1.11_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.12/genex_0.1.12_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.12",
+          "name": "Genex 0.1.12",
+          "published_at": "2026-10-20T05:27:23Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.12"
+        },
         {
           "tag": "v0.1.11",
           "name": "Genex 0.1.11",
@@ -1702,12 +1714,6 @@
           "name": "Genex 0.1.2",
           "published_at": "2026-10-05T15:38:53Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.2"
-        },
-        {
-          "tag": "v0.1.1",
-          "name": "Genex 0.1.1",
-          "published_at": "2026-10-05T10:50:40Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.1"
         }
       ]
     },
@@ -3666,6 +3672,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-beta.3",
+          "name": "3.0.0-beta.3",
+          "published_at": "2026-10-20T01:33:13Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.3"
+        },
+        {
           "tag": "3.0.0-alpha.10",
           "name": "3.0.0-alpha.10",
           "published_at": "2026-10-18T20:08:03Z",
@@ -3718,12 +3730,6 @@
           "name": "2.1.0-beta.5",
           "published_at": "2026-09-25T18:28:40Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0-beta.5"
-        },
-        {
-          "tag": "3.0.0-alpha.6",
-          "name": "3.0.0-alpha.6",
-          "published_at": "2026-09-21T13:48:54Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.6"
         }
       ]
     },
