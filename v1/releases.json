@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-20T08:36:18.423Z",
+  "generated_at": "2026-10-20T14:19:59.577Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -900,19 +900,25 @@
       ]
     },
     "coucou": {
-      "tag": "v0.5.1",
-      "published_at": "2026-10-18T18:55:48Z",
+      "tag": "v0.5.2",
+      "published_at": "2026-10-20T09:44:52Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.5.1/Coucou.zip",
+              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.5.2/Coucou.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.5.2",
+          "name": "Coucou 0.5.2",
+          "published_at": "2026-10-20T09:44:52Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.5.2"
+        },
         {
           "tag": "v0.5.1",
           "name": "Coucou 0.5.1",
@@ -966,12 +972,6 @@
           "name": "Coucou 0.1.9",
           "published_at": "2026-10-06T07:22:41Z",
           "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.9"
-        },
-        {
-          "tag": "v0.1.8",
-          "name": "Coucou 0.1.8",
-          "published_at": "2026-10-05T22:13:22Z",
-          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.8"
         }
       ]
     },
@@ -1634,13 +1634,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.12",
-      "published_at": "2026-10-20T05:27:23Z",
+      "tag": "v0.1.13",
+      "published_at": "2026-10-20T12:05:04Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.12/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.13/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1648,13 +1648,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.12/genex_0.1.12_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.13/genex_0.1.13_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.13",
+          "name": "Genex 0.1.13",
+          "published_at": "2026-10-20T12:05:04Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.13"
+        },
         {
           "tag": "v0.1.12",
           "name": "Genex 0.1.12",
@@ -1708,12 +1714,6 @@
           "name": "Genex 0.1.3",
           "published_at": "2026-10-05T23:33:19Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.3"
-        },
-        {
-          "tag": "v0.1.2",
-          "name": "Genex 0.1.2",
-          "published_at": "2026-10-05T15:38:53Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.2"
         }
       ]
     },
@@ -3126,19 +3126,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.11.1",
-      "published_at": "2026-10-17T10:46:40Z",
+      "tag": "v1.12.0",
+      "published_at": "2026-10-20T12:40:24Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.11.1/Purgev1.11.1.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.12.0/Purgev1.12.0.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.12.0",
+          "name": "Purge v1.12.0",
+          "published_at": "2026-10-20T12:40:24Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.12.0"
+        },
         {
           "tag": "v1.11.1",
           "name": "Purge v1.11.1",
@@ -3192,23 +3198,17 @@
           "name": "Purge v1.7.0",
           "published_at": "2026-10-01T02:45:56Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.7.0"
-        },
-        {
-          "tag": "v1.6.1",
-          "name": "Purge v1.6.1",
-          "published_at": "2026-09-27T08:22:20Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.6.1"
         }
       ]
     },
     "qbittorrent": {
-      "tag": "release-5.2.4",
-      "published_at": "2026-09-28T19:02:55Z",
+      "tag": "release-5.3.0",
+      "published_at": "2026-10-20T12:57:33Z",
       "downloads": {
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.2.4/qbittorrent-5.2.4_x86_64.AppImage",
+              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.3.0/qbittorrent-5.3.0_x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3216,13 +3216,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.2.4/qbittorrent_5.2.4_x64_setup.exe",
+              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.3.0/qbittorrent_5.3.0_x64_setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "release-5.3.0",
+          "name": "qBittorrent v5.3.0",
+          "published_at": "2026-10-20T12:57:33Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.3.0"
+        },
         {
           "tag": "release-5.2.4",
           "name": "qBittorrent v5.2.4",
