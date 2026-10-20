@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-19T20:36:48.677Z",
+  "generated_at": "2026-10-20T00:23:15.536Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -608,19 +608,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.303",
-      "published_at": "2026-10-18T22:26:54Z",
+      "tag": "v2.1.304",
+      "published_at": "2026-10-19T21:34:39Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.303/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.304/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.303/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.304/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -628,13 +628,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.303/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.304/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.303/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.304/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -642,19 +642,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.303/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.304/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.303/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.304/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.304",
+          "name": "v2.1.304",
+          "published_at": "2026-10-19T21:34:39Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304"
+        },
         {
           "tag": "v2.1.303",
           "name": "v2.1.303",
@@ -708,12 +714,6 @@
           "name": "v2.1.293",
           "published_at": "2026-10-07T18:10:20Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.293"
-        },
-        {
-          "tag": "v2.1.292",
-          "name": "v2.1.292",
-          "published_at": "2026-10-06T18:59:30Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.292"
         }
       ]
     },
@@ -1628,13 +1628,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.10",
-      "published_at": "2026-10-19T18:45:05Z",
+      "tag": "v0.1.11",
+      "published_at": "2026-10-19T23:30:27Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.10/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.11/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1642,13 +1642,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.10/genex_0.1.10_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.11/genex_0.1.11_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.11",
+          "name": "Genex 0.1.11",
+          "published_at": "2026-10-19T23:30:27Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.11"
+        },
         {
           "tag": "v0.1.10",
           "name": "Genex 0.1.10",
@@ -1702,12 +1708,6 @@
           "name": "Genex 0.1.1",
           "published_at": "2026-10-05T10:50:40Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.1"
-        },
-        {
-          "tag": "v0.1.0",
-          "name": "Genex 0.1.0",
-          "published_at": "2026-10-02T19:26:18Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.0"
         }
       ]
     },
