@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-21T17:15:37.573Z",
+  "generated_at": "2026-10-21T21:45:29.391Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1074,19 +1074,19 @@
       ]
     },
     "designcraft": {
-      "tag": "v0.10.0",
-      "published_at": "2026-10-20T16:14:54Z",
+      "tag": "v0.11.0",
+      "published_at": "2026-10-21T18:26:30Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.11.0/designcraft-0.11.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.11.0/designcraft-0.11.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1094,7 +1094,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.11.0/designcraft-0.11.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1102,19 +1102,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.11.0/designcraft-0.11.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.10.0/designcraft-0.10.0-windows-x64.msi",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.11.0/designcraft-0.11.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.11.0",
+          "name": "DesignCraft v0.11.0",
+          "published_at": "2026-10-21T18:26:30Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.11.0"
+        },
         {
           "tag": "v0.10.0",
           "name": "DesignCraft v0.10.0",
@@ -1168,12 +1174,6 @@
           "name": "DesignCraft v0.2.0",
           "published_at": "2026-10-05T06:55:53Z",
           "url": "https://github.com/storytold/designcraft/releases/tag/v0.2.0"
-        },
-        {
-          "tag": "v0.1.1",
-          "name": "DesignCraft v0.1.1",
-          "published_at": "2026-10-03T14:24:21Z",
-          "url": "https://github.com/storytold/designcraft/releases/tag/v0.1.1"
         }
       ]
     },
@@ -1276,19 +1276,19 @@
       ]
     },
     "effectcraft": {
-      "tag": "v0.13.0",
-      "published_at": "2026-10-21T07:46:15Z",
+      "tag": "v0.14.0",
+      "published_at": "2026-10-21T19:04:46Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.13.0/effectcraft-0.13.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.14.0/effectcraft-0.14.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.13.0/effectcraft-0.13.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.14.0/effectcraft-0.14.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1296,7 +1296,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.13.0/effectcraft-0.13.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.14.0/effectcraft-0.14.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1304,19 +1304,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.13.0/effectcraft-0.13.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.14.0/effectcraft-0.14.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.13.0/effectcraft-0.13.0-windows-x64.msi",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.14.0/effectcraft-0.14.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.14.0",
+          "name": "EffectCraft v0.14.0",
+          "published_at": "2026-10-21T19:04:46Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.14.0"
+        },
         {
           "tag": "v0.13.0",
           "name": "EffectCraft v0.13.0",
@@ -1370,29 +1376,23 @@
           "name": "EffectCraft v0.3.1",
           "published_at": "2026-10-06T12:37:20Z",
           "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.1"
-        },
-        {
-          "tag": "v0.3.0",
-          "name": "EffectCraft v0.3.0",
-          "published_at": "2026-10-06T02:03:48Z",
-          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.3.0"
         }
       ]
     },
     "figcraft": {
-      "tag": "v0.8.0",
-      "published_at": "2026-10-20T16:48:21Z",
+      "tag": "v0.9.0",
+      "published_at": "2026-10-21T18:26:33Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.9.0/figcraft-0.9.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.9.0/figcraft-0.9.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1400,7 +1400,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.9.0/figcraft-0.9.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1408,19 +1408,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.9.0/figcraft-0.9.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/figcraft/releases/download/v0.8.0/figcraft-0.8.0-windows-x64.msi",
+              "url": "https://github.com/storytold/figcraft/releases/download/v0.9.0/figcraft-0.9.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.9.0",
+          "name": "FigCraft v0.9.0",
+          "published_at": "2026-10-21T18:26:33Z",
+          "url": "https://github.com/storytold/figcraft/releases/tag/v0.9.0"
+        },
         {
           "tag": "v0.8.0",
           "name": "FigCraft v0.8.0",
@@ -1652,13 +1658,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.14",
-      "published_at": "2026-10-21T11:10:58Z",
+      "tag": "v0.1.15",
+      "published_at": "2026-10-21T17:38:31Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.14/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.15/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1666,13 +1672,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.14/genex_0.1.14_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.15/genex_0.1.15_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.15",
+          "name": "Genex 0.1.15",
+          "published_at": "2026-10-21T17:38:31Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.15"
+        },
         {
           "tag": "v0.1.14",
           "name": "Genex 0.1.14",
@@ -1726,12 +1738,6 @@
           "name": "Genex 0.1.5",
           "published_at": "2026-10-09T20:46:37Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.5"
-        },
-        {
-          "tag": "v0.1.4",
-          "name": "Genex 0.1.4",
-          "published_at": "2026-10-06T17:45:57Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.4"
         }
       ]
     },
@@ -1840,19 +1846,19 @@
       ]
     },
     "gridcraft": {
-      "tag": "v0.9.0",
-      "published_at": "2026-10-20T14:52:34Z",
+      "tag": "v0.10.0",
+      "published_at": "2026-10-21T18:12:04Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.10.0/gridcraft-0.10.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.10.0/gridcraft-0.10.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1860,7 +1866,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.10.0/gridcraft-0.10.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1868,19 +1874,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.10.0/gridcraft-0.10.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/gridcraft/releases/download/v0.9.0/gridcraft-0.9.0-windows-x64.msi",
+              "url": "https://github.com/storytold/gridcraft/releases/download/v0.10.0/gridcraft-0.10.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.10.0",
+          "name": "GridCraft v0.10.0",
+          "published_at": "2026-10-21T18:12:04Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.10.0"
+        },
         {
           "tag": "v0.9.0",
           "name": "GridCraft v0.9.0",
@@ -2070,19 +2082,19 @@
       ]
     },
     "lightcraft": {
-      "tag": "v0.10.0",
-      "published_at": "2026-10-21T07:46:22Z",
+      "tag": "v0.11.0",
+      "published_at": "2026-10-21T18:29:19Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/lightcraft/releases/download/v0.10.0/lightcraft-0.10.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.11.0/lightcraft-0.11.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/lightcraft/releases/download/v0.10.0/lightcraft-0.10.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.11.0/lightcraft-0.11.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -2090,7 +2102,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/lightcraft/releases/download/v0.10.0/lightcraft-0.10.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.11.0/lightcraft-0.11.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -2098,19 +2110,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/lightcraft/releases/download/v0.10.0/lightcraft-0.10.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.11.0/lightcraft-0.11.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/lightcraft/releases/download/v0.10.0/lightcraft-0.10.0-windows-x64.msi",
+              "url": "https://github.com/storytold/lightcraft/releases/download/v0.11.0/lightcraft-0.11.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.11.0",
+          "name": "LightCraft v0.11.0",
+          "published_at": "2026-10-21T18:29:19Z",
+          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.11.0"
+        },
         {
           "tag": "v0.10.0",
           "name": "LightCraft v0.10.0",
@@ -2164,12 +2182,6 @@
           "name": "LightCraft v0.2.0",
           "published_at": "2026-10-05T06:49:58Z",
           "url": "https://github.com/storytold/lightcraft/releases/tag/v0.2.0"
-        },
-        {
-          "tag": "v0.1.1",
-          "name": "LightCraft v0.1.1",
-          "published_at": "2026-10-03T14:24:19Z",
-          "url": "https://github.com/storytold/lightcraft/releases/tag/v0.1.1"
         }
       ]
     },
@@ -2734,19 +2746,19 @@
       ]
     },
     "pdfcraft": {
-      "tag": "v0.10.1",
-      "published_at": "2026-10-21T07:46:31Z",
+      "tag": "v0.11.0",
+      "published_at": "2026-10-21T19:57:25Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.10.1/pdfcraft-0.10.1-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.10.1/pdfcraft-0.10.1-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -2754,7 +2766,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.10.1/pdfcraft-0.10.1-macos-universal.dmg",
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -2762,19 +2774,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.10.1/pdfcraft-0.10.1-windows-arm64.msi",
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.10.1/pdfcraft-0.10.1-windows-x64.msi",
+              "url": "https://github.com/storytold/pdfcraft/releases/download/v0.11.0/pdfcraft-0.11.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.11.0",
+          "name": "PdfCraft v0.11.0",
+          "published_at": "2026-10-21T19:57:25Z",
+          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.11.0"
+        },
         {
           "tag": "v0.10.1",
           "name": "PdfCraft v0.10.1",
@@ -2828,29 +2846,23 @@
           "name": "PrintCraft v0.2.0",
           "published_at": "2026-10-05T07:03:10Z",
           "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.2.0"
-        },
-        {
-          "tag": "v0.1.1",
-          "name": "PrintCraft v0.1.1",
-          "published_at": "2026-10-03T14:24:20Z",
-          "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.1.1"
         }
       ]
     },
     "photocraft": {
-      "tag": "v0.11.1",
-      "published_at": "2026-10-20T19:34:02Z",
+      "tag": "v0.12.0",
+      "published_at": "2026-10-21T18:28:57Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.11.1/photocraft-0.11.1-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.11.1/photocraft-0.11.1-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -2858,7 +2870,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.11.1/photocraft-0.11.1-macos-universal.dmg",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -2866,19 +2878,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.11.1/photocraft-0.11.1-windows-arm64.msi",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.11.1/photocraft-0.11.1-windows-x64.msi",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.12.0/photocraft-0.12.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.12.0",
+          "name": "PhotoCraft v0.12.0",
+          "published_at": "2026-10-21T18:28:57Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.12.0"
+        },
         {
           "tag": "v0.11.1",
           "name": "PhotoCraft v0.11.1",
@@ -2932,12 +2950,6 @@
           "name": "PhotoCraft v0.2.0",
           "published_at": "2026-10-05T04:42:21Z",
           "url": "https://github.com/storytold/photocraft/releases/tag/v0.2.0"
-        },
-        {
-          "tag": "v0.1.1",
-          "name": "PhotoCraft v0.1.1",
-          "published_at": "2026-10-03T14:24:16Z",
-          "url": "https://github.com/storytold/photocraft/releases/tag/v0.1.1"
         }
       ]
     },
@@ -3448,19 +3460,19 @@
       ]
     },
     "soundcraft": {
-      "tag": "v0.10.0",
-      "published_at": "2026-10-20T14:34:31Z",
+      "tag": "v0.11.0",
+      "published_at": "2026-10-21T18:12:00Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.11.0/soundcraft-0.11.0-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.11.0/soundcraft-0.11.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3468,7 +3480,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.11.0/soundcraft-0.11.0-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -3476,19 +3488,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.11.0/soundcraft-0.11.0-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/soundcraft/releases/download/v0.10.0/soundcraft-0.10.0-windows-x64.msi",
+              "url": "https://github.com/storytold/soundcraft/releases/download/v0.11.0/soundcraft-0.11.0-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.11.0",
+          "name": "SoundCraft v0.11.0",
+          "published_at": "2026-10-21T18:12:00Z",
+          "url": "https://github.com/storytold/soundcraft/releases/tag/v0.11.0"
+        },
         {
           "tag": "v0.10.0",
           "name": "SoundCraft v0.10.0",
