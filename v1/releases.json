@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-22T04:52:54.542Z",
+  "generated_at": "2026-10-22T17:13:52.263Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -906,19 +906,25 @@
       ]
     },
     "coucou": {
-      "tag": "v0.5.2",
-      "published_at": "2026-10-20T09:44:52Z",
+      "tag": "v0.5.3",
+      "published_at": "2026-10-22T16:29:21Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.5.2/Coucou.zip",
+              "url": "https://github.com/Louis-CFM/coucou/releases/download/v0.5.3/Coucou.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.5.3",
+          "name": "Coucou 0.5.3",
+          "published_at": "2026-10-22T16:29:21Z",
+          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.5.3"
+        },
         {
           "tag": "v0.5.2",
           "name": "Coucou 0.5.2",
@@ -972,12 +978,6 @@
           "name": "Coucou 0.2.0",
           "published_at": "2026-10-06T18:14:02Z",
           "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.2.0"
-        },
-        {
-          "tag": "v0.1.9",
-          "name": "Coucou 0.1.9",
-          "published_at": "2026-10-06T07:22:41Z",
-          "url": "https://github.com/Louis-CFM/coucou/releases/tag/v0.1.9"
         }
       ]
     },
@@ -1578,82 +1578,6 @@
           "name": "FilmCraft v0.1.1",
           "published_at": "2026-10-03T14:24:18Z",
           "url": "https://github.com/storytold/filmcraft/releases/tag/v0.1.1"
-        }
-      ]
-    },
-    "freeflow": {
-      "tag": "v1.3.1",
-      "published_at": "2026-10-09T07:43:25Z",
-      "downloads": {
-        "macos": {
-          "universal": {
-            "default": {
-              "url": "https://github.com/zachlatta/freeflow/releases/download/v1.3.1/FreeFlow.dmg",
-              "format": "DMG"
-            }
-          }
-        }
-      },
-      "history": [
-        {
-          "tag": "dev",
-          "name": "FreeFlow Dev 797a3f32e6b5",
-          "published_at": "2026-04-30T09:55:39Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/dev"
-        },
-        {
-          "tag": "v1.3.1",
-          "name": "FreeFlow 1.3.1",
-          "published_at": "2026-10-09T07:43:25Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.3.1"
-        },
-        {
-          "tag": "v1.3.0",
-          "name": "FreeFlow 1.3.0",
-          "published_at": "2026-10-09T07:24:16Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.3.0"
-        },
-        {
-          "tag": "v1.2.1",
-          "name": "FreeFlow 1.2.1",
-          "published_at": "2026-08-11T12:54:59Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.2.1"
-        },
-        {
-          "tag": "v1.2.0",
-          "name": "FreeFlow 1.2.0",
-          "published_at": "2026-07-13T21:38:45Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.2.0"
-        },
-        {
-          "tag": "v1.1.0",
-          "name": "FreeFlow 1.1.0",
-          "published_at": "2026-06-03T19:09:33Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.1.0"
-        },
-        {
-          "tag": "v1.0.0",
-          "name": "FreeFlow 1.0.0",
-          "published_at": "2026-05-20T12:05:50Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v1.0.0"
-        },
-        {
-          "tag": "v0.3.3",
-          "name": "FreeFlow 0.3.3",
-          "published_at": "2026-04-27T08:11:28Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v0.3.3"
-        },
-        {
-          "tag": "v0.3.2",
-          "name": "FreeFlow 0.3.2",
-          "published_at": "2026-04-23T15:08:41Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v0.3.2"
-        },
-        {
-          "tag": "v0.3.1",
-          "name": "FreeFlow 0.3.1",
-          "published_at": "2026-04-23T13:35:59Z",
-          "url": "https://github.com/zachlatta/freeflow/releases/tag/v0.3.1"
         }
       ]
     },
@@ -2572,19 +2496,19 @@
       ]
     },
     "open-design": {
-      "tag": "open-design-v0.26.0",
-      "published_at": "2026-10-20T14:35:23Z",
+      "tag": "open-design-v0.26.1",
+      "published_at": "2026-10-22T12:52:42Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.26.0/open-design-0.26.0-mac-arm64.dmg",
+              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.26.1/open-design-0.26.1-mac-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.26.0/open-design-0.26.0-mac-x64.dmg",
+              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.26.1/open-design-0.26.1-mac-x64.dmg",
               "format": "DMG"
             }
           }
@@ -2592,13 +2516,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.26.0/open-design-0.26.0-win-x64-setup.exe",
+              "url": "https://github.com/nexu-io/open-design/releases/download/open-design-v0.26.1/open-design-0.26.1-win-x64-setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "open-design-v0.26.1",
+          "name": "Open Design 0.26.1 — Intelligent Router",
+          "published_at": "2026-10-22T12:52:42Z",
+          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.26.1"
+        },
         {
           "tag": "open-design-v0.26.0",
           "name": "Open Design 0.26.0 — Share, Review, Refine",
@@ -2652,12 +2582,6 @@
           "name": "Open Design 0.21.1 — Community First: No Login Required",
           "published_at": "2026-08-31T13:07:04Z",
           "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.21.1"
-        },
-        {
-          "tag": "open-design-v0.21.0",
-          "name": "Open Design 0.21.0 — Reliable, Start to Finish",
-          "published_at": "2026-08-25T14:15:03Z",
-          "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.21.0"
         }
       ]
     },
@@ -3779,116 +3703,6 @@
         }
       ]
     },
-    "unigetui": {
-      "tag": "v2026.3.2",
-      "published_at": "2026-10-15T18:58:36Z",
-      "downloads": {
-        "windows": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.Installer.arm64.exe",
-              "format": "EXE"
-            }
-          },
-          "x64": {
-            "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.Installer.x64.exe",
-              "format": "EXE"
-            }
-          }
-        },
-        "linux": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.linux-arm64.tar.gz",
-              "format": "TARGZ"
-            }
-          },
-          "x64": {
-            "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.linux-x64.tar.gz",
-              "format": "TARGZ"
-            }
-          }
-        },
-        "macos": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.macos-arm64.dmg",
-              "format": "DMG"
-            }
-          },
-          "x64": {
-            "default": {
-              "url": "https://github.com/Devolutions/UniGetUI/releases/download/v2026.3.2/UniGetUI.macos-x64.dmg",
-              "format": "DMG"
-            }
-          }
-        }
-      },
-      "history": [
-        {
-          "tag": "v2026.3.2",
-          "name": "UniGetUI v2026.3.2",
-          "published_at": "2026-10-15T18:58:36Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.2"
-        },
-        {
-          "tag": "v2026.3.1",
-          "name": "UniGetUI v2026.3.1",
-          "published_at": "2026-10-08T18:47:24Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.1"
-        },
-        {
-          "tag": "v2026.3.0",
-          "name": "UniGetUI v2026.3.0",
-          "published_at": "2026-09-15T17:47:57Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.3.0"
-        },
-        {
-          "tag": "v2026.2.7",
-          "name": "UniGetUI v2026.2.7",
-          "published_at": "2026-07-31T15:07:47Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.7"
-        },
-        {
-          "tag": "v2026.2.6",
-          "name": "UniGetUI v2026.2.6",
-          "published_at": "2026-07-29T20:00:24Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.6"
-        },
-        {
-          "tag": "v2026.2.5",
-          "name": "UniGetUI v2026.2.5",
-          "published_at": "2026-07-16T18:36:46Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.5"
-        },
-        {
-          "tag": "v2026.2.4",
-          "name": "UniGetUI v2026.2.4",
-          "published_at": "2026-07-15T14:33:13Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.4"
-        },
-        {
-          "tag": "v2026.2.3",
-          "name": "UniGetUI v2026.2.3",
-          "published_at": "2026-07-14T15:19:08Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.3"
-        },
-        {
-          "tag": "v2026.2.2",
-          "name": "UniGetUI v2026.2.2",
-          "published_at": "2026-06-25T12:53:24Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.2"
-        },
-        {
-          "tag": "v2026.2.1",
-          "name": "UniGetUI v2026.2.1",
-          "published_at": "2026-06-15T17:42:25Z",
-          "url": "https://github.com/Devolutions/UniGetUI/releases/tag/v2026.2.1"
-        }
-      ]
-    },
     "vectorcraft": {
       "tag": "v0.14.0",
       "published_at": "2026-10-21T07:46:25Z",
@@ -4176,46 +3990,6 @@
           "name": "1.110.01571",
           "published_at": "2026-03-06T11:59:01Z",
           "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.01571"
-        }
-      ]
-    },
-    "wisp": {
-      "tag": "v1.0.3",
-      "published_at": "2026-10-13T08:58:54Z",
-      "downloads": {
-        "macos": {
-          "universal": {
-            "default": {
-              "url": "https://github.com/PhanithNY/wisp-releases/releases/download/v1.0.3/Wisp.dmg",
-              "format": "DMG"
-            }
-          }
-        }
-      },
-      "history": [
-        {
-          "tag": "v1.0.3",
-          "name": "Wisp 1.0.3",
-          "published_at": "2026-10-13T08:58:54Z",
-          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.3"
-        },
-        {
-          "tag": "v1.0.2",
-          "name": "Wisp 1.0.2",
-          "published_at": "2026-10-10T17:13:50Z",
-          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.2"
-        },
-        {
-          "tag": "v1.0.1",
-          "name": "Wisp 1.0.1",
-          "published_at": "2026-10-07T16:21:33Z",
-          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.1"
-        },
-        {
-          "tag": "v1.0.0",
-          "name": "Wisp 1.0.0",
-          "published_at": "2026-10-04T15:19:35Z",
-          "url": "https://github.com/PhanithNY/wisp-releases/releases/tag/v1.0.0"
         }
       ]
     },
