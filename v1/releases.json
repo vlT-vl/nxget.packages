@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-21T21:45:29.391Z",
+  "generated_at": "2026-10-22T04:52:54.542Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -614,19 +614,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.306",
-      "published_at": "2026-10-21T03:16:31Z",
+      "tag": "v2.1.308",
+      "published_at": "2026-10-22T04:34:55Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.306/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.306/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -634,13 +634,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.306/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.306/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -648,19 +648,31 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.306/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.306/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.308/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.308",
+          "name": "v2.1.308",
+          "published_at": "2026-10-22T04:34:55Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.308"
+        },
+        {
+          "tag": "v2.1.307",
+          "name": "v2.1.307",
+          "published_at": "2026-10-21T22:17:02Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.307"
+        },
         {
           "tag": "v2.1.306",
           "name": "v2.1.306",
@@ -708,18 +720,6 @@
           "name": "v2.1.299",
           "published_at": "2026-10-14T02:49:42Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.299"
-        },
-        {
-          "tag": "v2.1.296",
-          "name": "v2.1.296",
-          "published_at": "2026-10-09T19:28:59Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.296"
-        },
-        {
-          "tag": "v2.1.295",
-          "name": "v2.1.295",
-          "published_at": "2026-10-08T19:48:38Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.295"
         }
       ]
     },
@@ -1984,41 +1984,39 @@
       ]
     },
     "keepassxc": {
-      "tag": "2.7.12",
-      "published_at": "2026-03-10T01:16:42Z",
+      "tag": "2.8.0",
+      "published_at": "2026-10-21T21:57:23Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-arm64.dmg",
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.dmg",
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x86_64.dmg",
               "format": "DMG"
-            }
-          }
-        },
-        "windows": {
-          "x64": {
-            "default": {
-              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-Win64.msi",
-              "format": "MSI"
             }
           }
         },
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.7.12/KeePassXC-2.7.12-x86_64.AppImage",
+              "url": "https://github.com/keepassxreboot/keepassxc/releases/download/2.8.0/KeePassXC-2.8.0-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "2.8.0",
+          "name": "Release 2.8.0",
+          "published_at": "2026-10-21T21:57:23Z",
+          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.8.0"
+        },
         {
           "tag": "2.8.0-beta1",
           "name": "Release 2.8.0-beta1",
@@ -2072,12 +2070,6 @@
           "name": "Release 2.7.5",
           "published_at": "2023-05-14T18:35:33Z",
           "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.5"
-        },
-        {
-          "tag": "2.7.4",
-          "name": "Release 2.7.4",
-          "published_at": "2022-10-29T19:23:07Z",
-          "url": "https://github.com/keepassxreboot/keepassxc/releases/tag/2.7.4"
         }
       ]
     },
@@ -2996,6 +2988,12 @@
       },
       "history": [
         {
+          "tag": "v0.21.0-beta.6",
+          "name": "v0.21.0-beta.6",
+          "published_at": "2026-10-22T04:50:53Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.6"
+        },
+        {
           "tag": "v0.21.0-beta.4",
           "name": "v0.21.0-beta.4",
           "published_at": "2026-10-18T15:51:27Z",
@@ -3048,12 +3046,6 @@
           "name": "v0.18.0",
           "published_at": "2026-10-10T11:43:38Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0"
-        },
-        {
-          "tag": "v0.18.0-beta.5",
-          "name": "v0.18.0-beta.5",
-          "published_at": "2026-10-10T08:45:41Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.5"
         }
       ]
     },
@@ -4002,19 +3994,25 @@
       ]
     },
     "vorssaint": {
-      "tag": "v3.4.1",
-      "published_at": "2026-10-08T23:45:35Z",
+      "tag": "v3.4.2",
+      "published_at": "2026-10-21T22:40:15Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/vorssaint/vorssaint-utils/releases/download/v3.4.1/Vorssaint-3.4.1.dmg",
+              "url": "https://github.com/vorssaint/vorssaint-utils/releases/download/v3.4.2/Vorssaint-3.4.2.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v3.4.2",
+          "name": "v3.4.2",
+          "published_at": "2026-10-21T22:40:15Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.2"
+        },
         {
           "tag": "v3.4.2-beta.2",
           "name": "v3.4.2-beta.2",
@@ -4068,12 +4066,6 @@
           "name": "v3.4.0-beta.7",
           "published_at": "2026-09-26T21:38:26Z",
           "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0-beta.7"
-        },
-        {
-          "tag": "v3.4.0-beta.6",
-          "name": "v3.4.0-beta.6",
-          "published_at": "2026-09-26T00:46:36Z",
-          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.0-beta.6"
         }
       ]
     },
