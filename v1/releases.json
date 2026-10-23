@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-23T04:55:17.463Z",
+  "generated_at": "2026-10-23T11:43:35.046Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1621,7 +1621,7 @@
       "history": [
         {
           "tag": "dev",
-          "name": "FreeFlow Dev 797a3f32e6b5",
+          "name": "FreeFlow Dev a647469d268d",
           "published_at": "2026-04-30T09:55:39Z",
           "url": "https://github.com/zachlatta/freeflow/releases/tag/dev"
         },
@@ -1682,13 +1682,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.16",
-      "published_at": "2026-10-22T22:59:29Z",
+      "tag": "v0.1.17",
+      "published_at": "2026-10-23T08:10:15Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.16/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.17/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1696,13 +1696,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.16/genex_0.1.16_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.17/genex_0.1.17_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.17",
+          "name": "Genex 0.1.17",
+          "published_at": "2026-10-23T08:10:15Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.17"
+        },
         {
           "tag": "v0.1.16",
           "name": "Genex 0.1.16",
@@ -1756,12 +1762,6 @@
           "name": "Genex 0.1.7",
           "published_at": "2026-10-12T15:31:15Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.7"
-        },
-        {
-          "tag": "v0.1.6",
-          "name": "Genex 0.1.6",
-          "published_at": "2026-10-10T23:58:49Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.6"
         }
       ]
     },
