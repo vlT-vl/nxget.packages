@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-23T17:11:44.240Z",
+  "generated_at": "2026-10-23T21:26:56.310Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1682,13 +1682,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.18",
-      "published_at": "2026-10-23T12:23:01Z",
+      "tag": "v0.1.20",
+      "published_at": "2026-10-23T18:13:11Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.18/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.20/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1696,13 +1696,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.18/genex_0.1.18_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.20/genex_0.1.20_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.20",
+          "name": "Genex 0.1.20",
+          "published_at": "2026-10-23T18:13:11Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.20"
+        },
         {
           "tag": "v0.1.18",
           "name": "Genex 0.1.18",
@@ -1756,12 +1762,6 @@
           "name": "Genex 0.1.10",
           "published_at": "2026-10-19T18:45:05Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.10"
-        },
-        {
-          "tag": "v0.1.9",
-          "name": "Genex 0.1.9",
-          "published_at": "2026-10-19T09:55:31Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.9"
         }
       ]
     },
@@ -3018,6 +3018,12 @@
       },
       "history": [
         {
+          "tag": "v0.21.0-beta.8",
+          "name": "v0.21.0-beta.8",
+          "published_at": "2026-10-23T19:32:37Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.8"
+        },
+        {
           "tag": "v0.21.0-beta.7",
           "name": "v0.21.0-beta.7",
           "published_at": "2026-10-23T04:41:43Z",
@@ -3070,12 +3076,6 @@
           "name": "v0.18.0-beta.7",
           "published_at": "2026-10-12T17:45:41Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.7"
-        },
-        {
-          "tag": "v0.18.0-beta.6",
-          "name": "v0.18.0-beta.6",
-          "published_at": "2026-10-11T07:01:58Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.18.0-beta.6"
         }
       ]
     },
