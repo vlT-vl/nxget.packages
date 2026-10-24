@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-23T21:26:56.310Z",
+  "generated_at": "2026-10-24T04:40:53.005Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -626,19 +626,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.309",
-      "published_at": "2026-10-22T22:18:57Z",
+      "tag": "v2.1.310",
+      "published_at": "2026-10-23T23:39:00Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.309/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.310/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.309/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.310/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -646,13 +646,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.309/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.310/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.309/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.310/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -660,19 +660,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.309/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.310/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.309/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.310/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.310",
+          "name": "v2.1.310",
+          "published_at": "2026-10-23T23:39:00Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.310"
+        },
         {
           "tag": "v2.1.309",
           "name": "v2.1.309",
@@ -726,12 +732,6 @@
           "name": "v2.1.301",
           "published_at": "2026-10-15T19:22:06Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.301"
-        },
-        {
-          "tag": "v2.1.300",
-          "name": "v2.1.300",
-          "published_at": "2026-10-14T18:24:25Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.300"
         }
       ]
     },
@@ -1682,13 +1682,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.20",
-      "published_at": "2026-10-23T18:13:11Z",
+      "tag": "v0.1.21",
+      "published_at": "2026-10-23T21:54:33Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.20/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.21/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1696,13 +1696,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.20/genex_0.1.20_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.21/genex_0.1.21_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.21",
+          "name": "Genex 0.1.21",
+          "published_at": "2026-10-23T21:54:33Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.21"
+        },
         {
           "tag": "v0.1.20",
           "name": "Genex 0.1.20",
@@ -1756,12 +1762,6 @@
           "name": "Genex 0.1.11",
           "published_at": "2026-10-19T23:30:27Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.11"
-        },
-        {
-          "tag": "v0.1.10",
-          "name": "Genex 0.1.10",
-          "published_at": "2026-10-19T18:45:05Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.10"
         }
       ]
     },
@@ -2402,47 +2402,45 @@
       ]
     },
     "obs": {
-      "tag": "32.2.2",
-      "published_at": "2026-08-14T22:43:31Z",
+      "tag": "33.0.0",
+      "published_at": "2026-10-23T22:20:29Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-macOS-Apple.dmg",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-macOS-Apple.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-macOS-Intel.dmg",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-macOS-Intel.dmg",
               "format": "DMG"
-            }
-          }
-        },
-        "linux": {
-          "x64": {
-            "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Ubuntu-24.04-x86_64.deb",
-              "format": "DEB"
             }
           }
         },
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Windows-arm64.zip",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/32.2.2/OBS-Studio-32.2.2-Windows-x64-Installer.exe",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.0/OBS-Studio-33.0.0-Windows-x64-Installer.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "33.0.0",
+          "name": "OBS Studio 33.0.0",
+          "published_at": "2026-10-23T22:20:29Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0"
+        },
         {
           "tag": "33.0.0-rc3",
           "name": "OBS Studio 33.0.0 Release Candidate 3",
@@ -2496,12 +2494,6 @@
           "name": "OBS Studio 32.2.0",
           "published_at": "2026-07-21T22:25:33Z",
           "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.0"
-        },
-        {
-          "tag": "32.2.0-rc2",
-          "name": "OBS Studio 32.2.0 Release Candidate 2",
-          "published_at": "2026-07-16T21:10:05Z",
-          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.0-rc2"
         }
       ]
     },
@@ -2872,19 +2864,19 @@
       ]
     },
     "photocraft": {
-      "tag": "v0.14.0",
-      "published_at": "2026-10-23T00:43:42Z",
+      "tag": "v0.15.1",
+      "published_at": "2026-10-23T22:44:33Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -2892,7 +2884,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-macos-universal.dmg",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -2900,19 +2892,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-windows-arm64.msi",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/photocraft/releases/download/v0.14.0/photocraft-0.14.0-windows-x64.msi",
+              "url": "https://github.com/storytold/photocraft/releases/download/v0.15.1/photocraft-0.15.1-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.15.1",
+          "name": "PhotoCraft v0.15.1",
+          "published_at": "2026-10-23T22:44:33Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.15.1"
+        },
         {
           "tag": "v0.14.0",
           "name": "PhotoCraft v0.14.0",
@@ -2966,12 +2964,6 @@
           "name": "PhotoCraft v0.6.0",
           "published_at": "2026-10-10T02:51:42Z",
           "url": "https://github.com/storytold/photocraft/releases/tag/v0.6.0"
-        },
-        {
-          "tag": "v0.5.0",
-          "name": "PhotoCraft v0.5.0",
-          "published_at": "2026-10-08T14:52:50Z",
-          "url": "https://github.com/storytold/photocraft/releases/tag/v0.5.0"
         }
       ]
     },
