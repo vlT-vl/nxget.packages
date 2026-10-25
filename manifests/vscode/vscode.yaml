@@ -27,25 +27,25 @@ about:
     releases carry no installers.
 url: https://code.visualstudio.com
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/vscode/vscode.png
-version: '1.142.0'
+version: '1.143.1'
 assets:
   - platform: windows
     arch: x64
     format: EXE
-    url: https://update.code.visualstudio.com/1.142.0/win32-x64-user/stable
+    url: https://update.code.visualstudio.com/1.143.1/win32-x64-user/stable
   - platform: windows
     arch: arm64
     format: EXE
-    url: https://update.code.visualstudio.com/1.142.0/win32-arm64-user/stable
+    url: https://update.code.visualstudio.com/1.143.1/win32-arm64-user/stable
   - platform: macos
     arch: universal
     format: ZIP
-    url: https://update.code.visualstudio.com/1.142.0/darwin-universal/stable
+    url: https://update.code.visualstudio.com/1.143.1/darwin-universal/stable
   - platform: linux
     arch: x64
     format: DEB
-    url: https://update.code.visualstudio.com/1.142.0/linux-deb-x64/stable
+    url: https://update.code.visualstudio.com/1.143.1/linux-deb-x64/stable
   - platform: linux
     arch: arm64
     format: DEB
-    url: https://update.code.visualstudio.com/1.142.0/linux-deb-arm64/stable
+    url: https://update.code.visualstudio.com/1.143.1/linux-deb-arm64/stable

@@ -31,17 +31,17 @@ about:
     does not publish a Linux build for this app.
 url: https://www.blender.org/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/blender/blender.png
-version: '5.2.2'
+version: '5.2.3'
 assets:
   - platform: windows
     arch: x64
     format: MSI
-    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.2-windows-x64.msi
+    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.3-windows-x64.msi
   - platform: windows
     arch: arm64
     format: MSI
-    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.2-windows-arm64.msi
+    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.3-windows-arm64.msi
   - platform: macos
     arch: arm64
     format: DMG
-    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.2-macos-arm64.dmg
+    url: https://mirror.blender.org/release/Blender5.2/blender-5.2.3-macos-arm64.dmg
