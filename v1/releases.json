@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-25T16:26:21.112Z",
+  "generated_at": "2026-10-26T13:08:30.553Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -4110,19 +4110,19 @@
       ]
     },
     "vscodium": {
-      "tag": "1.140.06880",
-      "published_at": "2026-10-13T17:03:30Z",
+      "tag": "1.143.17183",
+      "published_at": "2026-10-26T08:18:16Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-1.140.06880-anylinux-aarch64.AppImage",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-1.143.17183-anylinux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-1.140.06880-anylinux-x86_64.AppImage",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-1.143.17183-anylinux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -4130,13 +4130,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-darwin-arm64-1.140.06880.zip",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-darwin-arm64-1.143.17183.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodium-darwin-x64-1.140.06880.zip",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-darwin-x64-1.143.17183.zip",
               "format": "ZIP"
             }
           }
@@ -4144,19 +4144,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodiumUserSetup-arm64-1.140.06880.exe",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodiumUserSetup-arm64-1.143.17183.exe",
               "format": "EXE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.140.06880/VSCodiumUserSetup-x64-1.140.06880.exe",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodiumUserSetup-x64-1.143.17183.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "1.143.17183",
+          "name": "1.143.17183",
+          "published_at": "2026-10-26T08:18:16Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.143.17183"
+        },
         {
           "tag": "1.140.06880",
           "name": "1.140.06880",
@@ -4210,12 +4216,6 @@
           "name": "1.110.11602",
           "published_at": "2026-03-07T18:24:37Z",
           "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.11602"
-        },
-        {
-          "tag": "1.110.01571",
-          "name": "1.110.01571",
-          "published_at": "2026-03-06T11:59:01Z",
-          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.01571"
         }
       ]
     },
