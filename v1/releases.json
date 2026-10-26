@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-26T13:08:30.553Z",
+  "generated_at": "2026-10-26T20:31:21.537Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1202,13 +1202,13 @@
       ]
     },
     "dyad": {
-      "tag": "v1.20.0",
-      "published_at": "2026-10-19T17:50:53Z",
+      "tag": "v1.21.0",
+      "published_at": "2026-10-26T17:13:55Z",
       "downloads": {
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.20.0/dyad-1.20.0.Setup.exe",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad-1.21.0.Setup.exe",
               "format": "EXE"
             }
           }
@@ -1216,13 +1216,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.20.0/dyad-darwin-arm64-1.20.0.zip",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad-darwin-arm64-1.21.0.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.20.0/dyad-darwin-x64-1.20.0.zip",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad-darwin-x64-1.21.0.zip",
               "format": "ZIP"
             }
           }
@@ -1230,13 +1230,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.20.0/dyad_1.20.0_x86_64.AppImage",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad_1.21.0_x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.21.0",
+          "name": "v1.21.0",
+          "published_at": "2026-10-26T17:13:55Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.21.0"
+        },
         {
           "tag": "v1.21.0-beta.2",
           "name": "v1.21.0-beta.2",
@@ -1290,12 +1296,6 @@
           "name": "v1.17.0",
           "published_at": "2026-09-28T18:36:13Z",
           "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0"
-        },
-        {
-          "tag": "v1.17.0-beta.1",
-          "name": "v1.17.0-beta.1",
-          "published_at": "2026-09-24T19:16:34Z",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.17.0-beta.1"
         }
       ]
     },
@@ -3016,6 +3016,12 @@
       },
       "history": [
         {
+          "tag": "v0.22.0-beta.1",
+          "name": "v0.22.0-beta.1",
+          "published_at": "2026-10-26T14:24:01Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.1"
+        },
+        {
           "tag": "v0.21.0",
           "name": "v0.21.0",
           "published_at": "2026-10-24T13:34:50Z",
@@ -3068,12 +3074,6 @@
           "name": "v0.19.1",
           "published_at": "2026-10-13T05:13:10Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.19.1"
-        },
-        {
-          "tag": "v0.19.0",
-          "name": "v0.19.0",
-          "published_at": "2026-10-13T03:56:14Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.19.0"
         }
       ]
     },
