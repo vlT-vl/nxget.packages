@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T00:28:26.759Z",
+  "generated_at": "2026-10-27T09:03:44.527Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2704,6 +2704,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-rc.4",
+          "name": "3.0.0-rc.4",
+          "published_at": "2026-10-27T03:51:45Z",
+          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/3.0.0-rc.4"
+        },
+        {
           "tag": "3.0.0-rc.3",
           "name": "3.0.0-rc.3",
           "published_at": "2026-10-08T01:07:17Z",
@@ -2756,12 +2762,6 @@
           "name": "2.3.1",
           "published_at": "2025-04-02T01:48:43Z",
           "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.3.1"
-        },
-        {
-          "tag": "2.3.0",
-          "name": "2.3.0",
-          "published_at": "2025-03-31T17:25:02Z",
-          "url": "https://github.com/dortania/OpenCore-Legacy-Patcher/releases/tag/2.3.0"
         }
       ]
     },
@@ -3758,6 +3758,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-beta.4",
+          "name": "3.0.0-beta.4",
+          "published_at": "2026-10-27T03:35:52Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.4"
+        },
+        {
           "tag": "3.0.0-beta.3",
           "name": "3.0.0-beta.3",
           "published_at": "2026-10-20T01:33:13Z",
@@ -3810,12 +3816,6 @@
           "name": "3.0.0-alpha.7",
           "published_at": "2026-09-25T18:52:59Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.7"
-        },
-        {
-          "tag": "2.1.0-beta.5",
-          "name": "2.1.0-beta.5",
-          "published_at": "2026-09-25T18:28:40Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0-beta.5"
         }
       ]
     },
