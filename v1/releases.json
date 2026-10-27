@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T15:23:27.507Z",
+  "generated_at": "2026-10-27T22:17:35.342Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -626,19 +626,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.311",
-      "published_at": "2026-10-26T21:51:23Z",
+      "tag": "v2.1.312",
+      "published_at": "2026-10-27T20:24:20Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.311/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.311/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -646,13 +646,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.311/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.311/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -660,19 +660,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.311/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.311/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.312",
+          "name": "v2.1.312",
+          "published_at": "2026-10-27T20:24:20Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"
+        },
         {
           "tag": "v2.1.311",
           "name": "v2.1.311",
@@ -726,12 +732,6 @@
           "name": "v2.1.303",
           "published_at": "2026-10-18T22:26:54Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
-        },
-        {
-          "tag": "v2.1.302",
-          "name": "v2.1.302",
-          "published_at": "2026-10-16T20:53:06Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.302"
         }
       ]
     },
