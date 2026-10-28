@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-27T22:17:35.342Z",
+  "generated_at": "2026-10-28T13:00:10.879Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1688,13 +1688,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.24",
-      "published_at": "2026-10-26T23:02:07Z",
+      "tag": "v0.1.25",
+      "published_at": "2026-10-28T12:35:03Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.24/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.25/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1702,13 +1702,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.24/genex_0.1.24_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.25/genex_0.1.25_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.25",
+          "name": "Genex 0.1.25",
+          "published_at": "2026-10-28T12:35:03Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.25"
+        },
         {
           "tag": "v0.1.24",
           "name": "Genex 0.1.24",
@@ -1762,12 +1768,6 @@
           "name": "Genex 0.1.15",
           "published_at": "2026-10-21T17:38:31Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.15"
-        },
-        {
-          "tag": "v0.1.14",
-          "name": "Genex 0.1.14",
-          "published_at": "2026-10-21T11:10:58Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.14"
         }
       ]
     },
@@ -2214,19 +2214,25 @@
       ]
     },
     "macsai": {
-      "tag": "v1.25.7",
-      "published_at": "2026-10-19T05:45:37Z",
+      "tag": "v1.27.1",
+      "published_at": "2026-10-28T06:57:38Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/iliyami/MacSai/releases/download/v1.25.7/MacSai-1.25.7.dmg",
+              "url": "https://github.com/iliyami/MacSai/releases/download/v1.27.1/MacSai-1.27.1.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.27.1",
+          "name": "Mac Sai v1.27.1",
+          "published_at": "2026-10-28T06:57:38Z",
+          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.27.1"
+        },
         {
           "tag": "v1.25.7",
           "name": "Mac Sai v1.25.7",
@@ -2280,12 +2286,6 @@
           "name": "Mac Sai v1.21.0",
           "published_at": "2026-09-22T05:06:01Z",
           "url": "https://github.com/iliyami/MacSai/releases/tag/v1.21.0"
-        },
-        {
-          "tag": "v1.20.0",
-          "name": "Mac Sai v1.20.0",
-          "published_at": "2026-09-17T08:41:08Z",
-          "url": "https://github.com/iliyami/MacSai/releases/tag/v1.20.0"
         }
       ]
     },
@@ -4110,19 +4110,19 @@
       ]
     },
     "vscodium": {
-      "tag": "1.143.17183",
-      "published_at": "2026-10-26T08:18:16Z",
+      "tag": "1.143.17232",
+      "published_at": "2026-10-28T08:54:31Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-1.143.17183-anylinux-aarch64.AppImage",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-1.143.17232-anylinux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-1.143.17183-anylinux-x86_64.AppImage",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-1.143.17232-anylinux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -4130,13 +4130,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-darwin-arm64-1.143.17183.zip",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-darwin-arm64-1.143.17232.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodium-darwin-x64-1.143.17183.zip",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodium-darwin-x64-1.143.17232.zip",
               "format": "ZIP"
             }
           }
@@ -4144,19 +4144,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodiumUserSetup-arm64-1.143.17183.exe",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodiumUserSetup-arm64-1.143.17232.exe",
               "format": "EXE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17183/VSCodiumUserSetup-x64-1.143.17183.exe",
+              "url": "https://github.com/VSCodium/vscodium/releases/download/1.143.17232/VSCodiumUserSetup-x64-1.143.17232.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "1.143.17232",
+          "name": "1.143.17232",
+          "published_at": "2026-10-28T08:54:31Z",
+          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.143.17232"
+        },
         {
           "tag": "1.143.17183",
           "name": "1.143.17183",
@@ -4210,12 +4216,6 @@
           "name": "1.110.11607",
           "published_at": "2026-03-07T23:19:53Z",
           "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.11607"
-        },
-        {
-          "tag": "1.110.11602",
-          "name": "1.110.11602",
-          "published_at": "2026-03-07T18:24:37Z",
-          "url": "https://github.com/VSCodium/vscodium/releases/tag/1.110.11602"
         }
       ]
     },
