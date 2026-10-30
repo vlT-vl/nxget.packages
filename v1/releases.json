@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T10:05:19.552Z",
+  "generated_at": "2026-10-30T22:24:12.501Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -3764,6 +3764,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-alpha.12",
+          "name": "3.0.0-alpha.12",
+          "published_at": "2026-10-30T22:13:59Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.12"
+        },
+        {
           "tag": "3.0.0-alpha.11",
           "name": "3.0.0-alpha.11",
           "published_at": "2026-10-29T04:11:54Z",
@@ -3816,12 +3822,6 @@
           "name": "3.0.0-beta.2",
           "published_at": "2026-10-07T00:08:09Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.2"
-        },
-        {
-          "tag": "3.0.0-beta.1",
-          "name": "3.0.0-beta.1",
-          "published_at": "2026-10-02T02:41:26Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.1"
         }
       ]
     },
