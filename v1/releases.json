@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-10-30T01:04:03.109Z",
+  "generated_at": "2026-10-30T10:05:19.552Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -626,19 +626,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.312",
-      "published_at": "2026-10-27T20:24:20Z",
+      "tag": "v2.1.314",
+      "published_at": "2026-10-30T01:06:26Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -646,13 +646,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -660,19 +660,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.312/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.314/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.314",
+          "name": "v2.1.314",
+          "published_at": "2026-10-30T01:06:26Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314"
+        },
         {
           "tag": "v2.1.312",
           "name": "v2.1.312",
@@ -726,12 +732,6 @@
           "name": "v2.1.304",
           "published_at": "2026-10-19T21:34:39Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.304"
-        },
-        {
-          "tag": "v2.1.303",
-          "name": "v2.1.303",
-          "published_at": "2026-10-18T22:26:54Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.303"
         }
       ]
     },
@@ -1627,7 +1627,7 @@
       "history": [
         {
           "tag": "dev",
-          "name": "FreeFlow Dev a647469d268d",
+          "name": "FreeFlow Dev 4ebd9366e9e2",
           "published_at": "2026-04-30T09:55:39Z",
           "url": "https://github.com/zachlatta/freeflow/releases/tag/dev"
         },
@@ -3078,19 +3078,19 @@
       ]
     },
     "pulsar": {
-      "tag": "v1.132.1",
-      "published_at": "2026-05-20T22:47:11Z",
+      "tag": "v1.133.0",
+      "published_at": "2026-10-30T04:38:12Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/ARM.Linux.pulsar_1.132.1_arm64.deb",
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.0/ARM.Linux.pulsar_1.133.0_arm64.deb",
               "format": "DEB"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Linux.pulsar_1.132.1_amd64.deb",
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.0/Linux.pulsar_1.133.0_amd64.deb",
               "format": "DEB"
             }
           }
@@ -3098,13 +3098,13 @@
         "macos": {
           "x64": {
             "default": {
-              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Intel.Mac.Pulsar-1.132.1.dmg",
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.0/Intel.Mac.Pulsar-1.133.0.dmg",
               "format": "DMG"
             }
           },
           "arm64": {
             "default": {
-              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Silicon.Mac.Pulsar-1.132.1-arm64.dmg",
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.0/Silicon.Mac.Pulsar-1.133.0-arm64.dmg",
               "format": "DMG"
             }
           }
@@ -3112,13 +3112,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.132.1/Windows.Pulsar.Setup.1.132.1.exe",
+              "url": "https://github.com/pulsar-edit/pulsar/releases/download/v1.133.0/Windows.Pulsar.Setup.1.133.0.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.133.0",
+          "name": "v1.133.0",
+          "published_at": "2026-10-30T04:38:12Z",
+          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.133.0"
+        },
         {
           "tag": "v1.132.1",
           "name": "v1.132.1",
@@ -3172,12 +3178,6 @@
           "name": "v1.129.0",
           "published_at": "2025-08-06T19:28:44Z",
           "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.129.0"
-        },
-        {
-          "tag": "v1.128.0",
-          "name": "v1.128.0",
-          "published_at": "2025-05-02T04:25:28Z",
-          "url": "https://github.com/pulsar-edit/pulsar/releases/tag/v1.128.0"
         }
       ]
     },
