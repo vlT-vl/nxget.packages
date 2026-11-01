@@ -25,9 +25,9 @@ about:
     sessions) compared to the paid Professional edition. Windows only.
 url: https://mobaxterm.mobatek.net/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/mobaxterm/mobaxterm.png
-version: '26.5'
+version: '26.6'
 assets:
   - platform: windows
     arch: x64
     format: ZIP
-    url: https://download.mobatek.net/2652026082870834/MobaXterm_Installer_v26.5.zip
+    url: https://download.mobatek.net/2662026100713843/MobaXterm_Installer_v26.6.zip

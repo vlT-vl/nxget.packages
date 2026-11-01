@@ -25,12 +25,12 @@ assets:
     arch: x64
     format: MSIX
     url: https://statics.teams.cdn.office.net/production-windows-x64/enterprise/webview2/lkg/MSTeams-x64.msix
-    version: '26260.1717.5229.7049'
+    version: '26276.513.5241.9675'
   - platform: windows
     arch: arm64
     format: MSIX
     url: https://statics.teams.cdn.office.net/production-windows-arm64/enterprise/webview2/lkg/MSTeams-arm64.msix
-    version: '26260.1717.5229.7049'
+    version: '26276.513.5241.9675'
   - platform: macos
     arch: universal
     format: PKG
