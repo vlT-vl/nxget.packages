@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-02T11:14:52.461Z",
+  "generated_at": "2026-11-02T21:44:08.687Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -354,13 +354,13 @@
       ]
     },
     "bitwarden": {
-      "tag": "desktop-v2026.10.2",
-      "published_at": "2026-10-29T13:53:08Z",
+      "tag": "desktop-v2026.10.3",
+      "published_at": "2026-11-02T16:19:31Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.2/commercial-Bitwarden-2026.10.2-universal.dmg",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.3/commercial-Bitwarden-2026.10.3-universal.dmg",
               "format": "DMG"
             }
           }
@@ -368,7 +368,7 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.2/commercial-Bitwarden-2026.10.2-x86_64.AppImage",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.3/commercial-Bitwarden-2026.10.3-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -376,13 +376,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.2/Bitwarden-Installer-2026.10.2.exe",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.3/Bitwarden-Installer-2026.10.3.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "desktop-v2026.10.3",
+          "name": "Desktop v2026.10.3",
+          "published_at": "2026-11-02T16:19:31Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.10.3"
+        },
         {
           "tag": "desktop-v2026.10.2",
           "name": "Desktop v2026.10.2",
@@ -436,12 +442,6 @@
           "name": "Desktop v2026.6.1",
           "published_at": "2026-06-30T16:09:04Z",
           "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.1"
-        },
-        {
-          "tag": "desktop-v2026.6.0",
-          "name": "Desktop v2026.6.0",
-          "published_at": "2026-06-25T18:45:22Z",
-          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.6.0"
         }
       ]
     },
@@ -1202,13 +1202,13 @@
       ]
     },
     "dyad": {
-      "tag": "v1.21.0",
-      "published_at": "2026-10-26T17:13:55Z",
+      "tag": "v1.22.0",
+      "published_at": "2026-11-02T18:59:31Z",
       "downloads": {
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad-1.21.0.Setup.exe",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.22.0/dyad-1.22.0.Setup.exe",
               "format": "EXE"
             }
           }
@@ -1216,13 +1216,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad-darwin-arm64-1.21.0.zip",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.22.0/dyad-darwin-arm64-1.22.0.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad-darwin-x64-1.21.0.zip",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.22.0/dyad-darwin-x64-1.22.0.zip",
               "format": "ZIP"
             }
           }
@@ -1230,13 +1230,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.21.0/dyad_1.21.0_x86_64.AppImage",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.22.0/dyad_1.22.0_x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.22.0",
+          "name": "v1.22.0",
+          "published_at": "2026-11-02T18:59:31Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.22.0"
+        },
         {
           "tag": "v1.22.0-beta.1",
           "name": "v1.22.0-beta.1",
@@ -1290,12 +1296,6 @@
           "name": "v1.18.0",
           "published_at": "2026-10-05T17:37:54Z",
           "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.18.0"
-        },
-        {
-          "tag": "v1.18.0-beta.1",
-          "name": "v1.18.0-beta.1",
-          "published_at": "2026-10-01T18:41:06Z",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.18.0-beta.1"
         }
       ]
     },
