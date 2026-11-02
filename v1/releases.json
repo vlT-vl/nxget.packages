@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-02T00:47:00.808Z",
+  "generated_at": "2026-11-02T11:14:52.461Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -177,19 +177,19 @@
       ]
     },
     "audacity": {
-      "tag": "Audacity-4.0.1",
-      "published_at": "2026-09-30T11:59:48Z",
+      "tag": "Audacity-4.0.2",
+      "published_at": "2026-11-02T10:01:34Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-aarch64.AppImage",
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-linux-4.0.1-x86_64.AppImage",
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-linux-4.0.2-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -197,13 +197,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-macOS-4.0.1-arm64.dmg",
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-macOS-4.0.1-x86_64.dmg",
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-macOS-4.0.2-x86_64.dmg",
               "format": "DMG"
             }
           }
@@ -211,19 +211,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-win-4.0.1-arm64.msi",
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.1/audacity-win-4.0.1-x86_64.msi",
+              "url": "https://github.com/audacity/audacity/releases/download/Audacity-4.0.2/audacity-win-4.0.2-x86_64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "Audacity-4.0.2",
+          "name": "Audacity 4.0.2",
+          "published_at": "2026-11-02T10:01:34Z",
+          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.2"
+        },
         {
           "tag": "Audacity-4.0.1",
           "name": "Audacity-4.0.1",
@@ -277,12 +283,6 @@
           "name": "Audacity-4.0.0.alpha-2",
           "published_at": "2025-11-03T11:42:02Z",
           "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0-alpha-2"
-        },
-        {
-          "tag": "Audacity-3.7.5",
-          "name": "Audacity 3.7.5",
-          "published_at": "2025-08-05T09:48:55Z",
-          "url": "https://github.com/audacity/audacity/releases/tag/Audacity-3.7.5"
         }
       ]
     },
@@ -1627,7 +1627,7 @@
       "history": [
         {
           "tag": "dev",
-          "name": "FreeFlow Dev 4ebd9366e9e2",
+          "name": "FreeFlow Dev 6f587fbd9f78",
           "published_at": "2026-04-30T09:55:39Z",
           "url": "https://github.com/zachlatta/freeflow/releases/tag/dev"
         },
@@ -3764,6 +3764,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-beta.5",
+          "name": "3.0.0-beta.5",
+          "published_at": "2026-11-02T03:20:28Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.5"
+        },
+        {
           "tag": "3.0.0-alpha.12.1",
           "name": "3.0.0-alpha.12.1",
           "published_at": "2026-10-31T06:21:28Z",
@@ -3816,12 +3822,6 @@
           "name": "2.1.0",
           "published_at": "2026-10-14T23:26:11Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0"
-        },
-        {
-          "tag": "3.0.0-alpha.8",
-          "name": "3.0.0-alpha.8",
-          "published_at": "2026-10-11T17:46:49Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.8"
         }
       ]
     },
