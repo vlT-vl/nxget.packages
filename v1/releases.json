@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-03T06:52:13.349Z",
+  "generated_at": "2026-11-03T17:06:06.186Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -3182,19 +3182,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.13.1",
-      "published_at": "2026-10-26T23:32:46Z",
+      "tag": "v1.13.2",
+      "published_at": "2026-11-03T13:55:49Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.13.1/Purgev1.13.1.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.13.2/Purgev1.13.2.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.13.2",
+          "name": "Purge v1.13.2",
+          "published_at": "2026-11-03T13:55:49Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.2"
+        },
         {
           "tag": "v1.13.1",
           "name": "Purge v1.13.1",
@@ -3248,12 +3254,6 @@
           "name": "Purge v1.8.1",
           "published_at": "2026-10-06T10:30:42Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.1"
-        },
-        {
-          "tag": "v1.8.0",
-          "name": "Purge v1.8.0",
-          "published_at": "2026-10-05T23:47:22Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.0"
         }
       ]
     },
