@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-04T06:28:47.071Z",
+  "generated_at": "2026-11-04T17:17:15.203Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1688,13 +1688,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.25",
-      "published_at": "2026-10-28T12:35:03Z",
+      "tag": "v0.1.28",
+      "published_at": "2026-11-04T14:17:59Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.25/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.28/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1702,13 +1702,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.25/genex_0.1.25_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.28/genex_0.1.28_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.28",
+          "name": "Genex 0.1.28",
+          "published_at": "2026-11-04T14:17:59Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.28"
+        },
         {
           "tag": "v0.1.25",
           "name": "Genex 0.1.25",
@@ -1762,12 +1768,6 @@
           "name": "Genex 0.1.16",
           "published_at": "2026-10-22T22:59:29Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.16"
-        },
-        {
-          "tag": "v0.1.15",
-          "name": "Genex 0.1.15",
-          "published_at": "2026-10-21T17:38:31Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.15"
         }
       ]
     },
@@ -2629,7 +2629,7 @@
       "history": [
         {
           "tag": "open-design-v0.27.0",
-          "name": "Open Design 0.27.0 — Signal & Polish",
+          "name": "Open Design 0.27.0 — CoRouter for Teams",
           "published_at": "2026-11-04T04:02:06Z",
           "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.0"
         },
@@ -3016,6 +3016,12 @@
       },
       "history": [
         {
+          "tag": "v0.22.0-beta.5",
+          "name": "v0.22.0-beta.5",
+          "published_at": "2026-11-04T14:46:01Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.5"
+        },
+        {
           "tag": "v0.22.0-beta.3",
           "name": "v0.22.0-beta.3",
           "published_at": "2026-11-01T05:39:39Z",
@@ -3068,12 +3074,6 @@
           "name": "v0.21.0-beta.3",
           "published_at": "2026-10-16T19:34:37Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.3"
-        },
-        {
-          "tag": "v0.21.0-beta.1",
-          "name": "v0.21.0-beta.1",
-          "published_at": "2026-10-16T13:04:52Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.1"
         }
       ]
     },
@@ -3182,19 +3182,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.13.2",
-      "published_at": "2026-11-03T13:55:49Z",
+      "tag": "v1.13.3",
+      "published_at": "2026-11-04T14:38:12Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.13.2/Purgev1.13.2.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.13.3/Purgev1.13.3.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.13.3",
+          "name": "Purge v1.13.3",
+          "published_at": "2026-11-04T14:38:12Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.3"
+        },
         {
           "tag": "v1.13.2",
           "name": "Purge v1.13.2",
@@ -3248,12 +3254,6 @@
           "name": "Purge v1.8.2",
           "published_at": "2026-10-06T11:32:57Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.2"
-        },
-        {
-          "tag": "v1.8.1",
-          "name": "Purge v1.8.1",
-          "published_at": "2026-10-06T10:30:42Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.8.1"
         }
       ]
     },
@@ -3764,6 +3764,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-beta.6",
+          "name": "3.0.0-beta.6",
+          "published_at": "2026-11-04T07:30:28Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.6"
+        },
+        {
           "tag": "3.0.0-beta.5",
           "name": "3.0.0-beta.5",
           "published_at": "2026-11-02T03:20:28Z",
@@ -3816,12 +3822,6 @@
           "name": "3.0.0-alpha.9",
           "published_at": "2026-10-14T23:43:44Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.9"
-        },
-        {
-          "tag": "2.1.0",
-          "name": "2.1.0",
-          "published_at": "2026-10-14T23:26:11Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.1.0"
         }
       ]
     },
