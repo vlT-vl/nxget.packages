@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-05T23:39:50.953Z",
+  "generated_at": "2026-11-06T16:48:11.969Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1694,13 +1694,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.32",
-      "published_at": "2026-11-05T22:43:49Z",
+      "tag": "v0.1.33",
+      "published_at": "2026-11-06T11:15:46Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.32/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.33/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1708,13 +1708,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.32/genex_0.1.32_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.33/genex_0.1.33_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.33",
+          "name": "Genex 0.1.33",
+          "published_at": "2026-11-06T11:15:46Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.33"
+        },
         {
           "tag": "v0.1.32",
           "name": "Genex 0.1.32",
@@ -1768,12 +1774,6 @@
           "name": "Genex 0.1.22",
           "published_at": "2026-10-24T10:53:44Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.22"
-        },
-        {
-          "tag": "v0.1.21",
-          "name": "Genex 0.1.21",
-          "published_at": "2026-10-23T21:54:33Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.21"
         }
       ]
     },
@@ -3022,6 +3022,12 @@
       },
       "history": [
         {
+          "tag": "v0.22.0-beta.6",
+          "name": "v0.22.0-beta.6",
+          "published_at": "2026-11-06T12:34:20Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.6"
+        },
+        {
           "tag": "v0.22.0-beta.5",
           "name": "v0.22.0-beta.5",
           "published_at": "2026-11-04T14:46:01Z",
@@ -3074,12 +3080,6 @@
           "name": "v0.21.0-beta.4",
           "published_at": "2026-10-18T15:51:27Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.4"
-        },
-        {
-          "tag": "v0.21.0-beta.3",
-          "name": "v0.21.0-beta.3",
-          "published_at": "2026-10-16T19:34:37Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.3"
         }
       ]
     },
@@ -3770,6 +3770,12 @@
       },
       "history": [
         {
+          "tag": "2.2.0-beta.2",
+          "name": "2.2.0-beta.2",
+          "published_at": "2026-11-06T08:14:14Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/2.2.0-beta.2"
+        },
+        {
           "tag": "3.0.0-alpha.13",
           "name": "3.0.0-alpha.13",
           "published_at": "2026-11-05T22:13:08Z",
@@ -3822,12 +3828,6 @@
           "name": "3.0.0-beta.3",
           "published_at": "2026-10-20T01:33:13Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.3"
-        },
-        {
-          "tag": "3.0.0-alpha.10",
-          "name": "3.0.0-alpha.10",
-          "published_at": "2026-10-18T20:08:03Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.10"
         }
       ]
     },
