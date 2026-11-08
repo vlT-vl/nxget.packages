@@ -25,20 +25,20 @@ about:
     Linux, the official Flatpak reference on Flathub.
 url: https://www.gimp.org/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/gimp/gimp.png
-version: '3.2.6'
+version: '3.2.8'
 assets:
   - platform: windows
     arch: x64
     format: EXE
-    url: https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.6-setup.exe
+    url: https://download.gimp.org/gimp/v3.2/windows/gimp-3.2.8-setup.exe
   - platform: macos
     arch: arm64
     format: DMG
-    url: https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.6-arm64.dmg
+    url: https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.8-arm64.dmg
   - platform: macos
     arch: x64
     format: DMG
-    url: https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.6-x86_64.dmg
+    url: https://download.gimp.org/gimp/v3.2/macos/gimp-3.2.8-x86_64.dmg
   - platform: linux
     arch: universal
     format: FLATPAK
