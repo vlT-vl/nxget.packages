@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T00:40:34.423Z",
+  "generated_at": "2026-11-08T06:52:55.159Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1986,19 +1986,25 @@
       ]
     },
     "heymac": {
-      "tag": "v1.0.4",
-      "published_at": "2026-10-17T05:26:50Z",
+      "tag": "v1.0.5",
+      "published_at": "2026-11-08T03:28:37Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/iharshitmaurya/HeyMac/releases/download/v1.0.4/HeyMac-1.0.4.dmg",
+              "url": "https://github.com/iharshitmaurya/HeyMac/releases/download/v1.0.5/HeyMac-1.0.5.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.0.5",
+          "name": "Hey Mac 1.0.5",
+          "published_at": "2026-11-08T03:28:37Z",
+          "url": "https://github.com/iharshitmaurya/HeyMac/releases/tag/v1.0.5"
+        },
         {
           "tag": "v1.0.4",
           "name": "Hey Mac 1.0.4",
