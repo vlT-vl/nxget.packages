@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-08T06:52:55.159Z",
+  "generated_at": "2026-11-08T17:56:53.905Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2986,19 +2986,19 @@
       ]
     },
     "pi-desktop": {
-      "tag": "v0.21.0",
-      "published_at": "2026-10-24T13:34:50Z",
+      "tag": "v0.22.0",
+      "published_at": "2026-11-08T16:39:56Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.21.0/PI-Desktop-0.21.0-arm64.dmg",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-arm64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.21.0/PI-Desktop-0.21.0-x64.dmg",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-x64.dmg",
               "format": "DMG"
             }
           }
@@ -3006,13 +3006,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.21.0/PI-Desktop-0.21.0-linux-arm64.AppImage",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-linux-arm64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.21.0/PI-Desktop-0.21.0-linux-x86_64.AppImage",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-0.22.0-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3020,13 +3020,25 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.21.0/PI-Desktop-Setup-0.21.0.exe",
+              "url": "https://github.com/vastsa/PI-Desktop/releases/download/v0.22.0/PI-Desktop-Setup-0.22.0.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.22.0",
+          "name": "v0.22.0",
+          "published_at": "2026-11-08T16:39:56Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0"
+        },
+        {
+          "tag": "v0.22.0-beta.7",
+          "name": "v0.22.0-beta.7",
+          "published_at": "2026-11-08T14:33:44Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.7"
+        },
         {
           "tag": "v0.22.0-beta.6",
           "name": "v0.22.0-beta.6",
@@ -3074,18 +3086,6 @@
           "name": "v0.21.0-beta.7",
           "published_at": "2026-10-23T04:41:43Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.7"
-        },
-        {
-          "tag": "v0.21.0-beta.6",
-          "name": "v0.21.0-beta.6",
-          "published_at": "2026-10-22T04:50:53Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.6"
-        },
-        {
-          "tag": "v0.21.0-beta.4",
-          "name": "v0.21.0-beta.4",
-          "published_at": "2026-10-18T15:51:27Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.4"
         }
       ]
     },
