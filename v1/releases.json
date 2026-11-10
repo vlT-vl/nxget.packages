@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-10T03:36:00.625Z",
+  "generated_at": "2026-11-10T14:56:55.272Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2647,7 +2647,7 @@
       "history": [
         {
           "tag": "open-design-v0.27.1",
-          "name": "Open Design 0.27.1",
+          "name": "OpenDesign 0.27.1 — Invite Friends, Earn Reset",
           "published_at": "2026-11-10T03:03:29Z",
           "url": "https://github.com/nexu-io/open-design/releases/tag/open-design-v0.27.1"
         },
