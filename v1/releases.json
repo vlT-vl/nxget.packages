@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T01:27:53.965Z",
+  "generated_at": "2026-11-14T18:07:48.181Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -3040,6 +3040,12 @@
       },
       "history": [
         {
+          "tag": "v0.23.0-beta.1",
+          "name": "v0.23.0-beta.1",
+          "published_at": "2026-11-14T15:02:14Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.23.0-beta.1"
+        },
+        {
           "tag": "v0.22.0",
           "name": "v0.22.0",
           "published_at": "2026-11-08T16:39:56Z",
@@ -3092,12 +3098,6 @@
           "name": "v0.21.0-beta.8",
           "published_at": "2026-10-23T19:32:37Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.8"
-        },
-        {
-          "tag": "v0.21.0-beta.7",
-          "name": "v0.21.0-beta.7",
-          "published_at": "2026-10-23T04:41:43Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.21.0-beta.7"
         }
       ]
     },
