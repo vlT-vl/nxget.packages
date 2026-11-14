@@ -1,0 +1,33 @@
+id: phosphor
+name: Phosphor
+publisher: Moamen Basel
+category: Utility
+description: A free, open-source native macOS app for browsing and exporting iPhone backups without restoring the device.
+about:
+  it: >-
+    Phosphor è un'app nativa per macOS, gratuita e open source, per gestire
+    i dispositivi iOS in locale: permette di sfogliare i backup dell'iPhone
+    (anche quelli cifrati) ed esportare messaggi, foto, contatti e
+    calendari, estrarre file con il loro nome originale e installare o
+    rimuovere app su un dispositivo collegato, il tutto senza mai
+    ripristinarlo. Tutto avviene sul dispositivo, senza account, senza
+    cloud e senza abbonamento. È distribuito con licenza MIT.
+  en: >-
+    Phosphor is a free, open-source, native macOS app for managing iOS
+    devices locally: it browses iPhone backups (including encrypted ones)
+    and lets you export messages, photos, contacts and calendars, extract
+    files with their original names, and install or remove apps on a
+    connected device, all without ever restoring it. Everything runs
+    on-device, with no account, no cloud and no subscription. It is
+    released under the MIT license.
+url: https://www.moamenbasel.com/Phosphor/
+repo: https://github.com/momenbasel/Phosphor
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/phosphor/phosphor.png
+license:
+  name: MIT License
+  url: https://raw.githubusercontent.com/momenbasel/Phosphor/HEAD/LICENSE
+assets:
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^Phosphor\.dmg$'

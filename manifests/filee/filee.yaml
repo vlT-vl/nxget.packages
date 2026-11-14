@@ -1,0 +1,50 @@
+id: filee
+name: Filee
+publisher: Myeonggu Kim
+category: Productivity
+description: A free, open-source offline file converter supporting 263 formats via drag and drop, with no upload and no cloud.
+about:
+  it: >-
+    Filee è un convertitore di file gratuito e open source per Windows,
+    macOS e Linux che gestisce 263 formati interamente offline: immagini,
+    PDF, Word, Excel, PowerPoint, HWP/HWPX, video, audio, e-book e archivi,
+    tutti convertiti in locale trascinando i file nella finestra, senza
+    upload e senza bisogno di Office o altro software a pagamento
+    installato. È sviluppato in .NET e Avalonia, e condivide interfaccia e
+    motori di conversione con la versione CLI di Filee. È distribuito con
+    licenza MIT.
+  en: >-
+    Filee is a free, open-source file converter for Windows, macOS and
+    Linux that handles 263 formats entirely offline: images, PDF, Word,
+    Excel, PowerPoint, HWP/HWPX, video, audio, e-books and archives, all
+    converted locally by drag and drop with no upload and no need for
+    Office or other paid software installed. It is built with .NET and
+    Avalonia, and its interface and underlying conversion engines are
+    shared with the Filee CLI. It is released under the MIT license.
+url: https://filee.sh
+repo: https://github.com/KnifeLemon/Filee
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/filee/filee.png
+license:
+  name: MIT License
+  url: https://raw.githubusercontent.com/KnifeLemon/Filee/HEAD/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Filee-[\d.]+-win-Setup\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^Filee-[\d.]+-osx-arm64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^Filee-[\d.]+-osx-x64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: TARGZ
+    match: '^Filee-[\d.]+-linux-x64\.tar\.gz$'
+  - platform: linux
+    arch: arm64
+    format: TARGZ
+    match: '^Filee-[\d.]+-linux-arm64\.tar\.gz$'

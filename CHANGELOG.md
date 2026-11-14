@@ -2,6 +2,26 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-11-14
+
+- Aggiunto il manifest di Phosphor, gestore iOS nativo per macOS (DMG
+  universale, repo GitHub `momenbasel/Phosphor`).
+- Aggiunto il manifest di Filee, convertitore di file offline per Windows
+  x64, macOS arm64/x64 e Linux x64/arm64 (repo GitHub `KnifeLemon/Filee`).
+- Aggiunto il manifest di Helium, browser Chromium de-googlizzato. Caso
+  particolare: il repository principale (`imputnet/helium`) non pubblica
+  asset binari nelle sue Release (solo changelog), perché i build reali
+  sono distribuiti da tre repository ufficiali separati, uno per
+  piattaforma (`imputnet/helium-windows`, `helium-macos`, `helium-linux`),
+  ciascuno con il proprio tag di versione. Il manifest non ha quindi
+  `repo`: ogni asset ha una `version` propria e un `url` fisso, aggiornati
+  automaticamente da tre regole indipendenti in `scripts/sources.json` (una
+  per repository) che leggono il tag dal redirect `/releases/latest` di
+  ciascuno — catalogo a 75 app.
+- `v1/index.json` e `v1/releases.json` rigenerati (Filee e Phosphor
+  risolti dal rispettivo repo; Helium, senza `repo`, non ha voce in
+  `releases.json`, come le altre app a link fisso).
+
 ## 2026-10-16
 
 - Aggiunto il manifest di Microsoft Teams con i pacchetti ufficiali New Teams

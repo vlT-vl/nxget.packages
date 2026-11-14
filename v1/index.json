@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-10-16T12:53:09.484Z",
+  "generated_at": "2026-11-14T19:32:27.669Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -180,6 +180,13 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/figcraft/figcraft.yaml"
     },
     {
+      "id": "filee",
+      "name": "Filee",
+      "publisher": "Myeonggu Kim",
+      "category": "Productivity",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/filee/filee.yaml"
+    },
+    {
       "id": "filmcraft",
       "name": "FilmCraft",
       "publisher": "ArtCraft",
@@ -234,6 +241,13 @@
       "publisher": "ArtCraft",
       "category": "Productivity",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/gridcraft/gridcraft.yaml"
+    },
+    {
+      "id": "helium",
+      "name": "Helium",
+      "publisher": "imput",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/helium/helium.yaml"
     },
     {
       "id": "heymac",
@@ -346,6 +360,13 @@
       "publisher": "ArtCraft",
       "category": "Productivity",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pdfcraft/pdfcraft.yaml"
+    },
+    {
+      "id": "phosphor",
+      "name": "Phosphor",
+      "publisher": "Moamen Basel",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/phosphor/phosphor.yaml"
     },
     {
       "id": "photocraft",

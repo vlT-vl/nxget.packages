@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T18:07:48.181Z",
+  "generated_at": "2026-11-14T20:16:43.874Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1519,6 +1519,110 @@
         }
       ]
     },
+    "filee": {
+      "tag": "v2.4.1",
+      "published_at": "2026-11-14T03:45:28Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/KnifeLemon/Filee/releases/download/v2.4.1/Filee-2.4.1-linux-arm64.tar.gz",
+              "format": "TARGZ"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/KnifeLemon/Filee/releases/download/v2.4.1/Filee-2.4.1-linux-x64.tar.gz",
+              "format": "TARGZ"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/KnifeLemon/Filee/releases/download/v2.4.1/Filee-2.4.1-osx-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/KnifeLemon/Filee/releases/download/v2.4.1/Filee-2.4.1-osx-x64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/KnifeLemon/Filee/releases/download/v2.4.1/Filee-2.4.1-win-Setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v2.4.1",
+          "name": "Filee 2.4.1",
+          "published_at": "2026-11-14T03:45:28Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v2.4.1"
+        },
+        {
+          "tag": "v2.4.0",
+          "name": "Filee 2.4.0",
+          "published_at": "2026-11-09T23:42:13Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v2.4.0"
+        },
+        {
+          "tag": "v2.3.0",
+          "name": "Filee 2.3.0",
+          "published_at": "2026-11-03T22:02:24Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v2.3.0"
+        },
+        {
+          "tag": "v2.2.0",
+          "name": "Filee 2.2.0",
+          "published_at": "2026-10-28T08:16:56Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v2.2.0"
+        },
+        {
+          "tag": "v2.1.0",
+          "name": "Filee 2.1.0",
+          "published_at": "2026-10-24T23:30:48Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v2.1.0"
+        },
+        {
+          "tag": "v2.0.0",
+          "name": "Filee 2.0.0",
+          "published_at": "2026-10-21T10:44:57Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v2.0.0"
+        },
+        {
+          "tag": "v1.12.0",
+          "name": "Filee 1.12.0",
+          "published_at": "2026-10-19T02:24:42Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v1.12.0"
+        },
+        {
+          "tag": "v1.11.0",
+          "name": "Filee 1.11.0",
+          "published_at": "2026-10-17T05:14:07Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v1.11.0"
+        },
+        {
+          "tag": "v1.10.4",
+          "name": "Filee 1.10.4",
+          "published_at": "2026-10-15T23:02:26Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v1.10.4"
+        },
+        {
+          "tag": "v1.10.3",
+          "name": "Filee 1.10.3",
+          "published_at": "2026-10-13T20:19:25Z",
+          "url": "https://github.com/KnifeLemon/Filee/releases/tag/v1.10.3"
+        }
+      ]
+    },
     "filmcraft": {
       "tag": "v0.20.1",
       "published_at": "2026-11-12T00:26:09Z",
@@ -2890,6 +2994,82 @@
           "name": "PdfCraft v0.15.0",
           "published_at": "2026-10-28T17:38:25Z",
           "url": "https://github.com/storytold/pdfcraft/releases/tag/v0.15.0"
+        }
+      ]
+    },
+    "phosphor": {
+      "tag": "v1.5.0",
+      "published_at": "2026-10-08T02:43:27Z",
+      "downloads": {
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/momenbasel/Phosphor/releases/download/v1.5.0/Phosphor.dmg",
+              "format": "DMG"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.5.0",
+          "name": "v1.5.0",
+          "published_at": "2026-10-08T02:43:27Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.5.0"
+        },
+        {
+          "tag": "v1.4.0",
+          "name": "v1.4.0",
+          "published_at": "2026-08-10T23:50:28Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.4.0"
+        },
+        {
+          "tag": "v1.3.0",
+          "name": "v1.3.0",
+          "published_at": "2026-07-27T20:40:42Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.3.0"
+        },
+        {
+          "tag": "v1.1.0",
+          "name": "v1.1.0",
+          "published_at": "2026-07-18T07:45:33Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.1.0"
+        },
+        {
+          "tag": "v1.0.8",
+          "name": "v1.0.8",
+          "published_at": "2026-06-28T06:00:29Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.0.8"
+        },
+        {
+          "tag": "v1.0.7",
+          "name": "v1.0.7",
+          "published_at": "2026-06-08T01:16:09Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.0.7"
+        },
+        {
+          "tag": "v1.0.6",
+          "name": "v1.0.6",
+          "published_at": "2026-05-23T03:47:17Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.0.6"
+        },
+        {
+          "tag": "v1.0.5",
+          "name": "v1.0.5",
+          "published_at": "2026-05-14T22:26:44Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.0.5"
+        },
+        {
+          "tag": "v1.0.4",
+          "name": "v1.0.4",
+          "published_at": "2026-04-22T05:06:52Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.0.4"
+        },
+        {
+          "tag": "v1.0.3",
+          "name": "v1.0.3",
+          "published_at": "2026-04-22T03:13:52Z",
+          "url": "https://github.com/momenbasel/Phosphor/releases/tag/v1.0.3"
         }
       ]
     },
