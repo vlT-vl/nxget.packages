@@ -34,7 +34,7 @@ assets:
     arch: universal
     format: EXE
     url: https://go.microsoft.com/fwlink/?linkid=2264705
-    version: '2610 (Build 20527.20150)'
+    version: '2610 (Build 20527.20196)'
   - platform: macos
     arch: universal
     format: PKG
