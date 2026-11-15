@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T20:16:43.874Z",
+  "generated_at": "2026-11-15T06:37:54.585Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -826,47 +826,16 @@
       ]
     },
     "concat": {
-      "tag": "v0.2.11",
-      "published_at": "2026-11-13T23:50:00Z",
-      "downloads": {
-        "linux": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-aarch64.AppImage",
-              "format": "APPIMAGE"
-            }
-          },
-          "x64": {
-            "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-x86_64.AppImage",
-              "format": "APPIMAGE"
-            }
-          }
-        },
-        "macos": {
-          "arm64": {
-            "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-macos-arm64.dmg",
-              "format": "DMG"
-            }
-          },
-          "x64": {
-            "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-macos-x86_64.dmg",
-              "format": "DMG"
-            }
-          }
-        },
-        "windows": {
-          "x64": {
-            "default": {
-              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.11/Concat-0.2.11-windows-x86_64-setup.exe",
-              "format": "EXE"
-            }
-          }
-        }
-      },
+      "tag": "models-v1",
+      "published_at": "2026-11-15T00:59:46Z",
+      "downloads": {},
       "history": [
+        {
+          "tag": "models-v1",
+          "name": "Concat models (models-v1)",
+          "published_at": "2026-11-15T00:59:46Z",
+          "url": "https://github.com/jub0t/Concat/releases/tag/models-v1"
+        },
         {
           "tag": "v0.2.11",
           "name": "Concat v0.2.11",
@@ -920,12 +889,6 @@
           "name": "Concat v0.2.3",
           "published_at": "2026-09-19T18:56:49Z",
           "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.3"
-        },
-        {
-          "tag": "v0.2.2",
-          "name": "Concat v0.2.2",
-          "published_at": "2026-09-15T15:32:53Z",
-          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.2"
         }
       ]
     },
@@ -3968,6 +3931,12 @@
       },
       "history": [
         {
+          "tag": "3.0.0-alpha.14",
+          "name": "3.0.0-alpha.14",
+          "published_at": "2026-11-15T01:16:10Z",
+          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-alpha.14"
+        },
+        {
           "tag": "2.2.0-beta.2",
           "name": "2.2.0-beta.2",
           "published_at": "2026-11-06T08:14:14Z",
@@ -4020,12 +3989,6 @@
           "name": "3.0.0-beta.4",
           "published_at": "2026-10-27T03:35:52Z",
           "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.4"
-        },
-        {
-          "tag": "3.0.0-beta.3",
-          "name": "3.0.0-beta.3",
-          "published_at": "2026-10-20T01:33:13Z",
-          "url": "https://github.com/thaw-app/Thaw/releases/tag/3.0.0-beta.3"
         }
       ]
     },
