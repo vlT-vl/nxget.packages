@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-16T19:38:48.551Z",
+  "generated_at": "2026-11-17T03:55:52.289Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -626,19 +626,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.325",
-      "published_at": "2026-11-13T20:40:01Z",
+      "tag": "v2.1.326",
+      "published_at": "2026-11-16T22:11:05Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.326/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.326/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -646,13 +646,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.326/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.326/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -660,19 +660,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.326/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.325/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.326/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.326",
+          "name": "v2.1.326",
+          "published_at": "2026-11-16T22:11:05Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.326"
+        },
         {
           "tag": "v2.1.325",
           "name": "v2.1.325",
@@ -726,12 +732,6 @@
           "name": "v2.1.314",
           "published_at": "2026-10-30T01:06:26Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.314"
-        },
-        {
-          "tag": "v2.1.312",
-          "name": "v2.1.312",
-          "published_at": "2026-10-27T20:24:20Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.312"
         }
       ]
     },
@@ -1767,13 +1767,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.44",
-      "published_at": "2026-11-16T11:41:37Z",
+      "tag": "v0.1.45",
+      "published_at": "2026-11-16T20:47:12Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.44/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.45/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1781,13 +1781,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.44/genex_0.1.44_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.45/genex_0.1.45_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.45",
+          "name": "Genex 0.1.45",
+          "published_at": "2026-11-16T20:47:12Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.45"
+        },
         {
           "tag": "v0.1.44",
           "name": "Genex 0.1.44",
@@ -1841,12 +1847,6 @@
           "name": "Genex 0.1.34",
           "published_at": "2026-11-06T20:37:53Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.34"
-        },
-        {
-          "tag": "v0.1.33",
-          "name": "Genex 0.1.33",
-          "published_at": "2026-11-06T11:15:46Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.33"
         }
       ]
     },
@@ -3349,19 +3349,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.16.1",
-      "published_at": "2026-11-16T09:47:03Z",
+      "tag": "v1.16.2",
+      "published_at": "2026-11-16T23:01:28Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.16.1/Purgev1.16.1.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.16.2/Purgev1.16.2.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.16.2",
+          "name": "Purge v1.16.2",
+          "published_at": "2026-11-16T23:01:28Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.16.2"
+        },
         {
           "tag": "v1.16.1",
           "name": "Purge v1.16.1",
@@ -3415,12 +3421,6 @@
           "name": "Purge v1.13.0",
           "published_at": "2026-10-24T13:22:17Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.0"
-        },
-        {
-          "tag": "v1.12.0",
-          "name": "Purge v1.12.0",
-          "published_at": "2026-10-20T12:40:24Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.12.0"
         }
       ]
     },
