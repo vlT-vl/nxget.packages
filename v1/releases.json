@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-18T11:47:25.809Z",
+  "generated_at": "2026-11-18T20:35:42.550Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1767,13 +1767,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.1.46",
-      "published_at": "2026-11-17T18:49:30Z",
+      "tag": "v0.2.1",
+      "published_at": "2026-11-18T15:50:50Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.46/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.1/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1781,13 +1781,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.1.46/genex_0.1.46_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.1/genex_0.2.1_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.1",
+          "name": "Genex 0.2.1",
+          "published_at": "2026-11-18T15:50:50Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.1"
+        },
         {
           "tag": "v0.1.46",
           "name": "Genex 0.1.46",
@@ -1841,12 +1847,6 @@
           "name": "Genex 0.1.36",
           "published_at": "2026-11-10T15:24:27Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.36"
-        },
-        {
-          "tag": "v0.1.35",
-          "name": "Genex 0.1.35",
-          "published_at": "2026-11-07T14:03:26Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.35"
         }
       ]
     },
@@ -4537,19 +4537,19 @@
       ]
     },
     "zen-browser": {
-      "tag": "1.24.2b",
-      "published_at": "2026-11-12T10:18:28Z",
+      "tag": "1.24.3b",
+      "published_at": "2026-11-18T19:27:04Z",
       "downloads": {
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen.installer-arm64.exe",
+              "url": "https://github.com/zen-browser/desktop/releases/download/1.24.3b/zen.installer-arm64.exe",
               "format": "EXE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen.installer.exe",
+              "url": "https://github.com/zen-browser/desktop/releases/download/1.24.3b/zen.installer.exe",
               "format": "EXE"
             }
           }
@@ -4557,13 +4557,19 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/zen-browser/desktop/releases/download/1.24.2b/zen.macos-universal.dmg",
+              "url": "https://github.com/zen-browser/desktop/releases/download/1.24.3b/zen.macos-universal.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "1.24.3b",
+          "name": "Release build - 1.24.3b (2026-11-18)",
+          "published_at": "2026-11-18T19:27:04Z",
+          "url": "https://github.com/zen-browser/desktop/releases/tag/1.24.3b"
+        },
         {
           "tag": "1.24.2b",
           "name": "Release build - 1.24.2b (2026-11-11)",
@@ -4617,12 +4623,6 @@
           "name": "Release build - 1.22.3b (2026-09-22)",
           "published_at": "2026-09-23T10:46:10Z",
           "url": "https://github.com/zen-browser/desktop/releases/tag/1.22.3b"
-        },
-        {
-          "tag": "1.22.2b",
-          "name": "Release build - 1.22.2b (2026-09-15)",
-          "published_at": "2026-09-16T15:38:49Z",
-          "url": "https://github.com/zen-browser/desktop/releases/tag/1.22.2b"
         }
       ]
     }
