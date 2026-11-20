@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-20T11:44:39.182Z",
+  "generated_at": "2026-11-20T20:25:22.647Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1796,13 +1796,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.2.1",
-      "published_at": "2026-11-18T15:50:50Z",
+      "tag": "v0.2.3",
+      "published_at": "2026-11-20T19:31:59Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.1/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.3/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1810,13 +1810,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.1/genex_0.2.1_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.3/genex_0.2.3_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.3",
+          "name": "Genex 0.2.3",
+          "published_at": "2026-11-20T19:31:59Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.3"
+        },
         {
           "tag": "v0.2.1",
           "name": "Genex 0.2.1",
@@ -1870,12 +1876,6 @@
           "name": "Genex 0.1.38",
           "published_at": "2026-11-11T16:34:30Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.38"
-        },
-        {
-          "tag": "v0.1.36",
-          "name": "Genex 0.1.36",
-          "published_at": "2026-11-10T15:24:27Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.36"
         }
       ]
     },
@@ -2528,19 +2528,19 @@
       ]
     },
     "obs": {
-      "tag": "33.0.1",
-      "published_at": "2026-10-29T21:52:01Z",
+      "tag": "33.0.2",
+      "published_at": "2026-11-20T15:00:26Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-macOS-Apple.dmg",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-macOS-Apple.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-macOS-Intel.dmg",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-macOS-Intel.dmg",
               "format": "DMG"
             }
           }
@@ -2548,19 +2548,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-Windows-arm64.zip",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-Windows-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.1/OBS-Studio-33.0.1-Windows-x64-Installer.exe",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-Windows-x64-Installer.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "33.0.2",
+          "name": "OBS Studio 33.0.2",
+          "published_at": "2026-11-20T15:00:26Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.2"
+        },
         {
           "tag": "33.0.1",
           "name": "OBS Studio 33.0.1",
@@ -2614,12 +2620,6 @@
           "name": "OBS Studio 32.2.2",
           "published_at": "2026-08-14T22:43:31Z",
           "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.2"
-        },
-        {
-          "tag": "32.2.1",
-          "name": "OBS Studio 32.2.1",
-          "published_at": "2026-07-24T22:58:26Z",
-          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.1"
         }
       ]
     },
@@ -3526,19 +3526,25 @@
       ]
     },
     "rectangle": {
-      "tag": "v2.0.4",
-      "published_at": "2026-10-20T18:10:59Z",
+      "tag": "v2.0.5",
+      "published_at": "2026-11-20T15:33:45Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/rxhanson/Rectangle/releases/download/v2.0.4/Rectangle2.0.4.dmg",
+              "url": "https://github.com/rxhanson/Rectangle/releases/download/v2.0.5/Rectangle2.0.5.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.0.5",
+          "name": "v2.0.5",
+          "published_at": "2026-11-20T15:33:45Z",
+          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v2.0.5"
+        },
         {
           "tag": "v2.0.4",
           "name": "v2.0.4",
@@ -3592,12 +3598,6 @@
           "name": "v0.97",
           "published_at": "2026-07-14T20:45:35Z",
           "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.97"
-        },
-        {
-          "tag": "v0.96",
-          "name": "v0.96",
-          "published_at": "2026-05-31T18:09:26Z",
-          "url": "https://github.com/rxhanson/Rectangle/releases/tag/v0.96"
         }
       ]
     },
