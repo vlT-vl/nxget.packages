@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-19T20:40:45.840Z",
+  "generated_at": "2026-11-20T02:21:34.748Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -354,13 +354,13 @@
       ]
     },
     "bitwarden": {
-      "tag": "desktop-v2026.10.4",
-      "published_at": "2026-11-05T17:02:34Z",
+      "tag": "desktop-v2026.11.0",
+      "published_at": "2026-11-19T20:49:07Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/commercial-Bitwarden-2026.10.4-universal.dmg",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.11.0/oss-Bitwarden-2026.11.0-universal.dmg",
               "format": "DMG"
             }
           }
@@ -368,21 +368,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/commercial-Bitwarden-2026.10.4-x86_64.AppImage",
+              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.11.0/oss-Bitwarden-2026.11.0-x86_64.AppImage",
               "format": "APPIMAGE"
-            }
-          }
-        },
-        "windows": {
-          "x64": {
-            "default": {
-              "url": "https://github.com/bitwarden/clients/releases/download/desktop-v2026.10.4/Bitwarden-Installer-2026.10.4.exe",
-              "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "desktop-v2026.11.0",
+          "name": "Desktop v2026.11.0",
+          "published_at": "2026-11-19T20:49:07Z",
+          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.11.0"
+        },
         {
           "tag": "desktop-v2026.10.4",
           "name": "Desktop v2026.10.4",
@@ -436,12 +434,6 @@
           "name": "Desktop v2026.8.0",
           "published_at": "2026-08-20T16:25:03Z",
           "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.8.0"
-        },
-        {
-          "tag": "desktop-v2026.7.0",
-          "name": "Desktop v2026.7.0",
-          "published_at": "2026-07-23T15:20:46Z",
-          "url": "https://github.com/bitwarden/clients/releases/tag/desktop-v2026.7.0"
         }
       ]
     },
@@ -626,19 +618,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.328",
-      "published_at": "2026-11-19T01:14:04Z",
+      "tag": "v2.1.329",
+      "published_at": "2026-11-19T22:14:41Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.328/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.328/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -646,13 +638,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.328/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.328/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -660,19 +652,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.328/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.328/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.329/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.329",
+          "name": "v2.1.329",
+          "published_at": "2026-11-19T22:14:41Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.329"
+        },
         {
           "tag": "v2.1.328",
           "name": "v2.1.328",
@@ -726,12 +724,6 @@
           "name": "v2.1.318",
           "published_at": "2026-11-04T00:01:03Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.318"
-        },
-        {
-          "tag": "v2.1.317",
-          "name": "v2.1.317",
-          "published_at": "2026-11-03T01:25:46Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.317"
         }
       ]
     },
@@ -826,10 +818,53 @@
       ]
     },
     "concat": {
-      "tag": "models-v1",
-      "published_at": "2026-11-15T00:59:46Z",
-      "downloads": {},
+      "tag": "v0.2.12",
+      "published_at": "2026-11-19T21:15:44Z",
+      "downloads": {
+        "linux": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-aarch64.AppImage",
+              "format": "APPIMAGE"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-x86_64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-macos-arm64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-macos-x86_64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/jub0t/Concat/releases/download/v0.2.12/Concat-0.2.12-windows-x86_64-setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
       "history": [
+        {
+          "tag": "v0.2.12",
+          "name": "Concat v0.2.12",
+          "published_at": "2026-11-19T21:15:44Z",
+          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.12"
+        },
         {
           "tag": "models-v1",
           "name": "Concat models (models-v1)",
@@ -883,12 +918,6 @@
           "name": "Concat v0.2.4",
           "published_at": "2026-09-24T17:34:02Z",
           "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.4"
-        },
-        {
-          "tag": "v0.2.3",
-          "name": "Concat v0.2.3",
-          "published_at": "2026-09-19T18:56:49Z",
-          "url": "https://github.com/jub0t/Concat/releases/tag/v0.2.3"
         }
       ]
     },
@@ -1213,6 +1242,12 @@
       },
       "history": [
         {
+          "tag": "v1.24.0-beta.2",
+          "name": "v1.24.0-beta.2",
+          "published_at": "2026-11-20T00:01:15Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.24.0-beta.2"
+        },
+        {
           "tag": "v1.24.0-beta.1",
           "name": "v1.24.0-beta.1",
           "published_at": "2026-11-13T18:48:09Z",
@@ -1265,12 +1300,6 @@
           "name": "v1.20.0",
           "published_at": "2026-10-19T17:50:53Z",
           "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0"
-        },
-        {
-          "tag": "v1.20.0-beta.1",
-          "name": "v1.20.0-beta.1",
-          "published_at": "2026-10-15T17:58:46Z",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0-beta.1"
         }
       ]
     },
@@ -3349,19 +3378,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.16.2",
-      "published_at": "2026-11-16T23:01:28Z",
+      "tag": "v1.17.0",
+      "published_at": "2026-11-20T01:02:27Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.16.2/Purgev1.16.2.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.17.0/Purgev1.17.0.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.17.0",
+          "name": "Purge v1.17.0",
+          "published_at": "2026-11-20T01:02:27Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.17.0"
+        },
         {
           "tag": "v1.16.2",
           "name": "Purge v1.16.2",
@@ -3415,12 +3450,6 @@
           "name": "Purge v1.13.1",
           "published_at": "2026-10-26T23:32:46Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.1"
-        },
-        {
-          "tag": "v1.13.0",
-          "name": "Purge v1.13.0",
-          "published_at": "2026-10-24T13:22:17Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.0"
         }
       ]
     },
