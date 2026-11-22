@@ -26,7 +26,7 @@ about:
     only the macOS and Windows builds are published here.
 url: https://claude.ai/
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/claude/claude.png
-version: '5.11492.5'
+version: '6.28899.6'
 assets:
   - platform: windows
     arch: x64
@@ -39,4 +39,4 @@ assets:
   - platform: macos
     arch: universal
     format: DMG
-    url: https://downloads.claude.ai/releases/darwin/universal/5.11492.5/Claude-1403e2cf44abfb23809c8ae11238d5e9704a41c2.dmg
+    url: https://downloads.claude.ai/releases/darwin/universal/6.28899.6/Claude-2f5fc59b2d1c672dd9dced86720c50f48cca0cf9.dmg
