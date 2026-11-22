@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-21T19:19:27.470Z",
+  "generated_at": "2026-11-22T07:40:50.034Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -2528,19 +2528,19 @@
       ]
     },
     "obs": {
-      "tag": "33.0.2",
-      "published_at": "2026-11-20T15:00:26Z",
+      "tag": "33.0.3",
+      "published_at": "2026-11-22T02:06:35Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-macOS-Apple.dmg",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.3/OBS-Studio-33.0.3-macOS-Apple.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-macOS-Intel.dmg",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.3/OBS-Studio-33.0.3-macOS-Intel.dmg",
               "format": "DMG"
             }
           }
@@ -2548,19 +2548,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-Windows-arm64.zip",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.3/OBS-Studio-33.0.3-Windows-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.2/OBS-Studio-33.0.2-Windows-x64-Installer.exe",
+              "url": "https://github.com/obsproject/obs-studio/releases/download/33.0.3/OBS-Studio-33.0.3-Windows-x64-Installer.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "33.0.3",
+          "name": "OBS Studio 33.0.3",
+          "published_at": "2026-11-22T02:06:35Z",
+          "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.3"
+        },
         {
           "tag": "33.0.2",
           "name": "OBS Studio 33.0.2",
@@ -2614,12 +2620,6 @@
           "name": "OBS Studio 33.0.0 Beta 4",
           "published_at": "2026-09-25T22:29:13Z",
           "url": "https://github.com/obsproject/obs-studio/releases/tag/33.0.0-beta4"
-        },
-        {
-          "tag": "32.2.2",
-          "name": "OBS Studio 32.2.2",
-          "published_at": "2026-08-14T22:43:31Z",
-          "url": "https://github.com/obsproject/obs-studio/releases/tag/32.2.2"
         }
       ]
     },
@@ -3378,19 +3378,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.17.0",
-      "published_at": "2026-11-20T01:02:27Z",
+      "tag": "v1.18.0",
+      "published_at": "2026-11-22T01:27:35Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.17.0/Purgev1.17.0.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.18.0/Purgev1.18.0.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.18.0",
+          "name": "Purge v1.18.0",
+          "published_at": "2026-11-22T01:27:35Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.18.0"
+        },
         {
           "tag": "v1.17.0",
           "name": "Purge v1.17.0",
@@ -3444,12 +3450,6 @@
           "name": "Purge v1.13.2",
           "published_at": "2026-11-03T13:55:49Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.2"
-        },
-        {
-          "tag": "v1.13.1",
-          "name": "Purge v1.13.1",
-          "published_at": "2026-10-26T23:32:46Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.1"
         }
       ]
     },
