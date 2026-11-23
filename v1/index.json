@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-11-14T19:32:27.669Z",
+  "generated_at": "2026-11-23T10:48:22.533Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -383,18 +383,11 @@
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pi-desktop/pi-desktop.yaml"
     },
     {
-      "id": "pmxtools-cli",
-      "name": "pmxtools CLI",
+      "id": "pmxtools",
+      "name": "pmxtools",
       "publisher": "vlT",
       "category": "vlT Software",
-      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-cli/pmxtools-cli.yaml"
-    },
-    {
-      "id": "pmxtools-ui",
-      "name": "pmxtools UI",
-      "publisher": "vlT",
-      "category": "vlT Software",
-      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-ui/pmxtools-ui.yaml"
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools/pmxtools.yaml"
     },
     {
       "id": "pulsar",
@@ -430,6 +423,13 @@
       "publisher": "Pawandeep Singh",
       "category": "Productivity",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/revpdf/revpdf.yaml"
+    },
+    {
+      "id": "roomy",
+      "name": "Roomy",
+      "publisher": "krezio",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/roomy/roomy.yaml"
     },
     {
       "id": "rvtools",

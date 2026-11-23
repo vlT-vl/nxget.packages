@@ -2,6 +2,21 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-11-23
+
+- pmxtools diventa un unico manifest `pmxtools` (senza distinzione UI/CLI):
+  rimosso il manifest `pmxtools-cli`, `pmxtools-ui` rinominato in `pmxtools`.
+  Il `repo` ora è la nuova repo pubblica `vlT-vl/pmxtools-release` (release
+  `v0.1.0-R201126`, tag senza prefisso, quindi niente `releasePrefix`), con i
+  cinque zip `build-*` per Windows x64, macOS x64/arm64 e Linux x64/arm64; il
+  link della licenza punta al `LICENSE` della stessa repo. Resta `access:
+  voucher`, categoria `vlT Software`, nessun `url` di download.
+- `v1/index.json` e `v1/releases.json` rigenerati: ora `pmxtools` ha la sua
+  voce risolta dalle Release pubbliche.
+- Aggiunto il manifest di Roomy, pulitore di disco gratuito e open source per
+  Windows 10/11 (installer x64 dalle Release GitHub `krezio/roomy`, licenza
+  MIT) — catalogo a 75 app, 54 in `releases.json`.
+
 ## 2026-11-14
 
 - Aggiunto il manifest di Phosphor, gestore iOS nativo per macOS (DMG

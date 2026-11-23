@@ -1,11 +1,11 @@
-id: pmxtools-ui
-name: pmxtools UI
+id: pmxtools
+name: pmxtools
 publisher: vlT
 category: vlT Software
 description: A native desktop control panel to monitor and inventory Proxmox VE infrastructures.
 about:
   it: >-
-    pmxtools UI è il pannello di controllo desktop per infrastrutture Proxmox
+    pmxtools è il pannello di controllo desktop per infrastrutture Proxmox
     VE. Si collega direttamente alle API di Proxmox, senza processi esterni,
     ed è un unico eseguibile senza dipendenze. Mostra una panoramica del
     datacenter con utilizzo aggregato di CPU, RAM e storage, poi viste
@@ -15,21 +15,20 @@ about:
     aprire un report salvato e consultare tutto offline, senza connessione
     all'infrastruttura. Disponibile per macOS, Windows e Linux.
   en: >-
-    pmxtools UI is the desktop control panel for Proxmox VE infrastructures.
-    It talks straight to the Proxmox API, with no external process, and ships
-    as a single executable with no dependencies. It shows a datacenter
-    overview with aggregated CPU, RAM and storage usage, then dedicated views
-    for virtual machines, LXC containers, nodes, storage and SDN, with
-    filters, detail cards for every item and XLSX export. The full report
-    exports to JSON, and static mode lets you open a saved report and browse
-    everything offline, with no connection to the infrastructure. Available
-    for macOS, Windows and Linux.
-repo: https://github.com/vlT-vl/pmxtools
-logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools-ui/pmxtools-ui.png
+    pmxtools is the desktop control panel for Proxmox VE infrastructures. It
+    talks straight to the Proxmox API, with no external process, and ships as
+    a single executable with no dependencies. It shows a datacenter overview
+    with aggregated CPU, RAM and storage usage, then dedicated views for
+    virtual machines, LXC containers, nodes, storage and SDN, with filters,
+    detail cards for every item and XLSX export. The full report exports to
+    JSON, and static mode lets you open a saved report and browse everything
+    offline, with no connection to the infrastructure. Available for macOS,
+    Windows and Linux.
+repo: https://github.com/vlT-vl/pmxtools-release
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools/pmxtools.png
 license:
   name: Proprietary Source-Available License
-  url: https://raw.githubusercontent.com/vlT-vl/pmxtools/HEAD/LICENSE
-releasePrefix: ui-
+  url: https://raw.githubusercontent.com/vlT-vl/pmxtools-release/HEAD/LICENSE
 access: voucher
 assets:
   - platform: windows

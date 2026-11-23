@@ -1,0 +1,39 @@
+id: roomy
+name: Roomy
+publisher: krezio
+category: Utility
+description: A free, open-source Windows disk cleaner that shows in plain English what is eating your space and cleans the safe stuff in one click.
+about:
+  it: >-
+    Roomy è un programma gratuito e open source per Windows 10 e 11 che
+    libera spazio sul disco C: spiegando in modo chiaro cosa occupa spazio,
+    perché è lì e se è sicuro eliminarlo prima di toccare qualsiasi cosa.
+    Oltre a file temporanei e Cestino, trova cache di browser, app e
+    launcher di giochi, cache shader delle GPU, residui di Windows Update,
+    vecchi installer, giochi Steam non usati da mesi, cartelle AppData
+    rimaste da app disinstallate e il file di ibernazione. Include una mappa
+    dello spazio per esplorare le cartelle e vedere i file più grandi del PC.
+    Lavora offline, gira senza privilegi di amministratore e blocca per
+    sicurezza le cartelle personali.
+  en: >-
+    Roomy is a free, open-source program for Windows 10 and 11 that frees up
+    space on your C: drive by explaining in plain English what is eating it,
+    why it is there and whether it is safe to remove before touching
+    anything. Beyond temp files and the Recycle Bin, it finds browser, app
+    and game launcher caches, GPU shader caches, Windows Update leftovers,
+    old installers, Steam games you have not played in months, AppData
+    folders left behind by uninstalled apps and the hibernation file. It
+    includes a space map to browse folders and see the biggest files on your
+    PC. It works offline, runs without administrator rights and hard-blocks
+    your personal folders for safety.
+url: https://roomy.krezio.xyz
+repo: https://github.com/krezio/roomy
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/roomy/roomy.png
+license:
+  name: MIT License
+  url: https://raw.githubusercontent.com/krezio/roomy/HEAD/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Roomy-Setup\.exe$'
