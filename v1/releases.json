@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-24T02:14:41.285Z",
+  "generated_at": "2026-11-24T13:47:12.511Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1796,13 +1796,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.2.5",
-      "published_at": "2026-11-23T18:22:01Z",
+      "tag": "v0.2.6",
+      "published_at": "2026-11-24T02:28:24Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.5/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.6/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1810,13 +1810,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.5/genex_0.2.5_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.6/genex_0.2.6_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.6",
+          "name": "Genex 0.2.6",
+          "published_at": "2026-11-24T02:28:24Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.6"
+        },
         {
           "tag": "v0.2.5",
           "name": "Genex 0.2.5",
@@ -1870,12 +1876,6 @@
           "name": "Genex 0.1.41",
           "published_at": "2026-11-13T13:53:23Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.41"
-        },
-        {
-          "tag": "v0.1.40",
-          "name": "Genex 0.1.40",
-          "published_at": "2026-11-13T08:57:32Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.40"
         }
       ]
     },
@@ -3504,13 +3504,13 @@
       ]
     },
     "qbittorrent": {
-      "tag": "release-5.3.0",
-      "published_at": "2026-10-20T12:57:33Z",
+      "tag": "release-5.3.1",
+      "published_at": "2026-11-24T08:51:57Z",
       "downloads": {
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.3.0/qbittorrent-5.3.0_x86_64.AppImage",
+              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.3.1/qbittorrent-5.3.1_x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3518,13 +3518,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.3.0/qbittorrent_5.3.0_x64_setup.exe",
+              "url": "https://github.com/qbittorrent/qBittorrent/releases/download/release-5.3.1/qbittorrent_5.3.1_x64_setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "release-5.3.1",
+          "name": "qBittorrent v5.3.1",
+          "published_at": "2026-11-24T08:51:57Z",
+          "url": "https://github.com/qbittorrent/qBittorrent/releases/tag/release-5.3.1"
+        },
         {
           "tag": "release-5.3.0",
           "name": "qBittorrent v5.3.0",
