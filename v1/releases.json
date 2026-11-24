@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T10:48:39.193Z",
+  "generated_at": "2026-11-24T02:14:41.285Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -618,19 +618,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.330",
-      "published_at": "2026-11-20T22:32:56Z",
+      "tag": "v2.1.331",
+      "published_at": "2026-11-23T21:34:41Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.330/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.330/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -638,13 +638,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.330/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.330/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -652,19 +652,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.330/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.330/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.331",
+          "name": "v2.1.331",
+          "published_at": "2026-11-23T21:34:41Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.331"
+        },
         {
           "tag": "v2.1.330",
           "name": "v2.1.330",
@@ -718,12 +724,6 @@
           "name": "v2.1.321",
           "published_at": "2026-11-09T19:22:30Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321"
-        },
-        {
-          "tag": "v2.1.319",
-          "name": "v2.1.319",
-          "published_at": "2026-11-06T17:04:01Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.319"
         }
       ]
     },
@@ -1102,19 +1102,19 @@
       ]
     },
     "designcraft": {
-      "tag": "v0.20.1",
-      "published_at": "2026-11-12T00:16:10Z",
+      "tag": "v0.21.1",
+      "published_at": "2026-11-23T20:22:22Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1122,7 +1122,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-macos-universal.dmg",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1130,19 +1130,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-windows-arm64.msi",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/designcraft/releases/download/v0.20.1/designcraft-0.20.1-windows-x64.msi",
+              "url": "https://github.com/storytold/designcraft/releases/download/v0.21.1/designcraft-0.21.1-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.21.1",
+          "name": "DesignCraft v0.21.1",
+          "published_at": "2026-11-23T20:22:22Z",
+          "url": "https://github.com/storytold/designcraft/releases/tag/v0.21.1"
+        },
         {
           "tag": "v0.20.1",
           "name": "DesignCraft v0.20.1",
@@ -1196,23 +1202,17 @@
           "name": "DesignCraft v0.15.2",
           "published_at": "2026-10-31T03:59:39Z",
           "url": "https://github.com/storytold/designcraft/releases/tag/v0.15.2"
-        },
-        {
-          "tag": "v0.14.0",
-          "name": "DesignCraft v0.14.0",
-          "published_at": "2026-10-28T16:25:36Z",
-          "url": "https://github.com/storytold/designcraft/releases/tag/v0.14.0"
         }
       ]
     },
     "dyad": {
-      "tag": "v1.23.0",
-      "published_at": "2026-11-09T18:52:01Z",
+      "tag": "v1.24.0",
+      "published_at": "2026-11-23T18:39:59Z",
       "downloads": {
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.23.0/dyad-1.23.0.Setup.exe",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.24.0/dyad-1.24.0.Setup.exe",
               "format": "EXE"
             }
           }
@@ -1220,13 +1220,13 @@
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.23.0/dyad-darwin-arm64-1.23.0.zip",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.24.0/dyad-darwin-arm64-1.24.0.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.23.0/dyad-darwin-x64-1.23.0.zip",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.24.0/dyad-darwin-x64-1.24.0.zip",
               "format": "ZIP"
             }
           }
@@ -1234,13 +1234,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.23.0/dyad_1.23.0_x86_64.AppImage",
+              "url": "https://github.com/dyad-sh/dyad/releases/download/v1.24.0/dyad_1.24.0_x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.24.0",
+          "name": "v1.24.0",
+          "published_at": "2026-11-23T18:39:59Z",
+          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.24.0"
+        },
         {
           "tag": "v1.24.0-beta.2",
           "name": "v1.24.0-beta.2",
@@ -1294,29 +1300,23 @@
           "name": "v1.21.0-beta.1",
           "published_at": "2026-10-20T21:02:36Z",
           "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.21.0-beta.1"
-        },
-        {
-          "tag": "v1.20.0",
-          "name": "v1.20.0",
-          "published_at": "2026-10-19T17:50:53Z",
-          "url": "https://github.com/dyad-sh/dyad/releases/tag/v1.20.0"
         }
       ]
     },
     "effectcraft": {
-      "tag": "v0.24.1",
-      "published_at": "2026-11-12T00:23:40Z",
+      "tag": "v0.25.1",
+      "published_at": "2026-11-23T21:25:21Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.24.1/effectcraft-0.24.1-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.24.1/effectcraft-0.24.1-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1324,7 +1324,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.24.1/effectcraft-0.24.1-macos-universal.dmg",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1332,19 +1332,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.24.1/effectcraft-0.24.1-windows-arm64.msi",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/effectcraft/releases/download/v0.24.1/effectcraft-0.24.1-windows-x64.msi",
+              "url": "https://github.com/storytold/effectcraft/releases/download/v0.25.1/effectcraft-0.25.1-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.25.1",
+          "name": "EffectCraft v0.25.1",
+          "published_at": "2026-11-23T21:25:21Z",
+          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.25.1"
+        },
         {
           "tag": "v0.24.1",
           "name": "EffectCraft v0.24.1",
@@ -1398,12 +1404,6 @@
           "name": "EffectCraft v0.19.0",
           "published_at": "2026-10-31T04:06:11Z",
           "url": "https://github.com/storytold/effectcraft/releases/tag/v0.19.0"
-        },
-        {
-          "tag": "v0.18.0",
-          "name": "EffectCraft v0.18.0",
-          "published_at": "2026-10-28T17:38:55Z",
-          "url": "https://github.com/storytold/effectcraft/releases/tag/v0.18.0"
         }
       ]
     },
@@ -1796,13 +1796,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.2.4",
-      "published_at": "2026-11-22T19:40:37Z",
+      "tag": "v0.2.5",
+      "published_at": "2026-11-23T18:22:01Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.4/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.5/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1810,13 +1810,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.4/genex_0.2.4_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.5/genex_0.2.5_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.5",
+          "name": "Genex 0.2.5",
+          "published_at": "2026-11-23T18:22:01Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.5"
+        },
         {
           "tag": "v0.2.4",
           "name": "Genex 0.2.4",
@@ -1870,12 +1876,6 @@
           "name": "Genex 0.1.40",
           "published_at": "2026-11-13T08:57:32Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.40"
-        },
-        {
-          "tag": "v0.1.39",
-          "name": "Genex 0.1.39",
-          "published_at": "2026-11-12T05:25:17Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.39"
         }
       ]
     },
@@ -3108,6 +3108,12 @@
       },
       "history": [
         {
+          "tag": "v0.24.0-rc.1",
+          "name": "PhotoCraft v0.24.0-rc.1",
+          "published_at": "2026-11-23T21:48:45Z",
+          "url": "https://github.com/storytold/photocraft/releases/tag/v0.24.0-rc.1"
+        },
+        {
           "tag": "v0.23.1",
           "name": "PhotoCraft v0.23.1",
           "published_at": "2026-11-12T05:07:51Z",
@@ -3160,12 +3166,6 @@
           "name": "PhotoCraft v0.17.0",
           "published_at": "2026-10-28T17:39:12Z",
           "url": "https://github.com/storytold/photocraft/releases/tag/v0.17.0"
-        },
-        {
-          "tag": "v0.16.0",
-          "name": "PhotoCraft v0.16.0",
-          "published_at": "2026-10-25T14:17:53Z",
-          "url": "https://github.com/storytold/photocraft/releases/tag/v0.16.0"
         }
       ]
     },
@@ -3428,19 +3428,25 @@
       ]
     },
     "purge-app": {
-      "tag": "v1.18.0",
-      "published_at": "2026-11-22T01:27:35Z",
+      "tag": "v1.18.1",
+      "published_at": "2026-11-24T00:55:54Z",
       "downloads": {
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.18.0/Purgev1.18.0.dmg",
+              "url": "https://github.com/jithin-sabu/purge-app/releases/download/v1.18.1/Purgev1.18.1.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.18.1",
+          "name": "Purge v1.18.1",
+          "published_at": "2026-11-24T00:55:54Z",
+          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.18.1"
+        },
         {
           "tag": "v1.18.0",
           "name": "Purge v1.18.0",
@@ -3494,12 +3500,6 @@
           "name": "Purge v1.13.3",
           "published_at": "2026-11-04T14:38:12Z",
           "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.3"
-        },
-        {
-          "tag": "v1.13.2",
-          "name": "Purge v1.13.2",
-          "published_at": "2026-11-03T13:55:49Z",
-          "url": "https://github.com/jithin-sabu/purge-app/releases/tag/v1.13.2"
         }
       ]
     },
