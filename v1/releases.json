@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-24T23:54:59.800Z",
+  "generated_at": "2026-11-25T08:40:28.859Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -618,19 +618,19 @@
       ]
     },
     "claude-code": {
-      "tag": "v2.1.331",
-      "published_at": "2026-11-23T21:34:41Z",
+      "tag": "v2.1.332",
+      "published_at": "2026-11-25T01:32:14Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-darwin-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.332/claude-darwin-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-darwin-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.332/claude-darwin-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -638,13 +638,13 @@
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-linux-arm64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.332/claude-linux-arm64.tar.gz",
               "format": "TARGZ"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-linux-x64.tar.gz",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.332/claude-linux-x64.tar.gz",
               "format": "TARGZ"
             }
           }
@@ -652,19 +652,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-win32-arm64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.332/claude-win32-arm64.zip",
               "format": "ZIP"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.331/claude-win32-x64.zip",
+              "url": "https://github.com/anthropics/claude-code/releases/download/v2.1.332/claude-win32-x64.zip",
               "format": "ZIP"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v2.1.332",
+          "name": "v2.1.332",
+          "published_at": "2026-11-25T01:32:14Z",
+          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.332"
+        },
         {
           "tag": "v2.1.331",
           "name": "v2.1.331",
@@ -718,12 +724,6 @@
           "name": "v2.1.322",
           "published_at": "2026-11-10T02:29:43Z",
           "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.322"
-        },
-        {
-          "tag": "v2.1.321",
-          "name": "v2.1.321",
-          "published_at": "2026-11-09T19:22:30Z",
-          "url": "https://github.com/anthropics/claude-code/releases/tag/v2.1.321"
         }
       ]
     },
@@ -3212,6 +3212,18 @@
       },
       "history": [
         {
+          "tag": "v0.24.0-beta.3",
+          "name": "v0.24.0-beta.3",
+          "published_at": "2026-11-25T05:17:46Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.3"
+        },
+        {
+          "tag": "v0.24.0-beta.2",
+          "name": "v0.24.0-beta.2",
+          "published_at": "2026-11-25T02:20:57Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.2"
+        },
+        {
           "tag": "v0.24.0-beta.1",
           "name": "v0.24.0-beta.1",
           "published_at": "2026-11-20T10:27:43Z",
@@ -3258,18 +3270,6 @@
           "name": "v0.22.0-beta.6",
           "published_at": "2026-11-06T12:34:20Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.6"
-        },
-        {
-          "tag": "v0.22.0-beta.5",
-          "name": "v0.22.0-beta.5",
-          "published_at": "2026-11-04T14:46:01Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.5"
-        },
-        {
-          "tag": "v0.22.0-beta.3",
-          "name": "v0.22.0-beta.3",
-          "published_at": "2026-11-01T05:39:39Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.3"
         }
       ]
     },
@@ -4344,19 +4344,25 @@
       ]
     },
     "vorssaint": {
-      "tag": "v3.4.4",
-      "published_at": "2026-11-11T14:09:33Z",
+      "tag": "v3.4.5",
+      "published_at": "2026-11-25T06:31:40Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/vorssaint/vorssaint-utils/releases/download/v3.4.4/Vorssaint-3.4.4.dmg",
+              "url": "https://github.com/vorssaint/vorssaint-utils/releases/download/v3.4.5/Vorssaint-3.4.5.dmg",
               "format": "DMG"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v3.4.5",
+          "name": "v3.4.5",
+          "published_at": "2026-11-25T06:31:40Z",
+          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.5"
+        },
         {
           "tag": "v3.4.4",
           "name": "v3.4.4",
@@ -4410,12 +4416,6 @@
           "name": "v3.4.1-beta.2",
           "published_at": "2026-10-06T12:57:05Z",
           "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1-beta.2"
-        },
-        {
-          "tag": "v3.4.1-beta.1",
-          "name": "v3.4.1-beta.1",
-          "published_at": "2026-09-29T11:33:16Z",
-          "url": "https://github.com/vorssaint/vorssaint-utils/releases/tag/v3.4.1-beta.1"
         }
       ]
     },
