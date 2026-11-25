@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-25T08:40:28.859Z",
+  "generated_at": "2026-11-25T14:02:08.021Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1796,13 +1796,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.2.8",
-      "published_at": "2026-11-24T22:39:39Z",
+      "tag": "v0.2.9",
+      "published_at": "2026-11-25T09:46:08Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.8/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.9/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1810,13 +1810,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.8/genex_0.2.8_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.9/genex_0.2.9_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.9",
+          "name": "Genex 0.2.9",
+          "published_at": "2026-11-25T09:46:08Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.9"
+        },
         {
           "tag": "v0.2.8",
           "name": "Genex 0.2.8",
@@ -1870,12 +1876,6 @@
           "name": "Genex 0.1.45",
           "published_at": "2026-11-16T20:47:12Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.45"
-        },
-        {
-          "tag": "v0.1.44",
-          "name": "Genex 0.1.44",
-          "published_at": "2026-11-16T11:41:37Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.44"
         }
       ]
     },
@@ -3212,6 +3212,12 @@
       },
       "history": [
         {
+          "tag": "v0.24.0-beta.5",
+          "name": "v0.24.0-beta.5",
+          "published_at": "2026-11-25T12:59:04Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.5"
+        },
+        {
           "tag": "v0.24.0-beta.3",
           "name": "v0.24.0-beta.3",
           "published_at": "2026-11-25T05:17:46Z",
@@ -3264,12 +3270,6 @@
           "name": "v0.22.0-beta.7",
           "published_at": "2026-11-08T14:33:44Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.7"
-        },
-        {
-          "tag": "v0.22.0-beta.6",
-          "name": "v0.22.0-beta.6",
-          "published_at": "2026-11-06T12:34:20Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.6"
         }
       ]
     },
@@ -3320,6 +3320,104 @@
           "name": "v0.1.0-R201126",
           "published_at": "2026-11-20T16:39:38Z",
           "url": "https://github.com/vlT-vl/pmxtools-release/releases/tag/v0.1.0-R201126"
+        }
+      ]
+    },
+    "prism": {
+      "tag": "v1.2.6",
+      "published_at": "2026-11-24T16:11:58Z",
+      "downloads": {
+        "macos": {
+          "arm64": {
+            "default": {
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_aarch64.dmg",
+              "format": "DMG"
+            }
+          },
+          "x64": {
+            "default": {
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_x64.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_amd64.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_x64-setup.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v1.2.6",
+          "name": "v1.2.6",
+          "published_at": "2026-11-24T16:11:58Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.6"
+        },
+        {
+          "tag": "v1.2.5",
+          "name": "v1.2.5",
+          "published_at": "2026-11-17T17:01:41Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.5"
+        },
+        {
+          "tag": "v1.2.4",
+          "name": "v1.2.4",
+          "published_at": "2026-11-01T09:12:17Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.4"
+        },
+        {
+          "tag": "v1.2.3",
+          "name": "v1.2.3",
+          "published_at": "2026-10-31T10:38:08Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.3"
+        },
+        {
+          "tag": "v1.2.2",
+          "name": "v1.2.2",
+          "published_at": "2026-10-30T21:25:42Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.2"
+        },
+        {
+          "tag": "v1.2.1",
+          "name": "v1.2.1",
+          "published_at": "2026-10-30T19:51:59Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.1"
+        },
+        {
+          "tag": "v1.2.0",
+          "name": "v1.2.0",
+          "published_at": "2026-10-30T18:36:38Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.0"
+        },
+        {
+          "tag": "v1.1.8",
+          "name": "v1.1.8",
+          "published_at": "2026-10-30T16:48:45Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.8"
+        },
+        {
+          "tag": "v1.1.7",
+          "name": "v1.1.7",
+          "published_at": "2026-10-29T09:03:22Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.7"
+        },
+        {
+          "tag": "v1.1.6",
+          "name": "v1.1.6",
+          "published_at": "2026-10-28T08:38:40Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.6"
         }
       ]
     },

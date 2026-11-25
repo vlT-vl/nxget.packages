@@ -1,0 +1,52 @@
+id: prism
+name: Prism
+publisher: Jan Sechovec
+category: Utility
+description: A free, open-source download manager with up to 32 parallel connections, browser integration, video and MP3 downloads, torrents and crash-safe resume.
+about:
+  it: >-
+    Prism è un download manager gratuito e open source per Windows, macOS e
+    Linux, alternativa a IDM. Divide ogni download in fino a 32 connessioni
+    parallele, le tiene attive fino all'ultimo byte e riprende da dove si era
+    fermato dopo crash, sospensione o interruzioni di corrente, verificando
+    che il file sul server non sia cambiato. Si integra con Chrome, Edge,
+    Brave, Opera, Vivaldi e Firefox, scarica video (MP4 fino a 8K/HDR) o solo
+    audio MP3 da YouTube e oltre 1.800 siti, e supporta HTTP(S), FTP/FTPS,
+    stream HLS e DASH, BitTorrent e link magnet. Offre categorie, code con
+    pianificazione e limiti di velocità, download in batch, site grabber e
+    modelli AI da Hugging Face. Senza pubblicità, account o telemetria.
+  en: >-
+    Prism is a free, open-source download manager for Windows, macOS and
+    Linux, an IDM alternative. It splits every download into up to 32
+    parallel connections, keeps them busy until the last byte and resumes
+    exactly where it stopped after crashes, sleep or power loss, checking
+    that the file on the server has not changed. It integrates with Chrome,
+    Edge, Brave, Opera, Vivaldi and Firefox, downloads video (MP4 up to
+    8K/HDR) or MP3-only audio from YouTube and over 1,800 sites, and
+    supports HTTP(S), FTP/FTPS, HLS and DASH streams, BitTorrent and magnet
+    links. It offers categories, queues with schedules and speed limits,
+    batch downloads, a site grabber and AI models from Hugging Face. No ads,
+    no accounts, no telemetry.
+url: https://prismdl.site
+repo: https://github.com/FortoGraphy/prism-download-manager
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/prism/prism.png
+license:
+  name: MIT License
+  url: https://raw.githubusercontent.com/FortoGraphy/prism-download-manager/HEAD/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Prism_[\d.]+_x64-setup\.exe$'
+  - platform: macos
+    arch: arm64
+    format: DMG
+    match: '^Prism_[\d.]+_aarch64\.dmg$'
+  - platform: macos
+    arch: x64
+    format: DMG
+    match: '^Prism_[\d.]+_x64\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^Prism_[\d.]+_amd64\.AppImage$'

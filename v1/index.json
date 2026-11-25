@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-11-23T10:48:22.533Z",
+  "generated_at": "2026-11-25T14:02:33.080Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -388,6 +388,13 @@
       "publisher": "vlT",
       "category": "vlT Software",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools/pmxtools.yaml"
+    },
+    {
+      "id": "prism",
+      "name": "Prism",
+      "publisher": "Jan Sechovec",
+      "category": "Utility",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/prism/prism.yaml"
     },
     {
       "id": "pulsar",

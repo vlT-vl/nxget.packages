@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <img src="https://img.shields.io/badge/version-0.1.0--R231126-blue?style=flat-square" alt="version"/>
+  <img src="https://img.shields.io/badge/version-0.1.0--R251126-blue?style=flat-square" alt="version"/>
   <img src="https://img.shields.io/badge/api-v1-green?style=flat-square" alt="api-v1"/>
   <img src="https://img.shields.io/badge/format-YAML%20%2B%20JSON-orange?style=flat-square" alt="format"/>
   <img src="https://img.shields.io/badge/license-proprietary-critical?style=flat-square" alt="license"/>
@@ -285,7 +285,7 @@ Links the vendor publishes no versioned file for are declared under `unversioned
 
 The file is only updated in place. An app's entry changes only if its content changes; if nothing changed, the file is neither rewritten nor committed, and `generated_at` changes only when the file does. If GitHub does not answer for a repo, that app keeps its previous entry. The file is never deleted or recreated. The commit is made by `github-actions[bot]` with the message `chore: update releases.json`, pushed with `git pull --rebase origin api` and up to 3 attempts. The workflow runs in its own concurrency group, `update-releases`, separate from `update.yml`. It touches only `v1/releases.json`, never `manifests/` or `v1/index.json`, and writes no `version` into any manifest.
 
-Apps without a `repo` (21) have no entry, and apps whose repository is private never get one, so no private repository data ends up in the public file. At the time of writing, 54 of the 75 apps in the catalog are in the file.
+Apps without a `repo` (21) have no entry, and apps whose repository is private never get one, so no private repository data ends up in the public file. At the time of writing, 55 of the 76 apps in the catalog are in the file.
 
 | Property | `update.yml` | `build.yml` |
 |---|---|---|
@@ -327,8 +327,8 @@ curl https://raw.githubusercontent.com/<owner>/nxget.packages/api/manifests/keep
 | Field | Value |
 |---|---|
 | Version | 0.1.0 |
-| Build | R231126 |
-| Updated | 23 November 2026 |
+| Build | R251126 |
+| Updated | 25 November 2026 |
 | API version | v1 |
 | Branch | `api` |
 

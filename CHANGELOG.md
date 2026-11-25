@@ -2,6 +2,15 @@
 
 Le funzionalità principali del registro, in ordine cronologico inverso.
 
+## 2026-11-25
+
+- Aggiunto il manifest di Prism, download manager gratuito e open source
+  per Windows x64, macOS arm64/x64 e Linux x64 (repo GitHub
+  `FortoGraphy/prism-download-manager`, licenza MIT).
+- pmxtools non è più dietro voucher: rimosso `access: voucher` (la repo di
+  release è pubblica), aggiunto `url` alla repo.
+- Catalogo a 76 app, 55 in `releases.json`.
+
 ## 2026-11-23
 
 - pmxtools diventa un unico manifest `pmxtools` (senza distinzione UI/CLI):
