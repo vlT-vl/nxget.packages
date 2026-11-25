@@ -689,6 +689,28 @@
           ]
         }
       ]
+    },
+    "ohmygame": {
+      "rules": [
+        {
+          "target": "app",
+          "source": {
+            "type": "redirect",
+            "url": "https://ohmygame.ai/download/windows",
+            "regex": "/OhMyGame-(\\d+(?:\\.\\d+)*(?:-beta[\\d.]*)?)-x64\\.exe$"
+          },
+          "urls": [
+            {
+              "from": "^https://ohmygame\\.ai/download/windows$",
+              "to": "https://ohmygame.ai/download/windows"
+            },
+            {
+              "from": "^https://ohmygame\\.ai/download/mac$",
+              "to": "https://ohmygame.ai/download/mac"
+            }
+          ]
+        }
+      ]
     }
   },
   "unversionedFormats": {

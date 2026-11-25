@@ -1,0 +1,41 @@
+id: anycubic-slicer-next
+name: Anycubic Slicer Next
+publisher: Anycubic
+category: Multimedia
+description: Anycubic's open-source FDM slicer, based on OrcaSlicer and optimized for Anycubic printers.
+about:
+  it: >-
+    Anycubic Slicer Next è lo slicer FDM open source di Anycubic, basato su
+    OrcaSlicer e ottimizzato per le stampanti della serie Anycubic Kobra.
+    Offre un motore di slicing potente, profili di stampa e di filamento già
+    pronti, anteprima degli strati, supporti, calibrazione e invio dei lavori
+    alla stampante in rete. Il pacchetto Linux ufficiale è distribuito solo
+    come guida di installazione per Ubuntu 24.04, quindi qui sono pubblicati
+    solo i programmi di installazione per Windows e macOS.
+  en: >-
+    Anycubic Slicer Next is Anycubic's open-source FDM slicer, based on
+    OrcaSlicer and optimized for the Anycubic Kobra series of printers. It
+    offers a powerful slicing engine, ready-made print and filament profiles,
+    layer preview, supports, calibration and network sending of jobs to the
+    printer. The official Linux package is only distributed as an install
+    guide for Ubuntu 24.04, so only the Windows and macOS installers are
+    published here.
+url: https://www.anycubic.com/slicerNextDownload
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/anycubic-slicer-next/anycubic-slicer-next.png
+license:
+  name: GNU Affero General Public License v3.0
+  url: https://raw.githubusercontent.com/ANYCUBIC-3D/AnycubicSlicerNext/HEAD/LICENSE.txt
+version: '2.0.0.3'
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://cdn.anycubic-cloud.anycubic.com/file/2026/09/04/exe/178852196763881700/develop_859_2.0.0.3_20260904033759_AnycubicSlicerNext.exe
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://cdn.anycubic-cloud.anycubic.com/file/2026/09/04/dmg/178852197829378100/develop_859_2.0.0.3_arm64_20260904033804_AnycubicSlicerNext.dmg
+  - platform: macos
+    arch: x64
+    format: DMG
+    url: https://cdn.anycubic-cloud.anycubic.com/file/2026/09/04/dmg/178852197400444100/develop_859_2.0.0.3_x86_64_20260904033804_AnycubicSlicerNext.dmg

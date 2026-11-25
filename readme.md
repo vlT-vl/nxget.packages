@@ -285,7 +285,7 @@ Links the vendor publishes no versioned file for are declared under `unversioned
 
 The file is only updated in place. An app's entry changes only if its content changes; if nothing changed, the file is neither rewritten nor committed, and `generated_at` changes only when the file does. If GitHub does not answer for a repo, that app keeps its previous entry. The file is never deleted or recreated. The commit is made by `github-actions[bot]` with the message `chore: update releases.json`, pushed with `git pull --rebase origin api` and up to 3 attempts. The workflow runs in its own concurrency group, `update-releases`, separate from `update.yml`. It touches only `v1/releases.json`, never `manifests/` or `v1/index.json`, and writes no `version` into any manifest.
 
-Apps without a `repo` (21) have no entry, and apps whose repository is private never get one, so no private repository data ends up in the public file. At the time of writing, 55 of the 76 apps in the catalog are in the file.
+Apps without a `repo` (23) have no entry, and apps whose repository is private never get one, so no private repository data ends up in the public file. At the time of writing, 56 of the 79 apps in the catalog are in the file.
 
 | Property | `update.yml` | `build.yml` |
 |---|---|---|

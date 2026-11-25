@@ -1,7 +1,7 @@
 {
   "api": "nxget-packages-v1",
   "schema_version": "1.0",
-  "generated_at": "2026-11-25T14:02:33.080Z",
+  "generated_at": "2026-11-25T15:35:52.269Z",
   "base_url": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api",
   "apps": [
     {
@@ -17,6 +17,13 @@
       "publisher": "Canva",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/affinity/affinity.yaml"
+    },
+    {
+      "id": "anycubic-slicer-next",
+      "name": "Anycubic Slicer Next",
+      "publisher": "Anycubic",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/anycubic-slicer-next/anycubic-slicer-next.yaml"
     },
     {
       "id": "anyscp",
@@ -45,6 +52,13 @@
       "publisher": "Audacity Team",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/audacity/audacity.yaml"
+    },
+    {
+      "id": "bambu-studio",
+      "name": "Bambu Studio",
+      "publisher": "Bambu Lab",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bambu-studio/bambu-studio.yaml"
     },
     {
       "id": "bazaar",
@@ -325,6 +339,13 @@
       "publisher": "OBS Project",
       "category": "Multimedia",
       "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/obs/obs.yaml"
+    },
+    {
+      "id": "ohmygame",
+      "name": "OhMyGame",
+      "publisher": "White Tower",
+      "category": "Multimedia",
+      "manifest": "https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/ohmygame/ohmygame.yaml"
     },
     {
       "id": "onlyoffice",

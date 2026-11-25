@@ -8,8 +8,17 @@ Le funzionalità principali del registro, in ordine cronologico inverso.
   per Windows x64, macOS arm64/x64 e Linux x64 (repo GitHub
   `FortoGraphy/prism-download-manager`, licenza MIT).
 - pmxtools non è più dietro voucher: rimosso `access: voucher` (la repo di
-  release è pubblica), aggiunto `url` alla repo.
-- Catalogo a 76 app, 55 in `releases.json`.
+  release è pubblica), aggiunto `url` del sito `pmxtools.it`.
+- Aggiunto il manifest di Bambu Studio, slicer 3D open source di Bambu Lab
+  (installer Windows x64, DMG macOS universale, AppImage Linux x64 dalle
+  Release GitHub `bambulab/BambuStudio`, licenza AGPL-3.0).
+- Aggiunto il manifest di Anycubic Slicer Next, slicer FDM di Anycubic basato
+  su OrcaSlicer (installer Windows x64 e DMG macOS arm64/x64 con link fissi
+  dal sito ufficiale, licenza AGPL-3.0).
+- Aggiunto il manifest di OhMyGame, studio open source per creare giochi con
+  l'AI (installer Windows x64 e DMG macOS Apple Silicon, link ufficiali del
+  sito, licenza Apache 2.0; in beta pubblica).
+- Catalogo a 79 app, 56 in `releases.json`.
 
 ## 2026-11-23
 

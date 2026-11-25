@@ -1,0 +1,38 @@
+id: ohmygame
+name: OhMyGame
+publisher: White Tower
+category: Multimedia
+description: An open-source studio for making games with AI, where you design, build, playtest and publish games using your own model keys.
+about:
+  it: >-
+    OhMyGame è uno studio open source per creare videogiochi con l'intelligenza
+    artificiale: un'unica app in cui progettare, costruire, provare e
+    pubblicare i propri giochi, come un piccolo studio di sviluppo personale.
+    Funziona con le tue chiavi dei modelli AI (bring your own key) e include
+    una tela di gioco per vedere subito i risultati. Al momento è in beta
+    pubblica; la build Windows non è ancora firmata e SmartScreen può mostrare
+    un avviso alla prima installazione. Intel Mac e Linux non sono ancora
+    disponibili.
+  en: >-
+    OhMyGame is an open-source studio for making games with AI: a single app
+    where you design, build, playtest and publish your own games, like a
+    one-person game studio. It works with your own AI model keys (bring your
+    own key) and includes a game canvas so you see results right away. It is
+    currently in public beta; the Windows build is not code-signed yet, so
+    SmartScreen may warn on first install. Intel Mac and Linux are not
+    available yet.
+url: https://www.ohmygame.ai/
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/ohmygame/ohmygame.png
+license:
+  name: Apache License 2.0
+  url: https://raw.githubusercontent.com/WhiteTowerAI/ohmygame/HEAD/LICENSE
+version: '0.0.0-beta.5.11'
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    url: https://ohmygame.ai/download/windows
+  - platform: macos
+    arch: arm64
+    format: DMG
+    url: https://ohmygame.ai/download/mac

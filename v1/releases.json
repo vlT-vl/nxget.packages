@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-25T14:02:08.021Z",
+  "generated_at": "2026-11-25T15:29:07.388Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -283,6 +283,98 @@
           "name": "Audacity-4.0.0.alpha-2",
           "published_at": "2025-11-03T11:42:02Z",
           "url": "https://github.com/audacity/audacity/releases/tag/Audacity-4.0.0-alpha-2"
+        }
+      ]
+    },
+    "bambu-studio": {
+      "tag": "v02.09.02.62",
+      "published_at": "2026-11-24T14:00:16Z",
+      "downloads": {
+        "linux": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/bambulab/BambuStudio/releases/download/v02.09.02.62/BambuStudio_ubu24-v02.09.02.62-20261124164959.AppImage",
+              "format": "APPIMAGE"
+            }
+          }
+        },
+        "macos": {
+          "universal": {
+            "default": {
+              "url": "https://github.com/bambulab/BambuStudio/releases/download/v02.09.02.62/Bambu_Studio_mac-v02.09.02.62-20261124164959.dmg",
+              "format": "DMG"
+            }
+          }
+        },
+        "windows": {
+          "x64": {
+            "default": {
+              "url": "https://github.com/bambulab/BambuStudio/releases/download/v02.09.02.62/Bambu_Studio_win-v02.09.02.62-20261124164959.exe",
+              "format": "EXE"
+            }
+          }
+        }
+      },
+      "history": [
+        {
+          "tag": "v02.09.02.62",
+          "name": "2.9.2 Public Release",
+          "published_at": "2026-11-24T14:00:16Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.09.02.62"
+        },
+        {
+          "tag": "v02.09.01.70",
+          "name": "2.9.1 Public Release",
+          "published_at": "2026-11-03T12:42:17Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.09.01.70"
+        },
+        {
+          "tag": "v02.08.04.57",
+          "name": "2.8.4 Public Beta",
+          "published_at": "2026-09-22T11:56:36Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.04.57"
+        },
+        {
+          "tag": "v02.08.03.66",
+          "name": "2.8.3 Public Beta",
+          "published_at": "2026-09-08T13:02:55Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.03.66"
+        },
+        {
+          "tag": "v02.08.02.61",
+          "name": "2.8.2.61 Public Release",
+          "published_at": "2026-08-21T06:31:50Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.02.61"
+        },
+        {
+          "tag": "v02.08.02.60",
+          "name": "2.8.2 Public Release",
+          "published_at": "2026-08-14T12:00:42Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.02.60"
+        },
+        {
+          "tag": "v02.08.01.55",
+          "name": "2.8.1 Public Beta",
+          "published_at": "2026-07-14T14:22:27Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.01.55"
+        },
+        {
+          "tag": "v02.08.00.50",
+          "name": "2.8.0 Public Beta",
+          "published_at": "2026-06-25T13:39:38Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.08.00.50"
+        },
+        {
+          "tag": "v02.07.01.62",
+          "name": "2.7.1.62 Public Release",
+          "published_at": "2026-06-16T14:41:56Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.07.01.62"
+        },
+        {
+          "tag": "v02.07.01.57",
+          "name": "2.7.1 Public Release",
+          "published_at": "2026-06-01T13:51:54Z",
+          "url": "https://github.com/bambulab/BambuStudio/releases/tag/v02.07.01.57"
         }
       ]
     },

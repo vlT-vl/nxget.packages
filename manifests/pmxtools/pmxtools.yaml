@@ -24,7 +24,7 @@ about:
     JSON, and static mode lets you open a saved report and browse everything
     offline, with no connection to the infrastructure. Available for macOS,
     Windows and Linux.
-url: https://github.com/vlT-vl/pmxtools-release
+url: https://pmxtools.it/
 repo: https://github.com/vlT-vl/pmxtools-release
 logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/pmxtools/pmxtools.png
 license:

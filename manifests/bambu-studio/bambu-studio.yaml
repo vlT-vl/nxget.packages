@@ -1,0 +1,42 @@
+id: bambu-studio
+name: Bambu Studio
+publisher: Bambu Lab
+category: Multimedia
+description: The open-source 3D slicer from Bambu Lab, for preparing and sending prints to Bambu Lab and other FDM 3D printers.
+about:
+  it: >-
+    Bambu Studio è lo slicer 3D open source di Bambu Lab, derivato da
+    PrusaSlicer. Prepara i modelli per la stampa 3D FDM con profili ottimizzati
+    per le stampanti Bambu Lab e compatibile con altre stampanti: supporta
+    stampa multicolore e multimateriale con AMS, supporti ad albero, anteprima
+    degli strati, calibrazione dei filamenti e controllo dell'avanzamento via
+    rete o cloud. Include la gestione dei progetti 3MF, un'ampia libreria di
+    profili di filamento e la possibilità di inviare i lavori direttamente alla
+    stampante.
+  en: >-
+    Bambu Studio is Bambu Lab's open-source 3D slicer, forked from
+    PrusaSlicer. It prepares models for FDM 3D printing with profiles tuned
+    for Bambu Lab printers and compatibility with other printers: it supports
+    multicolor and multi-material printing with the AMS, tree supports, layer
+    preview, filament calibration and print monitoring over the network or the
+    cloud. It includes 3MF project management, a wide library of filament
+    profiles and the ability to send jobs straight to the printer.
+url: https://bambulab.com/en/download/studio
+repo: https://github.com/bambulab/BambuStudio
+logo: https://raw.githubusercontent.com/vlT-vl/nxget.packages/api/manifests/bambu-studio/bambu-studio.png
+license:
+  name: GNU Affero General Public License v3.0
+  url: https://raw.githubusercontent.com/bambulab/BambuStudio/HEAD/LICENSE
+assets:
+  - platform: windows
+    arch: x64
+    format: EXE
+    match: '^Bambu_Studio_win[-_]v[\d.]+-\d+\.exe$'
+  - platform: macos
+    arch: universal
+    format: DMG
+    match: '^Bambu_Studio_mac[-_]v[\d.]+-\d+\.dmg$'
+  - platform: linux
+    arch: x64
+    format: APPIMAGE
+    match: '^BambuStudio_ubu24[-_]v[\d.]+-\d+\.AppImage$'
