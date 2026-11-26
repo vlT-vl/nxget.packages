@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T03:36:13.138Z",
+  "generated_at": "2026-11-26T16:57:30.579Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -3416,19 +3416,19 @@
       ]
     },
     "prism": {
-      "tag": "v1.2.6",
-      "published_at": "2026-11-24T16:11:58Z",
+      "tag": "v1.2.7",
+      "published_at": "2026-11-26T15:51:42Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_aarch64.dmg",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_aarch64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_x64.dmg",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_x64.dmg",
               "format": "DMG"
             }
           }
@@ -3436,7 +3436,7 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_amd64.AppImage",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_amd64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3444,13 +3444,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.6/Prism_1.2.6_x64-setup.exe",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_x64-setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.2.7",
+          "name": "v1.2.7",
+          "published_at": "2026-11-26T15:51:42Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.7"
+        },
         {
           "tag": "v1.2.6",
           "name": "v1.2.6",
@@ -3504,12 +3510,6 @@
           "name": "v1.1.7",
           "published_at": "2026-10-29T09:03:22Z",
           "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.7"
-        },
-        {
-          "tag": "v1.1.6",
-          "name": "v1.1.6",
-          "published_at": "2026-10-28T08:38:40Z",
-          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.6"
         }
       ]
     },
@@ -3922,19 +3922,25 @@
       ]
     },
     "roomy": {
-      "tag": "v0.1.5",
-      "published_at": "2026-11-19T06:48:47Z",
+      "tag": "v0.1.6",
+      "published_at": "2026-11-26T08:47:43Z",
       "downloads": {
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/krezio/roomy/releases/download/v0.1.5/Roomy-Setup.exe",
+              "url": "https://github.com/krezio/roomy/releases/download/v0.1.6/Roomy-Setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.1.6",
+          "name": "Roomy v0.1.6",
+          "published_at": "2026-11-26T08:47:43Z",
+          "url": "https://github.com/krezio/roomy/releases/tag/v0.1.6"
+        },
         {
           "tag": "v0.1.5",
           "name": "Roomy v0.1.5",
