@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-25T19:19:36.032Z",
+  "generated_at": "2026-11-26T03:36:13.138Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1090,19 +1090,19 @@
       ]
     },
     "deckcraft": {
-      "tag": "v0.18.1",
-      "published_at": "2026-11-12T00:07:42Z",
+      "tag": "v0.19.1",
+      "published_at": "2026-11-25T19:29:37Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-0.18.1-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-0.18.1-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -1110,7 +1110,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-0.18.1-macos-universal.dmg",
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -1118,19 +1118,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-0.18.1-windows-arm64.msi",
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/deckcraft/releases/download/v0.18.1/deckcraft-0.18.1-windows-x64.msi",
+              "url": "https://github.com/storytold/deckcraft/releases/download/v0.19.1/deckcraft-0.19.1-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.19.1",
+          "name": "DeckCraft v0.19.1",
+          "published_at": "2026-11-25T19:29:37Z",
+          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.19.1"
+        },
         {
           "tag": "v0.18.1",
           "name": "DeckCraft v0.18.1",
@@ -1184,12 +1190,6 @@
           "name": "DeckCraft v0.12.0",
           "published_at": "2026-10-28T16:18:32Z",
           "url": "https://github.com/storytold/deckcraft/releases/tag/v0.12.0"
-        },
-        {
-          "tag": "v0.11.1",
-          "name": "DeckCraft v0.11.1",
-          "published_at": "2026-10-25T13:36:43Z",
-          "url": "https://github.com/storytold/deckcraft/releases/tag/v0.11.1"
         }
       ]
     },
@@ -4760,19 +4760,19 @@
       ]
     },
     "wordcraft": {
-      "tag": "v0.18.1",
-      "published_at": "2026-11-12T00:04:47Z",
+      "tag": "v0.19.1",
+      "published_at": "2026-11-25T19:29:33Z",
       "downloads": {
         "linux": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-0.18.1-linux-aarch64.AppImage",
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-linux-aarch64.AppImage",
               "format": "APPIMAGE"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-0.18.1-linux-x86_64.AppImage",
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-linux-x86_64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -4780,7 +4780,7 @@
         "macos": {
           "universal": {
             "default": {
-              "url": "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-0.18.1-macos-universal.dmg",
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-macos-universal.dmg",
               "format": "DMG"
             }
           }
@@ -4788,19 +4788,25 @@
         "windows": {
           "arm64": {
             "default": {
-              "url": "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-0.18.1-windows-arm64.msi",
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-windows-arm64.msi",
               "format": "MSI"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/storytold/wordcraft/releases/download/v0.18.1/wordcraft-0.18.1-windows-x64.msi",
+              "url": "https://github.com/storytold/wordcraft/releases/download/v0.19.1/wordcraft-0.19.1-windows-x64.msi",
               "format": "MSI"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.19.1",
+          "name": "WordCraft v0.19.1",
+          "published_at": "2026-11-25T19:29:33Z",
+          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.19.1"
+        },
         {
           "tag": "v0.18.1",
           "name": "WordCraft v0.18.1",
@@ -4854,12 +4860,6 @@
           "name": "WordCraft v0.13.2",
           "published_at": "2026-10-31T03:56:34Z",
           "url": "https://github.com/storytold/wordcraft/releases/tag/v0.13.2"
-        },
-        {
-          "tag": "v0.12.0",
-          "name": "WordCraft v0.12.0",
-          "published_at": "2026-10-28T16:22:15Z",
-          "url": "https://github.com/storytold/wordcraft/releases/tag/v0.12.0"
         }
       ]
     },
