@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-27T12:27:44.635Z",
+  "generated_at": "2026-11-27T23:29:00.701Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -648,6 +648,12 @@
       },
       "history": [
         {
+          "tag": "v0.20.1-nightly.20261127.46074241695.1.gf7adf3ad561c",
+          "name": "cadcraft Nightly v0.20.1-nightly.20261127.46074241695.1.gf7adf3ad561c",
+          "published_at": "2026-11-27T22:48:29Z",
+          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.20.1-nightly.20261127.46074241695.1.gf7adf3ad561c"
+        },
+        {
           "tag": "v0.20.1",
           "name": "CADCraft v0.20.1",
           "published_at": "2026-11-12T00:23:37Z",
@@ -700,12 +706,6 @@
           "name": "CADCraft v0.14.0",
           "published_at": "2026-10-28T16:34:10Z",
           "url": "https://github.com/storytold/cadcraft/releases/tag/v0.14.0"
-        },
-        {
-          "tag": "v0.13.0",
-          "name": "CADCraft v0.13.0",
-          "published_at": "2026-10-25T13:48:56Z",
-          "url": "https://github.com/storytold/cadcraft/releases/tag/v0.13.0"
         }
       ]
     },
@@ -2118,6 +2118,18 @@
       },
       "history": [
         {
+          "tag": "v0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf",
+          "name": "gridcraft Nightly v0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf",
+          "published_at": "2026-11-27T18:58:43Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.19.1-nightly.20261127.46047957334.1.g97f2754c1ddf"
+        },
+        {
+          "tag": "v0.19.1-nightly.20261127.46031350695.1.g6357908c69c0",
+          "name": "gridcraft Nightly v0.19.1-nightly.20261127.46031350695.1.g6357908c69c0",
+          "published_at": "2026-11-27T17:00:32Z",
+          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.19.1-nightly.20261127.46031350695.1.g6357908c69c0"
+        },
+        {
           "tag": "v0.19.1",
           "name": "GridCraft v0.19.1",
           "published_at": "2026-11-12T00:06:29Z",
@@ -2164,18 +2176,6 @@
           "name": "GridCraft v0.14.2",
           "published_at": "2026-10-31T03:48:32Z",
           "url": "https://github.com/storytold/gridcraft/releases/tag/v0.14.2"
-        },
-        {
-          "tag": "v0.13.0",
-          "name": "GridCraft v0.13.0",
-          "published_at": "2026-10-28T16:10:33Z",
-          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.13.0"
-        },
-        {
-          "tag": "v0.12.1",
-          "name": "GridCraft v0.12.1",
-          "published_at": "2026-10-25T13:27:32Z",
-          "url": "https://github.com/storytold/gridcraft/releases/tag/v0.12.1"
         }
       ]
     },
@@ -3304,6 +3304,12 @@
       },
       "history": [
         {
+          "tag": "v0.24.0-beta.6",
+          "name": "v0.24.0-beta.6",
+          "published_at": "2026-11-27T16:43:43Z",
+          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.24.0-beta.6"
+        },
+        {
           "tag": "v0.24.0-beta.5",
           "name": "v0.24.0-beta.5",
           "published_at": "2026-11-25T12:59:04Z",
@@ -3356,12 +3362,6 @@
           "name": "v0.22.0",
           "published_at": "2026-11-08T16:39:56Z",
           "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0"
-        },
-        {
-          "tag": "v0.22.0-beta.7",
-          "name": "v0.22.0-beta.7",
-          "published_at": "2026-11-08T14:33:44Z",
-          "url": "https://github.com/vastsa/PI-Desktop/releases/tag/v0.22.0-beta.7"
         }
       ]
     },
@@ -3416,19 +3416,19 @@
       ]
     },
     "prism": {
-      "tag": "v1.2.7",
-      "published_at": "2026-11-26T15:51:42Z",
+      "tag": "v1.2.8",
+      "published_at": "2026-11-27T15:52:02Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_aarch64.dmg",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.8/Prism_1.2.8_aarch64.dmg",
               "format": "DMG"
             }
           },
           "x64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_x64.dmg",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.8/Prism_1.2.8_x64.dmg",
               "format": "DMG"
             }
           }
@@ -3436,7 +3436,7 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_amd64.AppImage",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.8/Prism_1.2.8_amd64.AppImage",
               "format": "APPIMAGE"
             }
           }
@@ -3444,13 +3444,19 @@
         "windows": {
           "x64": {
             "default": {
-              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.7/Prism_1.2.7_x64-setup.exe",
+              "url": "https://github.com/FortoGraphy/prism-download-manager/releases/download/v1.2.8/Prism_1.2.8_x64-setup.exe",
               "format": "EXE"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v1.2.8",
+          "name": "v1.2.8",
+          "published_at": "2026-11-27T15:52:02Z",
+          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.2.8"
+        },
         {
           "tag": "v1.2.7",
           "name": "v1.2.7",
@@ -3504,12 +3510,6 @@
           "name": "v1.1.8",
           "published_at": "2026-10-30T16:48:45Z",
           "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.8"
-        },
-        {
-          "tag": "v1.1.7",
-          "name": "v1.1.7",
-          "published_at": "2026-10-29T09:03:22Z",
-          "url": "https://github.com/FortoGraphy/prism-download-manager/releases/tag/v1.1.7"
         }
       ]
     },
