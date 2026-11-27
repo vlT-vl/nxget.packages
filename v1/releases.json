@@ -1,6 +1,6 @@
 {
   "schema_version": "1.0",
-  "generated_at": "2026-11-26T16:57:30.579Z",
+  "generated_at": "2026-11-27T01:45:29.264Z",
   "apps": {
     "anyscp": {
       "tag": "v0.11.1",
@@ -1888,13 +1888,13 @@
       ]
     },
     "genex": {
-      "tag": "v0.2.10",
-      "published_at": "2026-11-25T17:25:56Z",
+      "tag": "v0.2.11",
+      "published_at": "2026-11-26T20:22:11Z",
       "downloads": {
         "macos": {
           "arm64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.10/Genex.dmg",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.11/Genex.dmg",
               "format": "DMG"
             }
           }
@@ -1902,13 +1902,19 @@
         "linux": {
           "x64": {
             "default": {
-              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.10/genex_0.2.10_amd64.deb",
+              "url": "https://github.com/genex-games/genex-desktop/releases/download/v0.2.11/genex_0.2.11_amd64.deb",
               "format": "DEB"
             }
           }
         }
       },
       "history": [
+        {
+          "tag": "v0.2.11",
+          "name": "Genex 0.2.11",
+          "published_at": "2026-11-26T20:22:11Z",
+          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.11"
+        },
         {
           "tag": "v0.2.10",
           "name": "Genex 0.2.10",
@@ -1962,12 +1968,6 @@
           "name": "Genex 0.2.1",
           "published_at": "2026-11-18T15:50:50Z",
           "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.2.1"
-        },
-        {
-          "tag": "v0.1.46",
-          "name": "Genex 0.1.46",
-          "published_at": "2026-11-17T18:49:30Z",
-          "url": "https://github.com/genex-games/genex-desktop/releases/tag/v0.1.46"
         }
       ]
     },
